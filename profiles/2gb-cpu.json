@@ -1,0 +1,28 @@
+{
+  "gpu_layers": 0,
+  "threads": 1,
+  "threads_batch": 1,
+  "parallel_slots": 1,
+  "load_one_model_at_a_time": true,
+  "weight_file_budget_bytes": 1610612736,
+  "physical_vram_bytes": 2147483648,
+  "runtime_build": "llama.cpp b11577 win-cpu-x64",
+  "runtime_sha256": "c48e5762bb466a2faba1b880ca8b328a152e7f48e738431eb918ac9078f82ef1",
+  "embed": {
+    "file": "models/embeddinggemma-2-UD-Q4_K_XL.gguf",
+    "context": 256,
+    "batch": 128,
+    "microbatch": 128,
+    "mode": "text embeddings only; no multimodal projector",
+    "status": "CPU smoke test passed; not a retrieval benchmark"
+  },
+  "mellum": {
+    "file": "models/mellum-E8-experimental.gguf",
+    "context": 512,
+    "batch": 32,
+    "microbatch": 32,
+    "status": "experimental pruning candidate; coding and tool-use quality unvalidated",
+    "minimum_free_ram_recommendation_bytes": 2147483648
+  },
+  "gpu_offload_status": "Not measured; file size alone does not establish runtime VRAM use"
+}

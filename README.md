@@ -5,6 +5,14 @@
 
 # GGUF Lab — October 2026 Drops
 
+## Current 2 GiB NUC workflow
+
+See [NUC-2GB.md](NUC-2GB.md) for the bounded-memory streaming pipeline, model
+audit, experimental Mellum expert pruning and CPU-only profiles. The six-model
+main-rig inventory below remains a research inventory; it is not a claim that
+those models fit a 2 GiB GPU. `pull.sh` defaults to the small embedding model.
+Pruning an altered model does not establish its coding or tool-use quality.
+
 Pruning + compression lab for the October 2026 GGUF releases.
 Staged here, executed on real hardware (this VM has no GPU and cannot
 hold these models — pull and run happen on the NUC fleet / main rig).

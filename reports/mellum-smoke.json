@@ -1,0 +1,9 @@
+{
+  "gpu_layers": 0,
+  "threads": 1,
+  "free_physical_ram_bytes": 812199936,
+  "required_free_ram_bytes": 2147483648,
+  "status": "blocked_by_free_ram",
+  "inference_ran": false,
+  "quality_validated": false
+}

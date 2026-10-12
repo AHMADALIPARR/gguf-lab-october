@@ -5,6 +5,15 @@
 
 # Compression plan
 
+## Streaming expert-selection exception
+
+The implemented Mellum E8 experiment selects complete existing quantized expert
+blocks byte-for-byte. It does not change the retained blocks' quantization or
+introduce another rounding pass. Its main risk is loss of expert coverage and
+changed router normalization, which still requires quality evaluation. This
+exception does not permit arbitrary quantized width/head projection, and the
+full-precision workflow below remains necessary for those transformations.
+
 Quantization targets per model. Baseline: Q4_K_M everywhere unless noted.
 Tool: llama.cpp `llama-quantize` on the main rig.
 
