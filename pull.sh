@@ -21,7 +21,7 @@ TARGET="${1:-all}"
 
 case "$TARGET" in
   all|embed)
-    pull unsloth/embeddinggemma-2-GGUF "embeddinggemma-2-Q4_K_M.gguf" embed ;;
+    pull unsloth/embeddinggemma-2-GGUF "embeddinggemma-2-UD-Q4_K_XL.gguf" embed ;;
 esac
 case "$TARGET" in
   all|mellum)
