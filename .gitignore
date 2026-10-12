@@ -1,6 +1,7 @@
 .venv/
 models/
 cache/
+.local/
 *.gguf
 *.part
 __pycache__/

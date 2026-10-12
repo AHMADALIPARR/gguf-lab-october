@@ -1,0 +1,22 @@
+Model artifact attribution for the GGUF Lab
+
+Mellum E8 experimental candidate:
+Derived from JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF
+Source revision: 20b439426f1e997ba575eaccaf4856ac0f76f5d5
+Source URL: https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF
+Source model license: Apache-2.0, preserved in GGUF metadata.
+Modification: 64 experts reduced to 8 per layer using uncalibrated router-row
+L2 norms. All 28 layers retained. Selected weights copied without requantization.
+Modified by Ahmad Ali Parr with Codex, 12 October 2026.
+This candidate is quality-unvalidated; no production readiness is claimed.
+
+Embedding artifact:
+Unchanged embeddinggemma-2-UD-Q4_K_XL.gguf from unsloth/embeddinggemma-2-GGUF
+Source revision: 031f0d4b35536f69ab3509d4893c923264fcf253
+Source URL: https://huggingface.co/unsloth/embeddinggemma-2-GGUF
+Source model license: Apache-2.0, as declared in the GGUF metadata.
+Upstream SHA256 verified; no model weights changed.
+
+The laboratory scripts retain their declared AGPL-3.0-only license.
+The model artifacts retain their upstream model license, rather than inheriting
+the laboratory scripts' license. See MODEL-LICENSE-APACHE-2.0.txt.

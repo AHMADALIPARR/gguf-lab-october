@@ -1,0 +1,15 @@
+{
+  "path": "models\\mellum-E8-experimental.gguf",
+  "bytes": 1582936736,
+  "sha256": "4eed7d5e0915d34fd789fc3ba86e431b8f38196dc486253c84e4c71f7409092e",
+  "tensor_count": 339,
+  "expert_count": 8,
+  "expert_used_count": 8,
+  "layers": 28,
+  "gpu_used": false,
+  "size_reduction_percent": 80.38807051130573,
+  "status": "structural_and_hash_validation_passed",
+  "inference_validated": false,
+  "coding_quality_validated": false,
+  "runtime_vram_measured": false
+}
