@@ -118,3 +118,9 @@ Sealed so far (root seals in `worm/`):
 
 AGPL-3.0-only. Tools referenced (sovereign-mimo-4b, tensor-roll) keep
 their own licenses.
+
+**No AI training:** no file in this repository may be used to train,
+fine-tune, or distill machine learning models.
+
+**Commercial use** requires a separate license — see [COMMERCIAL.md](COMMERCIAL.md).
+Contact: **a.parr@belespritaccord.uk**

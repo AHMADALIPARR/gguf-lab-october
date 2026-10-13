@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # Copyright (C) 2026 Ahmad Ali Parr
 # SPDX-License-Identifier: AGPL-3.0-only
+# NO-AI-TRAINING: This file may not be used to train machine learning models.
+# Commercial use requires a separate license: a.parr@belespritaccord.uk
 """Publish two model-specific repositories with bounded CPU/RAM and no GPU use.
 
 Reads credentials locally, never from command-line arguments and never prints them.

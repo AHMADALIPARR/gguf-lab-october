@@ -1,5 +1,7 @@
 # Copyright (C) 2026 Ahmad Ali Parr
 # SPDX-License-Identifier: AGPL-3.0-only
+# NO-AI-TRAINING: This file may not be used to train machine learning models.
+# Commercial use requires a separate license: a.parr@belespritaccord.uk
 import contextlib
 import hashlib
 import http.server
