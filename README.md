@@ -44,7 +44,7 @@ Key files (verified in repo listings):
 
 ## Pipeline
 
-![WORM Training Pipeline](docs/pipeline.svg)
+![WORM Training Pipeline](docs/worm-pipeline.png)
 
 The full flow, from HuggingFace to sealed weights:
 
@@ -109,7 +109,7 @@ Sealed so far (root seals in `worm/`):
 
 ## Benchmarks
 
-![Benchmark Sandbox](docs/sandbox.svg)
+![Benchmark Sandbox](docs/benchmark-sandbox.png)
 
 Benchmarks run in `sandbox/` — an isolated environment, not in the repo root.
 
@@ -132,7 +132,7 @@ Reports go to `sandbox/outputs/` (gitignored). See `sandbox/README.md`.
 
 ## Sparse MoE Router
 
-![Sparse MoE Router](docs/moe-router.svg)
+![Sparse MoE Router](docs/moe-router.png)
 
 `sandbox/moe/router.py` routes queries to experts using embeddings — no
 learned gating network needed.
