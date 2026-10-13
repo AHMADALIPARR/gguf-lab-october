@@ -1,4 +1,4 @@
-{"type": "manifest", "model_id": "embed", "repo": "unsloth/embeddinggemma-2-GGUF", "filename": "embeddinggemma-2-UD-Q4_K_XL.gguf", "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF/resolve/main/embeddinggemma-2-UD-Q4_K_XL.gguf", "tensor_count": 413, "metadata": {"general.architecture": "gemma-embedding2", "general.type": "model", "general.name": "Embeddinggemma 2", "general.version": "2", "general.basename": "embeddinggemma", "general.size_label": "271M", "general.license": "apache-2.0", "general.tags": ["embedding", "feature-extraction", "sentence-transformers", "multimodal-embedding", "multimodal", "vision", "audio", "video", "image-feature-extraction", "audio-feature-extraction", "video-feature-extraction", "sentence-similarity", "feature-extraction"], "general.languages": ["multilingual"], "gemma-embedding2.block_count": 24, "gemma-embedding2.context_length": 262144, "gemma-embedding2.embedding_length": 512, "gemma-embedding2.feed_forward_length": 2048, "gemma-embedding2.attention.head_count": 4, "gemma-embedding2.attention.head_count_kv": [2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1], "gemma-embedding2.rope.freq_base": 1000000.0, "gemma-embedding2.rope.freq_base_swa": 10000.0, "gemma-embedding2.attention.layer_norm_rms_epsilon": 9.999999974752427e-07, "gemma-embedding2.attention.key_length": 512, "gemma-embedding2.attention.value_length": 512, "gemma-embedding2.attention.sliding_window": 1024, "gemma-embedding2.attention.shared_kv_layers": 0, "gemma-embedding2.embedding_length_per_layer_input": 512, "gemma-embedding2.attention.sliding_window_pattern": [true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, false], "gemma-embedding2.attention.key_length_swa": 256, "gemma-embedding2.attention.value_length_swa": 256, "gemma-embedding2.rope.dimension_count": 512, "gemma-embedding2.rope.dimension_count_swa": 256, "gemma-embedding2.embedding_length_out": 768, "gemma-embedding2.attention.causal": false, "gemma-embedding2.pooling_type": 1, "tokenizer.ggml.model": null, "tokenizer.ggml.tokens": null, "tokenizer.ggml.scores": null, "tokenizer.ggml.token_type": null, "tokenizer.ggml.merges": null, "tokenizer.ggml.bos_token_id": 2, "tokenizer.ggml.eos_token_id": 1, "tokenizer.ggml.unknown_token_id": 3, "tokenizer.ggml.padding_token_id": 0, "tokenizer.ggml.mask_token_id": 4, "tokenizer.ggml.add_bos_token": true, "tokenizer.ggml.add_eos_token": true, "tokenizer.ggml.add_sep_token": false, "tokenizer.chat_template": null, "tokenizer.ggml.add_space_prefix": false, "general.quantization_version": 2, "general.file_type": 15, "quantize.imatrix.file": "outputs/eg2/gguf/work/imatrix.gguf", "quantize.imatrix.dataset": "data/calib.txt", "quantize.imatrix.entries_count": 216, "quantize.imatrix.chunks_count": 230}}
+{"type": "manifest", "model_id": "embed", "repo": "unsloth/embeddinggemma-2-GGUF", "filename": "embeddinggemma-2-UD-Q4_K_XL.gguf", "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF/resolve/main/embeddinggemma-2-UD-Q4_K_XL.gguf", "tensor_count": 413, "file_bytes": 175673856, "tensor_data_offset": 15790848, "metadata": {"general.architecture": "gemma-embedding2", "general.type": "model", "general.name": "Embeddinggemma 2", "general.version": "2", "general.basename": "embeddinggemma", "general.size_label": "271M", "general.license": "apache-2.0", "general.tags": ["embedding", "feature-extraction", "sentence-transformers", "multimodal-embedding", "multimodal", "vision", "audio", "video", "image-feature-extraction", "audio-feature-extraction", "video-feature-extraction", "sentence-similarity", "feature-extraction"], "general.languages": ["multilingual"], "gemma-embedding2.block_count": 24, "gemma-embedding2.context_length": 262144, "gemma-embedding2.embedding_length": 512, "gemma-embedding2.feed_forward_length": 2048, "gemma-embedding2.attention.head_count": 4, "gemma-embedding2.attention.head_count_kv": [2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1], "gemma-embedding2.rope.freq_base": 1000000.0, "gemma-embedding2.rope.freq_base_swa": 10000.0, "gemma-embedding2.attention.layer_norm_rms_epsilon": 9.999999974752427e-07, "gemma-embedding2.attention.key_length": 512, "gemma-embedding2.attention.value_length": 512, "gemma-embedding2.attention.sliding_window": 1024, "gemma-embedding2.attention.shared_kv_layers": 0, "gemma-embedding2.embedding_length_per_layer_input": 512, "gemma-embedding2.attention.sliding_window_pattern": [true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, false], "gemma-embedding2.attention.key_length_swa": 256, "gemma-embedding2.attention.value_length_swa": 256, "gemma-embedding2.rope.dimension_count": 512, "gemma-embedding2.rope.dimension_count_swa": 256, "gemma-embedding2.embedding_length_out": 768, "gemma-embedding2.attention.causal": false, "gemma-embedding2.pooling_type": 1, "tokenizer.ggml.model": null, "tokenizer.ggml.tokens": null, "tokenizer.ggml.scores": null, "tokenizer.ggml.token_type": null, "tokenizer.ggml.merges": null, "tokenizer.ggml.bos_token_id": 2, "tokenizer.ggml.eos_token_id": 1, "tokenizer.ggml.unknown_token_id": 3, "tokenizer.ggml.padding_token_id": 0, "tokenizer.ggml.mask_token_id": 4, "tokenizer.ggml.add_bos_token": true, "tokenizer.ggml.add_eos_token": true, "tokenizer.ggml.add_sep_token": false, "tokenizer.chat_template": null, "tokenizer.ggml.add_space_prefix": false, "general.quantization_version": 2, "general.file_type": 15, "quantize.imatrix.file": "outputs/eg2/gguf/work/imatrix.gguf", "quantize.imatrix.dataset": "data/calib.txt", "quantize.imatrix.entries_count": 216, "quantize.imatrix.chunks_count": 230}}
 {"type": "tensor", "model_id": "embed", "name": "output.weight", "shape": [512, 768], "dtype": "Q6_K", "dtype_id": 14, "offset": 0, "n_elements": 393216}
 {"type": "tensor", "model_id": "embed", "name": "output_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 322560, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "per_layer_model_proj.weight", "shape": [512, 12288], "dtype": "Q5_K", "dtype_id": 13, "offset": 324608, "n_elements": 6291456}
@@ -15,12 +15,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.0.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 81628160, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.0.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 82217984, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.0.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 82220032, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.0.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 82809856, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.0.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 82809856, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.0.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 83088384, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.0.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 83088416, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.0.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 83090464, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.0.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 83092512, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.0.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 83094560, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.0.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 83094560, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 83373088, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 83520544, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 83521568, "n_elements": 512}
@@ -32,12 +32,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.1.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 84851744, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 85441568, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 85443616, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.1.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 86033440, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.1.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 86033440, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 86311968, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 86312000, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 86314048, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.1.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 86316096, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.1.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 86318144, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.1.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 86318144, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 86596672, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 86744128, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 86745152, "n_elements": 512}
@@ -49,12 +49,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.2.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 88075328, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 88665152, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 88667200, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.2.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 89257024, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.2.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 89257024, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 89535552, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 89535584, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 89537632, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.2.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 89539680, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.2.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 89541728, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.2.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 89541728, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 89820256, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 89967712, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 89968736, "n_elements": 512}
@@ -66,12 +66,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.3.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 91298912, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 91888736, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 91890784, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.3.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 92480608, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.3.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 92480608, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 92759136, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 92759168, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 92761216, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.3.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 92763264, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.3.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 92765312, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.3.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 92765312, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 93043840, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 93191296, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 93192320, "n_elements": 512}
@@ -83,12 +83,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.4.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 94522496, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 95112320, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 95114368, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.4.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 95704192, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.4.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 95704192, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 95982720, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 95982752, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 95984800, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.4.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 95986848, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.4.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 95988896, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.4.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 95988896, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 96267424, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.attn_k_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 96414880, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 96416928, "n_elements": 512}
@@ -100,12 +100,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.5.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 98337952, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 98927776, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 98929824, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.5.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 99519648, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.5.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 99519648, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 99798176, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 99798208, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 99800256, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.5.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 99802304, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.5.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 99804352, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.5.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 99804352, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 100082880, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 100230336, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 100231360, "n_elements": 512}
@@ -117,12 +117,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.6.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 101561536, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 102151360, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 102153408, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.6.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 102743232, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.6.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 102743232, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 103021760, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 103021792, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 103023840, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.6.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 103025888, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.6.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 103027936, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.6.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 103027936, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 103306464, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 103453920, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 103454944, "n_elements": 512}
@@ -134,12 +134,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.7.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 104785120, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 105374944, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 105376992, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.7.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 105966816, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.7.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 105966816, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 106245344, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 106245376, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 106247424, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.7.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 106249472, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.7.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 106251520, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.7.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 106251520, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 106530048, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 106677504, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 106678528, "n_elements": 512}
@@ -151,12 +151,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.8.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 108008704, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 108598528, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 108600576, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.8.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 109190400, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.8.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 109190400, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 109468928, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 109468960, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 109471008, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.8.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 109473056, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.8.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 109475104, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.8.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 109475104, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 109753632, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 109901088, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 109902112, "n_elements": 512}
@@ -168,12 +168,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.9.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 111232288, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 111822112, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 111824160, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.9.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 112413984, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.9.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 112413984, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 112692512, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 112692544, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 112694592, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.9.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 112696640, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.9.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 112698688, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.9.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 112698688, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 112977216, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 113124672, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 113125696, "n_elements": 512}
@@ -185,12 +185,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.10.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 114455872, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 115045696, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 115047744, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.10.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 115637568, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.10.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 115637568, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 115916096, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 115916128, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 115918176, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.10.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 115920224, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.10.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 115922272, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.10.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 115922272, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 116200800, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.attn_k_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 116348256, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 116350304, "n_elements": 512}
@@ -202,12 +202,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.11.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 118271328, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 118861152, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 118863200, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.11.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 119453024, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.11.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 119453024, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 119731552, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 119731584, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 119733632, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.11.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 119735680, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.11.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 119737728, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.11.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 119737728, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 120016256, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 120163712, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 120164736, "n_elements": 512}
@@ -219,12 +219,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.12.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 121494912, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 122084736, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 122086784, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.12.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 122676608, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.12.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 122676608, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 122955136, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 122955168, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 122957216, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.12.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 122959264, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.12.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 122961312, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.12.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 122961312, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 123239840, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 123387296, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 123388320, "n_elements": 512}
@@ -236,12 +236,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.13.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 124718496, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 125308320, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 125310368, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.13.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 125900192, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.13.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 125900192, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 126178720, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 126178752, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 126180800, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.13.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 126182848, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.13.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 126184896, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.13.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 126184896, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 126463424, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 126610880, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 126611904, "n_elements": 512}
@@ -253,12 +253,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.14.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 127942080, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 128531904, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 128533952, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.14.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 129123776, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.14.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 129123776, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 129402304, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 129402336, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 129404384, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.14.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 129406432, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.14.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 129408480, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.14.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 129408480, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 129687008, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 129834464, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 129835488, "n_elements": 512}
@@ -270,12 +270,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.15.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 131165664, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 131755488, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 131757536, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.15.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 132347360, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.15.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 132347360, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 132625888, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 132625920, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 132627968, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.15.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 132630016, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.15.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 132632064, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.15.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 132632064, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 132910592, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 133058048, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 133059072, "n_elements": 512}
@@ -287,12 +287,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.16.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 134389248, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 134979072, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 134981120, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.16.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 135570944, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.16.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 135570944, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 135849472, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 135849504, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 135851552, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.16.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 135853600, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.16.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 135855648, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.16.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 135855648, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 136134176, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.attn_k_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 136281632, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 136283680, "n_elements": 512}
@@ -304,12 +304,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.17.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 138204704, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 138794528, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 138796576, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.17.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 139386400, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.17.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 139386400, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 139664928, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 139664960, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 139667008, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.17.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 139669056, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.17.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 139671104, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.17.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 139671104, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 139949632, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 140097088, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 140098112, "n_elements": 512}
@@ -321,12 +321,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.18.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 141428288, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 142018112, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 142020160, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.18.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 142609984, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.18.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 142609984, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 142888512, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 142888544, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 142890592, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.18.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 142892640, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.18.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 142894688, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.18.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 142894688, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 143173216, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 143320672, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 143321696, "n_elements": 512}
@@ -338,12 +338,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.19.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 144651872, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 145241696, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 145243744, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.19.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 145833568, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.19.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 145833568, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 146112096, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 146112128, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 146114176, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.19.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 146116224, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.19.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 146118272, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.19.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 146118272, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 146396800, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 146544256, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 146545280, "n_elements": 512}
@@ -355,12 +355,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.20.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 147875456, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 148465280, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 148467328, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.20.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 149057152, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.20.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 149057152, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 149335680, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 149335712, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 149337760, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.20.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 149339808, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.20.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 149341856, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.20.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 149341856, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 149620384, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 149767840, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 149768864, "n_elements": 512}
@@ -372,12 +372,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.21.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 151099040, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 151688864, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 151690912, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.21.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 152280736, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.21.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 152280736, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 152559264, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 152559296, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 152561344, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.21.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 152563392, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.21.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 152565440, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.21.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 152565440, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 152843968, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.attn_k_norm.weight", "shape": [256], "dtype": "F32", "dtype_id": 0, "offset": 152991424, "n_elements": 256}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 152992448, "n_elements": 512}
@@ -389,12 +389,12 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.22.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 154322624, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 154912448, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 154914496, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.22.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 155504320, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.22.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 155504320, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 155782848, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 155782880, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 155784928, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.22.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 155786976, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.22.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 155789024, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.22.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 155789024, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.attn_k.weight", "shape": [512, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 156067552, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.attn_k_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 156215008, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.attn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 156217056, "n_elements": 512}
@@ -406,9 +406,9 @@
 {"type": "tensor", "model_id": "embed", "name": "blk.23.ffn_gate.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 158138080, "n_elements": 1048576}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.ffn_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 158727904, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.ffn_up.weight", "shape": [512, 2048], "dtype": "Q4_K", "dtype_id": 12, "offset": 158729952, "n_elements": 1048576}
-{"type": "tensor", "model_id": "embed", "name": "blk.23.inp_gate.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 159319776, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.23.inp_gate.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 159319776, "n_elements": 262144}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.layer_output_scale.weight", "shape": [1], "dtype": "F32", "dtype_id": 0, "offset": 159598304, "n_elements": 1}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.post_attention_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 159598336, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.post_ffw_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 159600384, "n_elements": 512}
 {"type": "tensor", "model_id": "embed", "name": "blk.23.post_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 159602432, "n_elements": 512}
-{"type": "tensor", "model_id": "embed", "name": "blk.23.proj.weight", "shape": [512, 512], "dtype": "Q5_0", "dtype_id": 8, "offset": 159604480, "n_elements": 262144}
+{"type": "tensor", "model_id": "embed", "name": "blk.23.proj.weight", "shape": [512, 512], "dtype": "Q8_0", "dtype_id": 8, "offset": 159604480, "n_elements": 262144}

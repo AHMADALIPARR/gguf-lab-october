@@ -1,4 +1,4 @@
-{"type": "manifest", "model_id": "mellum", "repo": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF", "filename": "Mellum2.1-12B-A2.5B-Thinking-Q4_K_M.gguf", "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF/resolve/main/Mellum2.1-12B-A2.5B-Thinking-Q4_K_M.gguf", "tensor_count": 339, "metadata": {"general.architecture": "mellum", "general.type": "model", "general.name": "Mellum2.1-12B-A2.5B-Thinking", "general.size_label": "64x1.2B", "general.license": "apache-2.0", "general.base_model.count": 1, "general.base_model.0.name": "Mellum2 12B A2.5B Base", "general.base_model.0.organization": "JetBrains", "general.base_model.0.repo_url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Base", "general.tags": ["text-generation"], "general.languages": ["en"], "mellum.block_count": 28, "mellum.context_length": 131072, "mellum.embedding_length": 2304, "mellum.feed_forward_length": 7168, "mellum.attention.head_count": 32, "mellum.attention.head_count_kv": 4, "mellum.rope.scaling.type": "yarn", "mellum.rope.scaling.factor": 16.0, "mellum.rope.scaling.original_context_length": 8192, "mellum.rope.scaling.yarn_attn_factor": 1.2772588729858398, "mellum.rope.scaling.yarn_beta_fast": 32.0, "mellum.rope.scaling.yarn_beta_slow": 1.0, "mellum.rope.freq_base": 500000.0, "mellum.rope.freq_base_swa": 500000.0, "mellum.attention.layer_norm_rms_epsilon": 9.999999974752427e-07, "mellum.expert_count": 64, "mellum.expert_used_count": 8, "mellum.attention.key_length": 128, "mellum.attention.value_length": 128, "mellum.expert_feed_forward_length": 896, "mellum.attention.sliding_window": 1024, "mellum.attention.sliding_window_pattern": [true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false], "tokenizer.ggml.model": null, "tokenizer.ggml.pre": null, "tokenizer.ggml.tokens": null, "tokenizer.ggml.token_type": null, "tokenizer.ggml.merges": null, "tokenizer.ggml.bos_token_id": 0, "tokenizer.ggml.eos_token_id": 28, "tokenizer.ggml.unknown_token_id": 0, "tokenizer.ggml.padding_token_id": 0, "tokenizer.ggml.add_bos_token": false, "tokenizer.ggml.add_eos_token": false, "tokenizer.chat_template": null, "general.quantization_version": 2, "general.file_type": 15}}
+{"type": "manifest", "model_id": "mellum", "repo": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF", "filename": "Mellum2.1-12B-A2.5B-Thinking-Q4_K_M.gguf", "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF/resolve/main/Mellum2.1-12B-A2.5B-Thinking-Q4_K_M.gguf", "tensor_count": 339, "file_bytes": 8071295264, "tensor_data_offset": 3589408, "metadata": {"general.architecture": "mellum", "general.type": "model", "general.name": "Mellum2.1-12B-A2.5B-Thinking", "general.size_label": "64x1.2B", "general.license": "apache-2.0", "general.base_model.count": 1, "general.base_model.0.name": "Mellum2 12B A2.5B Base", "general.base_model.0.organization": "JetBrains", "general.base_model.0.repo_url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Base", "general.tags": ["text-generation"], "general.languages": ["en"], "mellum.block_count": 28, "mellum.context_length": 131072, "mellum.embedding_length": 2304, "mellum.feed_forward_length": 7168, "mellum.attention.head_count": 32, "mellum.attention.head_count_kv": 4, "mellum.rope.scaling.type": "yarn", "mellum.rope.scaling.factor": 16.0, "mellum.rope.scaling.original_context_length": 8192, "mellum.rope.scaling.yarn_attn_factor": 1.2772588729858398, "mellum.rope.scaling.yarn_beta_fast": 32.0, "mellum.rope.scaling.yarn_beta_slow": 1.0, "mellum.rope.freq_base": 500000.0, "mellum.rope.freq_base_swa": 500000.0, "mellum.attention.layer_norm_rms_epsilon": 9.999999974752427e-07, "mellum.expert_count": 64, "mellum.expert_used_count": 8, "mellum.attention.key_length": 128, "mellum.attention.value_length": 128, "mellum.expert_feed_forward_length": 896, "mellum.attention.sliding_window": 1024, "mellum.attention.sliding_window_pattern": [true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true, true, true, false], "tokenizer.ggml.model": null, "tokenizer.ggml.pre": null, "tokenizer.ggml.tokens": null, "tokenizer.ggml.token_type": null, "tokenizer.ggml.merges": null, "tokenizer.ggml.bos_token_id": 0, "tokenizer.ggml.eos_token_id": 28, "tokenizer.ggml.unknown_token_id": 0, "tokenizer.ggml.padding_token_id": 0, "tokenizer.ggml.add_bos_token": false, "tokenizer.ggml.add_eos_token": false, "tokenizer.chat_template": null, "general.quantization_version": 2, "general.file_type": 15}}
 {"type": "tensor", "model_id": "mellum", "name": "output.weight", "shape": [2304, 98304], "dtype": "Q6_K", "dtype_id": 14, "offset": 0, "n_elements": 226492416}
 {"type": "tensor", "model_id": "mellum", "name": "output_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 185794560, "n_elements": 2304}
 {"type": "tensor", "model_id": "mellum", "name": "token_embd.weight", "shape": [2304, 98304], "dtype": "Q4_K", "dtype_id": 12, "offset": 185803776, "n_elements": 226492416}
@@ -9,7 +9,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.0.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 319187456, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.0.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 324495872, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.0.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 324496384, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.0.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 325464064, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.0.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 325464064, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.0.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 465842176, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.0.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 540160000, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.0.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 540749824, "n_elements": 2304}
@@ -21,7 +21,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.1.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 621058560, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.1.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 626366976, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.1.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 626367488, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.1.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 627335168, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.1.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 627335168, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.1.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 767713280, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.1.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 842031104, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.1.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 842620928, "n_elements": 2304}
@@ -33,7 +33,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.2.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 922929664, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.2.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 928238080, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.2.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 928238592, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.2.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 929206272, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.2.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 929206272, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.2.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 1069584384, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.2.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 1143902208, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.2.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 1144492032, "n_elements": 2304}
@@ -45,7 +45,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.3.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 1224800768, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.3.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 1230109184, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.3.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 1230109696, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.3.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 1230773248, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.3.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 1230773248, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.3.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 1321606144, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.3.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 1395923968, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.3.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 1396513792, "n_elements": 2304}
@@ -57,7 +57,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.4.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 1476822528, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.4.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 1482130944, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.4.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 1482131456, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.4.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 1482795008, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.4.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 1482795008, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.4.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 1573627904, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.4.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 1647945728, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.4.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 1648535552, "n_elements": 2304}
@@ -69,7 +69,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.5.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 1728844288, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.5.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 1734152704, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.5.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 1734153216, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.5.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 1735120896, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.5.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 1735120896, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.5.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 1875499008, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.5.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 1949816832, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.5.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 1950406656, "n_elements": 2304}
@@ -81,7 +81,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.6.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 2030715392, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.6.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 2036023808, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.6.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 2036024320, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.6.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 2036687872, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.6.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 2036687872, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.6.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 2127520768, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.6.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 2201838592, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.6.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 2202428416, "n_elements": 2304}
@@ -93,7 +93,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.7.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 2282737152, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.7.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 2288045568, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.7.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 2288046080, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.7.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 2288709632, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.7.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 2288709632, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.7.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 2379542528, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.7.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 2453860352, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.7.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 2454450176, "n_elements": 2304}
@@ -105,7 +105,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.8.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 2534758912, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.8.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 2540067328, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.8.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 2540067840, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.8.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 2541035520, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.8.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 2541035520, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.8.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 2681413632, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.8.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 2755731456, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.8.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 2756321280, "n_elements": 2304}
@@ -117,7 +117,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.9.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 2836630016, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.9.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 2841938432, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.9.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 2841938944, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.9.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 2842602496, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.9.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 2842602496, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.9.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 2933435392, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.9.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 3007753216, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.9.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 3008343040, "n_elements": 2304}
@@ -129,7 +129,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.10.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 3088651776, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.10.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 3093960192, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.10.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 3093960704, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.10.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 3094624256, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.10.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 3094624256, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.10.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 3185457152, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.10.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 3259774976, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.10.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 3260364800, "n_elements": 2304}
@@ -141,7 +141,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.11.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 3340673536, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.11.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 3345981952, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.11.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 3345982464, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.11.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 3346950144, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.11.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 3346950144, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.11.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 3487328256, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.11.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 3561646080, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.11.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 3562235904, "n_elements": 2304}
@@ -153,7 +153,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.12.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 3642544640, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.12.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 3647853056, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.12.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 3647853568, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.12.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 3648517120, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.12.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 3648517120, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.12.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 3739350016, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.12.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 3813667840, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.12.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 3814257664, "n_elements": 2304}
@@ -165,7 +165,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.13.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 3894566400, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.13.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 3899874816, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.13.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 3899875328, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.13.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 3900538880, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.13.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 3900538880, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.13.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 3991371776, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.13.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 4065689600, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.13.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 4066279424, "n_elements": 2304}
@@ -177,7 +177,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.14.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 4146588160, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.14.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 4151896576, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.14.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 4151897088, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.14.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 4152864768, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.14.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 4152864768, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.14.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 4293242880, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.14.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 4367560704, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.14.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 4368150528, "n_elements": 2304}
@@ -189,7 +189,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.15.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 4448459264, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.15.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 4453767680, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.15.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 4453768192, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.15.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 4454431744, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.15.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 4454431744, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.15.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 4545264640, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.15.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 4619582464, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.15.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 4620172288, "n_elements": 2304}
@@ -201,7 +201,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.16.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 4700481024, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.16.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 4705789440, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.16.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 4705789952, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.16.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 4706453504, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.16.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 4706453504, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.16.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 4797286400, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.16.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 4871604224, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.16.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 4872194048, "n_elements": 2304}
@@ -213,7 +213,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.17.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 4952502784, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.17.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 4957811200, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.17.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 4957811712, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.17.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 4958779392, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.17.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 4958779392, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.17.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 5099157504, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.17.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 5173475328, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.17.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 5174065152, "n_elements": 2304}
@@ -225,7 +225,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.18.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 5254373888, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.18.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 5259682304, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.18.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 5259682816, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.18.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 5260346368, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.18.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 5260346368, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.18.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 5351179264, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.18.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 5425497088, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.18.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 5426086912, "n_elements": 2304}
@@ -237,7 +237,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.19.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 5506395648, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.19.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 5511704064, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.19.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 5511704576, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.19.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 5512368128, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.19.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 5512368128, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.19.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 5603201024, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.19.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 5677518848, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.19.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 5678108672, "n_elements": 2304}
@@ -249,7 +249,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.20.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 5758417408, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.20.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 5763725824, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.20.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 5763726336, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.20.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 5764694016, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.20.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 5764694016, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.20.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 5905072128, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.20.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 5979389952, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.20.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 5979979776, "n_elements": 2304}
@@ -261,7 +261,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.21.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 6060288512, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.21.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 6065596928, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.21.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 6065597440, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.21.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 6066260992, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.21.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 6066260992, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.21.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 6157093888, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.21.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 6231411712, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.21.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 6232001536, "n_elements": 2304}
@@ -273,7 +273,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.22.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 6312310272, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.22.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 6317618688, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.22.attn_v.weight", "shape": [2304, 512], "dtype": "Q4_K", "dtype_id": 12, "offset": 6317619200, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.22.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q4_0", "dtype_id": 6, "offset": 6318282752, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.22.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 6, "offset": 6318282752, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.22.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 6409115648, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.22.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 6483433472, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.22.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 6484023296, "n_elements": 2304}
@@ -285,7 +285,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.23.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 6564332032, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.23.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 6569640448, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.23.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 6569640960, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.23.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 6570608640, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.23.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 6570608640, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.23.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 6710986752, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.23.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 6785304576, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.23.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 6785894400, "n_elements": 2304}
@@ -297,7 +297,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.24.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 6866203136, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.24.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 6871511552, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.24.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 6871512064, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.24.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 6872479744, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.24.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 6872479744, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.24.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 7012857856, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.24.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 7087175680, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.24.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 7087765504, "n_elements": 2304}
@@ -309,7 +309,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.25.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 7168074240, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.25.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 7173382656, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.25.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 7173383168, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.25.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 7174350848, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.25.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 7174350848, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.25.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 7314728960, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.25.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 7389046784, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.25.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 7389636608, "n_elements": 2304}
@@ -321,7 +321,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.26.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 7469945344, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.26.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 7475253760, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.26.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 7475254272, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.26.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 7476221952, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.26.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 7476221952, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.26.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 7616600064, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.26.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 7690917888, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.26.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 7691507712, "n_elements": 2304}
@@ -333,7 +333,7 @@
 {"type": "tensor", "model_id": "mellum", "name": "blk.27.attn_q.weight", "shape": [2304, 4096], "dtype": "Q4_K", "dtype_id": 12, "offset": 7771816448, "n_elements": 9437184}
 {"type": "tensor", "model_id": "mellum", "name": "blk.27.attn_q_norm.weight", "shape": [128], "dtype": "F32", "dtype_id": 0, "offset": 7777124864, "n_elements": 128}
 {"type": "tensor", "model_id": "mellum", "name": "blk.27.attn_v.weight", "shape": [2304, 512], "dtype": "Q6_K", "dtype_id": 14, "offset": 7777125376, "n_elements": 1179648}
-{"type": "tensor", "model_id": "mellum", "name": "blk.27.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q5_0", "dtype_id": 8, "offset": 7778093056, "n_elements": 132120576}
+{"type": "tensor", "model_id": "mellum", "name": "blk.27.ffn_down_exps.weight", "shape": [896, 2304, 64], "dtype": "Q8_0", "dtype_id": 8, "offset": 7778093056, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.27.ffn_gate_exps.weight", "shape": [2304, 896, 64], "dtype": "Q4_K", "dtype_id": 12, "offset": 7918471168, "n_elements": 132120576}
 {"type": "tensor", "model_id": "mellum", "name": "blk.27.ffn_gate_inp.weight", "shape": [2304, 64], "dtype": "F32", "dtype_id": 0, "offset": 7992788992, "n_elements": 147456}
 {"type": "tensor", "model_id": "mellum", "name": "blk.27.ffn_norm.weight", "shape": [2304], "dtype": "F32", "dtype_id": 0, "offset": 7993378816, "n_elements": 2304}

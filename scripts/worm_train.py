@@ -39,8 +39,10 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 # WORM staging alignment (matches glm-evoke/src/worm.rs STAGING_ALIGN)
 STAGING_ALIGN = 64
 
-# Approximate bytes per element for WORM layout planning.
-# Quantized types use block sizes; we use conservative estimates.
+# Fallback bytes-per-element estimates. Used only when a manifest lacks
+# provenance fields (file_bytes, tensor_data_offset) for measurement
+# from GGUF offset deltas. Quantized types use block sizes; these are
+# conservative estimates.
 DTYPE_BYTES = {
     "F32": 4, "F16": 2, "BF16": 2, "F64": 8,
     "Q4_0": 0.5625, "Q4_1": 0.625, "Q5_0": 0.6875, "Q5_1": 0.75,
@@ -115,22 +117,76 @@ def stage_validate(manifest, tensors, manifest_path):
     return True
 
 
-def stage_layout(tensors):
-    """Stage 3: LAYOUT - compute WORM staging offsets (64-byte aligned)."""
+def measured_byte_sizes(manifest, tensors):
+    """Per-tensor byte sizes measured from GGUF offset deltas.
+
+    Tensors are sorted by source offset; each tensor's measured span is
+    the delta to the next tensor's offset. The last tensor's span runs
+    to the end of the tensor data section
+    (file_bytes - tensor_data_offset).
+
+    Returns {name: (byte_size, size_source)} where size_source is
+    "measured" or "estimated". Estimation (DTYPE_BYTES) is used only
+    when the manifest lacks provenance fields or a delta is
+    non-positive; overlapping offsets (negative delta) raise.
+    """
+    ordered = sorted(tensors, key=lambda pair: pair[1]["offset"])
+    sizes = {}
+    file_bytes = manifest.get("file_bytes") if manifest else None
+    data_offset = manifest.get("tensor_data_offset") if manifest else None
+    measurable = (
+        file_bytes is not None and data_offset is not None
+    )
+    for i, (lineno, t) in enumerate(ordered):
+        size = None
+        if measurable:
+            if i < len(ordered) - 1:
+                delta = ordered[i + 1][1]["offset"] - t["offset"]
+                # Deltas are non-negative after sorting; a zero delta
+                # means a duplicate/degenerate offset, which we do not
+                # trust as a measurement.
+                if delta > 0:
+                    size = delta
+            else:
+                # Last tensor: span runs to end of the data section.
+                span = (file_bytes - data_offset) - t["offset"]
+                if span <= 0:
+                    raise ValueError(
+                        f"manifest: last tensor {t.get('name')!r} "
+                        f"(line {lineno}) starts at or past end of data")
+                size = span
+        if size is None:
+            dtype = t["dtype"]
+            n_elements = t["n_elements"]
+            bpe = DTYPE_BYTES.get(dtype, 1.0)  # conservative fallback
+            size = int(n_elements * bpe)
+            sizes[t["name"]] = (size, "estimated")
+        else:
+            sizes[t["name"]] = (size, "measured")
+    return sizes
+
+
+def stage_layout(tensors, manifest=None):
+    """Stage 3: LAYOUT - compute WORM staging offsets (64-byte aligned).
+
+    Byte sizes are measured from GGUF offset deltas when the manifest
+    carries provenance (file_bytes, tensor_data_offset); otherwise they
+    fall back to DTYPE_BYTES estimates (flagged per tensor).
+    """
+    sizes = measured_byte_sizes(manifest, tensors)
     layout = []
     offset = 0
+    # Preserve manifest order for the layout; sizes keyed by name.
     for _, t in tensors:
-        dtype = t["dtype"]
-        n_elements = t["n_elements"]
-        bpe = DTYPE_BYTES.get(dtype, 1.0)  # conservative fallback
-        byte_size = int(n_elements * bpe)
+        byte_size, size_source = sizes[t["name"]]
         aligned_offset = align_up(offset)
         layout.append({
             "name": t["name"],
             "shape": t["shape"],
-            "dtype": dtype,
+            "dtype": t["dtype"],
             "staging_offset": aligned_offset,
             "byte_size": byte_size,
+            "size_source": size_source,
             "source_offset": t["offset"],
         })
         offset = aligned_offset + byte_size
@@ -155,6 +211,7 @@ def stage_seal(manifest, layout, total_bytes):
             "dtype": entry["dtype"],
             "staging_offset": entry["staging_offset"],
             "byte_size": entry["byte_size"],
+            "size_source": entry["size_source"],
             "prev": prev_hash,
         }, sort_keys=True).encode()
         seal_hash = sha256_hex(seal_input)
@@ -207,6 +264,7 @@ def stage_emit(manifest, layout, seal_data, out_path):
                 "dtype": entry["dtype"],
                 "staging_offset": entry["staging_offset"],
                 "byte_size": entry["byte_size"],
+                "size_source": entry["size_source"],
                 "source_offset": entry["source_offset"],
                 "seal": seal["seal"],
                 "prev_seal": seal["prev"],
@@ -223,7 +281,7 @@ def train_one(manifest_path, out_path):
     stage_validate(manifest, tensors, manifest_path)
     print(f"  validate: OK", file=sys.stderr)
     # Stage 3: LAYOUT
-    layout, total = stage_layout(tensors)
+    layout, total = stage_layout(tensors, manifest)
     print(f"  layout: {total} bytes staged", file=sys.stderr)
     # Stage 4: SEAL
     seal_data = stage_seal(manifest, layout, total)
