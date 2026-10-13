@@ -47,3 +47,16 @@ Replace with your own data pipeline as needed.
 - Forward pass shape-checked on paper (cannot run here — OOM)
 - Training loop written, not executed (no GPU, no training data)
 - Not a trained model — this is the architecture + loop, weights are random
+
+## Training data (ready)
+
+- `data/tokens.bin` — 70,643,097 tokens (uint16, 134.7 MB)
+- Tokenizer: `tokenizer/tokenizer.json` (32k BPE, trained on this corpus)
+- Source: 25,265 documents from workspace repos (rea, devflow-finance-twin,
+  hologram-re, rea-unary, etc.)
+
+Run on GPU rig:
+```sh
+python3 pytorch-4b/train.py --data pytorch-4b/data/tokens.bin \
+    --out checkpoints/ --seq-len 2048 --batch-size 4
+```
