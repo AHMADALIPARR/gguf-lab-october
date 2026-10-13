@@ -1,0 +1,30 @@
+{
+ "train_v2": {
+  "isdss": 10000,
+  "bound": 10000,
+  "card": 6000,
+  "next": 6000
+ },
+ "train_v2_isdss_yes_no": {
+  "no": 4963,
+  "yes": 5037
+ },
+ "train_v2_bound_yes_no": {
+  "yes": 5025,
+  "no": 4975
+ },
+ "test_balanced": {
+  "next": 100,
+  "card": 100,
+  "isdss": 200,
+  "bound": 100
+ },
+ "test_balanced_isdss_yes_no": {
+  "yes": 100,
+  "no": 100
+ },
+ "test_balanced_bound_yes_no": {
+  "yes": 50,
+  "no": 50
+ }
+}

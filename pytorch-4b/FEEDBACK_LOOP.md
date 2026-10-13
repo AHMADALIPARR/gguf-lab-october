@@ -63,6 +63,8 @@ and then checked again by `dss/grade.py` before it is written.
 | card  | `DSS W 1 2 4 9 sum 11 -> size 2` | 6000 | 100 |
 | bound | `bound k 5 a 16 -> yes 16>=13` | 4322 | 100 |
 
+Training on sovereign-agi-kernel material (source, README, and derived data) was authorized by the licensor, the trustee of the kernel's licenses.
+
 `kernel_text.jsonl` also contains the kernel's `README.md` and
 `runtime/greedy.mjs`. During SFT they are mixed in as replay text.
 
@@ -147,3 +149,97 @@ error (about 2.4 points). Old-val loss ends 0.49 above the v2 base (2.333 ->
 2.819), which is a clear forgetting cost at this replay ratio. The mean
 training reward during RL ranged from 0.517 to 0.529; KL to the reference
 grew from 0.004 to 0.018.
+
+## Round 2: stepwise bound format, balanced is-DSS test, longer GRPO
+
+### Bound diagnosis
+
+Greedy outputs of the v2 loop's `rl.pt` on bound test items mostly had a
+correct bound `b` (there are only 30 distinct k values). The errors came from
+miscopying `a` (for example `yes 476>=392` for a=434), from wrong comparisons
+(`no 8<8`), and from the verdict being emitted before any comparison.
+
+### Data changes (`dss/make_dataset_v2.py`, `dss/data/stats_v2.json`)
+
+- Bound uses a new format that states the bound before the verdict:
+  `bound k 16 a 67 -> b=128; 67<128 no`. There are 10,000 train rows with
+  k in 1..40, balanced at 5025 yes / 4975 no. The grader accepts both the
+  old and new formats, but every number and the verdict must be correct.
+- 4,000 extra non-DSS is-DSS train rows bring is-DSS training data to
+  5037 yes / 4963 no.
+- `test_balanced.jsonl` (500 items) contains next and card from the old
+  test, 200 is-DSS items (100 yes / 100 no), and 100 bound items
+  (50 yes / 50 no). The same hash split keeps it disjoint from training.
+  The round-1 `test.jsonl` is kept unchanged for comparability.
+
+### Run (`runs/dss-r2`, log `dss/results/r2-metrics.jsonl`)
+
+- Start from the v2 loop's `rl.pt` (old test 0.670).
+- SFT: 600 steps on `train_v2.jsonl`, lr 2e-4, 4 replay windows per step at
+  weight 1.0.
+- Expert iteration: 1 round.
+- GRPO: 10 rounds x 30 updates = 300 updates. Group of 8, 8 prompts per
+  update, lr 2e-5, KL beta 0.05 against the post-expert-iteration model.
+  4 old-corpus replay windows per update, weight 0.5.
+- Curriculum: tasks are sampled in proportion to their error on the
+  balanced test set (floor 0.1).
+- Threads: 4. Another worker's training job held the other cores for most
+  of the run. Wall time 13:21-14:42 PT.
+
+Accuracy is overall ± one binomial standard error. Per-task columns are
+next / isdss / card / bound.
+
+| stage | balanced all | balanced per task | old-test all | old-test per task | old-val loss | reward | KL |
+|---|---|---|---|---|---|---|---|
+| start (v2 loop rl.pt) | 0.562 ± 0.022 | .84/.515/.76/.18 | 0.670 ± 0.024 | .84/.88/.76/.20 | 2.8191 | | |
+| SFT | 0.554 ± 0.022 | .79/.48/.58/.44 | 0.655 ± 0.024 | .79/.86/.58/.39 | 2.8415 | | |
+| expert iter 1 | 0.628 ± 0.022 | .81/.51/.80/.51 | 0.720 ± 0.022 | .81/.82/.80/.45 | 2.8005 | | |
+| GRPO 1 | 0.620 ± 0.022 | .82/.52/.75/.49 | 0.715 ± 0.023 | .82/.85/.75/.44 | 2.8012 | 0.534 | 0.0048 |
+| GRPO 2 | 0.630 ± 0.022 | .82/.53/.77/.50 | 0.733 ± 0.022 | .82/.86/.77/.48 | 2.8027 | 0.535 | 0.0104 |
+| GRPO 3 | **0.632 ± 0.022** | .81/.525/.77/.53 | 0.725 ± 0.022 | .81/.87/.77/.45 | 2.8039 | 0.500 | 0.0168 |
+| GRPO 4 | 0.624 ± 0.022 | .82/.53/.74/.50 | 0.723 ± 0.022 | .82/.89/.74/.44 | 2.8050 | 0.551 | 0.0265 |
+| GRPO 5 | 0.620 ± 0.022 | .82/.535/.73/.48 | 0.733 ± 0.022 | .82/.89/.73/.49 | 2.8054 | 0.586 | 0.0249 |
+| GRPO 6 | 0.620 ± 0.022 | .82/.525/.74/.49 | 0.728 ± 0.022 | .82/.87/.74/.48 | 2.8066 | 0.584 | 0.0295 |
+| GRPO 7 | 0.624 ± 0.022 | .82/.535/.75/.48 | 0.733 ± 0.022 | .82/.89/.75/.47 | 2.8079 | 0.501 | 0.0409 |
+| GRPO 8 | 0.594 ± 0.022 | .82/.53/.63/.46 | 0.703 ± 0.023 | .82/.89/.63/.47 | 2.8090 | 0.535 | 0.0335 |
+| GRPO 9 | 0.604 ± 0.022 | .82/.53/.68/.46 | 0.715 ± 0.023 | .82/.89/.68/.47 | 2.8102 | 0.530 | 0.0351 |
+| GRPO 10 | 0.616 ± 0.022 | .82/.52/.76/.46 | 0.735 ± 0.022 | .82/.89/.76/.47 | 2.8120 | 0.564 | 0.0300 |
+
+The best checkpoint by balanced accuracy is GRPO round 3 (`rl-r3.pt`):
+0.632 balanced and 0.725 on the old test.
+
+### Verdict
+
+- **is-DSS has not been learned.** On the balanced test set the is-DSS score
+  stays between 0.48 and 0.535 at every stage, which is chance for a 50/50
+  yes/no split. The 0.82-0.89 on the old test reflects its 93% "yes" class
+  balance.
+- **Bound improved because of the format and data change, not RL.** Balanced
+  bound accuracy went from 0.18 to 0.51 after SFT and expert iteration on
+  the stepwise format. GRPO kept it between 0.46 and 0.53.
+- **RL against the 0.663 baseline.** The selected checkpoint scores 0.725 on
+  the old test. Against 0.663 the difference is 0.062 with a standard error
+  of about 0.033 (z ≈ 1.9), which is not significant at the usual 2-sigma
+  level. Most of that gap was already there before RL: expert iteration in
+  this run reached 0.720. Compared with that pre-RL checkpoint, GRPO's best
+  change is +0.004 on the balanced test (SE of the difference ≈ 0.031).
+  **GRPO did not beat the expert-iteration baseline beyond noise.**
+- **Old-val drift was small during this round.** With heavier replay, loss
+  went from 2.819 to 2.804 at round 3 and 2.812 at round 10. It remains
+  about 0.47 above the v2 base model (2.333), a gap inherited from round 1.
+- KL to the reference grew to about 0.03-0.04 by rounds 7-10, while held-out
+  accuracy did not improve.
+
+### GGUF export
+
+`export_gguf.py` was used to export `rl-r3.pt` to
+`runs/dss-r2/dss-r2-best.gguf` (137 MB, f32; not committed).
+
+`llama-simple` loads and generates from it. For the text prompt
+`# Reverse engineering`, its greedy output matches PyTorch greedy decoding.
+For the DSS prompts it does not: for `bound k 12 a 60 ->`, PyTorch produces
+` b=72; 60<72 no` while llama-simple produces unrelated digits. The GGUF
+declares the `default` pre-tokenizer, which does not split numbers the way
+the HF tokenizer does, so number-heavy prompts receive different token ids.
+**The GGUF is not usable for the DSS tasks until the export writes a matching
+pre-tokenizer.** That fix was not attempted.

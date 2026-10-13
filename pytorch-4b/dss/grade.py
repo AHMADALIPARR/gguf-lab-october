@@ -48,9 +48,14 @@ def grade(prompt, completion):
         m = re.fullmatch(r"bound k (\d+) a (\d+) ->", prompt)
         if m:
             k, a = int(m.group(1)), int(m.group(2)); b = quadratic_bound(k)
-            exp = f"yes {a}>={b}" if a >= b else f"no {a}<{b}"
-            if not re.fullmatch(r"(yes \d+>=\d+|no \d+<\d+)", ans): return MALFORMED
-            return float(ans == exp)
+            # v1 format "yes a>=b" / "no a<b"; v2 format "b=B; a>=B yes" /
+            # "b=B; a<B no" (bound stated before the verdict). Either is
+            # accepted, but every number and the verdict must be correct.
+            v1 = f"yes {a}>={b}" if a >= b else f"no {a}<{b}"
+            v2 = f"b={b}; {a}>={b} yes" if a >= b else f"b={b}; {a}<{b} no"
+            if not re.fullmatch(r"(yes \d+>=\d+|no \d+<\d+|b=\d+; \d+(>=|<)\d+ (yes|no))", ans):
+                return MALFORMED
+            return float(ans in (v1, v2))
     except (ValueError, OverflowError):
         return MALFORMED
     raise ValueError(f"unknown prompt: {prompt}")

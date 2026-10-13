@@ -38,8 +38,13 @@ class Ctx:
         self.a = a
         self.tok = Tokenizer.from_file(str(HERE.parent / "tokenizer/tokenizer.json"))
         self.nl = self.tok.encode("\n").ids
-        self.train = lines(HERE / "data/train.jsonl")
-        self.test = lines(HERE / "data/test.jsonl")
+        self.train = lines(HERE / a.train_file)
+        self.tests = {pathlib.Path(t).stem: lines(HERE / t) for t in a.test_files.split(",")}
+        self.test = self.tests[next(iter(self.tests))]
+        self.by_task = {}
+        for r in self.train:
+            self.by_task.setdefault(r["task"], []).append(r)
+        self.task_w = {t: 1.0 for t in self.by_task}
         self.kernel_ids = [self.tok.encode(d["text"]).ids for d in lines(HERE / "data/kernel_text.jsonl")]
         self.corpus = np.memmap(HERE.parent / "data/tokens.bin", dtype=np.uint16, mode="r")
         self.val = np.memmap(HERE.parent / "data/val.bin", dtype=np.uint16, mode="r")
@@ -136,13 +141,17 @@ def decode(ctx, ids):
     return ctx.tok.decode(ids, skip_special_tokens=False)
 
 
-def heldout(ctx, model, max_new):
+def heldout(ctx, model, max_new, rows=None):
+    rows = ctx.test if rows is None else rows
     by = {}
-    for r in ctx.test:
+    for r in rows:
         o = sample(model, ctx.enc(r["prompt"]), 1, 0.0, max_new)[0]
         by.setdefault(r["task"], []).append(grade(r["prompt"], decode(ctx, o)) == 1.0)
     acc = {k: round(sum(v) / len(v), 4) for k, v in by.items()}
-    acc["all"] = round(sum(sum(v) for v in by.values()) / len(ctx.test), 4)
+    n = len(rows); p = sum(sum(v) for v in by.values()) / n
+    acc["all"] = round(p, 4)
+    acc["all_se"] = round((p * (1 - p) / n) ** 0.5, 4)
+    acc["n"] = n
     return acc
 
 
@@ -159,7 +168,11 @@ def old_val_loss(ctx, model, n_windows, L=256):
 
 def evaluate(ctx, model, stage, rnd, **extra):
     t0 = time.time()
-    ctx.log(stage=stage, round=rnd, heldout_acc=heldout(ctx, model, ctx.a.max_new),
+    accs = {name: heldout(ctx, model, ctx.a.max_new, rows) for name, rows in ctx.tests.items()}
+    if ctx.a.curriculum:  # weight each task by its error on the first test set (floor 0.1)
+        first = accs[next(iter(accs))]
+        ctx.task_w = {t: max(0.1, 1.0 - first.get(t, 0.0)) for t in ctx.by_task}
+    ctx.log(stage=stage, round=rnd, heldout_acc=accs, task_weights={k: round(v, 3) for k, v in ctx.task_w.items()},
             old_val_loss=old_val_loss(ctx, model, ctx.a.val_windows), eval_s=round(time.time() - t0), **extra)
 
 
@@ -175,7 +188,9 @@ def grpo_round(ctx, model, ref, steps, rnd):
     opt = torch.optim.AdamW(model.parameters(), lr=a.rl_lr, weight_decay=0.0)
     rs, kls, fracs = [], [], []
     for step in range(steps):
-        prompts = ctx.rng.sample(ctx.train, a.rl_prompts)
+        tasks = list(ctx.task_w)
+        prompts = [ctx.rng.choice(ctx.by_task[t]) for t in
+                   ctx.rng.choices(tasks, weights=[ctx.task_w[t] for t in tasks], k=a.rl_prompts)]
         loss_tot = 0.0
         for r in prompts:
             pids = ctx.enc(r["prompt"])
@@ -201,6 +216,10 @@ def grpo_round(ctx, model, ref, steps, rnd):
             loss = (pg + a.kl_beta * klt).mean() / len(prompts)
             loss.backward(); loss_tot += loss.item()
             kls.append(klt.mean().item())
+        if a.rl_replay > 0:  # LM loss on old-corpus windows to limit drift
+            rb = replay_batch(ctx, a.rl_replay, a.replay_len)
+            lg = model(rb[:, :-1])
+            (a.rl_replay_weight * F.cross_entropy(lg.reshape(-1, lg.size(-1)), rb[:, 1:].reshape(-1))).backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         opt.step(); opt.zero_grad(set_to_none=True)
         print(f"[rl r{rnd}] step {step+1}/{steps} reward_mean {np.mean(rs[-a.rl_prompts*a.group:]):.3f} "
@@ -228,6 +247,10 @@ def main():
     ap.add_argument("--group", type=int, default=4); ap.add_argument("--kl-beta", type=float, default=0.05)
     ap.add_argument("--temp", type=float, default=1.0); ap.add_argument("--max-new", type=int, default=14)
     ap.add_argument("--val-windows", type=int, default=64)
+    ap.add_argument("--train-file", default="data/train.jsonl")
+    ap.add_argument("--test-files", default="data/test.jsonl", help="comma-separated; first drives curriculum")
+    ap.add_argument("--rl-replay", type=int, default=0); ap.add_argument("--rl-replay-weight", type=float, default=0.5)
+    ap.add_argument("--curriculum", action="store_true"); ap.add_argument("--max-hours", type=float, default=0)
     a = ap.parse_args()
     torch.set_num_threads(a.threads); torch.manual_seed(a.seed)
     ctx = Ctx(a)
@@ -236,9 +259,11 @@ def main():
     ctx.log(stage="config", args=vars(a), train_examples=len(ctx.train), test_examples=len(ctx.test))
     evaluate(ctx, model, "base", 0)
 
+    t_start = time.time()
     pool = list(ctx.train)
-    sft(ctx, model, pool, a.sft_steps, a.sft_lr, "sft")
-    evaluate(ctx, model, "sft", 0); save(ctx, model, cfg, "sft.pt")
+    if a.sft_steps > 0:
+        sft(ctx, model, pool, a.sft_steps, a.sft_lr, "sft")
+        evaluate(ctx, model, "sft", 0); save(ctx, model, cfg, "sft.pt")
 
     for rnd in range(1, a.ei_rounds + 1):
         prompts = ctx.rng.sample(ctx.train, a.ei_prompts); kept = 0; n = 0
@@ -256,8 +281,11 @@ def main():
     ref = copy.deepcopy(model).eval()
     for p in ref.parameters(): p.requires_grad_(False)
     for rnd in range(1, a.rl_rounds + 1):
+        if a.max_hours and time.time() - t_start > a.max_hours * 3600:
+            ctx.log(stage="stop", reason="max_hours", round=rnd); break
         rmean, kl = grpo_round(ctx, model, ref, a.rl_steps, rnd)
         evaluate(ctx, model, "grpo", rnd, reward_mean=rmean, kl_to_ref=kl)
+        save(ctx, model, cfg, f"rl-r{rnd}.pt")
     save(ctx, model, cfg, "rl.pt")
 
 
