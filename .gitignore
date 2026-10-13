@@ -1,0 +1,8 @@
+.venv/
+models/
+cache/
+.local/
+*.gguf
+*.part
+__pycache__/
+sandbox/outputs/

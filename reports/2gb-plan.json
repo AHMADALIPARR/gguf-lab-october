@@ -1,0 +1,56 @@
+{
+  "vram_budget_bytes": 2147483648,
+  "weight_budget_bytes": 1610612736,
+  "gpu_processing": false,
+  "quality_gate": "No altered model is production-ready without independent inference and task-quality evaluation.",
+  "models": {
+    "embed": {
+      "source_bytes": 175673856,
+      "architecture": "gemma-embedding2",
+      "fixed_nonlayer_bytes": 80149504,
+      "expert_bank_bytes": 0,
+      "nonexpert_bytes": 159883008,
+      "policy": "Already small enough. Preserve pretrained embedding weights; no pruning required."
+    },
+    "mellum": {
+      "source_bytes": 8071295264,
+      "architecture": "mellum",
+      "fixed_nonlayer_bytes": 313205760,
+      "expert_bank_bytes": 7398752256,
+      "nonexpert_bytes": 668953600,
+      "policy": "Build experimental E8 candidate using router L2 ranking, retain all 28 layers. Quality unvalidated."
+    },
+    "qwen27": {
+      "source_bytes": 16464440224,
+      "architecture": "qwen35",
+      "fixed_nonlayer_bytes": 1758126080,
+      "expert_bank_bytes": 0,
+      "nonexpert_bytes": 16453443584,
+      "policy": "Blocked for this budget: Q4 fixed non-layer tensors alone exceed the weight allowance. Width/vocabulary changes need training and an architecture adapter."
+    },
+    "bonsai": {
+      "source_bytes": 5946648928,
+      "architecture": "qwen35",
+      "fixed_nonlayer_bytes": 556257280,
+      "expert_bank_bytes": 0,
+      "nonexpert_bytes": 5935527936,
+      "policy": "Special PTQ1_0 type 143 and Hadamard metadata need the matching runtime and a topology adapter. Do not silently requantize ternary weights."
+    },
+    "xing": {
+      "source_bytes": 20104012544,
+      "architecture": "xing4_0",
+      "fixed_nonlayer_bytes": 1324890112,
+      "expert_bank_bytes": 15458107392,
+      "nonexpert_bytes": 4642722560,
+      "policy": "Expert-only pruning cannot meet this budget; nonexpert tensors alone exceed 4 GB. Hyper-connections, MLA and prediction layers need a separate adapter."
+    },
+    "flash": {
+      "source_bytes": 37623740192,
+      "architecture": "qwen4exp",
+      "fixed_nonlayer_bytes": 723343360,
+      "expert_bank_bytes": 33973862400,
+      "nonexpert_bytes": 3638853120,
+      "policy": "Split 177B model: the audited first shard is incomplete and nonexpert tensors exceed the budget. The second shard and PLE tensors must be accounted for; not a local 2 GB candidate."
+    }
+  }
+}

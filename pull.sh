@@ -17,7 +17,7 @@ pull() { # repo, file, dest
   huggingface-cli download "$1" "$2" --local-dir "$STORE/$3" --local-dir-use-symlinks False
 }
 
-TARGET="${1:-all}"
+TARGET="${1:-embed}"
 
 case "$TARGET" in
   all|embed)

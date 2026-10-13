@@ -5,6 +5,15 @@
 
 # Pruning plan
 
+## Implemented low-memory path
+
+`scripts/prune_mellum.py` implements streaming selection of complete expert banks
+and router rows from the pinned Q4 GGUF. It retains 8 of 64 experts in each of
+28 layers using uncalibrated router-row L2 norms. It preserves retained weight
+bytes and all tokenizer metadata, checks a 1.5 GiB file budget, and uses no GPU.
+This is an experimental candidate, not the activation-calibrated PyTorch recipe
+below. See `NUC-2GB.md` and `reports/2gb-plan.json` for supported and blocked models.
+
 Structured pruning per model, adapted from the sovereign-mimo-4b recipe
 (layer drop by attention variance → width/head projection → MLP shrink →
 GGUF). Scripts live in `SNAPKITTYWEST/sovereign-mimo-4b` (`prune/`):

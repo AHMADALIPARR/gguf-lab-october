@@ -1,0 +1,17 @@
+{
+  "cpu_only": true,
+  "dimensions": [
+    768,
+    768,
+    768
+  ],
+  "finite": true,
+  "similar_pair_cosine": 0.8250567765088601,
+  "unrelated_pair_cosine": 0.5586030206107625,
+  "runtime": "llama.cpp b11577 CPU",
+  "quality_status": "small smoke test, not a retrieval benchmark",
+  "runtime_archive_sha256": "c48e5762bb466a2faba1b880ca8b328a152e7f48e738431eb918ac9078f82ef1",
+  "model_sha256_verified": true,
+  "observed_peak_working_set_bytes": 278257664,
+  "server_stopped_after_test": true
+}
