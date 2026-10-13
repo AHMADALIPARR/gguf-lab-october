@@ -1,0 +1,15 @@
+{
+ "train": {
+  "next": 6000,
+  "isdss": 6000,
+  "card": 6000,
+  "bound": 4322
+ },
+ "test": {
+  "next": 100,
+  "isdss": 100,
+  "card": 100,
+  "bound": 100
+ },
+ "kernel_docs": 2
+}

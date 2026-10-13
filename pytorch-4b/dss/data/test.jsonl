@@ -1,0 +1,400 @@
+{"task": "next", "prompt": "DSS greedy next after 10 16 21 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 15 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 2 6 9 26 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 4 14 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 5 12 18 27 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 2 5 11 ->", "answer": " 12"}
+{"task": "next", "prompt": "DSS greedy next after 3 5 25 26 ->", "answer": " 27"}
+{"task": "next", "prompt": "DSS greedy next after 19 22 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 7 12 20 21 ->", "answer": " 23"}
+{"task": "next", "prompt": "DSS greedy next after 3 5 30 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 9 10 25 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 13 17 23 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 2 14 20 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 3 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 10 13 14 ->", "answer": " 15"}
+{"task": "next", "prompt": "DSS greedy next after 4 9 19 ->", "answer": " 20"}
+{"task": "next", "prompt": "DSS greedy next after 10 11 12 27 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 6 12 19 24 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 20 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 16 19 22 ->", "answer": " 23"}
+{"task": "next", "prompt": "DSS greedy next after 3 8 21 27 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 3 10 22 26 ->", "answer": " 27"}
+{"task": "next", "prompt": "DSS greedy next after 16 19 24 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 6 11 14 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 11 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 11 19 21 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 4 8 25 30 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 5 15 ->", "answer": " 16"}
+{"task": "next", "prompt": "DSS greedy next after 16 17 22 23 ->", "answer": " 24"}
+{"task": "next", "prompt": "DSS greedy next after 5 9 12 23 ->", "answer": " 24"}
+{"task": "next", "prompt": "DSS greedy next after 2 17 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 15 19 21 30 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 2 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 7 13 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 3 19 ->", "answer": " 20"}
+{"task": "next", "prompt": "DSS greedy next after 12 16 23 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 22 27 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 11 24 28 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 9 26 ->", "answer": " 27"}
+{"task": "next", "prompt": "DSS greedy next after 1 9 14 ->", "answer": " 16"}
+{"task": "next", "prompt": "DSS greedy next after 7 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 3 18 19 ->", "answer": " 20"}
+{"task": "next", "prompt": "DSS greedy next after 2 16 24 27 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 2 18 ->", "answer": " 19"}
+{"task": "next", "prompt": "DSS greedy next after 9 12 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 2 17 ->", "answer": " 18"}
+{"task": "next", "prompt": "DSS greedy next after 8 10 13 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 3 12 13 ->", "answer": " 14"}
+{"task": "next", "prompt": "DSS greedy next after 7 8 13 27 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 5 15 19 ->", "answer": " 21"}
+{"task": "next", "prompt": "DSS greedy next after 12 17 ->", "answer": " 18"}
+{"task": "next", "prompt": "DSS greedy next after 15 20 30 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 27 29 30 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 2 12 13 23 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 6 8 11 ->", "answer": " 12"}
+{"task": "next", "prompt": "DSS greedy next after 5 14 ->", "answer": " 15"}
+{"task": "next", "prompt": "DSS greedy next after 12 16 18 ->", "answer": " 19"}
+{"task": "next", "prompt": "DSS greedy next after 2 9 10 15 ->", "answer": " 20"}
+{"task": "next", "prompt": "DSS greedy next after 2 3 4 24 ->", "answer": " 32"}
+{"task": "next", "prompt": "DSS greedy next after 2 18 27 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 3 18 ->", "answer": " 19"}
+{"task": "next", "prompt": "DSS greedy next after 3 5 17 ->", "answer": " 18"}
+{"task": "next", "prompt": "DSS greedy next after 5 18 22 26 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 2 27 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 11 13 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 20 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 1 5 17 28 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 6 7 23 ->", "answer": " 24"}
+{"task": "next", "prompt": "DSS greedy next after 3 19 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 7 8 12 23 ->", "answer": " 24"}
+{"task": "next", "prompt": "DSS greedy next after 4 14 ->", "answer": " 15"}
+{"task": "next", "prompt": "DSS greedy next after 1 13 19 29 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 5 7 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 7 15 23 ->", "answer": " 24"}
+{"task": "next", "prompt": "DSS greedy next after 20 21 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 4 5 11 ->", "answer": " 12"}
+{"task": "next", "prompt": "DSS greedy next after 12 18 21 ->", "answer": " 22"}
+{"task": "next", "prompt": "DSS greedy next after 5 7 9 26 ->", "answer": " 27"}
+{"task": "next", "prompt": "DSS greedy next after 13 23 ->", "answer": " 24"}
+{"task": "next", "prompt": "DSS greedy next after 13 22 25 ->", "answer": " 26"}
+{"task": "next", "prompt": "DSS greedy next after 4 9 12 ->", "answer": " 14"}
+{"task": "next", "prompt": "DSS greedy next after 2 8 22 ->", "answer": " 23"}
+{"task": "next", "prompt": "DSS greedy next after 2 8 19 30 ->", "answer": " 31"}
+{"task": "next", "prompt": "DSS greedy next after 12 13 ->", "answer": " 14"}
+{"task": "next", "prompt": "DSS greedy next after 12 22 ->", "answer": " 23"}
+{"task": "next", "prompt": "DSS greedy next after 2 6 11 ->", "answer": " 12"}
+{"task": "next", "prompt": "DSS greedy next after 6 12 22 ->", "answer": " 23"}
+{"task": "next", "prompt": "DSS greedy next after 3 12 ->", "answer": " 13"}
+{"task": "next", "prompt": "DSS greedy next after 3 7 20 ->", "answer": " 21"}
+{"task": "next", "prompt": "DSS greedy next after 7 20 23 26 ->", "answer": " 28"}
+{"task": "next", "prompt": "DSS greedy next after 12 23 27 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 16 20 ->", "answer": " 21"}
+{"task": "next", "prompt": "DSS greedy next after 4 20 ->", "answer": " 21"}
+{"task": "next", "prompt": "DSS greedy next after 10 20 22 26 ->", "answer": " 27"}
+{"task": "next", "prompt": "DSS greedy next after 1 4 8 ->", "answer": " 10"}
+{"task": "next", "prompt": "DSS greedy next after 25 28 ->", "answer": " 29"}
+{"task": "next", "prompt": "DSS greedy next after 11 28 29 ->", "answer": " 30"}
+{"task": "next", "prompt": "DSS greedy next after 3 15 ->", "answer": " 16"}
+{"task": "next", "prompt": "DSS greedy next after 2 24 ->", "answer": " 25"}
+{"task": "next", "prompt": "DSS greedy next after 10 14 26 ->", "answer": " 27"}
+{"task": "isdss", "prompt": "is DSS 12 16 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 8 30 36 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 4 23 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 19 22 26 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 9 20 24 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 15 30 33 34 36 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 14 15 34 40 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 18 23 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 8 17 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 10 16 19 22 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 7 10 19 22 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 3 21 30 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 30 33 35 40 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 14 15 17 24 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 6 12 20 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 15 25 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 10 15 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 28 35 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 4 14 36 37 38 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 7 8 13 17 18 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 17 19 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 27 34 38 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 5 7 15 19 ->", "answer": " no 15=3+5+7"}
+{"task": "isdss", "prompt": "is DSS 11 12 37 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 16 30 34 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 7 8 34 35 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 14 20 32 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 14 29 32 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 6 15 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 7 21 22 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 8 11 20 23 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 8 14 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 4 24 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 16 24 25 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 15 18 19 22 ->", "answer": " no 18=3+15"}
+{"task": "isdss", "prompt": "is DSS 7 19 24 27 30 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 14 21 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 9 23 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 6 13 16 24 ->", "answer": " no 16=3+13"}
+{"task": "isdss", "prompt": "is DSS 6 13 21 23 24 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 17 32 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 14 23 30 33 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 6 16 20 24 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 15 34 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 8 12 19 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 16 20 22 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 20 24 25 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 9 19 26 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 10 20 21 36 38 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 10 17 38 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 32 33 35 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 27 29 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 10 15 18 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 28 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 6 17 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 4 9 20 21 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 15 24 34 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 6 15 22 31 36 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 15 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 10 13 17 21 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 13 20 38 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 38 40 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 16 22 23 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 8 17 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 21 24 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 13 37 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 9 12 37 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 30 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 13 17 18 19 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 7 13 14 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 2 11 12 ->", "answer": " no 12=1+11"}
+{"task": "isdss", "prompt": "is DSS 4 10 24 36 37 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 21 33 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 15 16 27 33 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 7 26 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 16 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 21 36 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 3 8 16 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5 10 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 5 7 16 23 ->", "answer": " no 7=2+5"}
+{"task": "isdss", "prompt": "is DSS 2 7 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 17 20 21 31 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 13 20 28 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 5 16 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 9 23 28 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 3 31 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 6 10 12 13 21 ->", "answer": " no 10+21=6+12+13"}
+{"task": "isdss", "prompt": "is DSS 2 4 9 21 22 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 10 17 24 26 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 11 21 30 35 39 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 16 18 21 25 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 13 14 16 21 25 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 12 19 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 35 40 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 2 6 9 22 23 ->", "answer": " no 9+22=2+6+23"}
+{"task": "isdss", "prompt": "is DSS 14 36 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 17 19 28 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 12 17 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1 6 25 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 3 20 21 ->", "answer": " yes"}
+{"task": "card", "prompt": "DSS W 15 29 sum 44 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 14 18 24 27 36 sum 83 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 15 17 21 39 40 sum 76 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 4 7 sum 4 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 4 13 21 sum 13 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 12 32 sum 32 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 8 22 29 35 39 sum 35 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 20 24 25 29 36 sum 89 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 1 22 24 32 37 sum 61 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 6 24 26 36 38 sum 56 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 19 32 38 sum 32 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 1 25 34 sum 26 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 8 22 39 sum 30 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 6 11 24 25 39 sum 63 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 4 19 35 40 sum 4 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 18 21 23 34 35 sum 87 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 17 24 30 36 40 sum 130 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 3 8 22 sum 22 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 6 22 37 39 sum 104 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 6 20 35 sum 26 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 10 11 14 40 sum 35 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 22 28 39 sum 39 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 3 7 39 40 sum 40 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 3 7 13 28 40 sum 40 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 6 7 21 39 40 sum 67 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 6 18 sum 18 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 11 20 26 32 33 sum 90 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 2 7 30 sum 32 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 2 37 40 sum 2 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 13 19 28 30 35 sum 43 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 4 11 27 sum 11 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 29 38 sum 38 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 10 40 sum 50 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 29 30 sum 29 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 11 31 sum 31 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 7 8 18 sum 8 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 30 31 33 35 38 sum 65 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 20 23 27 29 34 sum 133 -> size", "answer": " 5"}
+{"task": "card", "prompt": "DSS W 9 36 38 sum 36 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 1 6 18 22 36 sum 36 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 17 21 33 35 39 sum 124 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 3 6 31 38 39 sum 72 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 1 15 17 24 35 sum 41 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 8 15 22 27 32 sum 22 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 15 30 31 sum 45 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 14 20 24 33 40 sum 58 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 17 19 21 32 sum 36 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 1 2 10 34 sum 47 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 11 13 19 21 33 sum 65 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 10 25 40 sum 65 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 6 12 26 28 sum 40 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 36 37 sum 37 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 25 26 36 sum 62 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 1 31 sum 1 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 24 32 39 sum 56 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 8 24 28 sum 28 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 19 30 39 sum 49 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 26 29 sum 26 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 16 27 33 36 sum 96 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 33 39 sum 33 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 29 30 sum 59 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 6 30 sum 30 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 1 37 sum 38 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 6 14 16 38 sum 36 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 14 26 36 sum 36 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 11 24 sum 11 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 4 15 29 35 36 sum 29 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 4 24 37 sum 24 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 9 19 31 sum 31 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 24 27 30 sum 57 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 29 32 sum 61 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 22 31 38 sum 69 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 2 22 sum 22 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 6 27 31 sum 64 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 13 15 23 30 sum 45 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 18 22 26 33 34 sum 99 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 12 19 30 38 sum 61 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 8 14 33 35 sum 22 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 1 19 23 27 33 sum 102 -> size", "answer": " 4"}
+{"task": "card", "prompt": "DSS W 9 16 18 30 sum 55 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 7 26 29 31 37 sum 97 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 29 30 sum 30 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 9 13 37 sum 46 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 25 26 30 40 sum 66 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 29 37 sum 66 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 19 20 38 sum 19 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 1 4 9 32 39 sum 5 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 8 17 21 sum 29 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 31 40 sum 31 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 15 27 32 sum 59 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 13 20 22 36 sum 36 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 11 20 sum 20 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 14 26 36 sum 62 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 2 10 24 31 sum 2 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 12 15 36 37 sum 27 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 3 10 11 15 35 sum 21 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 3 31 sum 31 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 9 11 16 17 sum 42 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 1 11 15 34 36 sum 81 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 26 29 sum 29 -> size", "answer": " 1"}
+{"task": "bound", "prompt": "bound k 28 a 434 ->", "answer": " yes 434>=392"}
+{"task": "bound", "prompt": "bound k 16 a 67 ->", "answer": " no 67<128"}
+{"task": "bound", "prompt": "bound k 3 a 8 ->", "answer": " yes 8>=5"}
+{"task": "bound", "prompt": "bound k 23 a 224 ->", "answer": " no 224<265"}
+{"task": "bound", "prompt": "bound k 1 a 1 ->", "answer": " yes 1>=1"}
+{"task": "bound", "prompt": "bound k 28 a 409 ->", "answer": " yes 409>=392"}
+{"task": "bound", "prompt": "bound k 5 a 10 ->", "answer": " no 10<13"}
+{"task": "bound", "prompt": "bound k 24 a 249 ->", "answer": " no 249<288"}
+{"task": "bound", "prompt": "bound k 25 a 231 ->", "answer": " no 231<313"}
+{"task": "bound", "prompt": "bound k 29 a 321 ->", "answer": " no 321<421"}
+{"task": "bound", "prompt": "bound k 25 a 195 ->", "answer": " no 195<313"}
+{"task": "bound", "prompt": "bound k 27 a 254 ->", "answer": " no 254<365"}
+{"task": "bound", "prompt": "bound k 29 a 491 ->", "answer": " yes 491>=421"}
+{"task": "bound", "prompt": "bound k 4 a 7 ->", "answer": " no 7<8"}
+{"task": "bound", "prompt": "bound k 9 a 28 ->", "answer": " no 28<41"}
+{"task": "bound", "prompt": "bound k 25 a 238 ->", "answer": " no 238<313"}
+{"task": "bound", "prompt": "bound k 21 a 114 ->", "answer": " no 114<221"}
+{"task": "bound", "prompt": "bound k 19 a 129 ->", "answer": " no 129<181"}
+{"task": "bound", "prompt": "bound k 8 a 44 ->", "answer": " yes 44>=32"}
+{"task": "bound", "prompt": "bound k 13 a 101 ->", "answer": " yes 101>=85"}
+{"task": "bound", "prompt": "bound k 19 a 251 ->", "answer": " yes 251>=181"}
+{"task": "bound", "prompt": "bound k 29 a 523 ->", "answer": " yes 523>=421"}
+{"task": "bound", "prompt": "bound k 12 a 39 ->", "answer": " no 39<72"}
+{"task": "bound", "prompt": "bound k 11 a 88 ->", "answer": " yes 88>=61"}
+{"task": "bound", "prompt": "bound k 21 a 272 ->", "answer": " yes 272>=221"}
+{"task": "bound", "prompt": "bound k 8 a 49 ->", "answer": " yes 49>=32"}
+{"task": "bound", "prompt": "bound k 29 a 247 ->", "answer": " no 247<421"}
+{"task": "bound", "prompt": "bound k 13 a 68 ->", "answer": " no 68<85"}
+{"task": "bound", "prompt": "bound k 25 a 263 ->", "answer": " no 263<313"}
+{"task": "bound", "prompt": "bound k 10 a 65 ->", "answer": " yes 65>=50"}
+{"task": "bound", "prompt": "bound k 9 a 35 ->", "answer": " no 35<41"}
+{"task": "bound", "prompt": "bound k 11 a 41 ->", "answer": " no 41<61"}
+{"task": "bound", "prompt": "bound k 29 a 389 ->", "answer": " no 389<421"}
+{"task": "bound", "prompt": "bound k 22 a 344 ->", "answer": " yes 344>=242"}
+{"task": "bound", "prompt": "bound k 15 a 155 ->", "answer": " yes 155>=113"}
+{"task": "bound", "prompt": "bound k 10 a 44 ->", "answer": " no 44<50"}
+{"task": "bound", "prompt": "bound k 25 a 372 ->", "answer": " yes 372>=313"}
+{"task": "bound", "prompt": "bound k 5 a 13 ->", "answer": " yes 13>=13"}
+{"task": "bound", "prompt": "bound k 24 a 395 ->", "answer": " yes 395>=288"}
+{"task": "bound", "prompt": "bound k 27 a 336 ->", "answer": " no 336<365"}
+{"task": "bound", "prompt": "bound k 18 a 203 ->", "answer": " yes 203>=162"}
+{"task": "bound", "prompt": "bound k 22 a 328 ->", "answer": " yes 328>=242"}
+{"task": "bound", "prompt": "bound k 26 a 273 ->", "answer": " no 273<338"}
+{"task": "bound", "prompt": "bound k 11 a 50 ->", "answer": " no 50<61"}
+{"task": "bound", "prompt": "bound k 22 a 162 ->", "answer": " no 162<242"}
+{"task": "bound", "prompt": "bound k 17 a 95 ->", "answer": " no 95<145"}
+{"task": "bound", "prompt": "bound k 25 a 291 ->", "answer": " no 291<313"}
+{"task": "bound", "prompt": "bound k 16 a 179 ->", "answer": " yes 179>=128"}
+{"task": "bound", "prompt": "bound k 23 a 168 ->", "answer": " no 168<265"}
+{"task": "bound", "prompt": "bound k 27 a 446 ->", "answer": " yes 446>=365"}
+{"task": "bound", "prompt": "bound k 21 a 129 ->", "answer": " no 129<221"}
+{"task": "bound", "prompt": "bound k 29 a 216 ->", "answer": " no 216<421"}
+{"task": "bound", "prompt": "bound k 30 a 650 ->", "answer": " yes 650>=450"}
+{"task": "bound", "prompt": "bound k 17 a 78 ->", "answer": " no 78<145"}
+{"task": "bound", "prompt": "bound k 15 a 56 ->", "answer": " no 56<113"}
+{"task": "bound", "prompt": "bound k 30 a 604 ->", "answer": " yes 604>=450"}
+{"task": "bound", "prompt": "bound k 24 a 293 ->", "answer": " yes 293>=288"}
+{"task": "bound", "prompt": "bound k 10 a 61 ->", "answer": " yes 61>=50"}
+{"task": "bound", "prompt": "bound k 30 a 319 ->", "answer": " no 319<450"}
+{"task": "bound", "prompt": "bound k 21 a 189 ->", "answer": " no 189<221"}
+{"task": "bound", "prompt": "bound k 30 a 609 ->", "answer": " yes 609>=450"}
+{"task": "bound", "prompt": "bound k 28 a 416 ->", "answer": " yes 416>=392"}
+{"task": "bound", "prompt": "bound k 19 a 242 ->", "answer": " yes 242>=181"}
+{"task": "bound", "prompt": "bound k 19 a 252 ->", "answer": " yes 252>=181"}
+{"task": "bound", "prompt": "bound k 19 a 90 ->", "answer": " no 90<181"}
+{"task": "bound", "prompt": "bound k 27 a 484 ->", "answer": " yes 484>=365"}
+{"task": "bound", "prompt": "bound k 17 a 193 ->", "answer": " yes 193>=145"}
+{"task": "bound", "prompt": "bound k 28 a 464 ->", "answer": " yes 464>=392"}
+{"task": "bound", "prompt": "bound k 22 a 181 ->", "answer": " no 181<242"}
+{"task": "bound", "prompt": "bound k 23 a 159 ->", "answer": " no 159<265"}
+{"task": "bound", "prompt": "bound k 29 a 328 ->", "answer": " no 328<421"}
+{"task": "bound", "prompt": "bound k 11 a 48 ->", "answer": " no 48<61"}
+{"task": "bound", "prompt": "bound k 21 a 167 ->", "answer": " no 167<221"}
+{"task": "bound", "prompt": "bound k 6 a 27 ->", "answer": " yes 27>=18"}
+{"task": "bound", "prompt": "bound k 30 a 647 ->", "answer": " yes 647>=450"}
+{"task": "bound", "prompt": "bound k 19 a 220 ->", "answer": " yes 220>=181"}
+{"task": "bound", "prompt": "bound k 10 a 76 ->", "answer": " yes 76>=50"}
+{"task": "bound", "prompt": "bound k 24 a 332 ->", "answer": " yes 332>=288"}
+{"task": "bound", "prompt": "bound k 6 a 9 ->", "answer": " no 9<18"}
+{"task": "bound", "prompt": "bound k 9 a 41 ->", "answer": " yes 41>=41"}
+{"task": "bound", "prompt": "bound k 16 a 156 ->", "answer": " yes 156>=128"}
+{"task": "bound", "prompt": "bound k 11 a 65 ->", "answer": " yes 65>=61"}
+{"task": "bound", "prompt": "bound k 29 a 417 ->", "answer": " no 417<421"}
+{"task": "bound", "prompt": "bound k 26 a 320 ->", "answer": " no 320<338"}
+{"task": "bound", "prompt": "bound k 15 a 76 ->", "answer": " no 76<113"}
+{"task": "bound", "prompt": "bound k 22 a 300 ->", "answer": " yes 300>=242"}
+{"task": "bound", "prompt": "bound k 17 a 165 ->", "answer": " yes 165>=145"}
+{"task": "bound", "prompt": "bound k 18 a 244 ->", "answer": " yes 244>=162"}
+{"task": "bound", "prompt": "bound k 21 a 205 ->", "answer": " no 205<221"}
+{"task": "bound", "prompt": "bound k 13 a 55 ->", "answer": " no 55<85"}
+{"task": "bound", "prompt": "bound k 14 a 62 ->", "answer": " no 62<98"}
+{"task": "bound", "prompt": "bound k 20 a 131 ->", "answer": " no 131<200"}
+{"task": "bound", "prompt": "bound k 10 a 47 ->", "answer": " no 47<50"}
+{"task": "bound", "prompt": "bound k 26 a 429 ->", "answer": " yes 429>=338"}
+{"task": "bound", "prompt": "bound k 17 a 107 ->", "answer": " no 107<145"}
+{"task": "bound", "prompt": "bound k 25 a 173 ->", "answer": " no 173<313"}
+{"task": "bound", "prompt": "bound k 20 a 268 ->", "answer": " yes 268>=200"}
+{"task": "bound", "prompt": "bound k 27 a 243 ->", "answer": " no 243<365"}
+{"task": "bound", "prompt": "bound k 19 a 177 ->", "answer": " no 177<181"}
+{"task": "bound", "prompt": "bound k 28 a 436 ->", "answer": " yes 436>=392"}
