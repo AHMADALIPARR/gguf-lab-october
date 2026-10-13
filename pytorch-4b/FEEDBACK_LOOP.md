@@ -123,3 +123,27 @@ Observations:
   help, but this was not ablated.
 - The bound task stays weak (0.19). It requires computing floor((k^2+1)/2)
   in the answer string.
+
+## Results: from `runs/small-cpu-v2/final.pt`
+
+Same settings and seed, but with 8 threads (after v2 training finished).
+final.pt was used instead of best.pt because it has the lower full-split val
+loss. Run time was 10:20-10:35 PT on Oct 13 2026. The base evaluation shared
+the CPU with a separate eval job. Log: `dss/results/v2-final-metrics.jsonl`.
+
+| stage | round | next | isdss | card | bound | all | old-val loss | extra |
+|-------|------:|-----:|------:|-----:|------:|----:|-------------:|-------|
+| base | 0 | 0.00 | 0.00 | 0.00 | 0.00 | 0.000 | 2.3332 | |
+| SFT | 0 | 0.75 | 0.81 | 0.63 | 0.10 | 0.573 | 2.8826 | |
+| expert iter | 1 | 0.78 | 0.85 | 0.74 | 0.21 | 0.645 | 2.8092 | 418/800 samples verified |
+| expert iter | 2 | 0.79 | 0.88 | 0.78 | 0.20 | 0.663 | 2.8189 | 446/800 verified |
+| GRPO | 1 | 0.81 | 0.87 | 0.78 | 0.21 | 0.668 | 2.8190 | reward 0.517, KL 0.0038 |
+| GRPO | 2 | 0.84 | 0.88 | 0.74 | 0.20 | 0.665 | 2.8190 | reward 0.529, KL 0.0065 |
+| GRPO | 3 | 0.84 | 0.88 | 0.76 | 0.20 | 0.670 | 2.8191 | reward 0.520, KL 0.0179 |
+
+The pattern matches the prototype. SFT and expert iteration bring held-out
+accuracy from 0 to 0.663. The GRPO rounds change it by less than one standard
+error (about 2.4 points). Old-val loss ends 0.49 above the v2 base (2.333 ->
+2.819), which is a clear forgetting cost at this replay ratio. The mean
+training reward during RL ranged from 0.517 to 0.529; KL to the reference
+grew from 0.004 to 0.018.
