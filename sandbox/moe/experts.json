@@ -1,0 +1,41 @@
+{
+  "router_model": "models/embeddinggemma-2-UD-Q4_K_XL.gguf",
+  "embedding_dim": 768,
+  "experts": [
+    {
+      "id": "mellum",
+      "model": "models/mellum-E8-experimental.gguf",
+      "specialty": "code generation, debugging, code review, programming languages, software engineering",
+      "anchor_prompts": [
+        "Write a Python function to sort a list",
+        "Debug this null pointer exception in Java",
+        "Review this pull request for memory leaks"
+      ]
+    },
+    {
+      "id": "qwen27",
+      "model": "models/qwen3.8-27b.gguf",
+      "specialty": "general reasoning, math, science, writing, analysis",
+      "anchor_prompts": [
+        "Explain quantum entanglement in simple terms",
+        "Solve this calculus problem step by step",
+        "Write an essay about climate change"
+      ]
+    },
+    {
+      "id": "bonsai",
+      "model": "models/ternary-bonsai-2-27b.gguf",
+      "specialty": "efficient inference, low-resource deployment, quantized reasoning",
+      "anchor_prompts": [
+        "Summarize this document concisely",
+        "Answer this factual question briefly",
+        "Classify this text by topic"
+      ]
+    }
+  ],
+  "routing": {
+    "top_k": 1,
+    "similarity_threshold": 0.0,
+    "method": "cosine_similarity_to_anchor_centroid"
+  }
+}

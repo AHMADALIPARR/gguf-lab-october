@@ -5,3 +5,4 @@ cache/
 *.gguf
 *.part
 __pycache__/
+sandbox/outputs/
