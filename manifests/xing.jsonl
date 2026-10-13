@@ -1,0 +1,978 @@
+{"type": "manifest", "model_id": "xing", "repo": "XingChen-AGI/Xing4.0-29B-A4B-GGUF", "filename": "xing4_0-29b-IQ4_NL.gguf", "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B-GGUF/resolve/main/xing4_0-29b-IQ4_NL.gguf", "tensor_count": 977, "metadata": {"general.architecture": "xing4_0", "general.type": "model", "general.sampling.top_p": 0.949999988079071, "general.sampling.temp": 1.0, "general.sampling.penalty_repeat": 1.0499999523162842, "general.name": "29b_12.05T_wodsa_id20_s3_256k_8_260903_1000_final_hf", "general.finetune": "29b_12.05T_wodsa_id20_s3_256k_8_260903_1000_final_hf", "general.size_label": "64x4.2B", "xing4_0.block_count": 41, "xing4_0.context_length": 262144, "xing4_0.embedding_length": 3584, "xing4_0.feed_forward_length": 9216, "xing4_0.attention.head_count": 32, "xing4_0.attention.head_count_kv": 1, "xing4_0.rope.scaling.type": "yarn", "xing4_0.rope.scaling.factor": 64.0, "xing4_0.rope.scaling.original_context_length": 4096, "xing4_0.rope.scaling.yarn_beta_fast": 32.0, "xing4_0.rope.scaling.yarn_beta_slow": 1.0, "xing4_0.rope.freq_base": 10000.0, "xing4_0.attention.layer_norm_rms_epsilon": 9.999999974752427e-07, "xing4_0.expert_count": 64, "xing4_0.expert_used_count": 4, "xing4_0.expert_group_count": 1, "xing4_0.expert_group_used_count": 1, "xing4_0.expert_gating_func": 2, "xing4_0.leading_dense_block_count": 2, "xing4_0.vocab_size": 131072, "xing4_0.attention.q_lora_rank": 768, "xing4_0.attention.kv_lora_rank": 512, "xing4_0.attention.key_length": 576, "xing4_0.attention.value_length": 512, "xing4_0.attention.key_length_mla": 192, "xing4_0.attention.value_length_mla": 128, "xing4_0.expert_feed_forward_length": 1024, "xing4_0.expert_shared_count": 1, "xing4_0.expert_weights_scale": 2.0, "xing4_0.expert_weights_norm": true, "xing4_0.rope.dimension_count": 64, "xing4_0.rope.scaling.yarn_log_multiplier": 0.10000000149011612, "xing4_0.nextn_predict_layers": 1, "xing4_0.hyper_connection.count": 4, "xing4_0.hyper_connection.sinkhorn_iterations": 20, "xing4_0.hyper_connection.epsilon": 9.999999974752427e-07, "tokenizer.ggml.model": null, "tokenizer.ggml.pre": null, "tokenizer.ggml.tokens": null, "tokenizer.ggml.scores": null, "tokenizer.ggml.token_type": null, "tokenizer.ggml.bos_token_id": 1, "tokenizer.ggml.eos_token_id": 2, "tokenizer.ggml.add_bos_token": false, "tokenizer.ggml.add_eos_token": false, "tokenizer.chat_template": null, "general.quantization_version": 2, "general.file_type": 25, "quantize.imatrix.file": "/gemini/space/shixq7/imatrix.dat", "quantize.imatrix.dataset": "/gemini/space/shixq7/calibration.txt", "quantize.imatrix.entries_count": 592, "quantize.imatrix.chunks_count": 8}}
+{"type": "tensor", "model_id": "xing", "name": "output.weight", "shape": [3584, 131072], "dtype": "Q6_K", "dtype_id": 14, "offset": 0, "n_elements": 469762048}
+{"type": "tensor", "model_id": "xing", "name": "output_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 385351680, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "token_embd.weight", "shape": [3584, 131072], "dtype": "BF16", "dtype_id": 30, "offset": 385366016, "n_elements": 469762048}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 1324890112, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 1329084416, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 1333213184, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 1333215232, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 1333229568, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 1362589696, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 1368094720, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 1368097792, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 1377534976, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.ffn_down.weight", "shape": [9216, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1381729280, "n_elements": 33030144}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.ffn_gate.weight", "shape": [3584, 9216], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1400308736, "n_elements": 33030144}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 1418888192, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.ffn_up.weight", "shape": [3584, 9216], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1418902528, "n_elements": 33030144}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 1437481984, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 1437482080, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 1438170208, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 1438170240, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 1438170336, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.0.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 1438858464, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 1438858496, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 1443052800, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 1447181568, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 1447183616, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 1447197952, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 1476558080, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 1482063104, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 1482066176, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 1491503360, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.ffn_down.weight", "shape": [9216, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1495697664, "n_elements": 33030144}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.ffn_gate.weight", "shape": [3584, 9216], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1514277120, "n_elements": 33030144}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 1532856576, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.ffn_up.weight", "shape": [3584, 9216], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1532870912, "n_elements": 33030144}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 1551450368, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 1551450464, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 1552138592, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 1552138624, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 1552138720, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.1.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 1552826848, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 1552826880, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 1557021184, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 1561149952, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 1561152000, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 1561166336, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 1590526464, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 1596031488, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 1596034560, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 1605471744, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 1609666048, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1609666304, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1741786880, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1743851264, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 1875971840, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1876889344, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 1878953728, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 1878968064, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2011088640, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 2013153024, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 2013153120, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 2013841248, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 2013841280, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 2013841376, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.2.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 2014529504, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 2014529536, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 2018723840, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 2022852608, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 2022854656, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 2022868992, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 2052229120, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 2057734144, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 2057737216, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 2067174400, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 2071368704, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2071368960, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2203489536, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2205553920, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 2337674496, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2338592000, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 2340656384, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2340670720, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2472791296, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 2474855680, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 2474855776, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 2475543904, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 2475543936, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 2475544032, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.3.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 2476232160, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 2476232192, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 2480426496, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 2484555264, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 2484557312, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 2484571648, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 2513931776, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 2519436800, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 2519439872, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 2528877056, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 2533071360, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2533071616, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2665192192, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2667256576, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 2799377152, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2800294656, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 2802359040, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2802373376, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2934493952, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 2936558336, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 2936558432, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 2937246560, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 2937246592, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 2937246688, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.4.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 2937934816, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 2937934848, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 2942129152, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 2946257920, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 2946259968, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 2946274304, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 2975634432, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 2981139456, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 2981142528, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 2990579712, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 2994774016, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 2994774272, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3126894848, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3128959232, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 3261079808, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3261997312, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 3264061696, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3264076032, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3396196608, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 3398260992, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 3398261088, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 3398949216, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 3398949248, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 3398949344, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.5.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 3399637472, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 3399637504, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 3403831808, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 3407960576, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 3407962624, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 3407976960, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 3437337088, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 3442842112, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 3442845184, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 3452282368, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 3456476672, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3456476928, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3588597504, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3590661888, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 3722782464, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3723699968, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 3725764352, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3725778688, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3857899264, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 3859963648, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 3859963744, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 3860651872, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 3860651904, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 3860652000, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.6.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 3861340128, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 3861340160, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 3865534464, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 3869663232, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 3869665280, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 3869679616, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 3899039744, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 3904544768, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 3904547840, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 3913985024, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 3918179328, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 3918179584, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4050300160, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4052364544, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 4184485120, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4185402624, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 4187467008, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4187481344, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4319601920, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 4321666304, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 4321666400, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 4322354528, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 4322354560, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 4322354656, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.7.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 4323042784, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 4323042816, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 4327237120, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 4331365888, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 4331367936, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 4331382272, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 4360742400, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 4366247424, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 4366250496, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 4375687680, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 4379881984, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4379882240, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4512002816, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4514067200, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 4646187776, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4647105280, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 4649169664, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4649184000, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4781304576, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 4783368960, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 4783369056, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 4784057184, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 4784057216, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 4784057312, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.8.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 4784745440, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 4784745472, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 4788939776, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 4793068544, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 4793070592, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 4793084928, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 4822445056, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 4827950080, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 4827953152, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 4837390336, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 4841584640, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4841584896, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4973705472, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 4975769856, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 5107890432, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5108807936, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 5110872320, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5110886656, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5243007232, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 5245071616, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 5245071712, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 5245759840, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 5245759872, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 5245759968, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.9.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 5246448096, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 5246448128, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 5250642432, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 5254771200, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 5254773248, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 5254787584, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 5284147712, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 5289652736, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 5289655808, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 5299092992, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 5303287296, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5303287552, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5435408128, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5437472512, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 5569593088, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5570510592, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 5572574976, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5572589312, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5704709888, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 5706774272, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 5706774368, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 5707462496, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 5707462528, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 5707462624, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.10.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 5708150752, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 5708150784, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 5712345088, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 5716473856, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 5716475904, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 5716490240, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 5745850368, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 5751355392, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 5751358464, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 5760795648, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 5764989952, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5764990208, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5897110784, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 5899175168, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 6031295744, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6032213248, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 6034277632, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6034291968, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6166412544, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 6168476928, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 6168477024, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 6169165152, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 6169165184, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 6169165280, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.11.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 6169853408, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 6169853440, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 6174047744, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 6178176512, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 6178178560, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 6178192896, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 6207553024, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 6213058048, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 6213061120, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 6222498304, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 6226692608, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6226692864, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6358813440, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6360877824, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 6492998400, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6493915904, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 6495980288, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6495994624, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6628115200, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 6630179584, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 6630179680, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 6630867808, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 6630867840, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 6630867936, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.12.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 6631556064, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 6631556096, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 6635750400, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 6639879168, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 6639881216, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 6639895552, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 6669255680, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 6674760704, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 6674763776, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 6684200960, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 6688395264, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6688395520, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6820516096, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6822580480, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 6954701056, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6955618560, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 6957682944, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 6957697280, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7089817856, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 7091882240, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 7091882336, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 7092570464, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 7092570496, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 7092570592, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.13.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 7093258720, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 7093258752, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 7097453056, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 7101581824, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 7101583872, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 7101598208, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 7130958336, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 7136463360, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 7136466432, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 7145903616, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 7150097920, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7150098176, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7282218752, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7284283136, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 7416403712, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7417321216, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 7419385600, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7419399936, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7551520512, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 7553584896, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 7553584992, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 7554273120, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 7554273152, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 7554273248, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.14.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 7554961376, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 7554961408, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 7559155712, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 7563284480, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 7563286528, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 7563300864, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 7592660992, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 7598166016, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 7598169088, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 7607606272, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 7611800576, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7611800832, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7743921408, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7745985792, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 7878106368, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7879023872, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 7881088256, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 7881102592, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8013223168, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 8015287552, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 8015287648, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 8015975776, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 8015975808, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 8015975904, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.15.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 8016664032, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 8016664064, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 8020858368, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 8024987136, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 8024989184, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 8025003520, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 8054363648, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 8059868672, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 8059871744, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 8069308928, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 8073503232, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8073503488, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8205624064, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8207688448, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 8339809024, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8340726528, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 8342790912, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8342805248, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8474925824, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 8476990208, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 8476990304, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 8477678432, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 8477678464, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 8477678560, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.16.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 8478366688, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 8478366720, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 8482561024, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 8486689792, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 8486691840, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 8486706176, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 8516066304, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 8521571328, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 8521574400, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 8531011584, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 8535205888, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8535206144, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8667326720, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8669391104, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 8801511680, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8802429184, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 8804493568, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8804507904, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8936628480, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 8938692864, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 8938692960, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 8939381088, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 8939381120, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 8939381216, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.17.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 8940069344, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 8940069376, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 8944263680, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 8948392448, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 8948394496, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 8948408832, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 8977768960, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 8983273984, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 8983277056, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 8992714240, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 8996908544, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 8996908800, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9129029376, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9131093760, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 9263214336, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9264131840, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 9266196224, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9266210560, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9398331136, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 9400395520, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 9400395616, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 9401083744, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 9401083776, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 9401083872, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.18.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 9401772000, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 9401772032, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 9405966336, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 9410095104, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 9410097152, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 9410111488, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 9439471616, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 9444976640, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 9444979712, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 9454416896, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 9458611200, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9458611456, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9590732032, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9592796416, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 9724916992, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9725834496, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 9727898880, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9727913216, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9860033792, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 9862098176, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 9862098272, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 9862786400, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 9862786432, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 9862786528, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.19.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 9863474656, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 9863474688, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 9867668992, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 9871797760, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 9871799808, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 9871814144, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 9901174272, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 9906679296, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 9906682368, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 9916119552, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 9920313856, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 9920314112, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10052434688, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10054499072, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 10186619648, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10187537152, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 10189601536, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10189615872, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10321736448, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 10323800832, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 10323800928, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 10324489056, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 10324489088, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 10324489184, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.20.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 10325177312, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 10325177344, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 10329371648, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 10333500416, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 10333502464, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 10333516800, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 10362876928, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 10368381952, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 10368385024, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 10377822208, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 10382016512, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10382016768, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10514137344, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10516201728, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 10648322304, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10649239808, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 10651304192, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10651318528, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10783439104, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 10785503488, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 10785503584, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 10786191712, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 10786191744, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 10786191840, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.21.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 10786879968, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 10786880000, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 10791074304, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 10795203072, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 10795205120, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 10795219456, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 10824579584, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 10830084608, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 10830087680, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 10839524864, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 10843719168, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10843719424, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10975840000, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 10977904384, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 11110024960, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11110942464, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 11113006848, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11113021184, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11245141760, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 11247206144, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 11247206240, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 11247894368, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 11247894400, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 11247894496, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.22.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 11248582624, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 11248582656, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 11252776960, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 11256905728, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 11256907776, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 11256922112, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 11286282240, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 11291787264, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 11291790336, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 11301227520, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 11305421824, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11305422080, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11437542656, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11439607040, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 11571727616, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11572645120, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 11574709504, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11574723840, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11706844416, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 11708908800, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 11708908896, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 11709597024, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 11709597056, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 11709597152, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.23.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 11710285280, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 11710285312, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 11714479616, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 11718608384, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 11718610432, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 11718624768, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 11747984896, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 11753489920, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 11753492992, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 11762930176, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 11767124480, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11767124736, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11899245312, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 11901309696, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 12033430272, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12034347776, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 12036412160, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12036426496, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12168547072, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 12170611456, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 12170611552, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 12171299680, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 12171299712, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 12171299808, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.24.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 12171987936, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 12171987968, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 12176182272, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 12180311040, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 12180313088, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 12180327424, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 12209687552, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 12215192576, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 12215195648, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 12224632832, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 12228827136, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12228827392, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12360947968, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12363012352, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 12495132928, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12496050432, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 12498114816, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12498129152, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12630249728, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 12632314112, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 12632314208, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 12633002336, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 12633002368, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 12633002464, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.25.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 12633690592, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 12633690624, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 12637884928, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 12642013696, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 12642015744, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 12642030080, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 12671390208, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 12676895232, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 12676898304, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 12686335488, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 12690529792, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12690530048, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12822650624, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12824715008, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 12956835584, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12957753088, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 12959817472, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 12959831808, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13091952384, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 13094016768, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 13094016864, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 13094704992, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 13094705024, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 13094705120, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.26.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 13095393248, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 13095393280, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 13099587584, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 13103716352, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 13103718400, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 13103732736, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 13133092864, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 13138597888, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 13138600960, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 13148038144, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 13152232448, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13152232704, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13284353280, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13286417664, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 13418538240, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13419455744, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 13421520128, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13421534464, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13553655040, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 13555719424, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 13555719520, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 13556407648, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 13556407680, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 13556407776, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.27.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 13557095904, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 13557095936, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 13561290240, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 13565419008, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 13565421056, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 13565435392, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 13594795520, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 13600300544, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 13600303616, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 13609740800, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 13613935104, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13613935360, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13746055936, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13748120320, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 13880240896, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13881158400, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 13883222784, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 13883237120, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14015357696, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 14017422080, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 14017422176, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 14018110304, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 14018110336, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 14018110432, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.28.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 14018798560, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 14018798592, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 14022992896, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 14027121664, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 14027123712, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 14027138048, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 14056498176, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 14062003200, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 14062006272, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 14071443456, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 14075637760, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14075638016, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14207758592, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14209822976, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 14341943552, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14342861056, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 14344925440, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14344939776, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14477060352, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 14479124736, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 14479124832, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 14479812960, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 14479812992, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 14479813088, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.29.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 14480501216, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 14480501248, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 14484695552, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 14488824320, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 14488826368, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 14488840704, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 14518200832, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 14523705856, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 14523708928, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 14533146112, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 14537340416, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14537340672, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14669461248, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14671525632, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 14803646208, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14804563712, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 14806628096, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14806642432, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14938763008, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 14940827392, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 14940827488, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 14941515616, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 14941515648, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 14941515744, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.30.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 14942203872, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 14942203904, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 14946398208, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 14950526976, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 14950529024, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 14950543360, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 14979903488, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 14985408512, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 14985411584, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 14994848768, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 14999043072, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 14999043328, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15131163904, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15133228288, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 15265348864, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15266266368, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 15268330752, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15268345088, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15400465664, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 15402530048, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 15402530144, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 15403218272, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 15403218304, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 15403218400, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.31.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 15403906528, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 15403906560, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 15408100864, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 15412229632, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 15412231680, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 15412246016, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 15441606144, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 15447111168, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 15447114240, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 15456551424, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 15460745728, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15460745984, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15592866560, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15594930944, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 15727051520, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15727969024, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 15730033408, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15730047744, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15862168320, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 15864232704, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 15864232800, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 15864920928, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 15864920960, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 15864921056, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.32.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 15865609184, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 15865609216, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 15869803520, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 15873932288, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 15873934336, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 15873948672, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 15903308800, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 15908813824, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 15908816896, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 15918254080, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 15922448384, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 15922448640, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16054569216, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16056633600, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 16188754176, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16189671680, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 16191736064, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16191750400, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16323870976, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 16325935360, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 16325935456, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 16326623584, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 16326623616, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 16326623712, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.33.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 16327311840, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 16327311872, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 16331506176, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 16335634944, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 16335636992, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 16335651328, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 16365011456, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 16370516480, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 16370519552, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 16379956736, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 16384151040, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16384151296, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16516271872, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16518336256, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 16650456832, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16651374336, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 16653438720, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16653453056, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16785573632, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 16787638016, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 16787638112, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 16788326240, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 16788326272, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 16788326368, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.34.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 16789014496, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 16789014528, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 16793208832, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 16797337600, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 16797339648, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 16797353984, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 16826714112, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 16832219136, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 16832222208, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 16841659392, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 16845853696, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16845853952, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16977974528, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 16980038912, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 17112159488, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17113076992, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 17115141376, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17115155712, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17247276288, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 17249340672, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 17249340768, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 17250028896, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 17250028928, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 17250029024, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.35.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 17250717152, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 17250717184, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 17254911488, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 17259040256, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 17259042304, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 17259056640, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 17288416768, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 17293921792, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 17293924864, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 17303362048, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 17307556352, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17307556608, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17439677184, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17441741568, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 17573862144, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17574779648, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 17576844032, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17576858368, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17708978944, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 17711043328, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 17711043424, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 17711731552, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 17711731584, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 17711731680, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.36.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 17712419808, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 17712419840, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 17716614144, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 17720742912, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 17720744960, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 17720759296, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 17750119424, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 17755624448, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 17755627520, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 17765064704, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 17769259008, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17769259264, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17901379840, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 17903444224, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 18035564800, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18036482304, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 18038546688, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18038561024, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18170681600, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 18172745984, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 18172746080, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 18173434208, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 18173434240, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 18173434336, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.37.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 18174122464, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 18174122496, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 18178316800, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 18182445568, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 18182447616, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 18182461952, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 18211822080, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 18217327104, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 18217330176, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 18226767360, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 18230961664, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18230961920, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18363082496, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18365146880, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 18497267456, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18498184960, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 18500249344, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18500263680, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18632384256, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 18634448640, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 18634448736, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 18635136864, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 18635136896, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 18635136992, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.38.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 18635825120, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 18635825152, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 18640019456, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 18644148224, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 18644150272, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 18644164608, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 18673524736, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 18679029760, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 18679032832, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 18688470016, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 18692664320, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18692664576, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18824785152, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18826849536, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 18958970112, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18959887616, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 18961952000, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 18961966336, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19094086912, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.hc_attn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 19096151296, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.hc_attn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 19096151392, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.hc_attn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 19096839520, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.hc_ffn_base.weight", "shape": [24], "dtype": "F32", "dtype_id": 0, "offset": 19096839552, "n_elements": 24}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.hc_ffn_fn.weight", "shape": [14336, 24], "dtype": "BF16", "dtype_id": 30, "offset": 19096839648, "n_elements": 344064}
+{"type": "tensor", "model_id": "xing", "name": "blk.39.hc_ffn_scale.weight", "shape": [3], "dtype": "F32", "dtype_id": 0, "offset": 19097527776, "n_elements": 3}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_k_b.weight", "shape": [128, 512, 32], "dtype": "BF16", "dtype_id": 30, "offset": 19097527808, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_kv_a_mqa.weight", "shape": [3584, 576], "dtype": "BF16", "dtype_id": 30, "offset": 19101722112, "n_elements": 2064384}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_kv_a_norm.weight", "shape": [512], "dtype": "F32", "dtype_id": 0, "offset": 19105850880, "n_elements": 512}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 19105852928, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_output.weight", "shape": [4096, 3584], "dtype": "BF16", "dtype_id": 30, "offset": 19105867264, "n_elements": 14680064}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_q_a.weight", "shape": [3584, 768], "dtype": "BF16", "dtype_id": 30, "offset": 19135227392, "n_elements": 2752512}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_q_a_norm.weight", "shape": [768], "dtype": "F32", "dtype_id": 0, "offset": 19140732416, "n_elements": 768}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_q_b.weight", "shape": [768, 6144], "dtype": "BF16", "dtype_id": 30, "offset": 19140735488, "n_elements": 4718592}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.attn_v_b.weight", "shape": [512, 128, 32], "dtype": "BF16", "dtype_id": 30, "offset": 19150172672, "n_elements": 2097152}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.exp_probs_b.bias", "shape": [64], "dtype": "F32", "dtype_id": 0, "offset": 19154366976, "n_elements": 64}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_down_exps.weight", "shape": [1024, 3584, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19154367232, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_down_shexp.weight", "shape": [1024, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19286487808, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_gate_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19288552192, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_gate_inp.weight", "shape": [3584, 64], "dtype": "F32", "dtype_id": 0, "offset": 19420672768, "n_elements": 229376}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_gate_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19421590272, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 19423654656, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_up_exps.weight", "shape": [3584, 1024, 64], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19423668992, "n_elements": 234881024}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.ffn_up_shexp.weight", "shape": [3584, 1024], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19555789568, "n_elements": 3670016}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.nextn.eh_proj.weight", "shape": [7168, 3584], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19557853952, "n_elements": 25690112}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.nextn.embed_tokens.weight", "shape": [3584, 131072], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19572304640, "n_elements": 469762048}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.nextn.enorm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 19836545792, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.nextn.hnorm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 19836560128, "n_elements": 3584}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.nextn.shared_head_head.weight", "shape": [3584, 131072], "dtype": "IQ4_NL", "dtype_id": 20, "offset": 19836574464, "n_elements": 469762048}
+{"type": "tensor", "model_id": "xing", "name": "blk.40.nextn.shared_head_norm.weight", "shape": [3584], "dtype": "F32", "dtype_id": 0, "offset": 20100815616, "n_elements": 3584}
