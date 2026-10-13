@@ -33,6 +33,26 @@ class Config:
     dropout = 0.0
 
 
+class SmallConfig(Config):
+    """CPU-trainable scale-down of the same architecture (GQA 3:1, SwiGLU,
+    RMSNorm, RoPE, 32k vocab). Used for the CPU run in TRAINING_RUN.md."""
+    hidden_dim = 384
+    n_layers = 6
+    n_heads = 6
+    n_kv_heads = 2
+    ffn_dim = 1024
+    max_seq_len = 256
+    rope_theta = 10000.0
+
+
+CONFIGS = {"4b": Config, "small": SmallConfig}
+
+
+def config_to_dict(cfg):
+    return {k: getattr(cfg, k) for k in dir(cfg)
+            if not k.startswith("_") and not callable(getattr(cfg, k))}
+
+
 class RMSNorm(nn.Module):
     def __init__(self, dim, eps=1e-6):
         super().__init__()
@@ -92,11 +112,12 @@ class GQAAttention(nn.Module):
         k = k.transpose(1, 2)
         v = v.transpose(1, 2)
 
-        attn = (q @ k.transpose(-2, -1)) / math.sqrt(self.head_dim)
+        # Causal by default; an explicit additive mask overrides it.
         if mask is not None:
-            attn = attn + mask
-        attn = F.softmax(attn.float(), dim=-1).type_as(q)
-        out = (attn @ v).transpose(1, 2).reshape(B, T, -1)
+            out = F.scaled_dot_product_attention(q, k, v, attn_mask=mask)
+        else:
+            out = F.scaled_dot_product_attention(q, k, v, is_causal=True)
+        out = out.transpose(1, 2).reshape(B, T, -1)
         return self.wo(out)
 
 
@@ -154,7 +175,8 @@ class Transformer4B(nn.Module):
 
 
 if __name__ == "__main__":
-    cfg = Config()
+    import sys
+    cfg = CONFIGS[sys.argv[1] if len(sys.argv) > 1 else "4b"]()
     model = Transformer4B(cfg)
     n = model.param_count()
     print(f"Parameters: {n:,} ({n/1e9:.2f}B)")
