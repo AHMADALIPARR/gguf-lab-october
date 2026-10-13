@@ -75,10 +75,18 @@ def stage_ingest(manifest_path):
                 raise ValueError(
                     f"{manifest_path}:{lineno}: invalid JSON: {e}")
             rtype = record.get("type")
-            if rtype == "manifest":
+            if rtype in ("manifest", "unified_manifest"):
                 if manifest is not None:
                     raise ValueError("Duplicate manifest line")
                 manifest = record
+                # Normalize unified manifests to the expected schema
+                if rtype == "unified_manifest":
+                    manifest = {
+                        "model_id": "unified",
+                        "tensor_count": record.get("tensor_count"),
+                        "repo": "unified",
+                        "filename": "unified",
+                    }
             elif rtype == "tensor":
                 tensors.append((lineno, record))
             else:
