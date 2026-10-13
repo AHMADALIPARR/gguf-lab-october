@@ -65,7 +65,9 @@ def evaluate(model, data, seq_len, batch_size, vocab, max_batches):
     """Mean next-token loss over contiguous, non-overlapping val windows."""
     model.eval()
     n = (len(data) - 1) // seq_len
-    starts = list(range(0, n * seq_len, seq_len))[:max_batches * batch_size]
+    starts = list(range(0, n * seq_len, seq_len))
+    if max_batches > 0:
+        starts = starts[:max_batches * batch_size]
     tot, cnt = 0.0, 0
     for b in range(0, len(starts), batch_size):
         sb = starts[b:b + batch_size]
@@ -172,6 +174,9 @@ def train(args):
                 torch.save(ckpt, path)
                 print(f"checkpoint: {path}", flush=True)
 
+            if args.max_hours and time.time() - t_start > args.max_hours * 3600:
+                print(f"time cap reached at step {step}", flush=True)
+                args.total_steps = step
             if step >= args.total_steps:
                 break
         if step >= args.total_steps:
@@ -218,7 +223,10 @@ if __name__ == "__main__":
     ap.add_argument("--config", choices=sorted(CONFIGS), default="4b")
     ap.add_argument("--val-data", default=None, help="Held-out .bin (uint16)")
     ap.add_argument("--eval-every", type=int, default=100)
-    ap.add_argument("--eval-batches", type=int, default=20)
+    ap.add_argument("--eval-batches", type=int, default=20,
+                    help="<=0 evaluates the full val split")
+    ap.add_argument("--max-hours", type=float, default=0,
+                    help="stop after this much wall time (0 = no cap)")
     ap.add_argument("--threads", type=int, default=0)
     ap.add_argument("--seed", type=int, default=0)
     train(ap.parse_args())

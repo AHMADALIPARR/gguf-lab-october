@@ -1,12 +1,29 @@
 {
   "vocab": 32000,
   "eos_id": 2,
+  "re_corpus_docs": 650,
+  "devflow_new_docs": 1411,
+  "devflow_skipped": {
+    "lockfile": 3,
+    "license_sidecar": 159,
+    "not_regular": 0,
+    "over_1mb": 10,
+    "binary": 28,
+    "empty": 14,
+    "duplicate": 31
+  },
   "docs": {
-    "train": 618,
-    "val": 32
+    "train": 1958,
+    "val": 32,
+    "val_new": 71
   },
   "tokens": {
-    "train": 1665029,
-    "val": 161689
+    "train": 5506456,
+    "val": 161689,
+    "val_new": 214872
+  },
+  "train_tokens_by_source": {
+    "re_train": 1665029,
+    "devflow_train": 3841427
   }
 }

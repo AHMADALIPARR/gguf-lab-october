@@ -92,7 +92,7 @@ with them.
 | 2000 | 4 | 2.0727 | 3.7010 (min) |
 | 2400 | 5 | 1.7107 | 3.7609 |
 
-Plot: `docs/train-loss.png` (from `plot_loss.py`).
+Plot: `docs/train-loss-v1.png` (from `plot_loss.py`).
 
 ## Full-split evaluation (`eval.py`, 161,536 val targets)
 
@@ -154,3 +154,127 @@ Prompt `Explain stack canaries and how they prevent buffer overflows:`:
 The model reproduces the surface form of the corpus (file headers, Python,
 Markdown). It does not answer questions, and greedy decoding falls into
 repetition. This is consistent with the model size and the amount of data.
+
+---
+
+# v2: re-corpus + devflow-finance-twin, retrained from scratch
+
+Same `small` config (34,018,176 parameters), same tokenizer, same
+hyperparameters except step count and eval. Output is in `runs/small-cpu-v2`
+(not committed).
+
+## Data (`scripts/build_corpus_v2.py`)
+
+Text files were extracted from a devflow-finance-twin checkout (master,
+d08690f, 1,656 files):
+
+| Outcome | Files |
+|---|---|
+| Kept as new docs | 1,411 |
+| Skipped: exact-hash duplicate (21 of them already in re-corpus, the rest repeated within devflow, including the repeated LICENSE copies) | 31 |
+| Skipped: `*.license` REUSE sidecar files (per-file SPDX boilerplate) | 159 |
+| Skipped: binary or not valid UTF-8 | 28 |
+| Skipped: over 1 MB | 10 |
+| Skipped: empty | 14 |
+| Skipped: lockfile | 3 |
+
+The split is by document. The v1 val docs are reused unchanged: `val.bin` is
+byte-identical to v1 (same md5).
+
+| Split | Docs | Tokens |
+|---|---|---|
+| train (`tokens.bin`) | 1,958 (618 re-corpus + 1,340 devflow) | 5,506,456 (1,665,029 re-corpus + 3,841,427 devflow) |
+| val, old (`val.bin`, the v1 val docs) | 32 | 161,689 |
+| val, new (`val-new.bin`, 5% of the devflow docs) | 71 | 214,872 |
+
+## Training
+
+`train.py` gained two options: `--eval-batches 0` evaluates the **full** val
+split, and `--max-hours` sets a wall-time cap. v2 evaluated the full old-val
+split every 250 steps and saved `best.pt` on that number.
+
+```sh
+python pytorch-4b/train.py --config small --data pytorch-4b/data/tokens.bin \
+  --val-data pytorch-4b/data/val.bin --out runs/small-cpu-v2 --seq-len 256 \
+  --batch-size 16 --total-steps 5400 --warmup-steps 200 --peak-lr 1e-3 \
+  --min-lr 1e-4 --log-every 50 --eval-every 250 --eval-batches 0 \
+  --ckpt-every 100000 --max-hours 2.85 --workers 0 --threads 8 --epochs 99
+```
+
+- The run was planned for 5,400 steps (about 4.0 passes, at 1,344 steps per
+  epoch). The 2.85 h cap stopped it at **step 4,718**: 19.3M tokens seen, about
+  3.5 passes. The cosine schedule had not reached its floor (LR was about
+  1.4e-4 at the stop).
+- Wall time: **10,280 s** (2.86 h), as measured by the process clock. This
+  includes periods when the shared box was paused or contended. The process
+  CPU-time and elapsed counters suggest the pure compute time was lower.
+
+## Loss curve (full old-val split, every 250 steps)
+
+| Step | Epoch | Train (50-step mean) | Val (full) |
+|---|---|---|---|
+| 250 | 0 | 5.2095 | 5.3292 |
+| 1000 | 0 | 3.5541 | 3.8284 |
+| 2000 | 1 | 2.8396 | 3.2581 |
+| 3000 | 2 | 2.2835 | 2.8288 |
+| 4000 | 2 | 2.1220 | 2.5931 |
+| 4250 | 3 | 1.8563 | 2.5943 |
+| 4500 | 3 | 1.7870 | 2.5560 |
+| 4718 (final) | 3 | – | 2.5248 |
+
+Plot: `docs/train-loss.png` (v2, full-split val). The v1 plot is now
+`docs/train-loss-v1.png`.
+
+## Full-split evaluation (`eval.py`)
+
+| Checkpoint | Old val loss / ppl | New val loss / ppl |
+|---|---|---|
+| v1 `best.pt` (step 2000) | 4.7251 / 112.74 | – |
+| v2 `best.pt` (step 4500) | 2.5560 / 12.88 | 2.7682 / 15.93 |
+| v2 `final.pt` (step 4718) | **2.5248** | **2.7637 / 15.86** |
+| Unigram baseline (v2 train counts) | 7.6256 / 2050.01 | 7.3293 / 1524.25 |
+
+- **Old val:** on the same 32 docs, full-split val loss fell from 4.7251 (v1)
+  to 2.5248 (v2 final), a drop of 2.20 nats/token.
+- **Overfitting:** unlike v1, val loss was still falling when the run stopped.
+  The train/val gap at step 4500 was about 0.77 nats, against about 3 nats in
+  v1. The run did not overfit within its 3.5 passes. More steps would probably
+  lower val loss further, but this run did not measure that.
+- **Caveats:**
+  - Part of the improvement on old val may come from the overlap between the
+    corpora: 21 devflow files were already in re-corpus, and related devflow
+    text now appears in train. Exact duplicates were removed, so the old val
+    docs themselves are not in train.
+  - The unigram baseline changed, from 7.7180 to 7.6256, because the train
+    counts changed.
+- **Checkpoint choice:** `final.pt` scores lower than `best.pt` on both splits.
+  `best.pt` was only updated at 250-step evals, and the final steps continued
+  to improve. `final.pt` is the lowest-loss v2 checkpoint, and it is the one
+  exported.
+
+## GGUF export
+
+```sh
+python pytorch-4b/export_gguf.py runs/small-cpu-v2/final.pt runs/small-cpu-v2/small-v2-final.gguf --config small
+```
+
+- 137,155,936 bytes, F32, rope theta 10,000 read from the checkpoint. Not
+  committed.
+- llama.cpp `llama-simple` loads and generates from the file. For the prompt
+  below, its greedy output is identical to PyTorch greedy decoding.
+
+Prompt `# Reverse engineering` (llama-simple, greedy, 40 tokens):
+
+```
+# Reverse engineering
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--get-parse", "module")
+    parser.add_
+```
+
+Output is syntactically plausible Python and Markdown, but it does not answer
+the prompts. On question prompts, greedy decoding still repeats itself (see
+`eval.py` samples).

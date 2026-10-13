@@ -27,7 +27,7 @@
 - **Overfitting:** after step 1200, val loss levels off and then rises (4.7251 at step 2000, 4.8019 at step 2400). Over the same steps, train loss keeps falling, to 1.71 at step 2400. At the final step the gap between train and full-val loss is 3.09 nats. With about 1.7M train tokens and 34M parameters, the model memorizes the corpus. Use `best.pt` (step 2000), not `final.pt`.
 - **Sampled vs full val:** during training, `train.py` scores val on only the first 320 windows (`--eval-batches 20`), which is about half the val split. That gives lower numbers (3.7010 at step 2000, 3.7609 at step 2400) than the full split (4.7251, 4.8019). The second half of the val documents is harder for the model. Compare only full-split numbers, which `report.json` records as `final_val_loss_full`, against each other and against the baseline.
 - **Samples:** greedy decoding and T=0.8 decoding (48 new tokens, prompts from `data/re-prompts.txt`) produce text with the right local form: Markdown headings, bullet lists, inline code, and terms from the corpus. The text does not answer the prompts and is not factually coherent, and greedy decoding often repeats itself. This is the expected behavior for a 34M-parameter model trained on 1.7M tokens.
-- **Plot:** `docs/train-loss.png` shows train loss, sampled val loss, and the unigram baseline.
+- **Plot:** `docs/train-loss-v1.png` shows train loss, sampled val loss, and the unigram baseline.
 
 ## Reproduce
 
