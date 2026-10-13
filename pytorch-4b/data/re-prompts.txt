@@ -1,0 +1,39 @@
+Analyze this x86 disassembly and explain what the function does:
+Explain the difference between static and dynamic binary analysis:
+What is the purpose of the .text section in an ELF binary?
+Describe how function prologues and epilogues work in x86-64:
+What are the four unary Boolean functions and how do they map to x86 flags?
+Explain what happens when ADD EAX, EBX executes: which flags are updated and why?
+How does Ghidra recover function boundaries from a stripped binary?
+What is control flow graph recovery and why does it matter for decompilation?
+Explain the difference between ADD and ADC in x86 assembly:
+Describe how a disassembler distinguishes code from data:
+What is symbolic execution and how is it used in reverse engineering?
+Explain return-oriented programming (ROP) at the assembly level:
+How do you identify a vtable in a C++ binary?
+What is the purpose of the PLT and GOT in dynamic linking?
+Explain stack canaries and how they prevent buffer overflows:
+Describe the x86 calling conventions (cdecl, stdcall, fastcall, System V):
+What is dead code elimination and how does it affect reverse engineering?
+Explain how packers and cryptors obfuscate binaries:
+What is an opaque predicate in binary obfuscation?
+Describe how to unpack a UPX-packed executable:
+Explain the ELF program header table structure:
+What is the difference between .data and .bss sections?
+How does ASLR affect reverse engineering workflows?
+Explain what a ROP chain does step by step:
+Describe the process of identifying cryptographic constants in a binary:
+What is FLIRT signature matching in IDA Pro?
+Explain how to reconstruct a struct from memory access patterns:
+What is taint analysis in binary reverse engineering?
+Describe the difference between concrete and symbolic values:
+Explain how angr uses claripy for constraint solving:
+What is a basic block and how are they identified?
+Describe liveness analysis for register allocation recovery:
+Explain the purpose of SSA form in decompilation:
+What is value-set analysis (VSA)?
+How do you detect inlined functions in a binary?
+Explain the x86-64 red zone and its implications:
+Describe how exception handling tables (.eh_frame) aid reverse engineering:
+What is control-flow integrity (CFI) and how is it bypassed?
+Explain the difference between IAT and EAT in PE files:
