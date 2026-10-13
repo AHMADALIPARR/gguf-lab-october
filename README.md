@@ -44,22 +44,30 @@ Key files (verified in repo listings):
 
 ## Pipeline
 
+![WORM Training Pipeline](docs/pipeline.svg)
+
+The full flow, from HuggingFace to sealed weights:
+
 ```
 pull.sh → pull GGUFs to local store
    │
-scripts/hf_to_jsonl.py → JSONL tensor manifests (remote header indexing,
-   │                        no full download; 1 line per tensor)
+scripts/hf_to_jsonl.py → JSONL tensor manifests
+   │   Remote header indexing (no full download).
+   │   One JSON object per line: name, shape, dtype, offset.
+   │   Output: manifests/*.jsonl (5 models, 3,446 tensors)
    │
-scripts/worm_train.py → WORM metadata training pipeline:
-   │   ingest → validate → layout (64B aligned) → seal (SHA-256 hash chain)
-   │   → emit sealed archive descriptors to worm/*.worm.jsonl
+scripts/worm_train.py → WORM metadata training pipeline
+   │   5 stages: ingest → validate → layout → seal → emit
+   │   Output: worm/*.worm.jsonl (sealed archive descriptors)
+   │
    │   These are the weights: sealed, tamper-evident, evoke-ready.
+   │   SnapKitty doesn't use GGUF files as weights — it uses WORM archives.
    │
 prune/plan.md → structured pruning per model (layer drop, width, heads)
    │
 compress/plan.md → quantization targets (Q4_K_M baseline, ternary study)
    │
-sandbox/ → isolated benchmarks + sparse MoE router (embedding-driven)
+sandbox/ → isolated benchmarks + sparse MoE router (see below)
    │
 GGUF out → Ollama / llama.cpp
 ```
@@ -69,7 +77,16 @@ GGUF out → Ollama / llama.cpp
 SnapKitty doesn't use GGUF files as weights. Weights are **WORM archives**:
 sealed, immutable, memory-mapped tensor stores (see `glm-evoke/src/worm.rs`).
 
-`scripts/worm_train.py` trains JSONL manifests into sealed archives:
+`scripts/worm_train.py` trains JSONL manifests into sealed archives through
+5 stages:
+
+| Stage | What it does |
+|---|---|
+| **Ingest** | Read JSONL, schema-validate every line |
+| **Validate** | Check completeness, reject duplicates and count mismatches |
+| **Layout** | Compute 64-byte aligned WORM staging offsets |
+| **Seal** | SHA-256 hash chain — each tensor commits to the previous seal |
+| **Emit** | Write sealed archive descriptor to `worm/*.worm.jsonl` |
 
 ```sh
 # Single model
@@ -80,11 +97,6 @@ python3 scripts/worm_train.py --manifest manifests/mellum.jsonl \
 python3 scripts/worm_train.py --all --out-dir worm/
 ```
 
-Stages: **ingest** (schema-validate) → **validate** (completeness, no
-duplicates) → **layout** (64-byte aligned staging offsets) → **seal**
-(SHA-256 hash chain, each tensor commits to the previous) → **emit**
-(JSONL archive descriptor).
-
 Sealed so far (root seals in `worm/`):
 
 | Model | Tensors | Staged | Root seal |
@@ -94,6 +106,53 @@ Sealed so far (root seals in `worm/`):
 | qwen27 | 866 | 19.18 GB | `8f8a3a74…` |
 | bonsai | 851 | 25.08 GB | `3a187193…` |
 | xing | 977 | 18.69 GB | `3cbf2ad1…` |
+
+## Benchmarks
+
+![Benchmark Sandbox](docs/sandbox.svg)
+
+Benchmarks run in `sandbox/` — an isolated environment, not in the repo root.
+
+**What it is:** 6 hand-written coding prompts with substring checks and Python
+syntax validation. Fail-closed: missing model, bad SHA256, or low RAM aborts
+before any inference runs.
+
+**What it is not:** This is a smoke test, not a benchmark suite. It is not
+HumanEval, not MBPP, not a general coding evaluation. Passing these checks
+does not establish coding competence.
+
+```sh
+python3 sandbox/run.py \
+  --runtime /path/to/llama-cli \
+  --model models/mellum-E8-experimental.gguf \
+  --expected-sha256 <sha256>
+```
+
+Reports go to `sandbox/outputs/` (gitignored). See `sandbox/README.md`.
+
+## Sparse MoE Router
+
+![Sparse MoE Router](docs/moe-router.svg)
+
+`sandbox/moe/router.py` routes queries to experts using embeddings — no
+learned gating network needed.
+
+**How it works:**
+1. EmbeddingGemma (768-dim) embeds the incoming query
+2. Cosine similarity against pre-computed anchor centroids per expert
+3. Top-k experts selected — only winners load (sparse activation)
+
+**Experts:** mellum (coding), qwen27 (general), bonsai (efficient).
+Anchor prompts in `sandbox/moe/experts.json` define each specialty.
+
+```sh
+# Build centroids once (needs llama-server with --embedding)
+python3 sandbox/moe/router.py --build-centroids
+
+# Route and run
+python3 sandbox/moe/router.py --query "Write a quicksort in Python" \
+  --run --runtime /path/to/llama-cli
+```
 
 ## Contents
 

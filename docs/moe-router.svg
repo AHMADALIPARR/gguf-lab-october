@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1000 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#533483"/>
+    </linearGradient>
+    <marker id="marr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e94560"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="380" fill="url(#mbg)" rx="12"/>
+  <text x="500" y="36" font-size="24" font-weight="bold" text-anchor="middle" fill="#fff" font-family="sans-serif">Sparse MoE Router</text>
+  <text x="500" y="58" font-size="13" text-anchor="middle" fill="#888" font-family="sans-serif">Embedding-driven expert selection — only top-k experts load</text>
+
+  <g font-family="sans-serif">
+    <!-- Query -->
+    <rect x="40" y="90" width="180" height="100" rx="8" fill="#e94560"/>
+    <text x="130" y="120" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">QUERY</text>
+    <text x="130" y="142" font-size="11" text-anchor="middle" fill="#fff">"Write a quicksort"</text>
+    <text x="130" y="160" font-size="11" text-anchor="middle" fill="#fff">User prompt</text>
+
+    <!-- Embed -->
+    <rect x="270" y="90" width="180" height="100" rx="8" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="360" y="120" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">EMBED</text>
+    <text x="360" y="142" font-size="11" text-anchor="middle" fill="#aaa">EmbeddingGemma</text>
+    <text x="360" y="160" font-size="11" text-anchor="middle" fill="#aaa">768-dim vector</text>
+
+    <!-- Compare -->
+    <rect x="500" y="90" width="180" height="100" rx="8" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="590" y="120" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">COMPARE</text>
+    <text x="590" y="142" font-size="11" text-anchor="middle" fill="#aaa">Cosine similarity</text>
+    <text x="590" y="160" font-size="11" text-anchor="middle" fill="#aaa">vs anchor centroids</text>
+
+    <!-- Route -->
+    <rect x="730" y="90" width="230" height="100" rx="8" fill="#e94560"/>
+    <text x="845" y="120" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">ROUTE (top-k)</text>
+    <text x="845" y="142" font-size="11" text-anchor="middle" fill="#fff">mellum: 0.94 ← winner</text>
+    <text x="845" y="160" font-size="11" text-anchor="middle" fill="#fff">qwen27: 0.31, bonsai: 0.22</text>
+
+    <line x1="220" y1="140" x2="265" y2="140" stroke="#e94560" stroke-width="3" marker-end="url(#marr)"/>
+    <line x1="450" y1="140" x2="495" y2="140" stroke="#e94560" stroke-width="3" marker-end="url(#marr)"/>
+    <line x1="680" y1="140" x2="725" y2="140" stroke="#e94560" stroke-width="3" marker-end="url(#marr)"/>
+  </g>
+
+  <!-- Experts -->
+  <g font-family="sans-serif">
+    <text x="500" y="230" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">EXPERTS</text>
+    <rect x="80" y="245" width="260" height="70" rx="8" fill="#00aa44"/>
+    <text x="210" y="270" font-size="13" font-weight="bold" text-anchor="middle" fill="#fff">mellum (coding)</text>
+    <text x="210" y="290" font-size="11" text-anchor="middle" fill="#fff">✓ LOADED — sparse activation</text>
+    <rect x="370" y="245" width="260" height="70" rx="8" fill="#333" stroke="#555" stroke-width="1"/>
+    <text x="500" y="270" font-size="13" text-anchor="middle" fill="#888">qwen27 (general)</text>
+    <text x="500" y="290" font-size="11" text-anchor="middle" fill="#666">○ idle — not loaded</text>
+    <rect x="660" y="245" width="260" height="70" rx="8" fill="#333" stroke="#555" stroke-width="1"/>
+    <text x="790" y="270" font-size="13" text-anchor="middle" fill="#888">bonsai (efficient)</text>
+    <text x="790" y="290" font-size="11" text-anchor="middle" fill="#666">○ idle — not loaded</text>
+  </g>
+
+  <text x="500" y="350" font-size="11" text-anchor="middle" fill="#666" font-family="sans-serif">Anchor centroids built once from specialty prompts — no learned gating network needed</text>
+</svg>

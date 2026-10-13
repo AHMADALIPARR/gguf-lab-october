@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="stage" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88"/>
+      <stop offset="100%" style="stop-color:#00aa44"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ff88"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="320" fill="url(#bg)" rx="12"/>
+  <text x="500" y="36" font-size="24" font-weight="bold" text-anchor="middle" fill="#fff" font-family="sans-serif">WORM Training Pipeline</text>
+  <text x="500" y="58" font-size="13" text-anchor="middle" fill="#888" font-family="sans-serif">JSONL manifests → sealed, tamper-evident weight archives</text>
+
+  <!-- Stages -->
+  <g font-family="sans-serif">
+    <!-- INGEST -->
+    <rect x="30" y="100" width="150" height="90" rx="8" fill="url(#stage)"/>
+    <text x="105" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#000">1. INGEST</text>
+    <text x="105" y="150" font-size="11" text-anchor="middle" fill="#000">Read JSONL</text>
+    <text x="105" y="166" font-size="11" text-anchor="middle" fill="#000">Schema validate</text>
+
+    <!-- VALIDATE -->
+    <rect x="210" y="100" width="150" height="90" rx="8" fill="url(#stage)"/>
+    <text x="285" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#000">2. VALIDATE</text>
+    <text x="285" y="150" font-size="11" text-anchor="middle" fill="#000">Completeness</text>
+    <text x="285" y="166" font-size="11" text-anchor="middle" fill="#000">No duplicates</text>
+
+    <!-- LAYOUT -->
+    <rect x="390" y="100" width="150" height="90" rx="8" fill="url(#stage)"/>
+    <text x="465" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#000">3. LAYOUT</text>
+    <text x="465" y="150" font-size="11" text-anchor="middle" fill="#000">64-byte aligned</text>
+    <text x="465" y="166" font-size="11" text-anchor="middle" fill="#000">Staging offsets</text>
+
+    <!-- SEAL -->
+    <rect x="570" y="100" width="150" height="90" rx="8" fill="url(#stage)"/>
+    <text x="645" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#000">4. SEAL</text>
+    <text x="645" y="150" font-size="11" text-anchor="middle" fill="#000">SHA-256 chain</text>
+    <text x="645" y="166" font-size="11" text-anchor="middle" fill="#000">Tamper-evident</text>
+
+    <!-- EMIT -->
+    <rect x="750" y="100" width="150" height="90" rx="8" fill="url(#stage)"/>
+    <text x="825" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#000">5. EMIT</text>
+    <text x="825" y="150" font-size="11" text-anchor="middle" fill="#000">worm/*.worm.jsonl</text>
+    <text x="825" y="166" font-size="11" text-anchor="middle" fill="#000">Evoke-ready</text>
+
+    <!-- Arrows -->
+    <line x1="180" y1="145" x2="205" y2="145" stroke="#00ff88" stroke-width="3" marker-end="url(#arr)"/>
+    <line x1="360" y1="145" x2="385" y2="145" stroke="#00ff88" stroke-width="3" marker-end="url(#arr)"/>
+    <line x1="540" y1="145" x2="565" y2="145" stroke="#00ff88" stroke-width="3" marker-end="url(#arr)"/>
+    <line x1="720" y1="145" x2="745" y2="145" stroke="#00ff88" stroke-width="3" marker-end="url(#arr)"/>
+  </g>
+
+  <text x="500" y="230" font-size="12" text-anchor="middle" fill="#aaa" font-family="monospace">hf_to_jsonl.py → manifests/*.jsonl → worm_train.py → worm/*.worm.jsonl</text>
+  <text x="500" y="252" font-size="12" text-anchor="middle" fill="#666" font-family="sans-serif">Each tensor's seal commits to the previous — break one link, break the chain</text>
+  <text x="500" y="290" font-size="11" text-anchor="middle" fill="#555" font-family="sans-serif">SnapKitty weights are WORM archives, not GGUF files</text>
+</svg>
