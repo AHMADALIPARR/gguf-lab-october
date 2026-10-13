@@ -46,7 +46,7 @@ Key files (verified in repo listings):
 
 ![WORM Training Pipeline](docs/worm-pipeline.png)
 
-The full flow, from HuggingFace to sealed weights:
+The full flow, from HuggingFace to sealed weight metadata:
 
 ```
 pull.sh → pull GGUFs to local store
@@ -60,8 +60,14 @@ scripts/worm_train.py → WORM metadata training pipeline
    │   5 stages: ingest → validate → layout → seal → emit
    │   Output: worm/*.worm.jsonl (sealed archive descriptors)
    │
-   │   These are the weights: sealed, tamper-evident, evoke-ready.
-   │   SnapKitty doesn't use GGUF files as weights — it uses WORM archives.
+   │   These are not the weights — they are sealed *descriptors*: every
+   │   tensor's name, shape, dtype, and measured byte size, hash-chained
+   │   into a tamper-evident seal. The weight bytes stay in the source
+   │   GGUFs; the descriptor is what the evoke pipeline ingests first
+   │   (metadata validated before any weight allocation, per
+   │   glm-evoke's two-phase ingest). SnapKitty doesn't use GGUF files
+   │   as weights — it uses WORM archives, and these descriptors are
+   │   the sealed metadata those archives are built from.
    │
 prune/plan.md → structured pruning per model (layer drop, width, heads)
    │
@@ -76,15 +82,18 @@ GGUF out → Ollama / llama.cpp
 
 SnapKitty doesn't use GGUF files as weights. Weights are **WORM archives**:
 sealed, immutable, memory-mapped tensor stores (see `glm-evoke/src/worm.rs`).
+This repo produces the sealed *descriptors* those archives are built from —
+no weight bytes are sealed here; what is sealed is the metadata
+(name, shape, dtype, measured byte size) of every tensor, hash-chained.
 
-`scripts/worm_train.py` trains JSONL manifests into sealed archives through
-5 stages:
+`scripts/worm_train.py` trains JSONL manifests into sealed archive
+descriptors through 5 stages:
 
 | Stage | What it does |
 |---|---|
 | **Ingest** | Read JSONL, schema-validate every line |
 | **Validate** | Check completeness, reject duplicates and count mismatches |
-| **Layout** | Compute 64-byte aligned WORM staging offsets |
+| **Layout** | Compute 64-byte aligned WORM staging offsets from measured byte sizes (GGUF offset deltas) |
 | **Seal** | SHA-256 hash chain — each tensor commits to the previous seal |
 | **Emit** | Write sealed archive descriptor to `worm/*.worm.jsonl` |
 
@@ -97,15 +106,27 @@ python3 scripts/worm_train.py --manifest manifests/mellum.jsonl \
 python3 scripts/worm_train.py --all --out-dir worm/
 ```
 
-Sealed so far (root seals in `worm/`):
+Sealed descriptors so far (root seals in `worm/`). Staged sizes are
+measured from GGUF tensor offset deltas, not estimated from dtype
+block sizes:
 
 | Model | Tensors | Staged | Root seal |
 |---|---|---|---|
-| embed | 413 | 0.14 GB | `cc733be4…` |
-| mellum | 339 | 6.64 GB | `98b6d089…` |
-| qwen27 | 866 | 19.18 GB | `8f8a3a74…` |
-| bonsai | 851 | 25.08 GB | `3a187193…` |
-| xing | 977 | 18.69 GB | `3cbf2ad1…` |
+| embed | 413 | 0.160 GB | `424f1670…` |
+| mellum | 339 | 8.068 GB | `0a58151f…` |
+| qwen27 | 866 | 16.453 GB | `2748b8e4…` |
+| bonsai | 851 | 5.936 GB | `654cfec1…` |
+| xing | 977 | 20.101 GB | `f36fb656…` |
+
+Audit notes (2026-10-13): staged sizes were previously estimated from
+dtype block-size tables — those estimates were wrong by up to 4×
+(bonsai: 25.08 GB estimated vs 5.94 GB measured), so sizes are now
+measured from GGUF tensor offset deltas. The dtype-id map in
+`hf_to_jsonl.py` also ignored the GGUF enum gap at ids 4–5 and
+mislabeled 189 tensors (Q5_0→Q4_0, Q8_0→Q5_0, Q3_K→unknown); corrected.
+Measurement also caught a real format quirk: unsloth's UD Q6_K tensors
+pack at 210 bytes/block, not the canonical 226 (int8 vs int16 scales) —
+the measured sizes capture this; block tables would not.
 
 ## Benchmarks
 
@@ -161,7 +182,7 @@ python3 sandbox/moe/router.py --query "Write a quicksort in Python" \
 - `prune/plan.md` — pruning plan per model
 - `compress/plan.md` — compression/quantization plan
 - `scripts/hf_to_jsonl.py` — HF GGUF → JSONL tensor manifests (remote indexing)
-- `scripts/worm_train.py` — WORM metadata training pipeline (sealed archives)
+- `scripts/worm_train.py` — WORM metadata training pipeline (sealed archive descriptors)
 - `scripts/benchmark_mellum.py` — Mellum coding benchmark harness
 - `manifests/` — JSONL tensor manifests (5 models, 3,446 tensors)
 - `worm/` — sealed WORM archive descriptors

@@ -38,11 +38,17 @@ MODELS = [
      "xing4_0-29b-IQ4_NL.gguf", "xing"),
 ]
 
-# GGUF type id -> (name, bytes per element approx for size calc)
-# Full size calc needs block structure; we report elements and type.
+# GGUF type id -> name, per the canonical ggml_type enum (llama.cpp).
+# Note the gap at ids 4-5: Q4_2/Q4_3 support was removed from GGUF,
+# so Q5_0 starts at 6, NOT 4. A previous version of this map ignored
+# the gap and mislabeled ids 6-11 (e.g. Q5_0 as Q4_0, Q8_0 as Q5_0);
+# corrected 2026-10-13 after measured block sizes exposed the error.
 TYPE_NAMES = {
-    0: "F32", 1: "F16", 6: "Q4_0", 7: "Q4_1", 8: "Q5_0", 9: "Q5_1",
-    10: "Q8_0", 12: "Q4_K", 13: "Q5_K", 14: "Q6_K", 15: "Q8_K",
+    0: "F32", 1: "F16",
+    2: "Q4_0", 3: "Q4_1",
+    6: "Q5_0", 7: "Q5_1",
+    8: "Q8_0", 9: "Q8_1",
+    10: "Q2_K", 11: "Q3_K", 12: "Q4_K", 13: "Q5_K", 14: "Q6_K", 15: "Q8_K",
     16: "IQ2_XXS", 17: "IQ2_XS", 18: "IQ3_XXS", 19: "IQ1_S",
     20: "IQ4_NL", 21: "IQ3_S", 22: "IQ2_S", 23: "IQ4_XS",
     24: "I8", 25: "I16", 26: "I32", 27: "I64",
@@ -78,6 +84,12 @@ def tensors_to_jsonl(repo, filename, short_id, out):
         "filename": filename,
         "url": url,
         "tensor_count": len(tensors),
+        # Provenance for measured byte sizes: GGUF tensor offsets are
+        # relative to tensor_data_offset; file_bytes lets the WORM layout
+        # measure the last tensor as file_end - tensor_start instead of
+        # estimating it.
+        "file_bytes": size,
+        "tensor_data_offset": header.get("data_offset"),
         "metadata": {k: v for k, v in header.get("metadata", {}).items()
                      if not k.startswith("_")},
     }
