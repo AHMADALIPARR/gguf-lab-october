@@ -47,12 +47,53 @@ Key files (verified in repo listings):
 ```
 pull.sh → pull GGUFs to local store
    │
+scripts/hf_to_jsonl.py → JSONL tensor manifests (remote header indexing,
+   │                        no full download; 1 line per tensor)
+   │
+scripts/worm_train.py → WORM metadata training pipeline:
+   │   ingest → validate → layout (64B aligned) → seal (SHA-256 hash chain)
+   │   → emit sealed archive descriptors to worm/*.worm.jsonl
+   │   These are the weights: sealed, tamper-evident, evoke-ready.
+   │
 prune/plan.md → structured pruning per model (layer drop, width, heads)
    │
 compress/plan.md → quantization targets (Q4_K_M baseline, ternary study)
    │
+sandbox/ → isolated benchmarks + sparse MoE router (embedding-driven)
+   │
 GGUF out → Ollama / llama.cpp
 ```
+
+### WORM training pipeline
+
+SnapKitty doesn't use GGUF files as weights. Weights are **WORM archives**:
+sealed, immutable, memory-mapped tensor stores (see `glm-evoke/src/worm.rs`).
+
+`scripts/worm_train.py` trains JSONL manifests into sealed archives:
+
+```sh
+# Single model
+python3 scripts/worm_train.py --manifest manifests/mellum.jsonl \
+    --out worm/mellum.worm.jsonl
+
+# All models
+python3 scripts/worm_train.py --all --out-dir worm/
+```
+
+Stages: **ingest** (schema-validate) → **validate** (completeness, no
+duplicates) → **layout** (64-byte aligned staging offsets) → **seal**
+(SHA-256 hash chain, each tensor commits to the previous) → **emit**
+(JSONL archive descriptor).
+
+Sealed so far (root seals in `worm/`):
+
+| Model | Tensors | Staged | Root seal |
+|---|---|---|---|
+| embed | 413 | 0.14 GB | `cc733be4…` |
+| mellum | 339 | 6.64 GB | `98b6d089…` |
+| qwen27 | 866 | 19.18 GB | `8f8a3a74…` |
+| bonsai | 851 | 25.08 GB | `3a187193…` |
+| xing | 977 | 18.69 GB | `3cbf2ad1…` |
 
 ## Contents
 
@@ -60,6 +101,18 @@ GGUF out → Ollama / llama.cpp
 - `pull.sh` — download commands (run on the target machine)
 - `prune/plan.md` — pruning plan per model
 - `compress/plan.md` — compression/quantization plan
+- `scripts/hf_to_jsonl.py` — HF GGUF → JSONL tensor manifests (remote indexing)
+- `scripts/worm_train.py` — WORM metadata training pipeline (sealed archives)
+- `scripts/benchmark_mellum.py` — Mellum coding benchmark harness
+- `manifests/` — JSONL tensor manifests (5 models, 3,446 tensors)
+- `worm/` — sealed WORM archive descriptors
+- `sandbox/` — isolated benchmark env + sparse MoE router
+  - `sandbox/run.py` — fail-closed benchmark runner
+  - `sandbox/moe/router.py` — embedding-driven sparse expert routing
+  - `sandbox/inputs/prompts.json` — versioned benchmark prompts
+  - `sandbox/config.json` — resource limits and runtime flags
+- `tests/test_sandbox.py` — router/cosine/config edge cases (13 tests)
+- `tests/test_worm_train.py` — pipeline tests incl. tamper detection (12 tests)
 
 ## License
 
