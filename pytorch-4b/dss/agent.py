@@ -36,6 +36,12 @@ import loop  # noqa: E402
 
 EOS = 2
 CALL_RE = re.compile(r"\s*<call>(isdss|card|next|bound) ([^<]*)</call>")
+# Intent mode: the model names the check only; the host binds the integers
+# from the prompt (expected_call is a strict per-task fullmatch parser).
+INTENTS = {"isdss": "CHECK_IS_DSS", "card": "CARD_FROM_SUM", "next": "NEXT_GREEDY", "bound": "CHECK_BOUND"}
+INTENT_TOOL = {v: k for k, v in INTENTS.items()}
+INTENT_RE = re.compile(r"\s*\[INTENT: (CHECK_IS_DSS|CARD_FROM_SUM|NEXT_GREEDY|CHECK_BOUND)\]")
+MODE = ["args"]
 
 
 # ---------------------------------------------------------------- tools
@@ -57,7 +63,7 @@ def run_tool(name, args):
             return str(DSSTable(W).cardinality(s))
         if name == "next":
             S = [int(x) for x in xs]
-            if not S or len(S) > 8 or S != sorted(set(S)) or not is_dss(S) or S[-1] > 10000: return None
+            if not S or len(S) > 8 or S != sorted(set(S)) or not is_dss(S) or S[-1] > 10**6: return None
             t = DSSTable(S); x = S[-1] + 1
             while t.conflict(x) is not None: x += 1
             return str(x)
@@ -87,7 +93,8 @@ def segments_for(prompt):
     """Gold trajectory as (text, trainable) segments."""
     name, args = expected_call(prompt)
     res = run_tool(name, args)
-    return [(prompt, 0), (f" <call>{name} {args}</call>", 1),
+    call = f" [INTENT: {INTENTS[name]}]" if MODE[0] == "intent" else f" <call>{name} {args}</call>"
+    return [(prompt, 0), (call, 1),
             (f" <result>{res}</result>", 0), (f" {res}\n", 1)]
 
 
@@ -109,16 +116,25 @@ def gen(model, ids, temp, max_new, stop, tok):
 def rollout(model, tok, prompt, temp=0.0, max_call=40, max_final=24):
     """Returns dict: segments [(ids, trainable)], final text, call info."""
     p = tok.encode(prompt).ids
-    c = gen(model, p, temp, max_call, lambda t: "</call>" in t, tok)
+    intent = MODE[0] == "intent"
+    c = gen(model, p, temp, max_call, (lambda t: "]" in t) if intent else (lambda t: "</call>" in t), tok)
     ctext = tok.decode(c)
     segs = [(p, 0), (c, 1)]
-    m = CALL_RE.match(ctext)
-    info = {"call_text": ctext, "wellformed": False, "correct_tool": False, "result": None}
-    if m and ctext.endswith("</call>"):
-        res = run_tool(m.group(1), m.group(2))
+    info = {"call_text": ctext, "wellformed": False, "correct_tool": False, "copy_error": False, "result": None}
+    exp = expected_call(prompt)
+    if intent:
+        m = INTENT_RE.fullmatch(ctext)
+        name = INTENT_TOOL[m.group(1)] if m else None
+        args = exp[1] if name == exp[0] else None  # bind only to the prompt's own task
+    else:
+        m = CALL_RE.fullmatch(ctext)
+        name, args = (m.group(1), m.group(2)) if m else (None, None)
+    if name and args is not None:
+        res = run_tool(name, args)
         if res is not None:
             info["wellformed"] = True
-            info["correct_tool"] = (m.group(1), " ".join(m.group(2).split())) == expected_call(prompt)
+            info["correct_tool"] = (name, " ".join(args.split())) == exp
+            info["copy_error"] = name == exp[0] and " ".join(args.split()) != exp[1]
             info["result"] = res
             r = tok.encode(f" <result>{res}</result>").ids
             f = gen(model, p + c + r, temp, max_final, lambda t: False, tok)
@@ -156,7 +172,7 @@ def evaluate_rows(model, tok, rows):
     for name, infos in list(by.items()) + [("all", allinfo)]:
         n = len(infos)
         d = {"n": n}
-        for k in ("wellformed", "correct_tool"):
+        for k in ("wellformed", "correct_tool", "copy_error"):
             d[k] = round(sum(i[k] for i in infos) / n, 4)
         p = sum(i["reward"] == 1.0 for i in infos) / n
         d["acc"] = round(p, 4); d["acc_se"] = round((p * (1 - p) / n) ** 0.5, 4)
@@ -244,10 +260,15 @@ def cmd_train(a):
     torch.set_num_threads(a.threads); torch.manual_seed(a.seed)
     a.test_files = a.test_file
     ctx = Ctx(a)
+    MODE[0] = a.mode
     model, cfg, _ = load_model(a.ckpt); model_ref[0] = model
     ctx.log(stage="config", args=vars(a))
     t_start = time.time()
     evaluate(ctx, model, "base", 0)
+    for f in a.extra_train.split(",") if a.extra_train else []:
+        ctx.train += loop.lines(HERE / f)
+    ctx.by_task = {}
+    for r in ctx.train: ctx.by_task.setdefault(r["task"], []).append(r)
     pool = [gold_segs(ctx.tok, r["prompt"]) for r in ctx.train]
     sft(ctx, model, pool, a.sft_steps, a.sft_lr, "sft")
     evaluate(ctx, model, "sft", 0); loop.save(ctx, model, cfg, "sft.pt")
@@ -296,6 +317,7 @@ def llama_rollout(binp, gguf, prompt, max_call=40, max_final=24):
 
 def cmd_llama(a):
     from tokenizers import Tokenizer
+    a.n = a.n or 20
     torch.set_num_threads(a.threads)
     tok = Tokenizer.from_file(str(HERE.parent / "tokenizer/tokenizer.json"))
     model, _, _ = load_model(a.ckpt)
@@ -317,11 +339,20 @@ def cmd_llama(a):
 
 
 def cmd_eval(a):
+    MODE[0] = a.mode
     from tokenizers import Tokenizer
     torch.set_num_threads(a.threads)
     tok = Tokenizer.from_file(str(HERE.parent / "tokenizer/tokenizer.json"))
     model, _, _ = load_model(a.ckpt)
     rows = [json.loads(l) for l in open(HERE / a.test_file)]
+    if a.dump:  # per-prompt greedy trajectories, for parity checks against llama.cpp
+        rows = rows[: a.n] if a.n else rows
+        with open(a.dump, "w") as f:
+            for r in rows:
+                segs, info = rollout(model, tok, r["prompt"])
+                f.write(json.dumps({"prompt": r["prompt"], "text": tok.decode([t for s, _ in segs for t in s]).split("\n")[0],
+                                    "final": info.get("final"), "reward": info["reward"]}) + "\n")
+        return
     print(json.dumps(evaluate_rows(model, tok, rows)))
 
 
@@ -359,11 +390,15 @@ def main():
     t.add_argument("--train-file", default="data/train_v2.jsonl")
     t.add_argument("--test-file", default="data/test_balanced.jsonl")
     t.add_argument("--curriculum", action="store_true")
+    t.add_argument("--mode", choices=["args", "intent"], default="args")
+    t.add_argument("--extra-train", default="", help="comma-separated extra train jsonl files")
     for name in ("eval", "llama"):
         e = sub.add_parser(name); e.add_argument("ckpt"); e.add_argument("--threads", type=int, default=8)
+        e.add_argument("--mode", choices=["args", "intent"], default="args")
         e.add_argument("--test-file", default="data/test_balanced.jsonl")
+        e.add_argument("--dump", default=None); e.add_argument("--n", type=int, default=0)
         if name == "llama":
-            e.add_argument("gguf"); e.add_argument("--n", type=int, default=20)
+            e.add_argument("gguf")
             e.add_argument("--llama-bin", default="/workspace/llama.cpp/build/bin")
     nc = sub.add_parser("nodecheck")
     nc.add_argument("--files", default="data/test_balanced.jsonl,data/test.jsonl")

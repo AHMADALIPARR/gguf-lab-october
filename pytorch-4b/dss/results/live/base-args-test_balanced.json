@@ -1,0 +1,42 @@
+{
+ "next": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "card": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 0.95,
+  "copy_error": 0.05,
+  "acc": 0.96,
+  "acc_se": 0.0196
+ },
+ "isdss": {
+  "n": 200,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 0.995,
+  "acc_se": 0.005
+ },
+ "bound": {
+  "n": 100,
+  "wellformed": 0.99,
+  "correct_tool": 0.73,
+  "copy_error": 0.26,
+  "acc": 0.73,
+  "acc_se": 0.0444
+ },
+ "all": {
+  "n": 500,
+  "wellformed": 0.998,
+  "correct_tool": 0.936,
+  "copy_error": 0.062,
+  "acc": 0.936,
+  "acc_se": 0.0109
+ }
+}

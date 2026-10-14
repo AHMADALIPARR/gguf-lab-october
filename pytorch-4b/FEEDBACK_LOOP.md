@@ -422,3 +422,153 @@ The test used `ei.pt` exported to `runs/dss-agent/dss-agent-best.gguf`
 (`gpt-2` pre-tokenizer; token parity 500/500 DSS texts and 31/32 mixed
 texts). On 20 prompts (5 per task) the tool was called in 20/20 cases and
 **20/20 trajectories were identical**: call, result, and final answer.
+
+## Round 5: removing argument copy errors (intent mode, magnitude augmentation, GBNF)
+
+A live llama.cpp test of `dss-agent-best.gguf` got 11 of 13 prompts right.
+Both failures were copy errors: `bound k 25 a 313` produced the call
+`bound 25 170`, and `is DSS 101 202 303` produced `isdss 19 26`.
+
+### Rust host (`dss/host/`, crate `dss-host`, AGPL-3.0-only)
+
+- **Kernel** (`src/kernel.rs`): a port of `oracle.py` that keeps an
+  incremental sum -> subset-size table and finds collision witnesses in the
+  same search order. There is no GPU on this box, so the kernel is plain
+  CPU Rust.
+- **Strict parser** (`src/parse.rs`): one template per task. It rejects
+  irregular whitespace, non-ASCII text, signs, leading zeros, unsorted or
+  duplicate sets, more than 8 elements, values above 10^6, and prompts that
+  match no template or more than one. `cargo test` covers the rejection
+  cases.
+- **Driver** (`src/main.rs`): runs `llama-simple` (or `llama-completion`
+  with a grammar in GBNF mode), runs the kernel, appends
+  ` <result>...</result>`, and runs `llama-simple` again for the final
+  answer.
+- **Modes:**
+  - `intent`: the model emits only ` [INTENT: CHECK_IS_DSS]`,
+    `CARD_FROM_SUM`, `NEXT_GREEDY`, or `CHECK_BOUND`. The host binds the
+    integers from the prompt and runs the kernel only if the intent names
+    the prompt's own task.
+  - `args`: the model's own arguments are used.
+  - `gbnf`: the call is constrained to a tool name followed by integers.
+- **Kernel cross-check** (`dss/host_crosscheck.py`): every tool query from
+  the balanced, round-1 and OOD test sets, plus 1000 rows each from
+  `train_v2` and `train_aug`, run through Rust, `oracle.py`, and
+  `greedy.mjs` (verdict only for is-DSS, because `greedy.mjs` returns no
+  witness). Agreement:
+
+| query | Rust = oracle.py | Rust = greedy.mjs |
+|---|---|---|
+| isdss | 950/950 | 950/950 |
+| card | 702/702 | 702/702 |
+| next | 753/753 | 753/753 |
+| bound | 897/897 | 897/897 |
+
+Python is used only for training and for offline scoring of the host's
+output TSVs (`dss/host_eval.py`, `dss/host_summary.py`). It is not used at
+inference time.
+
+### Data (`dss/make_dataset_ood.py`)
+
+- `train_aug.jsonl`: 8000 prompts, 2000 per task. Numbers have 1-5 digits,
+  about 75% of them 3-5 digits.
+- `test_ood.jsonl`: 402 items, 100 per task with 3-5 digit numbers. is-DSS
+  is 50 yes / 50 no (non-DSS sets get a planted a+b collision); bound is
+  50/50 with k in 45..300. It also contains the two live-failure prompts.
+  Keys are hash-split from training; there are no shared prompts.
+
+### Models (both start from `ei.pt`; SFT 500 steps, then 1 expert-iteration round; 4 threads each, in parallel)
+
+| model | training prompts | old-val loss |
+|---|---|---|
+| base `ei.pt` | (round 4) | 3.0006 |
+| magnitude-aug (args) | train_v2 + train_aug | 2.9884 |
+| intent | train_v2 + train_aug, intent format | 2.9818 |
+
+Result tokens are masked from the loss in both. Logs:
+`dss/results/{args,intent}-aug-metrics.jsonl`.
+
+### Live llama.cpp results through the Rust host
+
+All runs are greedy. Per-file numbers are in `dss/results/live/summary.jsonl`.
+Column definitions:
+- **copy err**: a call to the right tool with arguments that differ from
+  the prompt.
+- **final err**: the call was executed, but the final line is not the tool
+  result.
+
+**Balanced test (500):**
+
+| config | well-formed | copy err | final err | next | card | is-DSS | bound | all ± SE |
+|---|---|---|---|---|---|---|---|---|
+| base `ei.pt`, args | 0.998 | 0.062 | 0.018 | 1.00 | 0.96 | 0.995 | 0.73 | 0.936 ± 0.011 |
+| magnitude-aug, args | 1.000 | 0.024 | 0.006 | 1.00 | 1.00 | 1.000 | 0.87 | 0.974 ± 0.007 |
+| intent | 1.000 | **0.000** | 0.042 | 1.00 | 1.00 | 1.000 | 0.79 | 0.958 ± 0.009 |
+
+**OOD test (402, 3-5 digit numbers):**
+
+| config | well-formed | copy err | final err | next | card | is-DSS | bound | all ± SE |
+|---|---|---|---|---|---|---|---|---|
+| base `ei.pt`, args | 0.761 | 0.761 | 0.376 | 0.00 | 0.31 | 0.396 | 0.00 | 0.177 ± 0.019 |
+| magnitude-aug, args | 0.470 | 0.281 | 0.289 | 0.00 | 0.21 | 0.218 | 0.168 | 0.149 ± 0.018 |
+| intent | 1.000 | **0.000** | 0.585 | 0.02 | 1.00 | 0.495 | 0.149 | **0.415 ± 0.025** |
+
+On OOD, "well-formed" for the args configurations counts calls the host
+could execute. A call with mis-copied arguments can still parse, which is
+why well-formed and copy-error rates can both be high.
+
+**GBNF vs plain args, base `ei.pt`.** llama-completion with a grammar took
+about 20 s per call on this box, so GBNF was run on stratified subsets
+(25 per task, `dss/data/gbnf_sub_*.jsonl`; OOD also includes the two
+live-failure prompts), and plain args was scored on the same prompts:
+
+| subset | config | well-formed | copy err | all ± SE |
+|---|---|---|---|---|
+| OOD (102) | args | 0.804 | 0.804 | 0.186 ± 0.039 |
+| OOD (102) | args + GBNF | 0.951 | 0.951 | 0.216 ± 0.041 |
+| balanced (100) | args | 0.990 | 0.100 | 0.900 ± 0.030 |
+| balanced (100) | args + GBNF | 1.000 | 0.110 | 0.900 ± 0.030 |
+
+With the grammar, every call parses, but the copy-error rate does not drop.
+The grammar only constrains syntax, not which integers are written.
+Accuracy is unchanged within SE.
+
+**The two live-failure prompts:**
+- base args: `bound 25 170`; `isdss 19 26`. Both wrong.
+- magnitude-aug: `bound 25 313` is copied correctly, but the final answer
+  says `361>=313`. `isdss 101 20269` is wrong.
+- intent: the call is bound correctly and the kernel returns the right
+  result (`b=313; 313>=313 yes`, `no 303=101+202`), but the model
+  mis-transcribes it in the final answer (`619>=313`; `no 683=421+=True`).
+  Both wrong.
+
+### Parity (PyTorch greedy vs llama.cpp through the Rust host)
+
+24 prompts: 3 per task from the balanced test and 3 per task from OOD.
+- **Intent model:** 24/24 identical trajectories.
+- **Magnitude-aug args model:** 24/24 identical generated calls. 21/24 full
+  trajectories are identical. The other 3 are copy-error calls (an
+  unsorted set, a repeated element, a value above 10^6). The strict Rust
+  parser rejects them, while the more lenient Python harness executed them.
+  The generated tokens are the same.
+
+### Verdict
+
+- **Intent mode removes argument copy errors: 0.000 on both test sets,
+  versus 0.062 / 0.761 for base args.** OOD accuracy rises from 0.177 to
+  0.415 ± 0.025.
+- **The remaining failure is transcribing the result into the final
+  answer.** For intent on OOD, 58.5% of rows have a final answer that
+  differs from the kernel result, mostly in next (0.98) and bound (0.85).
+  Card is 1.00 because its result is a single small number.
+- **Magnitude augmentation helps on balanced (0.974) but not on OOD
+  (0.149).** It reduces copy errors but often produces calls the strict
+  parser rejects.
+- **GBNF fixes syntax only.** It does not change copy errors or accuracy.
+- The two live-failure prompts are still wrong in every configuration.
+  The kernel result is right under intent mode; the model's final
+  transcription is what fails.
+
+A next step that has not been tried here: let the host emit the kernel
+result as the answer, or train a final answer that only states the verdict
+(the copy step is the remaining failure).

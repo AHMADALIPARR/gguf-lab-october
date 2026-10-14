@@ -1,0 +1,102 @@
+{"task": "isdss", "prompt": "is DSS 1866 8955 10821 ->", "answer": " no 10821=1866+8955"}
+{"task": "isdss", "prompt": "is DSS 976 7838 82994 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 9286 60208 69494 ->", "answer": " no 69494=9286+60208"}
+{"task": "isdss", "prompt": "is DSS 1761 2428 6770 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 492 9223 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 27047 35006 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 440 747 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5399 55628 66909 94937 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 173 75326 75499 ->", "answer": " no 75499=173+75326"}
+{"task": "isdss", "prompt": "is DSS 3573 4356 5946 47535 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1477 5649 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 812 98517 99329 ->", "answer": " no 99329=812+98517"}
+{"task": "isdss", "prompt": "is DSS 722 17985 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 5881 7963 13844 ->", "answer": " no 13844=5881+7963"}
+{"task": "isdss", "prompt": "is DSS 7769 63392 71161 ->", "answer": " no 71161=7769+63392"}
+{"task": "isdss", "prompt": "is DSS 831 13742 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 350 40430 40780 ->", "answer": " no 40780=350+40430"}
+{"task": "isdss", "prompt": "is DSS 170 469 566 1035 ->", "answer": " no 1035=469+566"}
+{"task": "isdss", "prompt": "is DSS 104 77320 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 793 24760 25553 ->", "answer": " no 25553=793+24760"}
+{"task": "isdss", "prompt": "is DSS 4405 5852 10257 ->", "answer": " no 10257=4405+5852"}
+{"task": "isdss", "prompt": "is DSS 904 8596 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 1820 1885 3705 ->", "answer": " no 3705=1820+1885"}
+{"task": "isdss", "prompt": "is DSS 6762 7632 ->", "answer": " yes"}
+{"task": "isdss", "prompt": "is DSS 514 26670 27184 ->", "answer": " no 27184=514+26670"}
+{"task": "card", "prompt": "DSS W 440 9636 87550 sum 97626 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 875 6108 54736 71743 sum 875 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 1993 2945 52166 sum 52166 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 2814 9694 27076 36305 sum 66195 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 7304 8070 25742 40845 sum 8070 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 445 9657 sum 10102 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 480 690 720 sum 1170 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 690 8202 25391 sum 8892 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 162 2592 49564 sum 52318 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 244 508 2567 11034 sum 11542 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 738 26079 56574 77961 sum 104040 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 413 598 sum 1011 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 16860 86419 sum 103279 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 1096 72057 sum 1096 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 987 93592 sum 987 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 145 545 5269 40375 sum 45644 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 462 983 71695 sum 73140 -> size", "answer": " 3"}
+{"task": "card", "prompt": "DSS W 9160 58430 75804 sum 67590 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 605 2934 33594 sum 34199 -> size", "answer": " 2"}
+{"task": "card", "prompt": "DSS W 7697 86193 sum 7697 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 298 689 sum 689 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 167 503 45297 sum 503 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 2469 3598 63476 sum 3598 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 460 5680 8522 48267 sum 8522 -> size", "answer": " 1"}
+{"task": "card", "prompt": "DSS W 829 8076 37978 59546 sum 46883 -> size", "answer": " 3"}
+{"task": "next", "prompt": "DSS greedy next after 160 329 8271 86485 ->", "answer": " 86486"}
+{"task": "next", "prompt": "DSS greedy next after 8609 8941 68176 ->", "answer": " 68177"}
+{"task": "next", "prompt": "DSS greedy next after 317 3397 5500 5956 ->", "answer": " 5957"}
+{"task": "next", "prompt": "DSS greedy next after 113 218 4545 61130 ->", "answer": " 61131"}
+{"task": "next", "prompt": "DSS greedy next after 634 3160 ->", "answer": " 3161"}
+{"task": "next", "prompt": "DSS greedy next after 309 714 13641 21266 ->", "answer": " 21267"}
+{"task": "next", "prompt": "DSS greedy next after 1427 37808 ->", "answer": " 37809"}
+{"task": "next", "prompt": "DSS greedy next after 537 7884 62742 ->", "answer": " 62743"}
+{"task": "next", "prompt": "DSS greedy next after 480 8541 ->", "answer": " 8542"}
+{"task": "next", "prompt": "DSS greedy next after 543 2439 ->", "answer": " 2440"}
+{"task": "next", "prompt": "DSS greedy next after 289 955 3746 29716 ->", "answer": " 29717"}
+{"task": "next", "prompt": "DSS greedy next after 396 909 1441 88152 ->", "answer": " 88153"}
+{"task": "next", "prompt": "DSS greedy next after 204 4260 5460 8585 ->", "answer": " 8586"}
+{"task": "next", "prompt": "DSS greedy next after 118 5251 36333 ->", "answer": " 36334"}
+{"task": "next", "prompt": "DSS greedy next after 197 4414 ->", "answer": " 4415"}
+{"task": "next", "prompt": "DSS greedy next after 467 540 708 32784 ->", "answer": " 32785"}
+{"task": "next", "prompt": "DSS greedy next after 1149 7849 8190 ->", "answer": " 8191"}
+{"task": "next", "prompt": "DSS greedy next after 808 1876 5363 57240 ->", "answer": " 57241"}
+{"task": "next", "prompt": "DSS greedy next after 173 233 7979 46394 ->", "answer": " 46395"}
+{"task": "next", "prompt": "DSS greedy next after 547 21851 88731 ->", "answer": " 88732"}
+{"task": "next", "prompt": "DSS greedy next after 770 952 ->", "answer": " 953"}
+{"task": "next", "prompt": "DSS greedy next after 264 994 ->", "answer": " 995"}
+{"task": "next", "prompt": "DSS greedy next after 4464 9775 47266 76238 ->", "answer": " 76239"}
+{"task": "next", "prompt": "DSS greedy next after 11399 15357 54943 ->", "answer": " 54944"}
+{"task": "next", "prompt": "DSS greedy next after 505 75543 ->", "answer": " 75544"}
+{"task": "bound", "prompt": "bound k 182 a 25235 ->", "answer": " b=16562; 25235>=16562 yes"}
+{"task": "bound", "prompt": "bound k 107 a 4071 ->", "answer": " b=5725; 4071<5725 no"}
+{"task": "bound", "prompt": "bound k 72 a 3556 ->", "answer": " b=2592; 3556>=2592 yes"}
+{"task": "bound", "prompt": "bound k 135 a 14322 ->", "answer": " b=9113; 14322>=9113 yes"}
+{"task": "bound", "prompt": "bound k 242 a 17886 ->", "answer": " b=29282; 17886<29282 no"}
+{"task": "bound", "prompt": "bound k 70 a 1953 ->", "answer": " b=2450; 1953<2450 no"}
+{"task": "bound", "prompt": "bound k 92 a 584 ->", "answer": " b=4232; 584<4232 no"}
+{"task": "bound", "prompt": "bound k 156 a 12847 ->", "answer": " b=12168; 12847>=12168 yes"}
+{"task": "bound", "prompt": "bound k 290 a 50629 ->", "answer": " b=42050; 50629>=42050 yes"}
+{"task": "bound", "prompt": "bound k 101 a 5579 ->", "answer": " b=5101; 5579>=5101 yes"}
+{"task": "bound", "prompt": "bound k 209 a 27933 ->", "answer": " b=21841; 27933>=21841 yes"}
+{"task": "bound", "prompt": "bound k 88 a 4214 ->", "answer": " b=3872; 4214>=3872 yes"}
+{"task": "bound", "prompt": "bound k 153 a 560 ->", "answer": " b=11705; 560<11705 no"}
+{"task": "bound", "prompt": "bound k 216 a 29155 ->", "answer": " b=23328; 29155>=23328 yes"}
+{"task": "bound", "prompt": "bound k 220 a 24132 ->", "answer": " b=24200; 24132<24200 no"}
+{"task": "bound", "prompt": "bound k 90 a 1795 ->", "answer": " b=4050; 1795<4050 no"}
+{"task": "bound", "prompt": "bound k 179 a 16060 ->", "answer": " b=16021; 16060>=16021 yes"}
+{"task": "bound", "prompt": "bound k 246 a 33134 ->", "answer": " b=30258; 33134>=30258 yes"}
+{"task": "bound", "prompt": "bound k 49 a 1189 ->", "answer": " b=1201; 1189<1201 no"}
+{"task": "bound", "prompt": "bound k 200 a 19196 ->", "answer": " b=20000; 19196<20000 no"}
+{"task": "bound", "prompt": "bound k 78 a 3861 ->", "answer": " b=3042; 3861>=3042 yes"}
+{"task": "bound", "prompt": "bound k 51 a 1307 ->", "answer": " b=1301; 1307>=1301 yes"}
+{"task": "bound", "prompt": "bound k 131 a 6662 ->", "answer": " b=8581; 6662<8581 no"}
+{"task": "bound", "prompt": "bound k 129 a 10136 ->", "answer": " b=8321; 10136>=8321 yes"}
+{"task": "bound", "prompt": "bound k 247 a 30415 ->", "answer": " b=30505; 30415<30505 no"}
+{"task": "bound", "prompt": "bound k 25 a 313 ->", "answer": " b=313; 313>=313 yes", "src": "live-failure"}
+{"task": "isdss", "prompt": "is DSS 101 202 303 ->", "answer": " no 303=101+202", "src": "live-failure"}

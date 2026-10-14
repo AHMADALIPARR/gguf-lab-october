@@ -1,0 +1,11 @@
+[package]
+name = "dss-host"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Orchestrator host: binds DSS tool arguments from the prompt, runs a CPU DSS kernel, drives llama.cpp"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3

@@ -1,0 +1,16 @@
+{
+ "train_aug": {
+  "bound": 2000,
+  "card": 2000,
+  "isdss": 2000,
+  "next": 2000
+ },
+ "test_ood": {
+  "isdss": 101,
+  "card": 100,
+  "next": 100,
+  "bound": 101
+ },
+ "ood_isdss_yes": 50,
+ "ood_bound_yes": 51
+}
