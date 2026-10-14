@@ -38,15 +38,27 @@ EOS = 2
 CALL_RE = re.compile(r"\s*<call>(isdss|card|next|bound) ([^<]*)</call>")
 # Intent mode: the model names the check only; the host binds the integers
 # from the prompt (expected_call is a strict per-task fullmatch parser).
-INTENTS = {"isdss": "CHECK_IS_DSS", "card": "CARD_FROM_SUM", "next": "NEXT_GREEDY", "bound": "CHECK_BOUND"}
+INTENTS = {"isdss": "CHECK_IS_DSS", "card": "CARD_FROM_SUM", "next": "NEXT_GREEDY", "bound": "CHECK_BOUND",
+           "phi_normalize": "PHI_NORMALIZE", "phi_mul": "PHI_MUL", "phi_conj": "PHI_CONJ", "phi_norm": "PHI_NORM"}
 INTENT_TOOL = {v: k for k, v in INTENTS.items()}
-INTENT_RE = re.compile(r"\s*\[INTENT: (CHECK_IS_DSS|CARD_FROM_SUM|NEXT_GREEDY|CHECK_BOUND)\]")
+INTENT_RE = re.compile(r"\s*\[INTENT: (CHECK_IS_DSS|CARD_FROM_SUM|NEXT_GREEDY|CHECK_BOUND|PHI_NORMALIZE|PHI_MUL|PHI_CONJ|PHI_NORM)\]")
+
+
+def register_phi(rows):
+    """Phi answers come from the Rust exact kernel via the dataset rows."""
+    import grade as G
+    for r in rows:
+        if r["task"].startswith("phi_"):
+            G.PHI_ANS[r["prompt"]] = r["answer"].strip()
 MODE = ["args"]
 
 
 # ---------------------------------------------------------------- tools
 def run_tool(name, args):
     """Return the result string, or None if the arguments are malformed."""
+    if name.startswith("phi_"):  # args is the prompt itself (host-bound)
+        import grade as G
+        return G.PHI_ANS.get(args)
     try:
         xs = args.split()
         if name == "isdss":
@@ -78,6 +90,8 @@ def run_tool(name, args):
 
 
 def expected_call(prompt):
+    if prompt.startswith("phi "):
+        return "phi_" + prompt.split()[1], prompt
     m = re.fullmatch(r"is DSS ([\d ]+) ->", prompt)
     if m: return "isdss", m.group(1)
     m = re.fullmatch(r"DSS W ([\d ]+) sum (\d+) -> size", prompt)
@@ -269,6 +283,7 @@ def cmd_train(a):
         ctx.train += loop.lines(HERE / f)
     ctx.by_task = {}
     for r in ctx.train: ctx.by_task.setdefault(r["task"], []).append(r)
+    register_phi(ctx.train + ctx.test)
     pool = [gold_segs(ctx.tok, r["prompt"]) for r in ctx.train]
     sft(ctx, model, pool, a.sft_steps, a.sft_lr, "sft")
     evaluate(ctx, model, "sft", 0); loop.save(ctx, model, cfg, "sft.pt")
@@ -345,6 +360,7 @@ def cmd_eval(a):
     tok = Tokenizer.from_file(str(HERE.parent / "tokenizer/tokenizer.json"))
     model, _, _ = load_model(a.ckpt)
     rows = [json.loads(l) for l in open(HERE / a.test_file)]
+    register_phi(rows)
     if a.dump:  # per-prompt greedy trajectories, for parity checks against llama.cpp
         rows = rows[: a.n] if a.n else rows
         with open(a.dump, "w") as f:

@@ -1,0 +1,400 @@
+{"task": "phi_normalize", "prompt": "phi normalize -35 phi^20 + 39 phi^14 ->", "answer": " -137248 - 222072 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 5 phi^3 - 13 phi^4 - 49 - 31 phi^10 ->", "answer": " -1124 - 1734 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -908 phi^10 + 115 ->", "answer": " -30757 - 49940 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 22 phi^4 + 22 phi^4 ->", "answer": " 88 + 132 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -1 phi^4 - 5 + 44 phi^11 ->", "answer": " 2413 + 3913 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -11 + 44 phi^9 + 34 phi^12 ->", "answer": " 3939 + 6392 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 48 phi^12 + 18 phi^2 + 42 phi^8 ->", "answer": " 4836 + 7812 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 11 phi^5 - 49 + 46 phi^3 + 31 phi^1 ->", "answer": " 30 + 178 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 21 phi^11 ->", "answer": " 1155 + 1869 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -963 phi^1 + 533 phi^2 + 541 phi^19 ->", "answer": " 1398477 + 2261491 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 19 phi^5 ->", "answer": " 57 + 95 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -97 phi^10 ->", "answer": " -3298 - 5335 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 21 phi^6 + 14 phi^10 ->", "answer": " 581 + 938 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -18 phi^7 + 44 phi^9 + 2 phi^7 ->", "answer": " 796 + 1288 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -21 phi^12 ->", "answer": " -1869 - 3024 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -761 phi^6 ->", "answer": " -3805 - 6088 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 31 phi^8 + 30 phi^1 + 3 phi^3 ->", "answer": " 406 + 687 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -694 phi^8 + 309 phi^17 - 663 phi^19 ->", "answer": " -1417231 - 2293104 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -26 phi^10 - 18 phi^2 ->", "answer": " -902 - 1448 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -29 phi^2 - 26 phi^8 ->", "answer": " -367 - 575 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 25 phi^20 + 10 phi^11 - 26 phi^6 ->", "answer": " 104945 + 169807 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -37 phi^4 ->", "answer": " -74 - 111 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -50 phi^2 ->", "answer": " -50 - 50 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -899 phi^4 ->", "answer": " -1798 - 2697 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 44 phi^6 ->", "answer": " 220 + 352 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -45 phi^6 - 43 phi^10 - 35 phi^8 ->", "answer": " -2142 - 3460 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 32 phi^7 + 17 phi^12 ->", "answer": " 1769 + 2864 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 42 phi^11 ->", "answer": " 2310 + 3738 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 3 phi^12 + 36 ->", "answer": " 303 + 432 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -166 - 940 phi^5 + 550 phi^16 + 663 phi^4 ->", "answer": " 333840 + 540139 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -36 phi^4 + 19 phi^1 - 50 phi^1 ->", "answer": " -72 - 139 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 27 phi^5 ->", "answer": " 81 + 135 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 29 phi^10 + 31 phi^2 ->", "answer": " 1017 + 1626 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -3 phi^7 - 4 ->", "answer": " -28 - 39 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 4 phi^9 ->", "answer": " 84 + 136 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 1 phi^4 - 41 phi^2 - 32 - 27 phi^8 ->", "answer": " -422 - 605 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -352 phi^7 - 306 phi^6 - 122 ->", "answer": " -4468 - 7024 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 32 phi^8 - 26 phi^11 + 35 phi^11 ->", "answer": " 911 + 1473 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 17 + 10 phi^7 + 9 phi^8 ->", "answer": " 214 + 319 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -336 phi^9 ->", "answer": " -7056 - 11424 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -14 phi^12 - 13 phi^1 + 50 phi^12 - 9 phi^8 ->", "answer": " 3087 + 4982 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 36 phi^10 ->", "answer": " 1224 + 1980 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 1 phi^9 - 7 phi^8 ->", "answer": " -70 - 113 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -568 phi^1 - 25 phi^8 ->", "answer": " -325 - 1093 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 26 phi^9 + 50 phi^5 ->", "answer": " 696 + 1134 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -48 phi^4 ->", "answer": " -96 - 144 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -17 phi^7 ->", "answer": " -136 - 221 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 17 ->", "answer": " 17 + 0 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 1 - 2 phi^6 ->", "answer": " -9 - 16 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 39 phi^5 + 12 phi^5 ->", "answer": " 153 + 255 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -924 phi^3 - 407 phi^5 ->", "answer": " -2145 - 3883 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -13 phi^6 - 31 phi^10 + 2 phi^8 ->", "answer": " -1093 - 1767 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 48 phi^10 ->", "answer": " 1632 + 2640 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 4 phi^8 ->", "answer": " 52 + 84 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -14 phi^10 + 17 phi^6 - 48 phi^7 ->", "answer": " -775 - 1258 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -39 phi^10 + 4 phi^8 - 3 phi^9 ->", "answer": " -1337 - 2163 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 31 phi^20 + 17 phi^13 + 10 phi^1 - 20 phi^20 ->", "answer": " 48439 + 78386 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 200 phi^2 - 129 phi^2 - 12 - 811 phi^1 ->", "answer": " 59 - 740 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -18 phi^6 + 49 phi^5 - 37 phi^2 ->", "answer": " 20 + 64 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -9 phi^4 + 15 phi^11 + 41 phi^6 ->", "answer": " 1012 + 1636 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -22 phi^8 - 11 phi^4 - 9 phi^7 ->", "answer": " -380 - 612 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 50 phi^1 + 11 phi^8 - 17 - 16 phi^1 ->", "answer": " 126 + 265 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 25 phi^11 + 15 phi^4 ->", "answer": " 1405 + 2270 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 16 phi^7 + 33 phi^4 - 1 phi^20 + 43 phi^7 ->", "answer": " -3643 - 5899 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 27 phi^4 - 40 phi^5 - 6 phi^12 + 47 phi^12 ->", "answer": " 3583 + 5785 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -36 phi^1 + 9 phi^2 + 29 phi^11 + 34 phi^4 ->", "answer": " 1672 + 2656 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 34 phi^1 ->", "answer": " 0 + 34 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 13 phi^4 + 42 phi^8 ->", "answer": " 572 + 921 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -24 phi^7 - 17 + 35 - 33 phi^4 ->", "answer": " -240 - 411 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 24 phi^15 - 14 phi^2 ->", "answer": " 9034 + 14626 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 197 phi^12 + 978 phi^6 ->", "answer": " 22423 + 36192 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -14 + 10 phi^4 - 48 phi^7 + 20 phi^11 ->", "answer": " 722 + 1186 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -1 phi^12 ->", "answer": " -89 - 144 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 562 phi^7 - 926 phi^7 + 326 phi^4 + 752 phi^4 ->", "answer": " -756 - 1498 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 19 phi^5 + 25 phi^7 - 48 phi^2 + 39 phi^9 ->", "answer": " 1028 + 1698 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -44 phi^5 ->", "answer": " -132 - 220 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 46 phi^8 - 39 phi^12 + 49 phi^4 ->", "answer": " -2775 - 4503 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 8 phi^7 - 2 phi^9 - 3 phi^9 - 23 phi^12 ->", "answer": " -2088 - 3378 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -20 phi^1 - 22 + 18 phi^9 ->", "answer": " 356 + 592 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -40 phi^2 - 39 phi^1 - 24 phi^10 + 31 phi^1 ->", "answer": " -856 - 1368 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -30 phi^3 - 43 phi^8 ->", "answer": " -589 - 963 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 7 - 50 phi^3 + 50 phi^4 ->", "answer": " 57 + 50 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -471 phi^11 - 516 phi^2 + 254 phi^8 + 792 phi^12 ->", "answer": " 47369 + 76947 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 163 phi^3 - 902 phi^11 - 840 - 621 phi^5 ->", "answer": " -52150 - 83057 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 45 phi^10 + 28 phi^5 ->", "answer": " 1614 + 2615 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 693 phi^5 + 193 phi^11 ->", "answer": " 12694 + 20642 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -19 phi^8 - 6 phi^2 - 32 phi^10 ->", "answer": " -1341 - 2165 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 11 phi^2 - 32 phi^4 + 20 ->", "answer": " -33 - 85 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 43 phi^9 - 21 phi^3 + 5 phi^5 + 43 ->", "answer": " 940 + 1445 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -8 phi^8 ->", "answer": " -104 - 168 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 34 phi^9 ->", "answer": " 714 + 1156 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 17 phi^4 + 50 phi^9 - 8 phi^4 ->", "answer": " 1068 + 1727 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 578 phi^3 + 514 phi^2 - 242 ->", "answer": " 850 + 1670 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -16 phi^2 - 9 phi^5 ->", "answer": " -43 - 61 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -50 phi^12 ->", "answer": " -4450 - 7200 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 250 phi^14 - 711 phi^4 + 853 phi^10 + 731 phi^2 ->", "answer": " 86561 + 139763 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -6 phi^12 - 12 phi^5 + 10 phi^10 ->", "answer": " -230 - 374 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 19 phi^18 ->", "answer": " 30343 + 49096 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -677 phi^16 - 302 phi^6 + 821 phi^12 + 672 phi^14 ->", "answer": " -184835 - 299047 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -39 phi^12 - 29 phi^7 ->", "answer": " -3703 - 5993 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-44 + 47 phi) (7 + 32 phi) ->", "answer": " 1196 + 425 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-28 - 940 phi) (-277 + 260 phi) ->", "answer": " -236644 + 8700 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-35 + 23 phi) (-45 - 15 phi) ->", "answer": " 1230 - 855 phi"}
+{"task": "phi_mul", "prompt": "phi mul (659 + 629 phi) (-797 - 150 phi) ->", "answer": " -619573 - 694513 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-30 + 7 phi) (-34 - 18 phi) ->", "answer": " 894 + 176 phi"}
+{"task": "phi_mul", "prompt": "phi mul (7 + 43 phi) (-25 - 5 phi) ->", "answer": " -390 - 1325 phi"}
+{"task": "phi_mul", "prompt": "phi mul (30 + 37 phi) (37 - 36 phi) ->", "answer": " -222 - 1043 phi"}
+{"task": "phi_mul", "prompt": "phi mul (45 - 39 phi) (49 - 30 phi) ->", "answer": " 3375 - 2091 phi"}
+{"task": "phi_mul", "prompt": "phi mul (28 + 41 phi) (-43 - 25 phi) ->", "answer": " -2229 - 3488 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-690 - 517 phi) (-943 + 714 phi) ->", "answer": " 281532 - 374267 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-436 + 531 phi) (-852 + 528 phi) ->", "answer": " 651840 - 402252 phi"}
+{"task": "phi_mul", "prompt": "phi mul (27 - 26 phi) (-45 - 10 phi) ->", "answer": " -955 + 1160 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-20 + 49 phi) (-32 + 15 phi) ->", "answer": " 1375 - 1133 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-41 + 14 phi) (7 + 39 phi) ->", "answer": " 259 - 955 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-46 + 36 phi) (-18 + 22 phi) ->", "answer": " 1620 - 868 phi"}
+{"task": "phi_mul", "prompt": "phi mul (884 + 171 phi) (-87 + 886 phi) ->", "answer": " 74598 + 919853 phi"}
+{"task": "phi_mul", "prompt": "phi mul (1 + 28 phi) (44 + 18 phi) ->", "answer": " 548 + 1754 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-2 + 33 phi) (-40 - 24 phi) ->", "answer": " -712 - 2064 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-742 + 975 phi) (-747 - 517 phi) ->", "answer": " 50199 - 848786 phi"}
+{"task": "phi_mul", "prompt": "phi mul (809 + 129 phi) (-278 - 864 phi) ->", "answer": " -336358 - 846294 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-60 - 165 phi) (167 + 812 phi) ->", "answer": " -144000 - 210255 phi"}
+{"task": "phi_mul", "prompt": "phi mul (49 + 46 phi) (-47 - 30 phi) ->", "answer": " -3683 - 5012 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-382 - 953 phi) (876 - 66 phi) ->", "answer": " -271734 - 746718 phi"}
+{"task": "phi_mul", "prompt": "phi mul (5 + 22 phi) (44 - 44 phi) ->", "answer": " -748 - 220 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-37 + 19 phi) (2 + 42 phi) ->", "answer": " 724 - 718 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-9 + 45 phi) (23 + 11 phi) ->", "answer": " 288 + 1431 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-19 - 28 phi) (-48 - 5 phi) ->", "answer": " 1052 + 1579 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-41 - 32 phi) (46 - 20 phi) ->", "answer": " -1246 - 12 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-15 - 7 phi) (42 + 4 phi) ->", "answer": " -658 - 382 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-38 + 48 phi) (10 + 21 phi) ->", "answer": " 628 + 690 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-40 - 4 phi) (45 - 26 phi) ->", "answer": " -1696 + 964 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-34 + 778 phi) (-394 + 972 phi) ->", "answer": " 769612 + 416636 phi"}
+{"task": "phi_mul", "prompt": "phi mul (28 + 42 phi) (32 + 38 phi) ->", "answer": " 2492 + 4004 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-12 + 0 phi) (-1 - 8 phi) ->", "answer": " 12 + 96 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-8 - 36 phi) (21 - 27 phi) ->", "answer": " 804 + 432 phi"}
+{"task": "phi_mul", "prompt": "phi mul (36 + 2 phi) (36 + 1 phi) ->", "answer": " 1298 + 110 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-260 + 187 phi) (31 + 59 phi) ->", "answer": " 2973 + 1490 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-17 - 55 phi) (399 + 36 phi) ->", "answer": " -8763 - 24537 phi"}
+{"task": "phi_mul", "prompt": "phi mul (9 + 21 phi) (-45 + 41 phi) ->", "answer": " 456 + 285 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-40 - 27 phi) (48 + 35 phi) ->", "answer": " -2865 - 3641 phi"}
+{"task": "phi_mul", "prompt": "phi mul (47 + 44 phi) (49 + 27 phi) ->", "answer": " 3491 + 4613 phi"}
+{"task": "phi_mul", "prompt": "phi mul (2 - 23 phi) (3 - 10 phi) ->", "answer": " 236 + 141 phi"}
+{"task": "phi_mul", "prompt": "phi mul (43 - 35 phi) (-2 - 28 phi) ->", "answer": " 894 - 154 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-34 - 43 phi) (-45 - 39 phi) ->", "answer": " 3207 + 4938 phi"}
+{"task": "phi_mul", "prompt": "phi mul (1 - 11 phi) (7 + 35 phi) ->", "answer": " -378 - 427 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-4 - 876 phi) (-591 + 832 phi) ->", "answer": " -726468 - 214444 phi"}
+{"task": "phi_mul", "prompt": "phi mul (4 + 20 phi) (4 + 7 phi) ->", "answer": " 156 + 248 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-4 - 61 phi) (-463 - 914 phi) ->", "answer": " 57606 + 87653 phi"}
+{"task": "phi_mul", "prompt": "phi mul (40 + 27 phi) (-44 - 27 phi) ->", "answer": " -2489 - 2997 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-36 + 42 phi) (-43 - 31 phi) ->", "answer": " 246 - 1992 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-840 + 534 phi) (31 - 106 phi) ->", "answer": " -82644 + 48990 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-5 - 2 phi) (-49 + 13 phi) ->", "answer": " 219 + 7 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-5 + 20 phi) (-26 + 8 phi) ->", "answer": " 290 - 400 phi"}
+{"task": "phi_mul", "prompt": "phi mul (1000 - 340 phi) (-29 + 181 phi) ->", "answer": " -90540 + 129320 phi"}
+{"task": "phi_mul", "prompt": "phi mul (8 - 48 phi) (-2 + 17 phi) ->", "answer": " -832 - 584 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-15 - 6 phi) (22 - 7 phi) ->", "answer": " -288 + 15 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-32 - 47 phi) (41 + 1 phi) ->", "answer": " -1359 - 2006 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-158 - 419 phi) (383 + 712 phi) ->", "answer": " -358842 - 571301 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-23 + 9 phi) (-13 - 16 phi) ->", "answer": " 155 + 107 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-443 + 885 phi) (420 + 578 phi) ->", "answer": " 325470 + 627176 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-32 - 27 phi) (40 - 42 phi) ->", "answer": " -146 + 1398 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-46 + 23 phi) (-37 + 14 phi) ->", "answer": " 2024 - 1173 phi"}
+{"task": "phi_mul", "prompt": "phi mul (49 - 32 phi) (-18 - 45 phi) ->", "answer": " 558 - 189 phi"}
+{"task": "phi_mul", "prompt": "phi mul (50 - 12 phi) (-37 + 46 phi) ->", "answer": " -2402 + 2192 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-186 - 337 phi) (-528 - 288 phi) ->", "answer": " 195264 + 328560 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-270 + 844 phi) (-300 + 947 phi) ->", "answer": " 880268 + 290378 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-580 - 207 phi) (-390 + 263 phi) ->", "answer": " 171759 - 126251 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-41 - 22 phi) (0 + 23 phi) ->", "answer": " -506 - 1449 phi"}
+{"task": "phi_mul", "prompt": "phi mul (2 - 26 phi) (25 + 48 phi) ->", "answer": " -1198 - 1802 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-14 - 20 phi) (16 + 0 phi) ->", "answer": " -224 - 320 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-17 + 44 phi) (-37 - 28 phi) ->", "answer": " -603 - 2384 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-197 + 283 phi) (660 + 490 phi) ->", "answer": " 8650 + 228920 phi"}
+{"task": "phi_mul", "prompt": "phi mul (24 + 6 phi) (-7 - 41 phi) ->", "answer": " -414 - 1272 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-891 - 382 phi) (309 - 81 phi) ->", "answer": " -244377 - 14925 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-33 + 19 phi) (-9 - 20 phi) ->", "answer": " -83 + 109 phi"}
+{"task": "phi_mul", "prompt": "phi mul (437 + 519 phi) (896 - 891 phi) ->", "answer": " -70877 - 386772 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-32 + 44 phi) (-45 - 38 phi) ->", "answer": " -232 - 2436 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-46 + 46 phi) (7 - 40 phi) ->", "answer": " -2162 + 322 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-27 - 50 phi) (15 - 42 phi) ->", "answer": " 1695 + 2484 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-2 + 46 phi) (-41 + 14 phi) ->", "answer": " 726 - 1270 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-44 - 10 phi) (-24 - 16 phi) ->", "answer": " 1216 + 1104 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-31 - 25 phi) (29 - 31 phi) ->", "answer": " -124 + 1011 phi"}
+{"task": "phi_mul", "prompt": "phi mul (21 - 6 phi) (7 + 26 phi) ->", "answer": " -9 + 348 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-475 - 688 phi) (126 - 15 phi) ->", "answer": " -49530 - 69243 phi"}
+{"task": "phi_mul", "prompt": "phi mul (34 - 14 phi) (21 + 43 phi) ->", "answer": " 112 + 566 phi"}
+{"task": "phi_mul", "prompt": "phi mul (12 + 48 phi) (-40 - 45 phi) ->", "answer": " -2640 - 4620 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-21 - 41 phi) (12 - 49 phi) ->", "answer": " 1757 + 2546 phi"}
+{"task": "phi_mul", "prompt": "phi mul (24 + 39 phi) (25 - 37 phi) ->", "answer": " -843 - 1356 phi"}
+{"task": "phi_mul", "prompt": "phi mul (2 + 6 phi) (31 + 46 phi) ->", "answer": " 338 + 554 phi"}
+{"task": "phi_mul", "prompt": "phi mul (32 + 26 phi) (-21 + 29 phi) ->", "answer": " 82 + 1136 phi"}
+{"task": "phi_mul", "prompt": "phi mul (33 - 27 phi) (-47 + 36 phi) ->", "answer": " -2523 + 1485 phi"}
+{"task": "phi_mul", "prompt": "phi mul (45 + 44 phi) (-31 + 39 phi) ->", "answer": " 321 + 2107 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-514 - 691 phi) (-98 - 276 phi) ->", "answer": " 241088 + 400298 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-872 - 79 phi) (-234 + 495 phi) ->", "answer": " 164943 - 452259 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-557 - 360 phi) (346 - 301 phi) ->", "answer": " -84362 + 151457 phi"}
+{"task": "phi_mul", "prompt": "phi mul (167 - 811 phi) (426 - 1000 phi) ->", "answer": " 882142 + 298514 phi"}
+{"task": "phi_mul", "prompt": "phi mul (38 - 31 phi) (17 - 41 phi) ->", "answer": " 1917 - 814 phi"}
+{"task": "phi_mul", "prompt": "phi mul (23 - 31 phi) (47 + 16 phi) ->", "answer": " 585 - 1585 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-19 - 30 phi) (49 - 21 phi) ->", "answer": " -301 - 441 phi"}
+{"task": "phi_mul", "prompt": "phi mul (7 + 32 phi) (-16 - 2 phi) ->", "answer": " -176 - 590 phi"}
+{"task": "phi_conj", "prompt": "phi conj (683 + 583 phi) ->", "answer": " 1266 - 583 phi"}
+{"task": "phi_conj", "prompt": "phi conj (616 + 269 phi) ->", "answer": " 885 - 269 phi"}
+{"task": "phi_conj", "prompt": "phi conj (22 - 9 phi) ->", "answer": " 13 + 9 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-32 + 43 phi) ->", "answer": " 11 - 43 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-40 - 39 phi) ->", "answer": " -79 + 39 phi"}
+{"task": "phi_conj", "prompt": "phi conj (170 + 835 phi) ->", "answer": " 1005 - 835 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-17 + 40 phi) ->", "answer": " 23 - 40 phi"}
+{"task": "phi_conj", "prompt": "phi conj (241 + 369 phi) ->", "answer": " 610 - 369 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-32 - 2 phi) ->", "answer": " -34 + 2 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-205 + 762 phi) ->", "answer": " 557 - 762 phi"}
+{"task": "phi_conj", "prompt": "phi conj (702 - 987 phi) ->", "answer": " -285 + 987 phi"}
+{"task": "phi_conj", "prompt": "phi conj (40 - 45 phi) ->", "answer": " -5 + 45 phi"}
+{"task": "phi_conj", "prompt": "phi conj (26 + 9 phi) ->", "answer": " 35 - 9 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-545 + 672 phi) ->", "answer": " 127 - 672 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-39 - 2 phi) ->", "answer": " -41 + 2 phi"}
+{"task": "phi_conj", "prompt": "phi conj (25 + 12 phi) ->", "answer": " 37 - 12 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-375 - 530 phi) ->", "answer": " -905 + 530 phi"}
+{"task": "phi_conj", "prompt": "phi conj (38 - 13 phi) ->", "answer": " 25 + 13 phi"}
+{"task": "phi_conj", "prompt": "phi conj (1 + 31 phi) ->", "answer": " 32 - 31 phi"}
+{"task": "phi_conj", "prompt": "phi conj (0 + 40 phi) ->", "answer": " 40 - 40 phi"}
+{"task": "phi_conj", "prompt": "phi conj (37 - 27 phi) ->", "answer": " 10 + 27 phi"}
+{"task": "phi_conj", "prompt": "phi conj (28 - 22 phi) ->", "answer": " 6 + 22 phi"}
+{"task": "phi_conj", "prompt": "phi conj (42 - 48 phi) ->", "answer": " -6 + 48 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-43 + 40 phi) ->", "answer": " -3 - 40 phi"}
+{"task": "phi_conj", "prompt": "phi conj (15 + 34 phi) ->", "answer": " 49 - 34 phi"}
+{"task": "phi_conj", "prompt": "phi conj (593 + 216 phi) ->", "answer": " 809 - 216 phi"}
+{"task": "phi_conj", "prompt": "phi conj (18 - 27 phi) ->", "answer": " -9 + 27 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-34 - 22 phi) ->", "answer": " -56 + 22 phi"}
+{"task": "phi_conj", "prompt": "phi conj (15 + 15 phi) ->", "answer": " 30 - 15 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-9 + 245 phi) ->", "answer": " 236 - 245 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-408 + 646 phi) ->", "answer": " 238 - 646 phi"}
+{"task": "phi_conj", "prompt": "phi conj (11 + 41 phi) ->", "answer": " 52 - 41 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-47 - 19 phi) ->", "answer": " -66 + 19 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-40 + 8 phi) ->", "answer": " -32 - 8 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-495 + 177 phi) ->", "answer": " -318 - 177 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-35 - 33 phi) ->", "answer": " -68 + 33 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-32 - 24 phi) ->", "answer": " -56 + 24 phi"}
+{"task": "phi_conj", "prompt": "phi conj (0 + 45 phi) ->", "answer": " 45 - 45 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-48 + 19 phi) ->", "answer": " -29 - 19 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-32 - 8 phi) ->", "answer": " -40 + 8 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-30 - 1 phi) ->", "answer": " -31 + 1 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-49 - 15 phi) ->", "answer": " -64 + 15 phi"}
+{"task": "phi_conj", "prompt": "phi conj (48 - 29 phi) ->", "answer": " 19 + 29 phi"}
+{"task": "phi_conj", "prompt": "phi conj (9 - 29 phi) ->", "answer": " -20 + 29 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-553 - 237 phi) ->", "answer": " -790 + 237 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-9 - 7 phi) ->", "answer": " -16 + 7 phi"}
+{"task": "phi_conj", "prompt": "phi conj (2 + 31 phi) ->", "answer": " 33 - 31 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-30 - 36 phi) ->", "answer": " -66 + 36 phi"}
+{"task": "phi_conj", "prompt": "phi conj (541 + 162 phi) ->", "answer": " 703 - 162 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-25 - 13 phi) ->", "answer": " -38 + 13 phi"}
+{"task": "phi_conj", "prompt": "phi conj (26 - 5 phi) ->", "answer": " 21 + 5 phi"}
+{"task": "phi_conj", "prompt": "phi conj (32 - 6 phi) ->", "answer": " 26 + 6 phi"}
+{"task": "phi_conj", "prompt": "phi conj (18 + 18 phi) ->", "answer": " 36 - 18 phi"}
+{"task": "phi_conj", "prompt": "phi conj (218 + 879 phi) ->", "answer": " 1097 - 879 phi"}
+{"task": "phi_conj", "prompt": "phi conj (49 + 16 phi) ->", "answer": " 65 - 16 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-3 + 4 phi) ->", "answer": " 1 - 4 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-672 + 770 phi) ->", "answer": " 98 - 770 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-875 + 276 phi) ->", "answer": " -599 - 276 phi"}
+{"task": "phi_conj", "prompt": "phi conj (29 + 43 phi) ->", "answer": " 72 - 43 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-18 + 10 phi) ->", "answer": " -8 - 10 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-37 - 5 phi) ->", "answer": " -42 + 5 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-19 - 8 phi) ->", "answer": " -27 + 8 phi"}
+{"task": "phi_conj", "prompt": "phi conj (44 + 32 phi) ->", "answer": " 76 - 32 phi"}
+{"task": "phi_conj", "prompt": "phi conj (4 - 2 phi) ->", "answer": " 2 + 2 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-5 - 21 phi) ->", "answer": " -26 + 21 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-12 - 43 phi) ->", "answer": " -55 + 43 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-6 + 36 phi) ->", "answer": " 30 - 36 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-205 - 480 phi) ->", "answer": " -685 + 480 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-134 - 782 phi) ->", "answer": " -916 + 782 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-25 + 31 phi) ->", "answer": " 6 - 31 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-9 + 48 phi) ->", "answer": " 39 - 48 phi"}
+{"task": "phi_conj", "prompt": "phi conj (14 - 44 phi) ->", "answer": " -30 + 44 phi"}
+{"task": "phi_conj", "prompt": "phi conj (200 + 184 phi) ->", "answer": " 384 - 184 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-32 - 29 phi) ->", "answer": " -61 + 29 phi"}
+{"task": "phi_conj", "prompt": "phi conj (48 - 3 phi) ->", "answer": " 45 + 3 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-42 + 26 phi) ->", "answer": " -16 - 26 phi"}
+{"task": "phi_conj", "prompt": "phi conj (44 - 847 phi) ->", "answer": " -803 + 847 phi"}
+{"task": "phi_conj", "prompt": "phi conj (648 + 894 phi) ->", "answer": " 1542 - 894 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-31 - 37 phi) ->", "answer": " -68 + 37 phi"}
+{"task": "phi_conj", "prompt": "phi conj (730 - 967 phi) ->", "answer": " -237 + 967 phi"}
+{"task": "phi_conj", "prompt": "phi conj (19 + 30 phi) ->", "answer": " 49 - 30 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-9 + 26 phi) ->", "answer": " 17 - 26 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-47 - 42 phi) ->", "answer": " -89 + 42 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-25 + 29 phi) ->", "answer": " 4 - 29 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-10 + 28 phi) ->", "answer": " 18 - 28 phi"}
+{"task": "phi_conj", "prompt": "phi conj (19 - 34 phi) ->", "answer": " -15 + 34 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-41 + 3 phi) ->", "answer": " -38 - 3 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-42 - 11 phi) ->", "answer": " -53 + 11 phi"}
+{"task": "phi_conj", "prompt": "phi conj (27 - 30 phi) ->", "answer": " -3 + 30 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-25 - 10 phi) ->", "answer": " -35 + 10 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-524 + 921 phi) ->", "answer": " 397 - 921 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-33 - 2 phi) ->", "answer": " -35 + 2 phi"}
+{"task": "phi_conj", "prompt": "phi conj (8 - 420 phi) ->", "answer": " -412 + 420 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-31 - 44 phi) ->", "answer": " -75 + 44 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-16 + 38 phi) ->", "answer": " 22 - 38 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-15 + 34 phi) ->", "answer": " 19 - 34 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-22 + 2 phi) ->", "answer": " -20 - 2 phi"}
+{"task": "phi_conj", "prompt": "phi conj (95 + 553 phi) ->", "answer": " 648 - 553 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-18 - 6 phi) ->", "answer": " -24 + 6 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-744 - 534 phi) ->", "answer": " -1278 + 534 phi"}
+{"task": "phi_norm", "prompt": "phi norm (39 + 44 phi) ->", "answer": " 1301"}
+{"task": "phi_norm", "prompt": "phi norm (2 + 1 phi) ->", "answer": " 5"}
+{"task": "phi_norm", "prompt": "phi norm (36 + 33 phi) ->", "answer": " 1395"}
+{"task": "phi_norm", "prompt": "phi norm (-33 + 31 phi) ->", "answer": " -895"}
+{"task": "phi_norm", "prompt": "phi norm (-5 - 10 phi) ->", "answer": " -25"}
+{"task": "phi_norm", "prompt": "phi norm (46 - 13 phi) ->", "answer": " 1349"}
+{"task": "phi_norm", "prompt": "phi norm (4 + 35 phi) ->", "answer": " -1069"}
+{"task": "phi_norm", "prompt": "phi norm (-392 + 196 phi) ->", "answer": " 38416"}
+{"task": "phi_norm", "prompt": "phi norm (-629 + 771 phi) ->", "answer": " -683759"}
+{"task": "phi_norm", "prompt": "phi norm (-32 + 32 phi) ->", "answer": " -1024"}
+{"task": "phi_norm", "prompt": "phi norm (-6 - 21 phi) ->", "answer": " -279"}
+{"task": "phi_norm", "prompt": "phi norm (46 + 4 phi) ->", "answer": " 2284"}
+{"task": "phi_norm", "prompt": "phi norm (30 - 27 phi) ->", "answer": " -639"}
+{"task": "phi_norm", "prompt": "phi norm (-21 - 124 phi) ->", "answer": " -12331"}
+{"task": "phi_norm", "prompt": "phi norm (-21 + 34 phi) ->", "answer": " -1429"}
+{"task": "phi_norm", "prompt": "phi norm (-36 + 11 phi) ->", "answer": " 779"}
+{"task": "phi_norm", "prompt": "phi norm (-23 + 2 phi) ->", "answer": " 479"}
+{"task": "phi_norm", "prompt": "phi norm (44 + 31 phi) ->", "answer": " 2339"}
+{"task": "phi_norm", "prompt": "phi norm (48 + 50 phi) ->", "answer": " 2204"}
+{"task": "phi_norm", "prompt": "phi norm (-17 - 17 phi) ->", "answer": " 289"}
+{"task": "phi_norm", "prompt": "phi norm (-15 - 19 phi) ->", "answer": " 149"}
+{"task": "phi_norm", "prompt": "phi norm (18 - 13 phi) ->", "answer": " -79"}
+{"task": "phi_norm", "prompt": "phi norm (-17 - 12 phi) ->", "answer": " 349"}
+{"task": "phi_norm", "prompt": "phi norm (-42 + 45 phi) ->", "answer": " -2151"}
+{"task": "phi_norm", "prompt": "phi norm (41 + 46 phi) ->", "answer": " 1451"}
+{"task": "phi_norm", "prompt": "phi norm (11 - 40 phi) ->", "answer": " -1919"}
+{"task": "phi_norm", "prompt": "phi norm (-28 + 31 phi) ->", "answer": " -1045"}
+{"task": "phi_norm", "prompt": "phi norm (-39 + 49 phi) ->", "answer": " -2791"}
+{"task": "phi_norm", "prompt": "phi norm (24 - 41 phi) ->", "answer": " -2089"}
+{"task": "phi_norm", "prompt": "phi norm (-15 + 50 phi) ->", "answer": " -3025"}
+{"task": "phi_norm", "prompt": "phi norm (-47 - 31 phi) ->", "answer": " 2705"}
+{"task": "phi_norm", "prompt": "phi norm (29 - 8 phi) ->", "answer": " 545"}
+{"task": "phi_norm", "prompt": "phi norm (605 + 2 phi) ->", "answer": " 367231"}
+{"task": "phi_norm", "prompt": "phi norm (-38 + 17 phi) ->", "answer": " 509"}
+{"task": "phi_norm", "prompt": "phi norm (34 - 20 phi) ->", "answer": " 76"}
+{"task": "phi_norm", "prompt": "phi norm (-920 + 969 phi) ->", "answer": " -984041"}
+{"task": "phi_norm", "prompt": "phi norm (-40 + 17 phi) ->", "answer": " 631"}
+{"task": "phi_norm", "prompt": "phi norm (-29 - 44 phi) ->", "answer": " 181"}
+{"task": "phi_norm", "prompt": "phi norm (35 + 471 phi) ->", "answer": " -204131"}
+{"task": "phi_norm", "prompt": "phi norm (306 - 224 phi) ->", "answer": " -25084"}
+{"task": "phi_norm", "prompt": "phi norm (-31 - 31 phi) ->", "answer": " 961"}
+{"task": "phi_norm", "prompt": "phi norm (-49 - 20 phi) ->", "answer": " 2981"}
+{"task": "phi_norm", "prompt": "phi norm (10 - 38 phi) ->", "answer": " -1724"}
+{"task": "phi_norm", "prompt": "phi norm (-306 + 125 phi) ->", "answer": " 39761"}
+{"task": "phi_norm", "prompt": "phi norm (21 - 10 phi) ->", "answer": " 131"}
+{"task": "phi_norm", "prompt": "phi norm (13 - 10 phi) ->", "answer": " -61"}
+{"task": "phi_norm", "prompt": "phi norm (905 + 567 phi) ->", "answer": " 1010671"}
+{"task": "phi_norm", "prompt": "phi norm (0 + 48 phi) ->", "answer": " -2304"}
+{"task": "phi_norm", "prompt": "phi norm (20 + 11 phi) ->", "answer": " 499"}
+{"task": "phi_norm", "prompt": "phi norm (-24 - 36 phi) ->", "answer": " 144"}
+{"task": "phi_norm", "prompt": "phi norm (50 - 49 phi) ->", "answer": " -2351"}
+{"task": "phi_norm", "prompt": "phi norm (928 + 494 phi) ->", "answer": " 1075580"}
+{"task": "phi_norm", "prompt": "phi norm (-1 + 39 phi) ->", "answer": " -1559"}
+{"task": "phi_norm", "prompt": "phi norm (17 - 45 phi) ->", "answer": " -2501"}
+{"task": "phi_norm", "prompt": "phi norm (-181 - 257 phi) ->", "answer": " 13229"}
+{"task": "phi_norm", "prompt": "phi norm (-38 - 45 phi) ->", "answer": " 1129"}
+{"task": "phi_norm", "prompt": "phi norm (-42 - 8 phi) ->", "answer": " 2036"}
+{"task": "phi_norm", "prompt": "phi norm (-305 - 470 phi) ->", "answer": " 15475"}
+{"task": "phi_norm", "prompt": "phi norm (-734 + 343 phi) ->", "answer": " 169345"}
+{"task": "phi_norm", "prompt": "phi norm (49 + 18 phi) ->", "answer": " 2959"}
+{"task": "phi_norm", "prompt": "phi norm (-50 - 35 phi) ->", "answer": " 3025"}
+{"task": "phi_norm", "prompt": "phi norm (-16 - 50 phi) ->", "answer": " -1444"}
+{"task": "phi_norm", "prompt": "phi norm (351 + 701 phi) ->", "answer": " -122149"}
+{"task": "phi_norm", "prompt": "phi norm (41 + 15 phi) ->", "answer": " 2071"}
+{"task": "phi_norm", "prompt": "phi norm (-20 + 32 phi) ->", "answer": " -1264"}
+{"task": "phi_norm", "prompt": "phi norm (336 - 210 phi) ->", "answer": " -1764"}
+{"task": "phi_norm", "prompt": "phi norm (35 + 2 phi) ->", "answer": " 1291"}
+{"task": "phi_norm", "prompt": "phi norm (-500 + 512 phi) ->", "answer": " -268144"}
+{"task": "phi_norm", "prompt": "phi norm (3 + 972 phi) ->", "answer": " -941859"}
+{"task": "phi_norm", "prompt": "phi norm (43 - 14 phi) ->", "answer": " 1051"}
+{"task": "phi_norm", "prompt": "phi norm (-25 + 30 phi) ->", "answer": " -1025"}
+{"task": "phi_norm", "prompt": "phi norm (21 + 24 phi) ->", "answer": " 369"}
+{"task": "phi_norm", "prompt": "phi norm (-40 - 41 phi) ->", "answer": " 1559"}
+{"task": "phi_norm", "prompt": "phi norm (-71 - 144 phi) ->", "answer": " -5471"}
+{"task": "phi_norm", "prompt": "phi norm (-46 + 5 phi) ->", "answer": " 1861"}
+{"task": "phi_norm", "prompt": "phi norm (-230 - 872 phi) ->", "answer": " -506924"}
+{"task": "phi_norm", "prompt": "phi norm (39 - 9 phi) ->", "answer": " 1089"}
+{"task": "phi_norm", "prompt": "phi norm (110 - 999 phi) ->", "answer": " -1095791"}
+{"task": "phi_norm", "prompt": "phi norm (915 - 421 phi) ->", "answer": " 274769"}
+{"task": "phi_norm", "prompt": "phi norm (886 + 703 phi) ->", "answer": " 913645"}
+{"task": "phi_norm", "prompt": "phi norm (-19 + 29 phi) ->", "answer": " -1031"}
+{"task": "phi_norm", "prompt": "phi norm (-33 - 19 phi) ->", "answer": " 1355"}
+{"task": "phi_norm", "prompt": "phi norm (820 + 851 phi) ->", "answer": " 646019"}
+{"task": "phi_norm", "prompt": "phi norm (142 + 310 phi) ->", "answer": " -31916"}
+{"task": "phi_norm", "prompt": "phi norm (860 - 301 phi) ->", "answer": " 390139"}
+{"task": "phi_norm", "prompt": "phi norm (15 + 25 phi) ->", "answer": " -25"}
+{"task": "phi_norm", "prompt": "phi norm (-626 - 328 phi) ->", "answer": " 489620"}
+{"task": "phi_norm", "prompt": "phi norm (87 - 752 phi) ->", "answer": " -623359"}
+{"task": "phi_norm", "prompt": "phi norm (29 - 16 phi) ->", "answer": " 121"}
+{"task": "phi_norm", "prompt": "phi norm (-1 + 44 phi) ->", "answer": " -1979"}
+{"task": "phi_norm", "prompt": "phi norm (-32 - 3 phi) ->", "answer": " 1111"}
+{"task": "phi_norm", "prompt": "phi norm (430 + 264 phi) ->", "answer": " 228724"}
+{"task": "phi_norm", "prompt": "phi norm (-705 - 521 phi) ->", "answer": " 592889"}
+{"task": "phi_norm", "prompt": "phi norm (3 + 35 phi) ->", "answer": " -1111"}
+{"task": "phi_norm", "prompt": "phi norm (-20 + 37 phi) ->", "answer": " -1709"}
+{"task": "phi_norm", "prompt": "phi norm (-5 + 21 phi) ->", "answer": " -521"}
+{"task": "phi_norm", "prompt": "phi norm (16 - 19 phi) ->", "answer": " -409"}
+{"task": "phi_norm", "prompt": "phi norm (5 - 10 phi) ->", "answer": " -125"}
+{"task": "phi_norm", "prompt": "phi norm (-23 + 34 phi) ->", "answer": " -1409"}
+{"task": "phi_norm", "prompt": "phi norm (12 - 3 phi) ->", "answer": " 99"}

@@ -24,10 +24,12 @@
 //! Usage:
 //!   dss-host run   --mode M --gguf G [--bin DIR] "PROMPT"
 //!   dss-host eval  --mode M --gguf G [--bin DIR] PROMPTS.txt OUT.tsv
+//!   dss-host answer            (stdin: prompts; kernel answer per line, no model)
 //!   dss-host kernel            (stdin: "isdss 1 2 4" | "card 1 2 4 sum 3" |
 //!                               "next 3 5 6" | "bound 12 60" per line)
 mod kernel;
 mod parse;
+mod phi;
 
 use parse::{parse_call, parse_prompt, Task};
 use std::io::{BufRead, Write};
@@ -39,6 +41,10 @@ fn run_task(t: &Task) -> Option<String> {
         Task::Card(w, s) => kernel::tool_card(w, *s),
         Task::Next(s) => kernel::tool_next(s),
         Task::Bound(k, a) => Some(kernel::tool_bound(*k, *a)),
+        Task::PhiNormalize(ts) => phi::normalize(ts).ok().map(|x| x.fmt()),
+        Task::PhiMul(x, y) => x.mul(*y).ok().map(|z| z.fmt()),
+        Task::PhiConj(x) => x.conj().ok().map(|z| z.fmt()),
+        Task::PhiNorm(x) => x.norm().ok().map(|z| z.to_string()),
     }
 }
 
@@ -156,6 +162,16 @@ fn main() {
                 writeln!(out, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}", esc(&p), esc(&o.call), o.wellformed as u8,
                          o.correct_tool as u8, o.copy_error as u8, esc(&o.result), esc(&o.final_), esc(&o.text),
                          esc(&o.note)).unwrap();
+            }
+        }
+        "answer" => {
+            // Kernel only (no model): prompt per line -> result or ERROR.
+            for line in std::io::stdin().lock().lines() {
+                let l = line.unwrap();
+                match parse_prompt(&l) {
+                    Ok(t) => println!("{}", run_task(&t).unwrap_or_else(|| "ERROR: kernel rejected arguments".into())),
+                    Err(e) => println!("ERROR: prompt rejected: {e}"),
+                }
             }
         }
         "kernel" => {

@@ -1,0 +1,74 @@
+{
+ "isdss": {
+  "n": 101,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "card": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "next": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "bound": {
+  "n": 101,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "phi_normalize": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "phi_mul": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "phi_conj": {
+  "n": 100,
+  "wellformed": 1.0,
+  "correct_tool": 1.0,
+  "copy_error": 0.0,
+  "acc": 1.0,
+  "acc_se": 0.0
+ },
+ "phi_norm": {
+  "n": 100,
+  "wellformed": 0.99,
+  "correct_tool": 0.99,
+  "copy_error": 0.0,
+  "acc": 0.99,
+  "acc_se": 0.0099
+ },
+ "all": {
+  "n": 802,
+  "wellformed": 0.9988,
+  "correct_tool": 0.9988,
+  "copy_error": 0.0,
+  "acc": 0.9988,
+  "acc_se": 0.0012
+ }
+}

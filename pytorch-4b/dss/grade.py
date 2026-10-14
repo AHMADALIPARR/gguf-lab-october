@@ -21,8 +21,18 @@ def _multisubset(part, S):
     return all(have[x] >= n for x, n in c.items())
 
 
+# Phi-kernel prompts are graded against the Rust exact kernel's answers
+# (kernels/phi; cross-checked against the Ruby PhiAlgebra), registered here
+# from the dataset rows by agent.register_phi().
+PHI_ANS = {}
+
+
 def grade(prompt, completion):
     ans = completion.split("\n")[0].strip()
+    if prompt.startswith("phi "):
+        if prompt not in PHI_ANS:
+            raise ValueError(f"no kernel answer registered for {prompt}")
+        return float(ans == PHI_ANS[prompt])
     try:
         m = re.fullmatch(r"DSS greedy next after ([\d ]+) ->", prompt)
         if m:

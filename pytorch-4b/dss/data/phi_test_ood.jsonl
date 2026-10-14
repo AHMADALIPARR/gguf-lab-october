@@ -1,0 +1,400 @@
+{"task": "phi_normalize", "prompt": "phi normalize -977712621 phi^29 + 450360407 phi^24 + 88200522 phi^22 ->", "answer": " -296856404695420 - 480323752587291 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -809563518 phi^4 - 745641743 phi^28 ->", "answer": " -146459079003610 - 236975576675127 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 45906595 phi^51 + 129406246 phi^14 ->", "answer": " 577792784843375193 + 934888364330787772 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 827626193 phi^2 + 574577881 phi^23 + 138729900 phi^46 ->", "answer": " 157455180460259584 + 254767833177961710 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -173852985 phi^43 + 410171120 + 43080129 phi^38 ->", "answer": " -45536977800884047 - 73680378490450644 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 256076331 phi^47 + 198456098 phi^46 - 298155090 phi^48 + 82276470 phi^21 ->", "answer": " -190417871481453467 - 308102588122395563 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 213049778 phi^48 + 558680684 phi^53 ->", "answer": " 19042260416077811510 + 30811024575840613660 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 806377744 phi^3 + 459704320 phi^43 + 547336126 phi^33 - 437460275 phi^36 ->", "answer": " 120316977900174523 + 194676959974161356 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -439947832 phi^52 ->", "answer": " -8959542470662291568 - 14496844241179795368 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 254984282 phi^56 ->", "answer": " 35591690944325089490 + 57588565664999836194 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 611663489 phi^53 + 505098896 phi^21 + 142876299 - 907410181 phi^5 ->", "answer": " 20155098366785282607 + 32611634203692547308 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 63085613 phi^6 - 81795041 phi^19 + 292675354 phi^25 ->", "answer": " 13359727856393 + 21616488052333 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 659951732 phi^56 + 863722659 phi^13 - 982988350 phi^17 - 639798538 phi^52 ->", "answer": " 79089106622495056374 + 127968862655063637179 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -452735086 phi^56 + 668276885 phi^13 - 244125842 phi^32 - 92455549 phi^12 ->", "answer": " -63194840539299101189 - 102251399906213140691 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -19180855 phi^43 - 341659954 phi^37 ->", "answer": " -10239928641526888 - 16568552584364053 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 536472706 phi^52 ->", "answer": " 10925272598588746244 + 17677462400874477894 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 556344677 phi^10 + 871036767 + 124175435 phi^23 + 358187183 phi^17 ->", "answer": " 2572588634691 + 4161119329281 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 678701901 phi^30 + 653748112 phi^29 ->", "answer": " 556776541072161 + 900883367593688 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 14443196 phi^13 + 160394919 phi^33 + 252253246 phi^29 + 39848402 phi^23 ->", "answer": " 430266386844523 + 696185638177298 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 953438014 phi^29 + 332279886 phi^2 - 950857017 phi^16 - 756912055 phi^32 ->", "answer": " -716573837205925 - 1159441028709682 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 546593652 phi^28 ->", "answer": " 107360831938536 + 173713475135772 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 325399258 phi^17 ->", "answer": " 321169067646 + 519662615026 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 169240950 phi^10 - 920772925 phi^33 - 988631470 phi^39 + 59049614 phi^17 ->", "answer": " -40649457891400937 - 65772204494744262 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 995948840 phi^58 - 95808946 phi^32 ->", "answer": " 363954730322986429606 + 588891124028894038046 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 603711770 phi^55 + 890273020 phi^38 - 591756663 ->", "answer": " 52102255198325712117 + 84303219802369378030 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -191983206 phi^50 + 979600181 phi^10 - 868290650 ->", "answer": " -1493387804775913590 - 2416352225119984195 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -268190907 phi^8 + 471258751 phi^43 ->", "answer": " 126256953021522505 + 204288041314059140 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 584375089 phi^45 - 603503040 phi^29 + 982046572 phi^45 ->", "answer": " 1098510032681120073 + 1777426569860809210 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -274867616 phi^28 - 696483459 phi^23 - 461082155 phi^58 ->", "answer": " -168495760191804130947 - 272631866950590602384 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -105850935 phi^45 + 116819774 phi^46 ->", "answer": " 58334361626068225 + 94386979823005972 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -948482246 phi^54 + 273378482 phi^10 ->", "answer": " -50569555590862146170 - 81823259741995820402 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 44166189 phi^42 - 228855823 phi^26 - 348192329 phi^34 + 524672607 phi^10 ->", "answer": " 6068660710238550 + 9819299288456067 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -512520989 phi^4 ->", "answer": " -1025041978 - 1537562967 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 101879695 phi^28 ->", "answer": " 20011005932510 + 32378487747645 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 172341969 phi^19 - 164306308 phi^18 ->", "answer": " 182934474020 + 295994272517 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 458877157 phi^27 + 382095401 phi^28 + 588703809 phi^37 ->", "answer": " 8920309981304087 + 14433364739935790 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 578938986 phi^8 + 443006154 phi^16 - 39327900 phi^16 ->", "answer": " 253769941758 + 410588155404 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -77592937 phi^18 ->", "answer": " -123915920389 - 200500149208 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 935897704 phi^35 - 632463526 phi^1 ->", "answer": " 5337318849471448 + 8635962674776834 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -744432273 phi^55 - 92531418 phi^32 + 757781377 phi^13 ->", "answer": " -64220488631263522410 - 103910933379508238806 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -483347005 phi^20 + 979742652 phi^27 + 566767028 phi^15 - 158499686 phi^23 ->", "answer": " 114319509157141 + 184972852117089 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 15166777 phi^29 + 260706959 phi^13 - 451317940 phi^1 ->", "answer": " 4857710367243 + 7859489973440 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 855803168 phi^53 - 643940687 phi^7 ->", "answer": " 28199809893228028136 + 45628250883492607133 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 252665851 phi^16 - 762083703 - 348489801 phi^36 ->", "answer": " -3215524077499058 - 5202826016145015 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 504120214 phi^13 + 693080426 phi^38 - 429796694 phi^26 - 365847972 phi^35 ->", "answer": " 14624747550438344 + 23663338615064134 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 218845667 phi^45 - 874096271 phi^56 + 589296865 - 324319286 phi^60 ->", "answer": " -432139637778439662545 - 699216621812536978037 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 467824657 phi^14 - 995615193 phi^34 + 750176871 phi^42 + 130758852 phi^10 ->", "answer": " 120705382118351306 + 195305410889918174 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 410459204 phi^59 ->", "answer": " 242699080481897356316 + 392695361258056131364 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -412878924 phi^16 ->", "answer": " -251856143640 - 407511497988 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 68286415 phi^12 + 224822706 phi^20 ->", "answer": " 946061224721 + 1530758849850 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 456230245 phi^1 + 496907291 phi^52 + 5483071 phi^8 ->", "answer": " 10119522484037620457 + 16373731329547676545 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 406538480 phi^7 + 55072623 phi^22 + 558923951 phi^27 ->", "answer": " 68455532422941 + 110763400833711 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 527147663 phi^50 ->", "answer": " 4100545692210181487 + 6634822302418038575 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -436108800 phi^33 + 466459794 phi^17 + 359533144 phi^60 + 938259849 phi^22 ->", "answer": " 343972338707434707536 + 556558935218420602737 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -938085152 phi^52 ->", "answer": " -19104114508834973248 - 30911106600264990048 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 818961801 phi^18 - 508506109 phi^42 + 218367814 phi^11 - 538005110 phi^16 ->", "answer": " -84197521518472502 - 136234451583448604 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -323577732 phi^36 ->", "answer": " -2985802196809380 - 4831129438121664 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 290892777 phi^20 - 2264995 phi^54 - 551264544 phi^2 + 212294151 phi^49 ->", "answer": " 899849940525564334 + 1455987788885603620 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -493007598 phi^24 - 700628935 phi^59 ->", "answer": " -414272605962875184751 - 670307157055924400399 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -898943259 phi^43 - 845777887 phi^4 ->", "answer": " -240839752070486438 - 389686904492483844 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 359391532 phi^10 ->", "answer": " 12219312088 + 19766534260 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 757710738 phi^17 + 950693911 phi^20 - 312582481 phi^54 ->", "answer": " -16665733849862999916 - 26965723816537729331 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 438875852 phi^40 + 46344693 phi^55 + 547658418 phi^57 ->", "answer": " 127715240134931869274 + 206647599419674471161 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -207320303 phi^59 ->", "answer": " -122585743998393433337 - 198347900325594010423 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -141489649 phi^23 + 306368415 phi^6 ->", "answer": " -2504391331364 - 4052217924073 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -754838821 phi^49 ->", "answer": " -3628907994489535296 - 5871696477130284229 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -650773765 phi^29 - 759171081 phi^49 - 432768122 phi^20 ->", "answer": " -3649944083771127553 - 5905733584578232484 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -693471414 phi^46 + 501717416 phi^14 - 500276255 phi^46 ->", "answer": " -1354787896828052802 - 2192092864615738275 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -50502328 phi^39 + 467574055 phi^20 ->", "answer": " -1972088604633477 - 3190906391173333 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -558076876 phi^48 + 684161294 phi^54 + 744255608 phi^32 ->", "answer": " 34819778302589632466 + 56339584774326145864 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 207691640 phi^38 + 832649380 phi^27 - 795070601 phi^43 + 916617015 phi^18 ->", "answer": " -207890862062102721 - 336374480767251877 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -630257549 phi^2 - 704042084 phi^26 + 396963254 phi^60 ->", "answer": " 379783435809320487765 + 614502507504084003119 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 459898106 phi^36 ->", "answer": " 4243693676681290 + 6866440606713312 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 271706038 phi^1 + 177052700 phi^55 ->", "answer": " 15273906416150034400 + 24713699722587557538 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 348772334 phi^26 ->", "answer": " 26166644358350 + 42338519941262 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 868297200 phi^5 - 370133701 phi^56 - 270105157 phi^21 ->", "answer": " -51664693431299254450 - 83595229990058959139 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 962571895 phi^48 - 854925385 phi^24 + 687442161 phi^41 ->", "answer": " 2930332436330724345 + 4741377480319412541 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -840369088 phi^40 ->", "answer": " -53149971574480768 - 85998460508600640 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 219119389 phi^6 - 307477232 phi^16 - 623175932 phi^8 + 64434969 phi^7 ->", "answer": " -194051321939 - 313976112847 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 274304205 phi^44 ->", "answer": " 118909346913207585 + 192399364885622265 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -403226376 phi^5 + 782627042 phi^38 - 842071324 phi^36 ->", "answer": " 11136375980494526 + 18019034789108170 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -946099982 phi^29 + 104627109 phi^30 + 161498277 phi^15 ->", "answer": " -246817802895012 - 399359593922548 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -883171609 phi^34 ->", "answer": " -3112807223306002 - 5036627887735183 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -553538730 phi^4 - 205745079 phi^9 + 934357966 phi^13 ->", "answer": " 129119822985 + 209049457202 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -111125734 phi^30 - 410821114 phi^33 ->", "answer": " -952039405085312 - 1540432116057252 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 475287121 phi^7 + 785535981 phi^32 + 225221159 phi^46 ->", "answer": " 256661753842075887 + 415287441355124279 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -621983444 phi^59 + 929709972 phi^16 - 381147644 phi^18 ->", "answer": " -367770556683207827824 - 595065260774900634936 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -94099462 phi^6 + 622509295 phi^38 + 93987104 phi^5 ->", "answer": " 15038465440873017 + 24332748244170679 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 741919843 phi^56 - 243394497 phi^45 ->", "answer": " 103389318284768053834 + 167287431058435690941 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -426040393 ->", "answer": " -426040393 + 0 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -809990196 phi^10 - 945936132 phi^17 - 72000498 phi^50 + 398497497 phi^57 ->", "answer": " 89441156767565736999 + 144718831643039268480 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 417835234 phi^53 - 590698310 phi^20 + 145950660 phi^47 ->", "answer": " 14036214295264280036 + 22711071803114820512 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 814480408 phi^8 ->", "answer": " 10588245304 + 17104088568 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 533584017 phi^58 + 429624795 phi^34 + 760198488 phi^56 + 901263320 phi^12 ->", "answer": " 301103388785906772904 + 487195517183366565084 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 879452057 phi^27 - 794622095 phi^50 ->", "answer": " -6181053544117417254 - 10001154720664975549 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 805441571 phi^7 - 846468101 phi^58 - 123065661 phi^27 ->", "answer": " -309329336113486981567 - 500505379549017351654 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 297438765 phi^15 ->", "answer": " 112134414405 + 181437646650 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 177297773 phi^15 + 822324495 phi^55 - 382311398 phi^31 + 146513178 phi^32 ->", "answer": " 70939816195739209023 + 114783033760376513745 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize -53065755 phi^26 ->", "answer": " -3981258268875 - 6441811196715 phi"}
+{"task": "phi_normalize", "prompt": "phi normalize 28851158 phi^18 ->", "answer": " 46075299326 + 74551392272 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-750454509 + 730983549 phi) (-609708957 + 779824496 phi) ->", "answer": " 1027597713641553417 - 460871148813584553 phi"}
+{"task": "phi_mul", "prompt": "phi mul (408095006 + 986261515 phi) (662170762 - 472640645 phi) ->", "answer": " -195918697496862603 - 5956026526571615 phi"}
+{"task": "phi_mul", "prompt": "phi mul (913997451 - 481521846 phi) (-486252850 + 583985539 phi) ->", "answer": " -725635660218070344 + 486700869245037195 phi"}
+{"task": "phi_mul", "prompt": "phi mul (178936789 + 240295073 phi) (222940600 + 648495124 phi) ->", "answer": " 195722458263457452 + 325441346084104688 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-838973970 - 445745264 phi) (832686941 + 298932123 phi) ->", "answer": " -831850246742641242 - 755210108423951206 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-139055931 + 286525893 phi) (-862649605 - 96393626 phi) ->", "answer": " 92337274180899237 - 261386612781984477 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-636361367 + 911837241 phi) (692267694 - 427816866 phi) ->", "answer": " -830631766830484404 + 513382239057101370 phi"}
+{"task": "phi_mul", "prompt": "phi mul (174798791 - 208209053 phi) (-105612348 + 183837898 phi) ->", "answer": " -56737625393161862 + 15847374624477168 phi"}
+{"task": "phi_mul", "prompt": "phi mul (166829148 - 327995935 phi) (-14151203 + 897105059 phi) ->", "answer": " -296607645759600209 - 139942002901115628 phi"}
+{"task": "phi_mul", "prompt": "phi mul (525513407 - 440085856 phi) (-55979084 - 274031739 phi) ->", "answer": " 91179733275404396 + 1225742741194715 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-791411574 - 371457796 phi) (-35161501 + 587241413 phi) ->", "answer": " -190308182142293174 - 669824038307708014 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-517535124 - 118847682 phi) (136215897 + 937953233 phi) ->", "answer": " -181970078711122134 - 613086253923312552 phi"}
+{"task": "phi_mul", "prompt": "phi mul (368912591 + 619697793 phi) (-584987437 - 4038398 phi) ->", "answer": " -218311817413974881 - 366507825839151373 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-51415463 - 152125565 phi) (-825729480 - 698710889 phi) ->", "answer": " 148747052287726525 + 267830896304010092 phi"}
+{"task": "phi_mul", "prompt": "phi mul (874599986 + 552857174 phi) (858304725 + 889685314 phi) ->", "answer": " 1242542208916076486 + 1744507596310495390 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-176525988 + 121568803 phi) (589035635 - 690961919 phi) ->", "answer": " -187979510846995337 + 109581679081732920 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-644676830 - 631476956 phi) (-341440338 - 743112635 phi) ->", "answer": " 689377179450907600 + 1163937707875537238 phi"}
+{"task": "phi_mul", "prompt": "phi mul (200530819 + 37472034 phi) (-725648448 - 349083081 phi) ->", "answer": " -158595730663575666 - 110274292527533325 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-806781836 + 185601533 phi) (-821231535 - 253530229 phi) ->", "answer": " 615499086424157203 + 5066152625936232 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-19942260 - 261070197 phi) (734812784 + 8983688 phi) ->", "answer": " -16999200785798376 - 194362246514799864 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-431136034 + 278122761 phi) (-119807729 + 868670894 phi) ->", "answer": " 293250576563225120 - 166239433029395831 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-898518786 - 314654919 phi) (4274700 - 732408637 phi) ->", "answer": " 226615082095621203 + 887193844341040785 phi"}
+{"task": "phi_mul", "prompt": "phi mul (481711180 + 549297789 phi) (176459768 - 24978335 phi) ->", "answer": " 71282098877404925 + 71176072994166337 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-217819729 - 556806900 phi) (-220689669 - 453788393 phi) ->", "answer": " 300743072256991401 + 474398103606833297 phi"}
+{"task": "phi_mul", "prompt": "phi mul (424630417 - 863680408 phi) (183941753 + 36259372 phi) ->", "answer": " 46790754077317225 - 174786565229540876 phi"}
+{"task": "phi_mul", "prompt": "phi mul (894544495 + 924450518 phi) (-56031044 - 788280102 phi) ->", "answer": " -778848210582295616 - 1485675502035012118 phi"}
+{"task": "phi_mul", "prompt": "phi mul (173297783 - 658424060 phi) (841092981 - 37845477 phi) ->", "answer": " 170677921523137743 - 535436020029223731 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-177387841 - 998617199 phi) (204585215 + 850122389 phi) ->", "answer": " -885237768499739226 - 1204050528440953345 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-696750868 - 679431039 phi) (-800867436 + 407678917 phi) ->", "answer": " 281015371030229685 - 16906155298008715 phi"}
+{"task": "phi_mul", "prompt": "phi mul (918549580 + 117208738 phi) (-540584622 - 60682783 phi) ->", "answer": " -503666329906316614 - 126213938578466030 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-67152896 + 552493172 phi) (-256556041 - 219910296 phi) ->", "answer": " -104270455853054176 - 248476784643733748 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-229799331 + 255660262 phi) (126745052 - 132611758 phi) ->", "answer": " -63029484951720808 + 28974209678096926 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-260419331 - 663928363 phi) (793098598 + 78420118 phi) ->", "answer": " -258603546878204772 - 599048109104242966 phi"}
+{"task": "phi_mul", "prompt": "phi mul (63267146 + 478996925 phi) (-717238001 - 578615518 phi) ->", "answer": " -322532655205297296 - 657317203306600703 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-390803884 - 405183919 phi) (724739428 - 167881520 phi) ->", "answer": " -215208091149061472 - 160021119421757772 phi"}
+{"task": "phi_mul", "prompt": "phi mul (526206551 + 696135493 phi) (-293982620 - 301808222 phi) ->", "answer": " -364794995937567066 - 573564615082617428 phi"}
+{"task": "phi_mul", "prompt": "phi mul (352229558 - 732668102 phi) (131668240 + 11222022 phi) ->", "answer": " 38155428418495676 - 100738409204896448 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-551957323 - 825875857 phi) (-694218355 - 414346516 phi) ->", "answer": " 725377688799727877 + 1144238556642956115 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-917644219 + 257772051 phi) (25794401 + 546360583 phi) ->", "answer": " 117166405105247914 - 353879066763867493 phi"}
+{"task": "phi_mul", "prompt": "phi mul (749814064 - 532582626 phi) (861280978 - 654480345 phi) ->", "answer": " 994365451165560562 - 600876991474174338 phi"}
+{"task": "phi_mul", "prompt": "phi mul (291537905 + 433341445 phi) (424800208 + 674092806 phi) ->", "answer": " 415957713300028910 + 672719491023976660 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-294353702 + 951105064 phi) (-218500467 + 683241318 phi) ->", "answer": " 714150698834013186 + 240902765521110228 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-503442700 - 635788724 phi) (266516812 + 15359717 phi) ->", "answer": " -143941478301103508 - 186946656096174896 phi"}
+{"task": "phi_mul", "prompt": "phi mul (197744010 - 20578596 phi) (-779292805 - 960039143 phi) ->", "answer": " -134344226556864822 - 154048980425998422 phi"}
+{"task": "phi_mul", "prompt": "phi mul (784926022 + 500051842 phi) (979280654 + 285856771 phi) ->", "answer": " 911606073052500570 + 857010717877181812 phi"}
+{"task": "phi_mul", "prompt": "phi mul (730012691 + 423660709 phi) (-653484270 + 609701051 phi) ->", "answer": " -218745430924165411 + 426540275342195970 phi"}
+{"task": "phi_mul", "prompt": "phi mul (907112992 - 315314193 phi) (523794935 + 793994086 phi) ->", "answer": " 224783586208432922 + 304724769280890259 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-454954237 + 968360268 phi) (-351255645 - 367717591 phi) ->", "answer": " -196277861006156523 - 528930439452904181 phi"}
+{"task": "phi_mul", "prompt": "phi mul (158210441 - 382289178 phi) (-110120190 + 584681903 phi) ->", "answer": " -240939727912249524 - 88917025454692691 phi"}
+{"task": "phi_mul", "prompt": "phi mul (689822451 - 677673775 phi) (-81453858 + 166220007 phi) ->", "answer": " -168831639593182383 + 57218496448934682 phi"}
+{"task": "phi_mul", "prompt": "phi mul (298777743 - 693013791 phi) (697769590 + 369816378 phi) ->", "answer": " -47809826857433628 - 629358896158809834 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-73821892 - 874236096 phi) (-415107671 - 137860427 phi) ->", "answer": " 151166595150306524 + 493601788761133292 phi"}
+{"task": "phi_mul", "prompt": "phi mul (506849833 + 754370512 phi) (44674333 - 10771716 phi) ->", "answer": " 14517313306397797 + 20115492088706476 phi"}
+{"task": "phi_mul", "prompt": "phi mul (331648854 - 160792989 phi) (532391339 + 283516242 phi) ->", "answer": " 130979553477648168 - 37164381947062941 phi"}
+{"task": "phi_mul", "prompt": "phi mul (868888124 + 242084079 phi) (964009697 + 219707319 phi) ->", "answer": " 890804221113812629 + 477460123849967820 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-800025729 - 574356243 phi) (457829895 + 709648817 phi) ->", "answer": " -773866923886882986 - 1238285998961211609 phi"}
+{"task": "phi_mul", "prompt": "phi mul (742936856 + 472997859 phi) (742044818 - 264731006 phi) ->", "answer": " 426075245047096054 + 29089989863771372 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-345092725 + 591358787 phi) (-578680559 - 964117095 phi) ->", "answer": " -370440664815330490 - 579637153723251823 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-339121643 - 529366426 phi) (-527827972 + 188368410 phi) ->", "answer": " 79281977112995336 + 115818690418967782 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-959288771 + 35713568 phi) (540406916 - 331695834 phi) ->", "answer": " -530252328012415948 + 325645906363040590 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-728580798 + 430616588 phi) (124789495 - 962018886 phi) ->", "answer": " -505180520129997978 + 340383623927213120 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-157114841 + 335248724 phi) (-493213288 - 748557852 phi) ->", "answer": " -173461937399973640 - 298692642288743828 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-76926326 + 766722410 phi) (-930575094 + 886201749 phi) ->", "answer": " 751056463788019734 - 102194282663505624 phi"}
+{"task": "phi_mul", "prompt": "phi mul (944383342 + 702552708 phi) (-308034141 + 633840147 phi) ->", "answer": " 154403800186288854 + 827483968115595522 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-848832693 - 447818870 phi) (-621795085 - 970161468 phi) ->", "answer": " 962256608812015065 + 1536412956180828434 phi"}
+{"task": "phi_mul", "prompt": "phi mul (251053703 + 382367584 phi) (-630609090 + 185620397 phi) ->", "answer": " -87341524447949422 - 123548563430547621 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-864515202 - 737822886 phi) (-638003372 - 671743642 phi) ->", "answer": " 1047191446613851956 + 1547093912155208088 phi"}
+{"task": "phi_mul", "prompt": "phi mul (232452049 + 545724625 phi) (80503818 + 700442814 phi) ->", "answer": " 400962169450517832 + 589001175214838886 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-38438144 - 770000150 phi) (-463076016 - 466425054 phi) ->", "answer": " 376947144129712404 + 733644476716020276 phi"}
+{"task": "phi_mul", "prompt": "phi mul (886424833 - 939887263 phi) (508679216 - 173876821 phi) ->", "answer": " 614330498482201851 - 468805238699890778 phi"}
+{"task": "phi_mul", "prompt": "phi mul (891596177 + 959626995 phi) (-641121972 + 719080241 phi) ->", "answer": " 118426911608804751 + 715940053247710312 phi"}
+{"task": "phi_mul", "prompt": "phi mul (372963579 - 949127503 phi) (-674671304 - 423931936 phi) ->", "answer": " 150737635669198792 + 884603377865950776 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-835505018 - 682246650 phi) (-918306905 - 899948267 phi) ->", "answer": " 1381236717525604840 + 1992409792961077606 phi"}
+{"task": "phi_mul", "prompt": "phi mul (726724035 - 808166951 phi) (-89553775 + 701012867 phi) ->", "answer": " -631616312052640642 + 15281869250289853 phi"}
+{"task": "phi_mul", "prompt": "phi mul (208922264 + 492969601 phi) (-788768793 - 415398146 phi) ->", "answer": " -369570020295867098 - 680403616579943883 phi"}
+{"task": "phi_mul", "prompt": "phi mul (884171624 + 509452153 phi) (-180116337 - 381713070 phi) ->", "answer": " -353718299533960998 - 623725066018788951 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-196004958 + 199020552 phi) (189220412 - 631254684 phi) ->", "answer": " -162720794569068264 + 35755143008365128 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-378179162 - 853650904 phi) (207055003 + 494302003 phi) ->", "answer": " -500265239232408198 - 785648759468094910 phi"}
+{"task": "phi_mul", "prompt": "phi mul (340059738 + 192556145 phi) (-360652391 + 909521320 phi) ->", "answer": " 52490561581977842 + 414979666863132865 phi"}
+{"task": "phi_mul", "prompt": "phi mul (694816162 - 142833327 phi) (898454727 + 69173181 phi) ->", "answer": " 614380629563494587 - 90146869261938594 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-328348045 - 428959658 phi) (148202382 - 280850056 phi) ->", "answer": " 71811381576997658 + 149117067699276012 phi"}
+{"task": "phi_mul", "prompt": "phi mul (348891832 - 806380991 phi) (-642804301 - 101208311 phi) ->", "answer": " -142656712071753231 + 564646874342642740 phi"}
+{"task": "phi_mul", "prompt": "phi mul (608670913 - 371526038 phi) (838069751 - 668420215 phi) ->", "answer": " 758444194696910833 - 469877162490324663 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-489538989 + 570222641 phi) (799673709 - 375911567 phi) ->", "answer": " -605824745550928648 + 425662136229642785 phi"}
+{"task": "phi_mul", "prompt": "phi mul (350776327 - 243498367 phi) (469884300 + 836165697 phi) ->", "answer": " -38780692891950699 - 24713909532799980 phi"}
+{"task": "phi_mul", "prompt": "phi mul (714265439 - 345437595 phi) (249686627 - 756109160 phi) ->", "answer": " 439531058034454453 - 365125259245993105 phi"}
+{"task": "phi_mul", "prompt": "phi mul (945553945 - 713096645 phi) (-85123700 - 211314082 phi) ->", "answer": " 70198312567458390 + 11579923926287900 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-510951650 - 580877421 phi) (-15154213 + 593372170 phi) ->", "answer": " -336933425665972120 - 639058244963629397 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-270124910 - 164916748 phi) (689486486 + 586746316 phi) ->", "answer": " -283011769312666628 - 368966959199099456 phi"}
+{"task": "phi_mul", "prompt": "phi mul (207430639 - 16218426 phi) (-87345033 + 27515465 phi) ->", "answer": " -18564293541624177 + 6677891908552103 phi"}
+{"task": "phi_mul", "prompt": "phi mul (492958361 - 253302147 phi) (437842934 + 359703040 phi) ->", "answer": " 124724782805644294 - 24701486500288738 phi"}
+{"task": "phi_mul", "prompt": "phi mul (462776110 - 425503728 phi) (-268866435 - 366045625 phi) ->", "answer": " 31328815156722150 + 100760278062140930 phi"}
+{"task": "phi_mul", "prompt": "phi mul (555229319 - 674047595 phi) (-919343560 + 555653406 phi) ->", "answer": " -884983340713694210 + 553659535842290144 phi"}
+{"task": "phi_mul", "prompt": "phi mul (690998159 + 1344540 phi) (-989118159 + 799206995 phi) ->", "answer": " -682404261129411981 + 551995219048477645 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-568590309 + 196255599 phi) (440035170 - 764336889 phi) ->", "answer": " -400205127269659041 + 370948519777534020 phi"}
+{"task": "phi_mul", "prompt": "phi mul (797249399 - 796743209 phi) (-986858111 + 508765890 phi) ->", "answer": " -1192127803721366299 + 786530030391677299 phi"}
+{"task": "phi_mul", "prompt": "phi mul (812097186 + 500080013 phi) (75457594 + 389728594 phi) ->", "answer": " 256174380103722206 + 549127809433596928 phi"}
+{"task": "phi_mul", "prompt": "phi mul (954577566 - 161889574 phi) (-86614476 + 121658454 phi) ->", "answer": " -102375470972004012 + 110459176232957592 phi"}
+{"task": "phi_mul", "prompt": "phi mul (-418015349 - 719106162 phi) (-35590162 - 972242660 phi) ->", "answer": " 714022921754667458 + 1131151147398637504 phi"}
+{"task": "phi_mul", "prompt": "phi mul (799931684 + 928985190 phi) (155547918 + 112895474 phi) ->", "answer": " 229305931352463972 + 339688602154162696 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-351360744 + 890354284 phi) ->", "answer": " 538993540 - 890354284 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-84202079 + 641741063 phi) ->", "answer": " 557538984 - 641741063 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-766517718 - 796993808 phi) ->", "answer": " -1563511526 + 796993808 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-897841276 - 365853773 phi) ->", "answer": " -1263695049 + 365853773 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-908570763 - 351834508 phi) ->", "answer": " -1260405271 + 351834508 phi"}
+{"task": "phi_conj", "prompt": "phi conj (700442432 - 279042890 phi) ->", "answer": " 421399542 + 279042890 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-578460365 - 97138464 phi) ->", "answer": " -675598829 + 97138464 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-807960681 - 739740010 phi) ->", "answer": " -1547700691 + 739740010 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-857757890 + 931139487 phi) ->", "answer": " 73381597 - 931139487 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-239545061 - 962492173 phi) ->", "answer": " -1202037234 + 962492173 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-173934506 + 483412255 phi) ->", "answer": " 309477749 - 483412255 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-686835655 + 763200951 phi) ->", "answer": " 76365296 - 763200951 phi"}
+{"task": "phi_conj", "prompt": "phi conj (367989177 - 419912819 phi) ->", "answer": " -51923642 + 419912819 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-967993323 + 362422205 phi) ->", "answer": " -605571118 - 362422205 phi"}
+{"task": "phi_conj", "prompt": "phi conj (302209629 + 955685994 phi) ->", "answer": " 1257895623 - 955685994 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-938120911 + 5679448 phi) ->", "answer": " -932441463 - 5679448 phi"}
+{"task": "phi_conj", "prompt": "phi conj (967354351 + 685672755 phi) ->", "answer": " 1653027106 - 685672755 phi"}
+{"task": "phi_conj", "prompt": "phi conj (646402256 - 164042690 phi) ->", "answer": " 482359566 + 164042690 phi"}
+{"task": "phi_conj", "prompt": "phi conj (20403837 + 234924440 phi) ->", "answer": " 255328277 - 234924440 phi"}
+{"task": "phi_conj", "prompt": "phi conj (800613523 - 295757018 phi) ->", "answer": " 504856505 + 295757018 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-725505249 + 22179614 phi) ->", "answer": " -703325635 - 22179614 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-28147046 + 423898670 phi) ->", "answer": " 395751624 - 423898670 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-144855863 - 862953490 phi) ->", "answer": " -1007809353 + 862953490 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-36312326 + 873503761 phi) ->", "answer": " 837191435 - 873503761 phi"}
+{"task": "phi_conj", "prompt": "phi conj (902752035 + 77576377 phi) ->", "answer": " 980328412 - 77576377 phi"}
+{"task": "phi_conj", "prompt": "phi conj (198086123 - 873177348 phi) ->", "answer": " -675091225 + 873177348 phi"}
+{"task": "phi_conj", "prompt": "phi conj (877568729 - 346977788 phi) ->", "answer": " 530590941 + 346977788 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-84628423 - 301006657 phi) ->", "answer": " -385635080 + 301006657 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-618535943 + 195309937 phi) ->", "answer": " -423226006 - 195309937 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-899686241 + 591333305 phi) ->", "answer": " -308352936 - 591333305 phi"}
+{"task": "phi_conj", "prompt": "phi conj (283572703 + 606900059 phi) ->", "answer": " 890472762 - 606900059 phi"}
+{"task": "phi_conj", "prompt": "phi conj (676168652 - 651915432 phi) ->", "answer": " 24253220 + 651915432 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-771856083 - 654555473 phi) ->", "answer": " -1426411556 + 654555473 phi"}
+{"task": "phi_conj", "prompt": "phi conj (350214921 - 610882997 phi) ->", "answer": " -260668076 + 610882997 phi"}
+{"task": "phi_conj", "prompt": "phi conj (785577629 + 70828029 phi) ->", "answer": " 856405658 - 70828029 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-934912989 + 351844510 phi) ->", "answer": " -583068479 - 351844510 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-377625728 + 874555288 phi) ->", "answer": " 496929560 - 874555288 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-65418542 + 168150477 phi) ->", "answer": " 102731935 - 168150477 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-321839542 - 781757808 phi) ->", "answer": " -1103597350 + 781757808 phi"}
+{"task": "phi_conj", "prompt": "phi conj (489634896 - 472319292 phi) ->", "answer": " 17315604 + 472319292 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-123714277 + 214213214 phi) ->", "answer": " 90498937 - 214213214 phi"}
+{"task": "phi_conj", "prompt": "phi conj (949371394 + 937345594 phi) ->", "answer": " 1886716988 - 937345594 phi"}
+{"task": "phi_conj", "prompt": "phi conj (125978119 - 398210813 phi) ->", "answer": " -272232694 + 398210813 phi"}
+{"task": "phi_conj", "prompt": "phi conj (144725130 - 379786586 phi) ->", "answer": " -235061456 + 379786586 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-832537806 - 60686538 phi) ->", "answer": " -893224344 + 60686538 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-686068923 + 226753516 phi) ->", "answer": " -459315407 - 226753516 phi"}
+{"task": "phi_conj", "prompt": "phi conj (426768552 + 386873479 phi) ->", "answer": " 813642031 - 386873479 phi"}
+{"task": "phi_conj", "prompt": "phi conj (445475990 + 363770541 phi) ->", "answer": " 809246531 - 363770541 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-323731819 + 592315773 phi) ->", "answer": " 268583954 - 592315773 phi"}
+{"task": "phi_conj", "prompt": "phi conj (61129754 + 164976537 phi) ->", "answer": " 226106291 - 164976537 phi"}
+{"task": "phi_conj", "prompt": "phi conj (19498879 + 326887160 phi) ->", "answer": " 346386039 - 326887160 phi"}
+{"task": "phi_conj", "prompt": "phi conj (342114874 + 371013319 phi) ->", "answer": " 713128193 - 371013319 phi"}
+{"task": "phi_conj", "prompt": "phi conj (32849471 + 915292997 phi) ->", "answer": " 948142468 - 915292997 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-987125431 + 329619476 phi) ->", "answer": " -657505955 - 329619476 phi"}
+{"task": "phi_conj", "prompt": "phi conj (395487122 - 140853059 phi) ->", "answer": " 254634063 + 140853059 phi"}
+{"task": "phi_conj", "prompt": "phi conj (346634933 - 29103172 phi) ->", "answer": " 317531761 + 29103172 phi"}
+{"task": "phi_conj", "prompt": "phi conj (541119968 + 578007557 phi) ->", "answer": " 1119127525 - 578007557 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-638529535 - 566621377 phi) ->", "answer": " -1205150912 + 566621377 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-302147804 + 913040123 phi) ->", "answer": " 610892319 - 913040123 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-641520548 - 349568472 phi) ->", "answer": " -991089020 + 349568472 phi"}
+{"task": "phi_conj", "prompt": "phi conj (71724668 - 612569693 phi) ->", "answer": " -540845025 + 612569693 phi"}
+{"task": "phi_conj", "prompt": "phi conj (618353066 - 667582257 phi) ->", "answer": " -49229191 + 667582257 phi"}
+{"task": "phi_conj", "prompt": "phi conj (369131161 - 757625753 phi) ->", "answer": " -388494592 + 757625753 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-503131044 - 499153260 phi) ->", "answer": " -1002284304 + 499153260 phi"}
+{"task": "phi_conj", "prompt": "phi conj (286673808 - 486062313 phi) ->", "answer": " -199388505 + 486062313 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-243116810 + 323227991 phi) ->", "answer": " 80111181 - 323227991 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-795307703 - 487979611 phi) ->", "answer": " -1283287314 + 487979611 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-21420713 - 848739622 phi) ->", "answer": " -870160335 + 848739622 phi"}
+{"task": "phi_conj", "prompt": "phi conj (809399077 - 201491549 phi) ->", "answer": " 607907528 + 201491549 phi"}
+{"task": "phi_conj", "prompt": "phi conj (888976761 - 155174656 phi) ->", "answer": " 733802105 + 155174656 phi"}
+{"task": "phi_conj", "prompt": "phi conj (283777844 + 51072437 phi) ->", "answer": " 334850281 - 51072437 phi"}
+{"task": "phi_conj", "prompt": "phi conj (400962965 - 742883587 phi) ->", "answer": " -341920622 + 742883587 phi"}
+{"task": "phi_conj", "prompt": "phi conj (160033418 - 499792855 phi) ->", "answer": " -339759437 + 499792855 phi"}
+{"task": "phi_conj", "prompt": "phi conj (543240990 - 704611621 phi) ->", "answer": " -161370631 + 704611621 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-454694684 + 373862243 phi) ->", "answer": " -80832441 - 373862243 phi"}
+{"task": "phi_conj", "prompt": "phi conj (168343550 - 169697031 phi) ->", "answer": " -1353481 + 169697031 phi"}
+{"task": "phi_conj", "prompt": "phi conj (781227699 - 848851872 phi) ->", "answer": " -67624173 + 848851872 phi"}
+{"task": "phi_conj", "prompt": "phi conj (468808365 + 200542405 phi) ->", "answer": " 669350770 - 200542405 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-278140804 + 32176033 phi) ->", "answer": " -245964771 - 32176033 phi"}
+{"task": "phi_conj", "prompt": "phi conj (899453092 + 229472835 phi) ->", "answer": " 1128925927 - 229472835 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-772637222 + 111442107 phi) ->", "answer": " -661195115 - 111442107 phi"}
+{"task": "phi_conj", "prompt": "phi conj (134892882 - 531936311 phi) ->", "answer": " -397043429 + 531936311 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-644728234 + 72598671 phi) ->", "answer": " -572129563 - 72598671 phi"}
+{"task": "phi_conj", "prompt": "phi conj (923979797 + 409794514 phi) ->", "answer": " 1333774311 - 409794514 phi"}
+{"task": "phi_conj", "prompt": "phi conj (802248125 - 582544327 phi) ->", "answer": " 219703798 + 582544327 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-21045640 - 509755025 phi) ->", "answer": " -530800665 + 509755025 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-656504248 - 171146942 phi) ->", "answer": " -827651190 + 171146942 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-851961858 - 655157166 phi) ->", "answer": " -1507119024 + 655157166 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-387554546 + 793085108 phi) ->", "answer": " 405530562 - 793085108 phi"}
+{"task": "phi_conj", "prompt": "phi conj (830002729 + 446378858 phi) ->", "answer": " 1276381587 - 446378858 phi"}
+{"task": "phi_conj", "prompt": "phi conj (647869689 + 612488523 phi) ->", "answer": " 1260358212 - 612488523 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-309419762 + 461676256 phi) ->", "answer": " 152256494 - 461676256 phi"}
+{"task": "phi_conj", "prompt": "phi conj (262714094 + 1937128 phi) ->", "answer": " 264651222 - 1937128 phi"}
+{"task": "phi_conj", "prompt": "phi conj (740191406 + 594400554 phi) ->", "answer": " 1334591960 - 594400554 phi"}
+{"task": "phi_conj", "prompt": "phi conj (172206293 + 272060368 phi) ->", "answer": " 444266661 - 272060368 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-686604857 - 407269704 phi) ->", "answer": " -1093874561 + 407269704 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-821134968 + 322428646 phi) ->", "answer": " -498706322 - 322428646 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-508882524 + 579077840 phi) ->", "answer": " 70195316 - 579077840 phi"}
+{"task": "phi_conj", "prompt": "phi conj (413939095 - 921425138 phi) ->", "answer": " -507486043 + 921425138 phi"}
+{"task": "phi_conj", "prompt": "phi conj (-698155267 - 464902205 phi) ->", "answer": " -1163057472 + 464902205 phi"}
+{"task": "phi_norm", "prompt": "phi norm (110935229 - 207573984 phi) ->", "answer": " -53807601249832151"}
+{"task": "phi_norm", "prompt": "phi norm (826313113 + 343972632 phi) ->", "answer": " 848705285485466761"}
+{"task": "phi_norm", "prompt": "phi norm (-587560258 + 565266770 phi) ->", "answer": " -306427753705232996"}
+{"task": "phi_norm", "prompt": "phi norm (466934863 - 57758421 phi) ->", "answer": " 187722710691684205"}
+{"task": "phi_norm", "prompt": "phi norm (297787681 + 777308431 phi) ->", "answer": " -284058018859085489"}
+{"task": "phi_norm", "prompt": "phi norm (182943252 - 683709144 phi) ->", "answer": " -559069934362373520"}
+{"task": "phi_norm", "prompt": "phi norm (-551853756 + 158190823 phi) ->", "answer": " 192220031692609019"}
+{"task": "phi_norm", "prompt": "phi norm (-739728587 + 676047702 phi) ->", "answer": " -409933924299521309"}
+{"task": "phi_norm", "prompt": "phi norm (593067603 - 503924717 phi) ->", "answer": " -201072362679007831"}
+{"task": "phi_norm", "prompt": "phi norm (246126704 - 931996991 phi) ->", "answer": " -1037429384343898129"}
+{"task": "phi_norm", "prompt": "phi norm (245660492 - 968504716 phi) ->", "answer": " -1115575652621438864"}
+{"task": "phi_norm", "prompt": "phi norm (-242988390 + 128462854 phi) ->", "answer": " 11325670748701724"}
+{"task": "phi_norm", "prompt": "phi norm (-157874353 - 333677165 phi) ->", "answer": " -33737072572019371"}
+{"task": "phi_norm", "prompt": "phi norm (640574126 - 881097527 phi) ->", "answer": " -930405919463638255"}
+{"task": "phi_norm", "prompt": "phi norm (136937705 + 29747496 phi) ->", "answer": " 21940575364133689"}
+{"task": "phi_norm", "prompt": "phi norm (-92487640 + 525607096 phi) ->", "answer": " -316321015689077056"}
+{"task": "phi_norm", "prompt": "phi norm (-47647361 + 506453692 phi) ->", "answer": " -278356253022673355"}
+{"task": "phi_norm", "prompt": "phi norm (955433154 - 128684009 phi) ->", "answer": " 773343969001841249"}
+{"task": "phi_norm", "prompt": "phi norm (297799754 - 882836712 phi) ->", "answer": " -953624522228279276"}
+{"task": "phi_norm", "prompt": "phi norm (146099552 - 68092815 phi) ->", "answer": " 6760117874057599"}
+{"task": "phi_norm", "prompt": "phi norm (447905491 + 684956439 phi) ->", "answer": " 38249755664296909"}
+{"task": "phi_norm", "prompt": "phi norm (-129271732 + 452392241 phi) ->", "answer": " -246429087560153669"}
+{"task": "phi_norm", "prompt": "phi norm (-983952764 - 632710984 phi) ->", "answer": " 1190397574028951216"}
+{"task": "phi_norm", "prompt": "phi norm (215290330 - 126490714 phi) ->", "answer": " 3117797904283484"}
+{"task": "phi_norm", "prompt": "phi norm (-76236912 - 649550812 phi) ->", "answer": " -366584442524591056"}
+{"task": "phi_norm", "prompt": "phi norm (942727813 - 856137998 phi) ->", "answer": " -651341644696423409"}
+{"task": "phi_norm", "prompt": "phi norm (811415105 - 148107716 phi) ->", "answer": " 516281739153974189"}
+{"task": "phi_norm", "prompt": "phi norm (-253445872 + 660947802 phi) ->", "answer": " -540131678959164164"}
+{"task": "phi_norm", "prompt": "phi norm (-841457499 - 441249729 phi) ->", "answer": " 884642292679529331"}
+{"task": "phi_norm", "prompt": "phi norm (-996938342 + 826711315 phi) ->", "answer": " -513745748288059991"}
+{"task": "phi_norm", "prompt": "phi norm (-781698588 + 170613959 phi) ->", "answer": " 448574868632150171"}
+{"task": "phi_norm", "prompt": "phi norm (779151837 - 58025386 phi) ->", "answer": " 558500053585491491"}
+{"task": "phi_norm", "prompt": "phi norm (208515404 + 971851125 phi) ->", "answer": " -698370005501252909"}
+{"task": "phi_norm", "prompt": "phi norm (-964366780 - 260864506 phi) ->", "answer": " 1113522059544455044"}
+{"task": "phi_norm", "prompt": "phi norm (-464826640 + 458110434 phi) ->", "answer": " -206743298271140516"}
+{"task": "phi_norm", "prompt": "phi norm (-675229799 - 934880719 phi) ->", "answer": " 213192642678968921"}
+{"task": "phi_norm", "prompt": "phi norm (-211774937 + 969470550 phi) ->", "answer": " -1100334088025553881"}
+{"task": "phi_norm", "prompt": "phi norm (957749850 + 523049146 phi) ->", "answer": " 1144654607167821284"}
+{"task": "phi_norm", "prompt": "phi norm (198274641 + 903271906 phi) ->", "answer": " -597491390017658209"}
+{"task": "phi_norm", "prompt": "phi norm (-949078123 - 818473892 phi) ->", "answer": " 1007645436815440181"}
+{"task": "phi_norm", "prompt": "phi norm (-140591849 + 675492229 phi) ->", "answer": " -531492384894391061"}
+{"task": "phi_norm", "prompt": "phi norm (-670574660 - 457586119 phi) ->", "answer": " 547130974501777979"}
+{"task": "phi_norm", "prompt": "phi norm (-735141720 - 510145856 phi) ->", "answer": " 655214056121297984"}
+{"task": "phi_norm", "prompt": "phi norm (-788390132 + 731163823 phi) ->", "answer": " -489483878757592541"}
+{"task": "phi_norm", "prompt": "phi norm (-790490368 - 911899753 phi) ->", "answer": " 514161833707393519"}
+{"task": "phi_norm", "prompt": "phi norm (980303132 - 927272677 phi) ->", "answer": " -807848696382861269"}
+{"task": "phi_norm", "prompt": "phi norm (616262735 + 40910075 phi) ->", "answer": " 403317479021729725"}
+{"task": "phi_norm", "prompt": "phi norm (-601874724 - 787057709 phi) ->", "answer": " 216503487470194811"}
+{"task": "phi_norm", "prompt": "phi norm (-104101922 + 771809557 phi) ->", "answer": " -665199640414110719"}
+{"task": "phi_norm", "prompt": "phi norm (641561306 - 695629330 phi) ->", "answer": " -518588116846528244"}
+{"task": "phi_norm", "prompt": "phi norm (-28792801 - 414550727 phi) ->", "answer": " -159087203279886601"}
+{"task": "phi_norm", "prompt": "phi norm (-580305869 + 441061799 phi) ->", "answer": " -113731359492669571"}
+{"task": "phi_norm", "prompt": "phi norm (711019232 + 8757392 phi) ->", "answer": " 511698330493391104"}
+{"task": "phi_norm", "prompt": "phi norm (-832471455 + 696114593 phi) ->", "answer": " -371062331279181439"}
+{"task": "phi_norm", "prompt": "phi norm (678593307 + 544299007 phi) ->", "answer": " 533585130440956349"}
+{"task": "phi_norm", "prompt": "phi norm (-950406528 + 48201207 phi) ->", "answer": " 855138470318478639"}
+{"task": "phi_norm", "prompt": "phi norm (126289524 - 931584808 phi) ->", "answer": " -969550612592201680"}
+{"task": "phi_norm", "prompt": "phi norm (-632718635 + 374416018 phi) ->", "answer": " 23245524710191471"}
+{"task": "phi_norm", "prompt": "phi norm (724923131 + 542059954 phi) ->", "answer": " 624636351171757019"}
+{"task": "phi_norm", "prompt": "phi norm (-250627400 + 838067515 phi) ->", "answer": " -849585748376426225"}
+{"task": "phi_norm", "prompt": "phi norm (-651279499 + 247723439 phi) ->", "answer": " 201460886345227219"}
+{"task": "phi_norm", "prompt": "phi norm (698511365 + 998463969 phi) ->", "answer": " 188426259532437949"}
+{"task": "phi_norm", "prompt": "phi norm (583817858 - 273882606 phi) ->", "answer": " 105934053071978980"}
+{"task": "phi_norm", "prompt": "phi norm (-442916455 + 489187215 phi) ->", "answer": " -259798212308812025"}
+{"task": "phi_norm", "prompt": "phi norm (-757072474 - 221041980 phi) ->", "answer": " 691643972622618796"}
+{"task": "phi_norm", "prompt": "phi norm (-528856146 + 982129881 phi) ->", "answer": " -1204295703728199471"}
+{"task": "phi_norm", "prompt": "phi norm (-338800798 - 455467826 phi) ->", "answer": " 61647903116395676"}
+{"task": "phi_norm", "prompt": "phi norm (323580658 - 33690007 phi) ->", "answer": " 92667991026968309"}
+{"task": "phi_norm", "prompt": "phi norm (-599579422 - 727762230 phi) ->", "answer": " 266208877088112244"}
+{"task": "phi_norm", "prompt": "phi norm (467878753 + 60453697 phi) ->", "answer": " 243540878394467041"}
+{"task": "phi_norm", "prompt": "phi norm (-43187175 + 849208099 phi) ->", "answer": " -755964162105643501"}
+{"task": "phi_norm", "prompt": "phi norm (128588193 + 648880998 phi) ->", "answer": " -321073191181614141"}
+{"task": "phi_norm", "prompt": "phi norm (627951910 - 404373996 phi) ->", "answer": " -23122150510892276"}
+{"task": "phi_norm", "prompt": "phi norm (899049865 - 455807263 phi) ->", "answer": " 190736940486797561"}
+{"task": "phi_norm", "prompt": "phi norm (722335771 - 207494205 phi) ->", "answer": " 328834634410875361"}
+{"task": "phi_norm", "prompt": "phi norm (-65896727 + 880544382 phi) ->", "answer": " -829041022794487109"}
+{"task": "phi_norm", "prompt": "phi norm (815494926 - 780233739 phi) ->", "answer": " -580009368390682959"}
+{"task": "phi_norm", "prompt": "phi norm (-949070004 + 262411473 phi) ->", "answer": " 582827233600774395"}
+{"task": "phi_norm", "prompt": "phi norm (949370393 + 153809404 phi) ->", "answer": " 1023668904668715005"}
+{"task": "phi_norm", "prompt": "phi norm (294862117 - 435595859 phi) ->", "answer": " -231240801477399695"}
+{"task": "phi_norm", "prompt": "phi norm (54622857 + 267271247 phi) ->", "answer": " -53851143860999881"}
+{"task": "phi_norm", "prompt": "phi norm (-610401017 + 731225245 phi) ->", "answer": " -608441590574749901"}
+{"task": "phi_norm", "prompt": "phi norm (-379195361 - 722718031 phi) ->", "answer": " -104480905862342449"}
+{"task": "phi_norm", "prompt": "phi norm (-384957507 + 944198344 phi) ->", "answer": " -1106794471236455695"}
+{"task": "phi_norm", "prompt": "phi norm (649446021 - 376204741 phi) ->", "answer": " 35925454918069799"}
+{"task": "phi_norm", "prompt": "phi norm (999781962 + 841776995 phi) ->", "answer": " 1132568917856903609"}
+{"task": "phi_norm", "prompt": "phi norm (-270558282 + 213585290 phi) ->", "answer": " -30204161268464356"}
+{"task": "phi_norm", "prompt": "phi norm (-987727031 - 579924772 phi) ->", "answer": " 1212099319839734909"}
+{"task": "phi_norm", "prompt": "phi norm (-959295631 + 321602541 phi) ->", "answer": " 508308000778233109"}
+{"task": "phi_norm", "prompt": "phi norm (422392611 - 452245713 phi) ->", "answer": " -217135914627107691"}
+{"task": "phi_norm", "prompt": "phi norm (-303983445 + 331758124 phi) ->", "answer": " -118506495446188531"}
+{"task": "phi_norm", "prompt": "phi norm (270374692 + 503923730 phi) ->", "answer": " -44588428292776876"}
+{"task": "phi_norm", "prompt": "phi norm (-142128511 - 799392630 phi) ->", "answer": " -505211579052965849"}
+{"task": "phi_norm", "prompt": "phi norm (266187736 + 935468686 phi) ->", "answer": " -555235460064526004"}
+{"task": "phi_norm", "prompt": "phi norm (544404030 + 171439879 phi) ->", "answer": " 360316676799018629"}
+{"task": "phi_norm", "prompt": "phi norm (855697310 + 167685632 phi) ->", "answer": " 847587559390046596"}
+{"task": "phi_norm", "prompt": "phi norm (-396112468 + 714900720 phi) ->", "answer": " -637359040725644336"}
+{"task": "phi_norm", "prompt": "phi norm (961727045 - 716068453 phi) ->", "answer": " -276497517618792569"}
+{"task": "phi_norm", "prompt": "phi norm (877824717 - 608183685 phi) ->", "answer": " -133189832093191281"}
+{"task": "phi_norm", "prompt": "phi norm (-948238684 - 515376622 phi) ->", "answer": " 1122243589139566420"}

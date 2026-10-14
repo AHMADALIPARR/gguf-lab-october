@@ -13,6 +13,9 @@ sys.path.insert(0, __import__("pathlib").Path(__file__).resolve().parent.as_posi
 from grade import grade
 
 test = {json.loads(l)["prompt"]: json.loads(l) for l in open(sys.argv[2])}
+import grade as _G
+for _r in test.values():
+    if _r["task"].startswith("phi_"): _G.PHI_ANS[_r["prompt"]] = _r["answer"].strip()
 for path in sys.argv[3:]:
     rows = [o for o in csv.DictReader(open(path), delimiter="\t", quoting=csv.QUOTE_NONE) if o["prompt"] in test]
     by = {}

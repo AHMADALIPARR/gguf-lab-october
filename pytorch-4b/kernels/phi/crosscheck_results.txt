@@ -1,0 +1,52 @@
+{
+ "small/phi_normalize": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 5.849703902972817e-16
+ },
+ "small/phi_mul": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 2.667145941127342e-16
+ },
+ "small/phi_conj": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 1.0490413334510242e-16
+ },
+ "small/phi_norm": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 1.4502618729101707e-16
+ },
+ "large/phi_normalize": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 2.1467207743001934e-15
+ },
+ "large/phi_mul": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 2.643552521896561e-16
+ },
+ "large/phi_conj": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 1.121652550974132e-16
+ },
+ "large/phi_norm": {
+  "total": 500,
+  "agree": 500,
+  "rust_error": 0,
+  "max_rel_err": 1.5154187961705455e-16
+ }
+}
+{"small/norm_exact_integer_from_ruby_round": 500, "total": 500}
+{"large/norm_exact_integer_from_ruby_round": 5, "total": 500}
