@@ -327,3 +327,98 @@ with round 6 and the earlier of the two). It was exported to
   with an SE of about 0.030, so it is within noise.
 - **Old-val loss rose by 0.15** (2.804 -> 2.956) during this round's SFT
   on the longer targets, despite heavier replay.
+
+## Round 4: the model calls the kernel check as a tool (`dss/agent.py`)
+
+### Format and harness
+
+Each answer is one line that fits the 256-token context:
+
+```
+is DSS 3 5 6 -> <call>isdss 3 5 6</call> <result>yes</result> yes
+bound k 12 a 60 -> <call>bound 12 60</call> <result>b=72; 60<72 no</result> b=72; 60<72 no
+```
+
+There are four tools: `isdss S`, `card W sum s`, `next S`, and `bound k a`.
+`dss/agent.py` generates text up to `</call>`, runs the tool with
+`oracle.py`, appends ` <result>...</result>`, and lets the model continue
+until a newline. Only the text after the result is graded, by `grade.py`.
+
+A call counts as malformed, with reward -0.1, if it doesn't parse, its
+arguments are invalid, or it is missing.
+
+Result tokens never contribute to the loss: they are masked to 0 in SFT,
+in expert iteration, and in the GRPO policy-gradient and KL terms, so the
+model is never trained to produce them itself. Segment boundaries are chosen
+so that tokenizing the segments one by one gives the same ids as tokenizing
+the whole line.
+
+### Kernel equivalence
+
+`agent.py nodecheck` compares the tool results with `runtime/greedy.mjs`
+(`isDSS`, `cardinalityFromSum`) run under node, on every isdss and card
+call in both test sets:
+- isdss: 300/300 agree
+- card: 200/200 agree
+
+### Run (`runs/dss-agent`, log `dss/results/agent-metrics.jsonl`)
+
+- Start from round 2's `rl-r3.pt`. On old-val loss it beats round 3's best
+  (2.804 vs 2.957).
+- Training prompts come from `train_v2.jsonl`.
+- SFT: 500 steps, lr 2e-4, 4 replay windows per step at weight 1.0.
+- Expert iteration: 1 round of 200 prompts x 8 samples.
+- GRPO: 8 rounds x 30 updates. Group of 8, 8 prompts per update, KL beta
+  0.05 against the post-expert-iteration model, 4 replay windows per
+  update, curriculum on.
+- 8 threads. Wall time 18:19-20:27 PT (cap 2.5 h).
+
+Results on the balanced test (500 items). Each cell is well-formed call
+rate / correct-tool rate / final accuracy ± SE. "Correct tool" means the
+right tool with exactly the prompt's arguments.
+
+| stage | next (100) | card (100) | isdss (200) | bound (100) | all (500) | old-val loss | reward | KL |
+|---|---|---|---|---|---|---|---|---|
+| start | 0/0/0 | 0/0/0 | 0/0/0 | 0/0/0 | 0/0/0 | 2.8039 | | |
+| SFT | .98/.98/.98±.014 | .98/.93/.95±.022 | 1.0/1.0/.985±.009 | .96/.71/.73±.044 | .984/.924/.926±.012 | 3.0447 | | |
+| expert iter 1 | 1.0/1.0/1.0 | 1.0/.95/.96±.020 | 1.0/1.0/.995±.005 | .99/.73/.73±.044 | **.998/.936/.936±.011** | 3.0006 | | |
+| GRPO 1 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/1.0/.99±.007 | .99/.70/.69±.046 | .998/.932/.928±.012 | 2.9996 | 0.766 | 0.0008 |
+| GRPO 2 | 1.0/1.0/1.0 | 1.0/.94/.96±.020 | 1.0/1.0/.99±.007 | .99/.71/.70±.046 | .998/.930/.928±.012 | 2.9987 | 0.735 | 0.0058 |
+| GRPO 3 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/1.0/.99±.007 | .99/.71/.71±.045 | .998/.934/.932±.011 | 2.9997 | 0.753 | 0.0108 |
+| GRPO 4 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/1.0/.99±.007 | .99/.70/.70±.046 | .998/.932/.930±.011 | 2.9977 | 0.773 | 0.0131 |
+| GRPO 5 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/.995/.99±.007 | .99/.70/.69±.046 | .998/.930/.928±.012 | 2.9975 | 0.766 | 0.0168 |
+| GRPO 6 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/.995/.99±.007 | .99/.70/.71±.045 | .998/.930/.932±.011 | 2.9986 | 0.763 | 0.0124 |
+| GRPO 7 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/.995/.99±.007 | .99/.70/.70±.046 | .998/.930/.930±.011 | 3.0004 | 0.762 | 0.0127 |
+| GRPO 8 | 1.0/1.0/1.0 | 1.0/.96/.97±.017 | 1.0/.995/.99±.007 | .99/.70/.71±.045 | .998/.930/.932±.011 | 2.9977 | 0.786 | 0.0097 |
+
+The best checkpoint by balanced accuracy is the expert-iteration one
+(`ei.pt`).
+
+### Comparison with round 3 (no tool)
+
+| metric | round 3 best | tool use (ei.pt) |
+|---|---|---|
+| is-DSS | 0.545 ± 0.035 | 0.995 ± 0.005 |
+| overall | 0.664 ± 0.021 | 0.936 ± 0.011 |
+| old-val loss | 2.957 | 3.001 |
+
+- With the tool, the remaining errors are almost all argument copying.
+  For bound, the correct-tool rate (0.73) matches final accuracy (0.73);
+  the model mostly miscopies a. For card, the correct-tool rate is
+  0.95-0.96.
+- GRPO did not improve on expert iteration: overall accuracy changed by
+  -0.008 to -0.004, within one SE.
+- Old-val loss rose by 0.20 over the starting checkpoint (2.804 -> 3.001)
+  during tool-format SFT.
+
+### llama.cpp tool loop
+
+`agent.py llama CKPT GGUF` runs the same loop through `llama-simple`
+(greedy): generate, cut at `</call>`, run the oracle tool, append the
+result, and generate the final answer. It then compares the full
+trajectory with the PyTorch greedy rollout.
+
+The test used `ei.pt` exported to `runs/dss-agent/dss-agent-best.gguf`
+(`gpt-2` pre-tokenizer; token parity 500/500 DSS texts and 31/32 mixed
+texts). On 20 prompts (5 per task) the tool was called in 20/20 cases and
+**20/20 trajectories were identical**: call, result, and final answer.
