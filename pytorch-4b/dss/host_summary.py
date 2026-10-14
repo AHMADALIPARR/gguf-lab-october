@@ -26,5 +26,7 @@ for path in sys.argv[3:]:
                      "copy_err": round(sum(o["copy_error"] == "1" for o in items) / n, 3),
                      "final_transcribe_err": round(sum(o["wellformed"] == "1" and o["final"].strip() != o["result"]
                                                        for o in items) / n, 3),
+                     "intent_or_tool_correct": round(sum(o["correct_tool"] == "1" for o in items) / n, 3),
+                     "parse_reject": round(sum(o["note"].startswith("prompt rejected") for o in items) / n, 3),
                      "acc": round(acc, 3), "se": round((acc * (1 - acc) / n) ** 0.5, 3)}
     print(json.dumps({"tsv": path, **out}))

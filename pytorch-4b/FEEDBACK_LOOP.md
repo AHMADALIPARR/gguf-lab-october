@@ -572,3 +572,47 @@ Accuracy is unchanged within SE.
 A next step that has not been tried here: let the host emit the kernel
 result as the answer, or train a final answer that only states the verdict
 (the copy step is the remaining failure).
+
+## Round 6: the host returns the kernel result as the final answer
+
+`dss-host --mode intent` (now the default) stops generation right after the
+model's `[INTENT: ...]`. The host parses the prompt strictly, runs the Rust
+kernel, and returns the kernel result verbatim; the model never copies it.
+
+If the intent is missing, malformed, or names the wrong task, or if the
+prompt is rejected, the host returns `ERROR: ...` instead of an answer. The
+previous behaviour is kept as `--mode intent-gen`. There was no retraining:
+the same `dss-intent-aug.gguf` was used. Docs: `dss/host/README.md`.
+
+Live llama.cpp runs through the Rust host. Results are in
+`dss/results/live/summary-direct.jsonl`.
+
+| test | mode | intent correct | parse reject | next | card | is-DSS | bound | all ± SE |
+|---|---|---|---|---|---|---|---|---|
+| balanced (500) | intent-gen (round 5) | 1.000 | 0.000 | 1.00 | 1.00 | 1.000 | 0.79 | 0.958 ± 0.009 |
+| balanced (500) | intent, host answer | 1.000 | 0.000 | 1.00 | 1.00 | 1.000 | 1.00 | **1.000** (0/500 wrong) |
+| OOD (402) | intent-gen (round 5) | 1.000 | 0.000 | 0.02 | 1.00 | 0.495 | 0.149 | 0.415 ± 0.025 |
+| OOD (402) | intent, host answer | 1.000 | 0.000 | 1.00 | 1.00 | 1.000 | 1.00 | **1.000** (0/402 wrong) |
+
+With 0 errors the binomial SE is 0. A 95% upper bound on the error rate
+(rule of three) is 0.6% for the balanced test and 0.75% for OOD.
+
+In this mode the score measures only two things:
+- whether the model picks the right intent (500/500 and 402/402);
+- whether the kernel is correct (cross-checked 3302/3302 against
+  `oracle.py` and `greedy.mjs`).
+
+No test prompt was rejected by the parser. Rejection was exercised
+separately with malformed prompts, for example
+`is DSS 202 101 ->` -> `ERROR: prompt rejected: set must be strictly
+increasing ...`.
+
+Outputs for the two prompts that failed in the original live test:
+
+```
+bound k 25 a 313 -> [INTENT: CHECK_BOUND] <result>b=313; 313>=313 yes</result> b=313; 313>=313 yes
+is DSS 101 202 303 -> [INTENT: CHECK_IS_DSS] <result>no 303=101+202</result> no 303=101+202
+```
+
+Both are correct now. Under `intent-gen` they were answered
+`b=313; 619>=313 yes` and `no 683=421+=True`.
