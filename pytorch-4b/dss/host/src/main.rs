@@ -25,11 +25,16 @@
 //!   dss-host run   --mode M --gguf G [--bin DIR] "PROMPT"
 //!   dss-host eval  --mode M --gguf G [--bin DIR] PROMPTS.txt OUT.tsv
 //!   dss-host answer            (stdin: prompts; kernel answer per line, no model)
+//!   dss-host xcheck KIND ...  (parity drivers, see src/xcheck.rs)
 //!   dss-host kernel            (stdin: "isdss 1 2 4" | "card 1 2 4 sum 3" |
 //!                               "next 3 5 6" | "bound 12 60" per line)
 mod kernel;
 mod parse;
 mod phi;
+mod viterbi;
+mod edaulc;
+mod governance;
+mod xcheck;
 
 use parse::{parse_call, parse_prompt, Task};
 use std::io::{BufRead, Write};
@@ -45,6 +50,20 @@ fn run_task(t: &Task) -> Option<String> {
         Task::PhiMul(x, y) => x.mul(*y).ok().map(|z| z.fmt()),
         Task::PhiConj(x) => x.conj().ok().map(|z| z.fmt()),
         Task::PhiNorm(x) => x.norm().ok().map(|z| z.to_string()),
+        Task::Viterbi(m, obs) => {
+            let (h, st) = viterbi::builtin(m)?;
+            let o: Vec<&str> = obs.iter().map(|s| s.as_str()).collect();
+            Some(viterbi::fmt(&viterbi::decode(&h, &o, &st)))
+        }
+        Task::Permission(t, r) => edaulc::execution_decision(t, r),
+        Task::GovSteps(v) => {
+            let s: Vec<&str> = v.iter().map(|x| x.as_str()).collect();
+            Some(governance::fmt_steps(&governance::run_steps(&s)))
+        }
+        Task::WormSeal { label, ts, prev, payload } => {
+            let j = governance::parse_canonical(payload).ok()?;
+            Some(governance::seal(label, &j, ts, prev))
+        }
     }
 }
 
@@ -181,6 +200,7 @@ fn main() {
                 println!("{r}");
             }
         }
+        "xcheck" => xcheck::main(&args[2..]),
         _ => { eprintln!("usage: dss-host run|eval|kernel (see src/main.rs)"); std::process::exit(2); }
     }
 }

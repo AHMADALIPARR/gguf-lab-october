@@ -44,3 +44,19 @@ ERROR: prompt rejected: set must be strictly increasing (sorted, no duplicates) 
 The kernel agrees with `oracle.py` and `runtime/greedy.mjs` on 3302/3302
 test queries (`../host_crosscheck.py`). Live results are in
 `../../FEEDBACK_LOOP.md` (rounds 5 and 6).
+
+## Ruby-kernel intents (no model trained on them yet)
+
+Four further intents are ported from sovereign-ruby-kernel (commit
+`52ff2a0`; the public copy may be partial because of its clone gate):
+
+| intent | source file | example prompt | example answer |
+|---|---|---|---|
+| `VITERBI_DECODE` | `lib/golog/dyna_golog_viterbi.pl` | `viterbi toy_weather walk shop walk ->` | `path=rainy,rainy,rainy weight=243/15625` |
+| `CHECK_PERMISSION` | `lib/golog/edaulc_agent.pl` | `permission draft_contract devops_specialist ->` | `deny(prohibited_class(advisory_legal))` |
+| `GOVERNANCE_STEP` | `lib/kernel/governance.rb` | `governance steps verified sealed init ->` | `StateError: sealed → init forbidden` |
+| `WORM_SEAL` | `lib/kernel/worm.rb` | `worm seal label=governance:verified ts=2026-10-14T14:18:00Z prev=<64 zeros> payload={"from":"init","to":"verified","evidence":{}} ->` | `18b7c117...3e22ef37` |
+
+Parity is checked against the original runtimes (swipl, `ruby -rtime`) by
+`dss-host xcheck ...` and `kernels/ruby_ports/run_parity.sh`. The counts
+and the documented divergences are in `kernels/RUBY_KERNEL_PORTS.md`.

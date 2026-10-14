@@ -1,0 +1,26 @@
+source: /workspace/sovereign-ruby-kernel (52ff2a0)  workdir: /tmp/rp2
+== original test suites ==
+% All 17 tests passed in 0.024 seconds (0.024 cpu)
+[PASS] verify_semiring
+[PASS] test_toy_weather path=[_21440,rainy,rainy] weight=0.015552
+[PASS] test_log_agreement
+[PASS] test_golog_wired path=[_31270,sunny,sunny] weight=0.013440
+ALL TESTS PASSED
+24 tests: 24 passed, 0 failed
+== viterbi (dyna_golog_viterbi.pl) ==
+source   prolog: cases=8 nopath_agree=0 path_agree=8 weight_bit_equal=2 weight_rel1e-12=8 exact_tie_cases=0 | divergences: t1_all_zero(Prolog [_] w=0.0)=0 exact_tie_broken_by_float=0 unexplained=0
+builtin  prolog: cases=3000 nopath_agree=0 path_agree=3000 weight_bit_equal=603 weight_rel1e-12=3000 exact_tie_cases=295 | divergences: t1_all_zero(Prolog [_] w=0.0)=0 exact_tie_broken_by_float=0 unexplained=0
+generic  prolog: cases=3000 nopath_agree=192 path_agree=2973 weight_bit_equal=1036 weight_rel1e-12=2987 exact_tie_cases=162 | divergences: t1_all_zero(Prolog [_] w=0.0)=13 exact_tie_broken_by_float=14 unexplained=0
+ties     prolog: cases=3000 nopath_agree=355 path_agree=2981 weight_bit_equal=2981 weight_rel1e-12=2981 exact_tie_cases=1152 | divergences: t1_all_zero(Prolog [_] w=0.0)=19 exact_tie_broken_by_float=0 unexplained=0
+== edaulc (edaulc_agent.pl), exhaustive over KB atoms x extra atoms ==
+cases=900 identical=900
+== governance (governance.rb + worm.rb), all step sequences of length 0..6 ==
+ts=2026-10-14T14:18:00Z cases=5461 identical(result+all seals)=5461 seals=4151
+ts=1999-12-31T23:59:59Z cases=5461 identical(result+all seals)=5461 seals=4151
+== worm (worm.rb), random chains with random JSON payloads ==
+seed=11 chains=3000 seals=8936 identical=8936
+seed=12 chains=3000 seals=9036 identical=9036
+== prompt level: dss-host answer vs original-runtime output ==
+permission prompts=900 identical=900
+governance prompts=5460 identical=5460
+viterbi prompts=8 path(t>=1)==prolog && weight==exact: 8

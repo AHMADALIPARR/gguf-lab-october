@@ -19,6 +19,10 @@ pub enum Task {
     PhiMul(ZPhi, ZPhi),
     PhiConj(ZPhi),
     PhiNorm(ZPhi),
+    Viterbi(String, Vec<String>),
+    Permission(String, String),
+    GovSteps(Vec<String>),
+    WormSeal { label: String, ts: String, prev: String, payload: String },
 }
 
 impl Task {
@@ -32,6 +36,10 @@ impl Task {
             Task::PhiMul(..) => "PHI_MUL",
             Task::PhiConj(_) => "PHI_CONJ",
             Task::PhiNorm(_) => "PHI_NORM",
+            Task::Viterbi(..) => "VITERBI_DECODE",
+            Task::Permission(..) => "CHECK_PERMISSION",
+            Task::GovSteps(_) => "GOVERNANCE_STEP",
+            Task::WormSeal { .. } => "WORM_SEAL",
         }
     }
     pub fn tool(&self) -> &'static str {
@@ -44,6 +52,10 @@ impl Task {
             Task::PhiMul(..) => "phi_mul",
             Task::PhiConj(_) => "phi_conj",
             Task::PhiNorm(_) => "phi_norm",
+            Task::Viterbi(..) => "viterbi",
+            Task::Permission(..) => "permission",
+            Task::GovSteps(_) => "governance",
+            Task::WormSeal { .. } => "worm_seal",
         }
     }
 }
@@ -170,11 +182,69 @@ pub fn parse_prompt(p: &str) -> Result<Task, String> {
     if n == 7 && t[0] == "phi" && t[1] == "norm" && t[n - 1] == "->" {
         found.push(elem(&t[2..6]).map(Task::PhiNorm));
     }
+    // viterbi <model> <obs...> ->   (1..32 observations from the model's vocabulary)
+    if n >= 3 && t[0] == "viterbi" && t[n - 1] == "->" {
+        found.push(viterbi_args(&t[1..n - 1]));
+    }
+    // permission <task> <role> ->
+    if n == 4 && t[0] == "permission" && t[3] == "->" {
+        found.push(atom(t[1]).and_then(|a| Ok(Task::Permission(a, atom(t[2])?))));
+    }
+    // governance steps <state...> ->   (1..8 target states, from a fresh gate at init)
+    if n >= 4 && t[0] == "governance" && t[1] == "steps" && t[n - 1] == "->" {
+        found.push(gov_args(&t[2..n - 1]));
+    }
+    // worm seal label=<L> ts=<T> prev=<64 hex> payload=<canonical JSON> ->
+    if n >= 7 && t[0] == "worm" && t[1] == "seal" && t[n - 1] == "->" {
+        found.push(worm_args(&t[2..n - 1]));
+    }
     match found.len() {
         0 => Err("prompt matches no task template".into()),
         1 => found.pop().unwrap(),
         _ => Err("ambiguous prompt".into()),
     }
+}
+
+/// Prolog-style plain atom: [a-z][a-z0-9_]{0,63}.
+fn atom(s: &str) -> Result<String, String> {
+    let ok = !s.is_empty() && s.len() <= 64 && s.as_bytes()[0].is_ascii_lowercase()
+        && s.bytes().all(|b| b.is_ascii_lowercase() || b.is_ascii_digit() || b == b'_');
+    if ok { Ok(s.to_string()) } else { Err(format!("not a plain atom: {s:?}")) }
+}
+
+fn viterbi_args(t: &[&str]) -> Result<Task, String> {
+    let (h, _) = crate::viterbi::builtin(t[0]).ok_or_else(|| format!("unknown HMM model {:?}", t[0]))?;
+    let obs = &t[1..];
+    if obs.is_empty() || obs.len() > 32 { return Err("need 1..32 observations".into()); }
+    let voc = h.symbols();
+    for o in obs { if !voc.contains(o) { return Err(format!("symbol {o:?} not in model vocabulary")); } }
+    Ok(Task::Viterbi(t[0].to_string(), obs.iter().map(|s| s.to_string()).collect()))
+}
+
+fn gov_args(t: &[&str]) -> Result<Task, String> {
+    if t.is_empty() || t.len() > 8 { return Err("need 1..8 steps".into()); }
+    for s in t { if !crate::governance::STATES.contains(s) { return Err(format!("unknown state {s:?}")); } }
+    Ok(Task::GovSteps(t.iter().map(|s| s.to_string()).collect()))
+}
+
+fn worm_args(t: &[&str]) -> Result<Task, String> {
+    let label = t[0].strip_prefix("label=").ok_or("expected label=")?;
+    let ts = t[1].strip_prefix("ts=").ok_or("expected ts=")?;
+    let prev = t[2].strip_prefix("prev=").ok_or("expected prev=")?;
+    let payload = t[3..].join(" ");
+    let payload = payload.strip_prefix("payload=").ok_or("expected payload=")?.to_string();
+    let lab_ok = !label.is_empty() && label.len() <= 64
+        && label.bytes().all(|b| b.is_ascii_alphanumeric() || b"_:.-".contains(&b));
+    if !lab_ok { return Err("label must be 1..64 of [A-Za-z0-9_:.-]".into()); }
+    let b = ts.as_bytes();
+    let ts_ok = b.len() == 20 && b[4] == b'-' && b[7] == b'-' && b[10] == b'T' && b[13] == b':' && b[16] == b':'
+        && b[19] == b'Z' && [0, 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 17, 18].iter().all(|&i| b[i].is_ascii_digit());
+    if !ts_ok { return Err("ts must be UTC iso8601 YYYY-MM-DDTHH:MM:SSZ".into()); }
+    if prev.len() != 64 || !prev.bytes().all(|c| c.is_ascii_digit() || (b'a'..=b'f').contains(&c)) {
+        return Err("prev must be 64 lowercase hex".into());
+    }
+    crate::governance::parse_canonical(&payload)?;
+    Ok(Task::WormSeal { label: label.into(), ts: ts.into(), prev: prev.into(), payload })
 }
 
 /// Parse an arg-copy call body "TOOL ARGS" emitted by the model (args mode).
@@ -214,5 +284,16 @@ mod tests {
         assert!(parse_prompt("phi normalize 2 phi^5 + ->").is_err());
         assert!(parse_prompt("phi normalize 2 phi^81 ->").is_err());
         assert!(parse_prompt("phi mul (1 + 1 phi) ->").is_err());
+        assert!(parse_prompt("viterbi toy_weather walk shop walk ->").is_ok());
+        assert!(parse_prompt("viterbi toy_weather walk swim ->").is_err());
+        assert!(parse_prompt("viterbi toy_weather ->").is_err());
+        assert!(parse_prompt("permission draft_contract devops_specialist ->").is_ok());
+        assert!(parse_prompt("permission Draft devops_specialist ->").is_err());
+        assert!(parse_prompt("governance steps verified sealed ->").is_ok());
+        assert!(parse_prompt("governance steps verified done ->").is_err());
+        let g = "0".repeat(64);
+        assert!(parse_prompt(&format!("worm seal label=a:b ts=2026-10-14T14:00:00Z prev={g} payload={{\"x\":1}} ->")).is_ok());
+        assert!(parse_prompt(&format!("worm seal label=a:b ts=2026-10-14T14:00:00Z prev={g} payload={{\"x\": 1}} ->")).is_err());
+        assert!(parse_prompt(&format!("worm seal label=a:b ts=2026-10-14 prev={g} payload={{}} ->")).is_err());
     }
 }
