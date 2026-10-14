@@ -230,16 +230,100 @@ The best checkpoint by balanced accuracy is GRPO round 3 (`rl-r3.pt`):
 - KL to the reference grew to about 0.03-0.04 by rounds 7-10, while held-out
   accuracy did not improve.
 
-### GGUF export
+### GGUF export (round 2, superseded)
 
-`export_gguf.py` was used to export `rl-r3.pt` to
-`runs/dss-r2/dss-r2-best.gguf` (137 MB, f32; not committed).
+The first export of `rl-r3.pt` declared the `default` pre-tokenizer. On DSS
+prompts it matched PyTorch greedy answers in only 7 of 40 cases. That is
+fixed in the next section.
 
-`llama-simple` loads and generates from it. For the text prompt
-`# Reverse engineering`, its greedy output matches PyTorch greedy decoding.
-For the DSS prompts it does not: for `bound k 12 a 60 ->`, PyTorch produces
-` b=72; 60<72 no` while llama-simple produces unrelated digits. The GGUF
-declares the `default` pre-tokenizer, which does not split numbers the way
-the HF tokenizer does, so number-heavy prompts receive different token ids.
-**The GGUF is not usable for the DSS tasks until the export writes a matching
-pre-tokenizer.** That fix was not attempted.
+## GGUF tokenizer fix
+
+`tokenizer.json` has no normalizer and a ByteLevel pre-tokenizer with
+`use_regex=true`, which is the GPT-2 split regex: each number is kept as one
+` ?\p{N}+` chunk. llama.cpp's `gpt-2` pre type uses the same regex.
+`export_gguf.py` now writes `tokenizer.ggml.pre = "gpt-2"` and refuses
+tokenizer configs it does not recognise.
+
+Token ids were compared with `dss/tokenizer_parity.py` (llama.cpp 4413a19
+`llama-tokenize`, no BOS, against HF `tokenizers`):
+
+| GGUF pre | DSS prompt+answer texts (500) | mixed: numbers, code, Markdown, unicode, whitespace (32) |
+|---|---|---|
+| `default` (old) | 0/500 identical | 21/32 |
+| `gpt-2` (new) | **500/500** | **31/32** |
+
+The one remaining mismatch is a `\r` byte. HF emits `<unk>` (id 0) for it
+because the vocab has no token for that byte, and llama.cpp drops it.
+
+Greedy answer parity (`dss/gguf_parity.py`, first answer line, 10 prompts
+per task from the balanced test, PyTorch vs `llama-simple`):
+
+| checkpoint | old GGUF (`default`) | new GGUF (`gpt-2`) |
+|---|---|---|
+| round 2 `rl-r3.pt` | 7/40 identical | 40/40 |
+| round 3 `rl-r5.pt` | n/a | 40/40 |
+
+## Round 3: is-DSS with written-out reasoning
+
+### Data (`dss/make_dataset_v3.py`)
+
+`train_v3.jsonl` is `train_v2.jsonl` (32,000 rows) with every is-DSS answer
+(5037 yes / 4963 no) rewritten:
+
+- non-DSS: ` 16=3+13 no`, i.e. two subsets with equal sum and different
+  sizes from the oracle, then the verdict;
+- DSS: ` sums 1:[6 12 15 20] 2:[18 21 26 27 32 35] 3:[33 38 41 47] 4:[53] yes`,
+  i.e. all subset sums grouped by size. No sum appears in two groups, which
+  is the DSS property.
+
+Sets have 2..5 elements, and the longest prompt+answer is 58 tokens. The
+grader scores only the verdict and, for "no", whether the witness is valid.
+The certificate is not graded.
+
+### Run (`runs/dss-r3`, log `dss/results/r3-metrics.jsonl`)
+
+- Start from round 2's `rl-r3.pt`.
+- SFT: 600 steps (lr 2e-4, 4 replay windows per step, weight 1.0).
+- Expert iteration: 1 round.
+- GRPO: 8 rounds x 30 updates. Group of 8, 8 prompts per update, KL beta
+  0.05, 4 replay windows per update, curriculum on.
+- max_new 64. Threads: 8; no other training was running at launch. Wall
+  time 15:10-17:25 PT (cap 2.5 h).
+
+Balanced is-DSS has n=200, so SE is about 0.035; balanced overall has n=500.
+
+| stage | balanced is-DSS | balanced all | next / card / bound | old-test all | old-val loss | reward | KL |
+|---|---|---|---|---|---|---|---|
+| start | 0.525 ± 0.035 | 0.632 ± 0.022 | .81/.77/.53 | 0.725 ± 0.022 | 2.8039 | | |
+| SFT | 0.500 ± 0.035 | 0.622 ± 0.022 | .81/.66/.64 | 0.713 ± 0.023 | 2.9871 | | |
+| expert iter 1 | 0.510 ± 0.035 | 0.640 ± 0.022 | .83/.73/.62 | 0.758 ± 0.021 | 2.9666 | | |
+| GRPO 1 | 0.525 ± 0.035 | 0.652 ± 0.021 | .83/.76/.62 | 0.763 ± 0.021 | 2.9640 | 0.668 | 0.0105 |
+| GRPO 2 | 0.520 ± 0.035 | 0.644 ± 0.021 | .83/.72/.63 | 0.745 ± 0.022 | 2.9626 | 0.621 | 0.0082 |
+| GRPO 3 | 0.540 ± 0.035 | 0.662 ± 0.021 | .83/.76/.64 | 0.760 ± 0.021 | 2.9626 | 0.572 | 0.0101 |
+| GRPO 4 | 0.545 ± 0.035 | 0.654 ± 0.021 | .83/.71/.64 | 0.748 ± 0.022 | 2.9597 | 0.644 | 0.0167 |
+| GRPO 5 | 0.545 ± 0.035 | **0.664 ± 0.021** | .84/.76/.63 | 0.763 ± 0.021 | 2.9566 | 0.661 | 0.0220 |
+| GRPO 6 | 0.545 ± 0.035 | 0.664 ± 0.021 | .84/.75/.64 | 0.763 ± 0.021 | 2.9562 | 0.637 | 0.0164 |
+| GRPO 7 | 0.550 ± 0.035 | 0.652 ± 0.021 | .83/.71/.62 | 0.748 ± 0.022 | 2.9557 | 0.607 | 0.0256 |
+| GRPO 8 | 0.550 ± 0.035 | 0.656 ± 0.021 | .83/.73/.62 | 0.750 ± 0.022 | 2.9554 | 0.652 | 0.0385 |
+
+The best checkpoint by balanced accuracy is GRPO round 5 (`rl-r5.pt`, tied
+with round 6 and the earlier of the two). It was exported to
+`runs/dss-r3/dss-r3-best.gguf` (not committed).
+
+### Verdict
+
+- **Graded is-DSS is still not learned.** The score is 0.50-0.55 at every
+  stage. At its best (0.55) it is about 1.4 SE above chance, which is not
+  significant.
+- **The verdict itself is mostly right, but the witnesses are not.** On the
+  200 balanced is-DSS items, `rl-r5.pt` gives the correct final verdict
+  169 times (0.845): 91/100 DSS sets and 78/100 non-DSS sets. Only 18 of
+  the 78 correct "no" answers carry a valid witness, so the graded score is
+  109/200. The model's arithmetic in witnesses and certificates is wrong
+  (for example `19=6+11` for {6, 11, 18, 19, 22}). It has learned what a
+  collision looks like, not how to compute one.
+- **Overall balanced accuracy, best checkpoint vs this run's
+  expert-iteration checkpoint:** 0.664 vs 0.640. The difference is +0.024
+  with an SE of about 0.030, so it is within noise.
+- **Old-val loss rose by 0.15** (2.804 -> 2.956) during this round's SFT
+  on the longer targets, despite heavier replay.
