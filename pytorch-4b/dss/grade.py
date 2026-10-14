@@ -33,7 +33,14 @@ def grade(prompt, completion):
         m = re.fullmatch(r"is DSS ([\d ]+) ->", prompt)
         if m:
             S = _ints(m.group(1)); d = is_dss(S)
-            if ans == "yes": return float(d)
+            # v3 stepwise forms: "<certificate> yes" (certificate not graded)
+            # and "A=B no" (witness first). Only the verdict and, for "no",
+            # the witness are graded.
+            if ans == "yes" or (ans.endswith(" yes") and ans.startswith("sums ")):
+                return float(d)
+            w3 = re.fullmatch(r"(\d+(?:\+\d+)*)=(\d+(?:\+\d+)*) no", ans)
+            if w3:
+                ans = f"no {w3.group(1)}={w3.group(2)}"
             w = re.fullmatch(r"no (\d+(?:\+\d+)*)=(\d+(?:\+\d+)*)", ans)
             if not w: return MALFORMED
             a = [int(x) for x in w.group(1).split("+")]; b = [int(x) for x in w.group(2).split("+")]

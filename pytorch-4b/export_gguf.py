@@ -10,6 +10,16 @@ i.e. the original Meta/"interleaved" convention, which is exactly what
 llama.cpp's LLAMA arch (rope type NORM) does. So q/k are written as-is; no
 HF-style permute is applied.
 
+Tokenizer note: tokenizer.ggml.pre is "gpt-2". tokenizer.json uses a ByteLevel
+pre-tokenizer with use_regex=true (the GPT-2 split regex) and no normalizer,
+and llama.cpp's "gpt-2" pre type applies the same regex. The earlier
+"default" value split numbers differently. Measured with
+dss/tokenizer_parity.py (llama.cpp 4413a19, llama-tokenize vs HF tokenizers):
+  "default": 0/500 DSS prompts and 21/32 mixed texts gave identical ids
+  "gpt-2":   500/500 DSS prompts and 31/32 mixed texts gave identical ids
+The remaining mismatch is "\r": HF emits <unk> (id 0) because the vocab has
+no token for that byte, and llama.cpp drops it.
+
 Usage:
   python export_gguf.py CKPT.pt OUT.gguf [--config small] [--tokenizer tokenizer/tokenizer.json] [--dtype f32|f16]
 CKPT may be a raw state_dict or a dict with "model"/"model_state_dict"/"state_dict"
@@ -59,7 +69,16 @@ def add_tokenizer(w, tok_path, vocab_size):
         specials[a["content"]] = a["id"]
     merges = [" ".join(x) if isinstance(x, list) else x for x in m["merges"]]
     w.add_tokenizer_model("gpt2")
-    w.add_tokenizer_pre("default")
+    # tokenizer.json uses a ByteLevel pre-tokenizer with use_regex=true and no
+    # normalizer, i.e. the GPT-2 split regex (numbers kept as one " ?\p{N}+"
+    # chunk). llama.cpp's "gpt-2" pre type uses that same regex; "default"
+    # splits digits differently and gave different ids on number-heavy text.
+    # Parity is checked by dss/tokenizer_parity.py.
+    pre = t.get("pre_tokenizer") or {}
+    if not (pre.get("type") == "ByteLevel" and pre.get("use_regex", True)
+            and t.get("normalizer") is None):
+        raise SystemExit(f"unsupported pre_tokenizer/normalizer: {pre}")
+    w.add_tokenizer_pre("gpt-2")
     w.add_token_list(toks)
     w.add_token_types(types)
     w.add_token_merges(merges)

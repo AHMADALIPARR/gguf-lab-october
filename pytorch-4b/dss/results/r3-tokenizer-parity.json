@@ -1,0 +1,29 @@
+{
+ "dss": {
+  "match": 500,
+  "total": 500,
+  "mismatches": []
+ },
+ "other": {
+  "match": 31,
+  "total": 32,
+  "mismatches": [
+   {
+    "text": "CRLF\r\nline",
+    "hf": [
+     5195,
+     6867,
+     0,
+     178,
+     674
+    ],
+    "llama": [
+     5195,
+     6867,
+     178,
+     674
+    ]
+   }
+  ]
+ }
+}
