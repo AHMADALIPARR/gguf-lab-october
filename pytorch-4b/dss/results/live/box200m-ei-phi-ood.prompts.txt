@@ -1,0 +1,802 @@
+is DSS 1866 8955 10821 ->
+is DSS 831 4138 4969 ->
+is DSS 559 3000 87684 90684 ->
+is DSS 764 9063 30499 ->
+is DSS 976 7838 82994 ->
+is DSS 13917 38450 ->
+is DSS 3505 30817 34322 ->
+is DSS 264 771 6410 82087 ->
+is DSS 9286 60208 69494 ->
+is DSS 2997 5617 8063 11060 ->
+is DSS 2260 87952 ->
+is DSS 625 729 768 31607 ->
+is DSS 1761 2428 6770 ->
+is DSS 406 44408 52801 62816 ->
+is DSS 3718 8368 51965 ->
+is DSS 61306 66477 84893 98783 ->
+is DSS 492 9223 ->
+is DSS 720 19862 ->
+is DSS 758 4472 7089 28667 ->
+is DSS 931 2113 ->
+is DSS 27047 35006 ->
+is DSS 568 33929 34497 36560 ->
+is DSS 513 785 ->
+is DSS 932 938 1870 9686 ->
+is DSS 440 747 ->
+is DSS 265 5045 5310 ->
+is DSS 5658 70255 86334 91992 ->
+is DSS 496 534 588 1122 ->
+is DSS 5399 55628 66909 94937 ->
+is DSS 189 910 8718 8907 ->
+is DSS 4360 58563 ->
+is DSS 2622 6310 31734 34356 ->
+is DSS 173 75326 75499 ->
+is DSS 828 75837 ->
+is DSS 3291 48613 51904 ->
+is DSS 1988 43463 ->
+is DSS 3573 4356 5946 47535 ->
+is DSS 479 5094 5573 ->
+is DSS 2443 4740 71959 74963 ->
+is DSS 735 58875 ->
+is DSS 1477 5649 ->
+is DSS 941 34340 35281 60197 ->
+is DSS 693 976 1802 7461 ->
+is DSS 615 5796 9090 ->
+is DSS 812 98517 99329 ->
+is DSS 5180 45075 50255 ->
+is DSS 329 672 1001 ->
+is DSS 9948 40778 50986 68520 ->
+is DSS 722 17985 ->
+is DSS 212 26309 26521 ->
+is DSS 5010 29213 34223 ->
+is DSS 651 64728 70892 95649 ->
+is DSS 5881 7963 13844 ->
+is DSS 602 2426 3028 ->
+is DSS 1708 8710 ->
+is DSS 3838 6159 9997 ->
+is DSS 7769 63392 71161 ->
+is DSS 2392 4203 7760 9288 ->
+is DSS 146 511 657 ->
+is DSS 635 779 799 ->
+is DSS 831 13742 ->
+is DSS 22411 75419 97830 ->
+is DSS 6542 87254 88054 ->
+is DSS 226 242 7802 8147 ->
+is DSS 350 40430 40780 ->
+is DSS 496 39023 39519 ->
+is DSS 687 10180 10867 ->
+is DSS 2912 8698 11262 ->
+is DSS 170 469 566 1035 ->
+is DSS 6029 48086 49127 ->
+is DSS 104 8269 8373 ->
+is DSS 7642 11883 19525 ->
+is DSS 104 77320 ->
+is DSS 208 7177 84393 ->
+is DSS 260 1313 5343 34497 ->
+is DSS 2428 2512 9812 73141 ->
+is DSS 793 24760 25553 ->
+is DSS 8375 8393 16768 ->
+is DSS 7563 19787 ->
+is DSS 958 8423 ->
+is DSS 4405 5852 10257 ->
+is DSS 695 3003 3534 65442 ->
+is DSS 5521 8563 23190 ->
+is DSS 826 39312 40138 ->
+is DSS 904 8596 ->
+is DSS 9480 25655 37144 62799 ->
+is DSS 382 524 8755 9137 ->
+is DSS 465 792 63221 75172 ->
+is DSS 1820 1885 3705 ->
+is DSS 806 7260 8066 ->
+is DSS 708 939 1647 ->
+is DSS 1619 28202 29821 ->
+is DSS 6762 7632 ->
+is DSS 2129 32287 34416 ->
+is DSS 41688 75671 78439 117359 ->
+is DSS 316 446 2441 ->
+is DSS 514 26670 27184 ->
+is DSS 6591 73036 79627 ->
+is DSS 5565 8070 13635 ->
+is DSS 3392 5319 8711 70215 ->
+DSS W 440 9636 87550 sum 97626 -> size
+DSS W 8815 37161 56266 sum 56266 -> size
+DSS W 4260 8912 sum 13172 -> size
+DSS W 556 7055 43472 sum 51083 -> size
+DSS W 875 6108 54736 71743 sum 875 -> size
+DSS W 433 534 994 sum 534 -> size
+DSS W 870 5854 sum 870 -> size
+DSS W 499 604 sum 1103 -> size
+DSS W 1993 2945 52166 sum 52166 -> size
+DSS W 82057 99707 sum 99707 -> size
+DSS W 659 748 995 sum 995 -> size
+DSS W 314 452 94011 sum 452 -> size
+DSS W 2814 9694 27076 36305 sum 66195 -> size
+DSS W 5695 6145 sum 5695 -> size
+DSS W 429 969 sum 1398 -> size
+DSS W 829 44382 56119 sum 45211 -> size
+DSS W 7304 8070 25742 40845 sum 8070 -> size
+DSS W 569 886 893 65625 sum 2348 -> size
+DSS W 990 4954 sum 4954 -> size
+DSS W 202 237 428 656 sum 1286 -> size
+DSS W 445 9657 sum 10102 -> size
+DSS W 367 54554 90612 sum 90979 -> size
+DSS W 1049 28403 sum 28403 -> size
+DSS W 505 2518 sum 2518 -> size
+DSS W 480 690 720 sum 1170 -> size
+DSS W 668 97183 sum 97851 -> size
+DSS W 612 6898 67009 sum 74519 -> size
+DSS W 2916 6574 sum 9490 -> size
+DSS W 690 8202 25391 sum 8892 -> size
+DSS W 222 569 14272 sum 15063 -> size
+DSS W 871 7292 12301 sum 8163 -> size
+DSS W 806 8804 71806 82312 sum 91922 -> size
+DSS W 162 2592 49564 sum 52318 -> size
+DSS W 482 849 73257 sum 849 -> size
+DSS W 6610 6824 7730 14160 sum 21164 -> size
+DSS W 639 70663 sum 639 -> size
+DSS W 244 508 2567 11034 sum 11542 -> size
+DSS W 656 674 67359 93539 sum 93539 -> size
+DSS W 522 829 sum 1351 -> size
+DSS W 906 944 sum 1850 -> size
+DSS W 738 26079 56574 77961 sum 104040 -> size
+DSS W 189 570 5678 6189 sum 11867 -> size
+DSS W 34056 49764 sum 34056 -> size
+DSS W 6084 10251 sum 6084 -> size
+DSS W 413 598 sum 1011 -> size
+DSS W 878 2477 9740 sum 13095 -> size
+DSS W 1469 9017 91440 sum 101926 -> size
+DSS W 266 483 54381 sum 55130 -> size
+DSS W 16860 86419 sum 103279 -> size
+DSS W 446 821 sum 1267 -> size
+DSS W 964 2603 7214 19011 sum 19011 -> size
+DSS W 390 961 7998 33022 sum 33983 -> size
+DSS W 1096 72057 sum 1096 -> size
+DSS W 593 831 sum 831 -> size
+DSS W 165 7476 14987 sum 165 -> size
+DSS W 227 97651 sum 97651 -> size
+DSS W 987 93592 sum 987 -> size
+DSS W 1871 6994 sum 6994 -> size
+DSS W 787 896 sum 787 -> size
+DSS W 900 4039 48140 sum 4939 -> size
+DSS W 145 545 5269 40375 sum 45644 -> size
+DSS W 24997 37357 63462 89670 sum 89670 -> size
+DSS W 192 53626 sum 53818 -> size
+DSS W 911 1317 sum 2228 -> size
+DSS W 462 983 71695 sum 73140 -> size
+DSS W 621 3068 7054 68304 sum 79047 -> size
+DSS W 765 838 sum 765 -> size
+DSS W 182 6932 16340 84004 sum 23272 -> size
+DSS W 9160 58430 75804 sum 67590 -> size
+DSS W 677 7950 9711 sum 17661 -> size
+DSS W 738 797 5846 80633 sum 88014 -> size
+DSS W 1690 52698 sum 1690 -> size
+DSS W 605 2934 33594 sum 34199 -> size
+DSS W 9442 66704 sum 66704 -> size
+DSS W 4251 7318 8695 sum 8695 -> size
+DSS W 217 258 6813 sum 7030 -> size
+DSS W 7697 86193 sum 7697 -> size
+DSS W 405 460 sum 460 -> size
+DSS W 7065 29447 sum 36512 -> size
+DSS W 796 57160 sum 57160 -> size
+DSS W 298 689 sum 689 -> size
+DSS W 299 8901 sum 9200 -> size
+DSS W 610 8073 sum 8683 -> size
+DSS W 305 408 36472 sum 36472 -> size
+DSS W 167 503 45297 sum 503 -> size
+DSS W 861 4272 sum 4272 -> size
+DSS W 967 4133 50555 99663 sum 99663 -> size
+DSS W 787 5464 9399 sum 10186 -> size
+DSS W 2469 3598 63476 sum 3598 -> size
+DSS W 1413 6356 38534 90840 sum 97196 -> size
+DSS W 4519 8605 52940 sum 57459 -> size
+DSS W 619 6180 30836 83146 sum 120781 -> size
+DSS W 460 5680 8522 48267 sum 8522 -> size
+DSS W 485 589 sum 589 -> size
+DSS W 690 4412 sum 5102 -> size
+DSS W 6301 12726 44047 sum 63074 -> size
+DSS W 829 8076 37978 59546 sum 46883 -> size
+DSS W 5286 31459 51500 86963 sum 88245 -> size
+DSS W 766 2622 5258 5876 sum 5876 -> size
+DSS W 198 207 96152 sum 96152 -> size
+DSS greedy next after 160 329 8271 86485 ->
+DSS greedy next after 109 862 80877 ->
+DSS greedy next after 783 71940 ->
+DSS greedy next after 186 750 4843 51210 ->
+DSS greedy next after 8609 8941 68176 ->
+DSS greedy next after 195 558 636 9229 ->
+DSS greedy next after 9132 37874 38160 86986 ->
+DSS greedy next after 183 899 2348 6186 ->
+DSS greedy next after 317 3397 5500 5956 ->
+DSS greedy next after 4898 38213 97524 ->
+DSS greedy next after 107 390 5764 6957 ->
+DSS greedy next after 415 5122 ->
+DSS greedy next after 113 218 4545 61130 ->
+DSS greedy next after 2503 3496 64867 ->
+DSS greedy next after 531 76901 88498 ->
+DSS greedy next after 3499 71653 ->
+DSS greedy next after 634 3160 ->
+DSS greedy next after 625 22468 28219 71792 ->
+DSS greedy next after 736 7656 ->
+DSS greedy next after 2338 13853 ->
+DSS greedy next after 309 714 13641 21266 ->
+DSS greedy next after 203 216 78333 89434 ->
+DSS greedy next after 4729 40715 ->
+DSS greedy next after 144 8099 9241 ->
+DSS greedy next after 1427 37808 ->
+DSS greedy next after 766 8892 31841 ->
+DSS greedy next after 570 6653 38070 85512 ->
+DSS greedy next after 38627 44497 62852 80592 ->
+DSS greedy next after 537 7884 62742 ->
+DSS greedy next after 507 511 31027 ->
+DSS greedy next after 9172 36104 ->
+DSS greedy next after 2019 8989 25009 ->
+DSS greedy next after 480 8541 ->
+DSS greedy next after 388 6541 ->
+DSS greedy next after 695 829 6100 38868 ->
+DSS greedy next after 5515 32380 35930 ->
+DSS greedy next after 543 2439 ->
+DSS greedy next after 807 48888 74075 ->
+DSS greedy next after 3849 42544 83329 92994 ->
+DSS greedy next after 754 797 ->
+DSS greedy next after 289 955 3746 29716 ->
+DSS greedy next after 878 959 74866 ->
+DSS greedy next after 816 4732 8561 98986 ->
+DSS greedy next after 512 37415 75299 ->
+DSS greedy next after 396 909 1441 88152 ->
+DSS greedy next after 413 420 ->
+DSS greedy next after 687 1838 83673 ->
+DSS greedy next after 283 346 568 ->
+DSS greedy next after 204 4260 5460 8585 ->
+DSS greedy next after 6348 7823 46642 ->
+DSS greedy next after 143 700 828 3582 ->
+DSS greedy next after 800 6976 9684 ->
+DSS greedy next after 118 5251 36333 ->
+DSS greedy next after 193 616 4142 9327 ->
+DSS greedy next after 1730 9260 13125 ->
+DSS greedy next after 307 443 23038 ->
+DSS greedy next after 197 4414 ->
+DSS greedy next after 7761 8220 9492 65250 ->
+DSS greedy next after 3260 3774 19512 ->
+DSS greedy next after 706 7906 38486 53051 ->
+DSS greedy next after 467 540 708 32784 ->
+DSS greedy next after 627 4348 28811 ->
+DSS greedy next after 936 2674 ->
+DSS greedy next after 613 2471 4713 ->
+DSS greedy next after 1149 7849 8190 ->
+DSS greedy next after 1130 6302 9745 92489 ->
+DSS greedy next after 211 532 45569 ->
+DSS greedy next after 583 61040 ->
+DSS greedy next after 808 1876 5363 57240 ->
+DSS greedy next after 113 236 825 3012 ->
+DSS greedy next after 1635 4847 54998 ->
+DSS greedy next after 801 848 1203 39663 ->
+DSS greedy next after 173 233 7979 46394 ->
+DSS greedy next after 169 7173 73931 ->
+DSS greedy next after 613 8889 ->
+DSS greedy next after 33703 57078 ->
+DSS greedy next after 547 21851 88731 ->
+DSS greedy next after 113 934 90094 ->
+DSS greedy next after 582 24978 ->
+DSS greedy next after 1080 5326 21309 ->
+DSS greedy next after 770 952 ->
+DSS greedy next after 4366 6200 ->
+DSS greedy next after 125 5420 5761 46861 ->
+DSS greedy next after 676 839 2111 5313 ->
+DSS greedy next after 264 994 ->
+DSS greedy next after 732 5931 25468 98807 ->
+DSS greedy next after 332 9893 24358 26274 ->
+DSS greedy next after 508 80805 ->
+DSS greedy next after 4464 9775 47266 76238 ->
+DSS greedy next after 617 37091 ->
+DSS greedy next after 371 5460 5699 6906 ->
+DSS greedy next after 267 516 32295 39176 ->
+DSS greedy next after 11399 15357 54943 ->
+DSS greedy next after 292 947 14826 ->
+DSS greedy next after 185 926 ->
+DSS greedy next after 2116 63023 74405 ->
+DSS greedy next after 505 75543 ->
+DSS greedy next after 5750 59013 ->
+DSS greedy next after 190 428 1329 ->
+DSS greedy next after 1228 5234 7181 9034 ->
+bound k 182 a 25235 ->
+bound k 178 a 19578 ->
+bound k 293 a 43960 ->
+bound k 222 a 19024 ->
+bound k 107 a 4071 ->
+bound k 297 a 41680 ->
+bound k 48 a 1060 ->
+bound k 241 a 37124 ->
+bound k 72 a 3556 ->
+bound k 232 a 29003 ->
+bound k 124 a 7745 ->
+bound k 272 a 70463 ->
+bound k 135 a 14322 ->
+bound k 214 a 22130 ->
+bound k 181 a 16233 ->
+bound k 66 a 1648 ->
+bound k 242 a 17886 ->
+bound k 192 a 14878 ->
+bound k 247 a 32027 ->
+bound k 89 a 4057 ->
+bound k 70 a 1953 ->
+bound k 84 a 1824 ->
+bound k 250 a 31838 ->
+bound k 155 a 12165 ->
+bound k 92 a 584 ->
+bound k 298 a 47172 ->
+bound k 163 a 12545 ->
+bound k 132 a 10802 ->
+bound k 156 a 12847 ->
+bound k 114 a 3364 ->
+bound k 121 a 10051 ->
+bound k 273 a 36991 ->
+bound k 290 a 50629 ->
+bound k 71 a 2498 ->
+bound k 156 a 16502 ->
+bound k 67 a 2642 ->
+bound k 101 a 5579 ->
+bound k 86 a 3656 ->
+bound k 285 a 10902 ->
+bound k 221 a 20091 ->
+bound k 209 a 27933 ->
+bound k 103 a 5326 ->
+bound k 162 a 13901 ->
+bound k 203 a 20447 ->
+bound k 88 a 4214 ->
+bound k 110 a 6633 ->
+bound k 114 a 6130 ->
+bound k 234 a 31181 ->
+bound k 153 a 560 ->
+bound k 237 a 27839 ->
+bound k 223 a 25013 ->
+bound k 137 a 11574 ->
+bound k 216 a 29155 ->
+bound k 82 a 3330 ->
+bound k 235 a 27786 ->
+bound k 155 a 12971 ->
+bound k 220 a 24132 ->
+bound k 157 a 11264 ->
+bound k 102 a 5145 ->
+bound k 133 a 1635 ->
+bound k 90 a 1795 ->
+bound k 56 a 1729 ->
+bound k 262 a 34387 ->
+bound k 152 a 7419 ->
+bound k 179 a 16060 ->
+bound k 106 a 5652 ->
+bound k 222 a 24674 ->
+bound k 266 a 38910 ->
+bound k 246 a 33134 ->
+bound k 230 a 18456 ->
+bound k 255 a 35814 ->
+bound k 185 a 17198 ->
+bound k 49 a 1189 ->
+bound k 165 a 13597 ->
+bound k 127 a 7731 ->
+bound k 204 a 20547 ->
+bound k 200 a 19196 ->
+bound k 297 a 44231 ->
+bound k 147 a 9805 ->
+bound k 242 a 28037 ->
+bound k 78 a 3861 ->
+bound k 217 a 23659 ->
+bound k 74 a 1869 ->
+bound k 119 a 2456 ->
+bound k 51 a 1307 ->
+bound k 83 a 3608 ->
+bound k 87 a 4099 ->
+bound k 183 a 10125 ->
+bound k 131 a 6662 ->
+bound k 159 a 12570 ->
+bound k 182 a 15823 ->
+bound k 262 a 32172 ->
+bound k 129 a 10136 ->
+bound k 46 a 1135 ->
+bound k 271 a 36759 ->
+bound k 270 a 28790 ->
+bound k 247 a 30415 ->
+bound k 135 a 7038 ->
+bound k 105 a 5499 ->
+bound k 71 a 2505 ->
+bound k 25 a 313 ->
+is DSS 101 202 303 ->
+phi normalize -977712621 phi^29 + 450360407 phi^24 + 88200522 phi^22 ->
+phi normalize -809563518 phi^4 - 745641743 phi^28 ->
+phi normalize 45906595 phi^51 + 129406246 phi^14 ->
+phi normalize 827626193 phi^2 + 574577881 phi^23 + 138729900 phi^46 ->
+phi normalize -173852985 phi^43 + 410171120 + 43080129 phi^38 ->
+phi normalize 256076331 phi^47 + 198456098 phi^46 - 298155090 phi^48 + 82276470 phi^21 ->
+phi normalize 213049778 phi^48 + 558680684 phi^53 ->
+phi normalize 806377744 phi^3 + 459704320 phi^43 + 547336126 phi^33 - 437460275 phi^36 ->
+phi normalize -439947832 phi^52 ->
+phi normalize 254984282 phi^56 ->
+phi normalize 611663489 phi^53 + 505098896 phi^21 + 142876299 - 907410181 phi^5 ->
+phi normalize 63085613 phi^6 - 81795041 phi^19 + 292675354 phi^25 ->
+phi normalize 659951732 phi^56 + 863722659 phi^13 - 982988350 phi^17 - 639798538 phi^52 ->
+phi normalize -452735086 phi^56 + 668276885 phi^13 - 244125842 phi^32 - 92455549 phi^12 ->
+phi normalize -19180855 phi^43 - 341659954 phi^37 ->
+phi normalize 536472706 phi^52 ->
+phi normalize 556344677 phi^10 + 871036767 + 124175435 phi^23 + 358187183 phi^17 ->
+phi normalize 678701901 phi^30 + 653748112 phi^29 ->
+phi normalize 14443196 phi^13 + 160394919 phi^33 + 252253246 phi^29 + 39848402 phi^23 ->
+phi normalize 953438014 phi^29 + 332279886 phi^2 - 950857017 phi^16 - 756912055 phi^32 ->
+phi normalize 546593652 phi^28 ->
+phi normalize 325399258 phi^17 ->
+phi normalize 169240950 phi^10 - 920772925 phi^33 - 988631470 phi^39 + 59049614 phi^17 ->
+phi normalize 995948840 phi^58 - 95808946 phi^32 ->
+phi normalize 603711770 phi^55 + 890273020 phi^38 - 591756663 ->
+phi normalize -191983206 phi^50 + 979600181 phi^10 - 868290650 ->
+phi normalize -268190907 phi^8 + 471258751 phi^43 ->
+phi normalize 584375089 phi^45 - 603503040 phi^29 + 982046572 phi^45 ->
+phi normalize -274867616 phi^28 - 696483459 phi^23 - 461082155 phi^58 ->
+phi normalize -105850935 phi^45 + 116819774 phi^46 ->
+phi normalize -948482246 phi^54 + 273378482 phi^10 ->
+phi normalize 44166189 phi^42 - 228855823 phi^26 - 348192329 phi^34 + 524672607 phi^10 ->
+phi normalize -512520989 phi^4 ->
+phi normalize 101879695 phi^28 ->
+phi normalize 172341969 phi^19 - 164306308 phi^18 ->
+phi normalize 458877157 phi^27 + 382095401 phi^28 + 588703809 phi^37 ->
+phi normalize 578938986 phi^8 + 443006154 phi^16 - 39327900 phi^16 ->
+phi normalize -77592937 phi^18 ->
+phi normalize 935897704 phi^35 - 632463526 phi^1 ->
+phi normalize -744432273 phi^55 - 92531418 phi^32 + 757781377 phi^13 ->
+phi normalize -483347005 phi^20 + 979742652 phi^27 + 566767028 phi^15 - 158499686 phi^23 ->
+phi normalize 15166777 phi^29 + 260706959 phi^13 - 451317940 phi^1 ->
+phi normalize 855803168 phi^53 - 643940687 phi^7 ->
+phi normalize 252665851 phi^16 - 762083703 - 348489801 phi^36 ->
+phi normalize 504120214 phi^13 + 693080426 phi^38 - 429796694 phi^26 - 365847972 phi^35 ->
+phi normalize 218845667 phi^45 - 874096271 phi^56 + 589296865 - 324319286 phi^60 ->
+phi normalize 467824657 phi^14 - 995615193 phi^34 + 750176871 phi^42 + 130758852 phi^10 ->
+phi normalize 410459204 phi^59 ->
+phi normalize -412878924 phi^16 ->
+phi normalize 68286415 phi^12 + 224822706 phi^20 ->
+phi normalize 456230245 phi^1 + 496907291 phi^52 + 5483071 phi^8 ->
+phi normalize 406538480 phi^7 + 55072623 phi^22 + 558923951 phi^27 ->
+phi normalize 527147663 phi^50 ->
+phi normalize -436108800 phi^33 + 466459794 phi^17 + 359533144 phi^60 + 938259849 phi^22 ->
+phi normalize -938085152 phi^52 ->
+phi normalize 818961801 phi^18 - 508506109 phi^42 + 218367814 phi^11 - 538005110 phi^16 ->
+phi normalize -323577732 phi^36 ->
+phi normalize 290892777 phi^20 - 2264995 phi^54 - 551264544 phi^2 + 212294151 phi^49 ->
+phi normalize -493007598 phi^24 - 700628935 phi^59 ->
+phi normalize -898943259 phi^43 - 845777887 phi^4 ->
+phi normalize 359391532 phi^10 ->
+phi normalize 757710738 phi^17 + 950693911 phi^20 - 312582481 phi^54 ->
+phi normalize 438875852 phi^40 + 46344693 phi^55 + 547658418 phi^57 ->
+phi normalize -207320303 phi^59 ->
+phi normalize -141489649 phi^23 + 306368415 phi^6 ->
+phi normalize -754838821 phi^49 ->
+phi normalize -650773765 phi^29 - 759171081 phi^49 - 432768122 phi^20 ->
+phi normalize -693471414 phi^46 + 501717416 phi^14 - 500276255 phi^46 ->
+phi normalize -50502328 phi^39 + 467574055 phi^20 ->
+phi normalize -558076876 phi^48 + 684161294 phi^54 + 744255608 phi^32 ->
+phi normalize 207691640 phi^38 + 832649380 phi^27 - 795070601 phi^43 + 916617015 phi^18 ->
+phi normalize -630257549 phi^2 - 704042084 phi^26 + 396963254 phi^60 ->
+phi normalize 459898106 phi^36 ->
+phi normalize 271706038 phi^1 + 177052700 phi^55 ->
+phi normalize 348772334 phi^26 ->
+phi normalize 868297200 phi^5 - 370133701 phi^56 - 270105157 phi^21 ->
+phi normalize 962571895 phi^48 - 854925385 phi^24 + 687442161 phi^41 ->
+phi normalize -840369088 phi^40 ->
+phi normalize 219119389 phi^6 - 307477232 phi^16 - 623175932 phi^8 + 64434969 phi^7 ->
+phi normalize 274304205 phi^44 ->
+phi normalize -403226376 phi^5 + 782627042 phi^38 - 842071324 phi^36 ->
+phi normalize -946099982 phi^29 + 104627109 phi^30 + 161498277 phi^15 ->
+phi normalize -883171609 phi^34 ->
+phi normalize -553538730 phi^4 - 205745079 phi^9 + 934357966 phi^13 ->
+phi normalize -111125734 phi^30 - 410821114 phi^33 ->
+phi normalize 475287121 phi^7 + 785535981 phi^32 + 225221159 phi^46 ->
+phi normalize -621983444 phi^59 + 929709972 phi^16 - 381147644 phi^18 ->
+phi normalize -94099462 phi^6 + 622509295 phi^38 + 93987104 phi^5 ->
+phi normalize 741919843 phi^56 - 243394497 phi^45 ->
+phi normalize -426040393 ->
+phi normalize -809990196 phi^10 - 945936132 phi^17 - 72000498 phi^50 + 398497497 phi^57 ->
+phi normalize 417835234 phi^53 - 590698310 phi^20 + 145950660 phi^47 ->
+phi normalize 814480408 phi^8 ->
+phi normalize 533584017 phi^58 + 429624795 phi^34 + 760198488 phi^56 + 901263320 phi^12 ->
+phi normalize 879452057 phi^27 - 794622095 phi^50 ->
+phi normalize 805441571 phi^7 - 846468101 phi^58 - 123065661 phi^27 ->
+phi normalize 297438765 phi^15 ->
+phi normalize 177297773 phi^15 + 822324495 phi^55 - 382311398 phi^31 + 146513178 phi^32 ->
+phi normalize -53065755 phi^26 ->
+phi normalize 28851158 phi^18 ->
+phi mul (-750454509 + 730983549 phi) (-609708957 + 779824496 phi) ->
+phi mul (408095006 + 986261515 phi) (662170762 - 472640645 phi) ->
+phi mul (913997451 - 481521846 phi) (-486252850 + 583985539 phi) ->
+phi mul (178936789 + 240295073 phi) (222940600 + 648495124 phi) ->
+phi mul (-838973970 - 445745264 phi) (832686941 + 298932123 phi) ->
+phi mul (-139055931 + 286525893 phi) (-862649605 - 96393626 phi) ->
+phi mul (-636361367 + 911837241 phi) (692267694 - 427816866 phi) ->
+phi mul (174798791 - 208209053 phi) (-105612348 + 183837898 phi) ->
+phi mul (166829148 - 327995935 phi) (-14151203 + 897105059 phi) ->
+phi mul (525513407 - 440085856 phi) (-55979084 - 274031739 phi) ->
+phi mul (-791411574 - 371457796 phi) (-35161501 + 587241413 phi) ->
+phi mul (-517535124 - 118847682 phi) (136215897 + 937953233 phi) ->
+phi mul (368912591 + 619697793 phi) (-584987437 - 4038398 phi) ->
+phi mul (-51415463 - 152125565 phi) (-825729480 - 698710889 phi) ->
+phi mul (874599986 + 552857174 phi) (858304725 + 889685314 phi) ->
+phi mul (-176525988 + 121568803 phi) (589035635 - 690961919 phi) ->
+phi mul (-644676830 - 631476956 phi) (-341440338 - 743112635 phi) ->
+phi mul (200530819 + 37472034 phi) (-725648448 - 349083081 phi) ->
+phi mul (-806781836 + 185601533 phi) (-821231535 - 253530229 phi) ->
+phi mul (-19942260 - 261070197 phi) (734812784 + 8983688 phi) ->
+phi mul (-431136034 + 278122761 phi) (-119807729 + 868670894 phi) ->
+phi mul (-898518786 - 314654919 phi) (4274700 - 732408637 phi) ->
+phi mul (481711180 + 549297789 phi) (176459768 - 24978335 phi) ->
+phi mul (-217819729 - 556806900 phi) (-220689669 - 453788393 phi) ->
+phi mul (424630417 - 863680408 phi) (183941753 + 36259372 phi) ->
+phi mul (894544495 + 924450518 phi) (-56031044 - 788280102 phi) ->
+phi mul (173297783 - 658424060 phi) (841092981 - 37845477 phi) ->
+phi mul (-177387841 - 998617199 phi) (204585215 + 850122389 phi) ->
+phi mul (-696750868 - 679431039 phi) (-800867436 + 407678917 phi) ->
+phi mul (918549580 + 117208738 phi) (-540584622 - 60682783 phi) ->
+phi mul (-67152896 + 552493172 phi) (-256556041 - 219910296 phi) ->
+phi mul (-229799331 + 255660262 phi) (126745052 - 132611758 phi) ->
+phi mul (-260419331 - 663928363 phi) (793098598 + 78420118 phi) ->
+phi mul (63267146 + 478996925 phi) (-717238001 - 578615518 phi) ->
+phi mul (-390803884 - 405183919 phi) (724739428 - 167881520 phi) ->
+phi mul (526206551 + 696135493 phi) (-293982620 - 301808222 phi) ->
+phi mul (352229558 - 732668102 phi) (131668240 + 11222022 phi) ->
+phi mul (-551957323 - 825875857 phi) (-694218355 - 414346516 phi) ->
+phi mul (-917644219 + 257772051 phi) (25794401 + 546360583 phi) ->
+phi mul (749814064 - 532582626 phi) (861280978 - 654480345 phi) ->
+phi mul (291537905 + 433341445 phi) (424800208 + 674092806 phi) ->
+phi mul (-294353702 + 951105064 phi) (-218500467 + 683241318 phi) ->
+phi mul (-503442700 - 635788724 phi) (266516812 + 15359717 phi) ->
+phi mul (197744010 - 20578596 phi) (-779292805 - 960039143 phi) ->
+phi mul (784926022 + 500051842 phi) (979280654 + 285856771 phi) ->
+phi mul (730012691 + 423660709 phi) (-653484270 + 609701051 phi) ->
+phi mul (907112992 - 315314193 phi) (523794935 + 793994086 phi) ->
+phi mul (-454954237 + 968360268 phi) (-351255645 - 367717591 phi) ->
+phi mul (158210441 - 382289178 phi) (-110120190 + 584681903 phi) ->
+phi mul (689822451 - 677673775 phi) (-81453858 + 166220007 phi) ->
+phi mul (298777743 - 693013791 phi) (697769590 + 369816378 phi) ->
+phi mul (-73821892 - 874236096 phi) (-415107671 - 137860427 phi) ->
+phi mul (506849833 + 754370512 phi) (44674333 - 10771716 phi) ->
+phi mul (331648854 - 160792989 phi) (532391339 + 283516242 phi) ->
+phi mul (868888124 + 242084079 phi) (964009697 + 219707319 phi) ->
+phi mul (-800025729 - 574356243 phi) (457829895 + 709648817 phi) ->
+phi mul (742936856 + 472997859 phi) (742044818 - 264731006 phi) ->
+phi mul (-345092725 + 591358787 phi) (-578680559 - 964117095 phi) ->
+phi mul (-339121643 - 529366426 phi) (-527827972 + 188368410 phi) ->
+phi mul (-959288771 + 35713568 phi) (540406916 - 331695834 phi) ->
+phi mul (-728580798 + 430616588 phi) (124789495 - 962018886 phi) ->
+phi mul (-157114841 + 335248724 phi) (-493213288 - 748557852 phi) ->
+phi mul (-76926326 + 766722410 phi) (-930575094 + 886201749 phi) ->
+phi mul (944383342 + 702552708 phi) (-308034141 + 633840147 phi) ->
+phi mul (-848832693 - 447818870 phi) (-621795085 - 970161468 phi) ->
+phi mul (251053703 + 382367584 phi) (-630609090 + 185620397 phi) ->
+phi mul (-864515202 - 737822886 phi) (-638003372 - 671743642 phi) ->
+phi mul (232452049 + 545724625 phi) (80503818 + 700442814 phi) ->
+phi mul (-38438144 - 770000150 phi) (-463076016 - 466425054 phi) ->
+phi mul (886424833 - 939887263 phi) (508679216 - 173876821 phi) ->
+phi mul (891596177 + 959626995 phi) (-641121972 + 719080241 phi) ->
+phi mul (372963579 - 949127503 phi) (-674671304 - 423931936 phi) ->
+phi mul (-835505018 - 682246650 phi) (-918306905 - 899948267 phi) ->
+phi mul (726724035 - 808166951 phi) (-89553775 + 701012867 phi) ->
+phi mul (208922264 + 492969601 phi) (-788768793 - 415398146 phi) ->
+phi mul (884171624 + 509452153 phi) (-180116337 - 381713070 phi) ->
+phi mul (-196004958 + 199020552 phi) (189220412 - 631254684 phi) ->
+phi mul (-378179162 - 853650904 phi) (207055003 + 494302003 phi) ->
+phi mul (340059738 + 192556145 phi) (-360652391 + 909521320 phi) ->
+phi mul (694816162 - 142833327 phi) (898454727 + 69173181 phi) ->
+phi mul (-328348045 - 428959658 phi) (148202382 - 280850056 phi) ->
+phi mul (348891832 - 806380991 phi) (-642804301 - 101208311 phi) ->
+phi mul (608670913 - 371526038 phi) (838069751 - 668420215 phi) ->
+phi mul (-489538989 + 570222641 phi) (799673709 - 375911567 phi) ->
+phi mul (350776327 - 243498367 phi) (469884300 + 836165697 phi) ->
+phi mul (714265439 - 345437595 phi) (249686627 - 756109160 phi) ->
+phi mul (945553945 - 713096645 phi) (-85123700 - 211314082 phi) ->
+phi mul (-510951650 - 580877421 phi) (-15154213 + 593372170 phi) ->
+phi mul (-270124910 - 164916748 phi) (689486486 + 586746316 phi) ->
+phi mul (207430639 - 16218426 phi) (-87345033 + 27515465 phi) ->
+phi mul (492958361 - 253302147 phi) (437842934 + 359703040 phi) ->
+phi mul (462776110 - 425503728 phi) (-268866435 - 366045625 phi) ->
+phi mul (555229319 - 674047595 phi) (-919343560 + 555653406 phi) ->
+phi mul (690998159 + 1344540 phi) (-989118159 + 799206995 phi) ->
+phi mul (-568590309 + 196255599 phi) (440035170 - 764336889 phi) ->
+phi mul (797249399 - 796743209 phi) (-986858111 + 508765890 phi) ->
+phi mul (812097186 + 500080013 phi) (75457594 + 389728594 phi) ->
+phi mul (954577566 - 161889574 phi) (-86614476 + 121658454 phi) ->
+phi mul (-418015349 - 719106162 phi) (-35590162 - 972242660 phi) ->
+phi mul (799931684 + 928985190 phi) (155547918 + 112895474 phi) ->
+phi conj (-351360744 + 890354284 phi) ->
+phi conj (-84202079 + 641741063 phi) ->
+phi conj (-766517718 - 796993808 phi) ->
+phi conj (-897841276 - 365853773 phi) ->
+phi conj (-908570763 - 351834508 phi) ->
+phi conj (700442432 - 279042890 phi) ->
+phi conj (-578460365 - 97138464 phi) ->
+phi conj (-807960681 - 739740010 phi) ->
+phi conj (-857757890 + 931139487 phi) ->
+phi conj (-239545061 - 962492173 phi) ->
+phi conj (-173934506 + 483412255 phi) ->
+phi conj (-686835655 + 763200951 phi) ->
+phi conj (367989177 - 419912819 phi) ->
+phi conj (-967993323 + 362422205 phi) ->
+phi conj (302209629 + 955685994 phi) ->
+phi conj (-938120911 + 5679448 phi) ->
+phi conj (967354351 + 685672755 phi) ->
+phi conj (646402256 - 164042690 phi) ->
+phi conj (20403837 + 234924440 phi) ->
+phi conj (800613523 - 295757018 phi) ->
+phi conj (-725505249 + 22179614 phi) ->
+phi conj (-28147046 + 423898670 phi) ->
+phi conj (-144855863 - 862953490 phi) ->
+phi conj (-36312326 + 873503761 phi) ->
+phi conj (902752035 + 77576377 phi) ->
+phi conj (198086123 - 873177348 phi) ->
+phi conj (877568729 - 346977788 phi) ->
+phi conj (-84628423 - 301006657 phi) ->
+phi conj (-618535943 + 195309937 phi) ->
+phi conj (-899686241 + 591333305 phi) ->
+phi conj (283572703 + 606900059 phi) ->
+phi conj (676168652 - 651915432 phi) ->
+phi conj (-771856083 - 654555473 phi) ->
+phi conj (350214921 - 610882997 phi) ->
+phi conj (785577629 + 70828029 phi) ->
+phi conj (-934912989 + 351844510 phi) ->
+phi conj (-377625728 + 874555288 phi) ->
+phi conj (-65418542 + 168150477 phi) ->
+phi conj (-321839542 - 781757808 phi) ->
+phi conj (489634896 - 472319292 phi) ->
+phi conj (-123714277 + 214213214 phi) ->
+phi conj (949371394 + 937345594 phi) ->
+phi conj (125978119 - 398210813 phi) ->
+phi conj (144725130 - 379786586 phi) ->
+phi conj (-832537806 - 60686538 phi) ->
+phi conj (-686068923 + 226753516 phi) ->
+phi conj (426768552 + 386873479 phi) ->
+phi conj (445475990 + 363770541 phi) ->
+phi conj (-323731819 + 592315773 phi) ->
+phi conj (61129754 + 164976537 phi) ->
+phi conj (19498879 + 326887160 phi) ->
+phi conj (342114874 + 371013319 phi) ->
+phi conj (32849471 + 915292997 phi) ->
+phi conj (-987125431 + 329619476 phi) ->
+phi conj (395487122 - 140853059 phi) ->
+phi conj (346634933 - 29103172 phi) ->
+phi conj (541119968 + 578007557 phi) ->
+phi conj (-638529535 - 566621377 phi) ->
+phi conj (-302147804 + 913040123 phi) ->
+phi conj (-641520548 - 349568472 phi) ->
+phi conj (71724668 - 612569693 phi) ->
+phi conj (618353066 - 667582257 phi) ->
+phi conj (369131161 - 757625753 phi) ->
+phi conj (-503131044 - 499153260 phi) ->
+phi conj (286673808 - 486062313 phi) ->
+phi conj (-243116810 + 323227991 phi) ->
+phi conj (-795307703 - 487979611 phi) ->
+phi conj (-21420713 - 848739622 phi) ->
+phi conj (809399077 - 201491549 phi) ->
+phi conj (888976761 - 155174656 phi) ->
+phi conj (283777844 + 51072437 phi) ->
+phi conj (400962965 - 742883587 phi) ->
+phi conj (160033418 - 499792855 phi) ->
+phi conj (543240990 - 704611621 phi) ->
+phi conj (-454694684 + 373862243 phi) ->
+phi conj (168343550 - 169697031 phi) ->
+phi conj (781227699 - 848851872 phi) ->
+phi conj (468808365 + 200542405 phi) ->
+phi conj (-278140804 + 32176033 phi) ->
+phi conj (899453092 + 229472835 phi) ->
+phi conj (-772637222 + 111442107 phi) ->
+phi conj (134892882 - 531936311 phi) ->
+phi conj (-644728234 + 72598671 phi) ->
+phi conj (923979797 + 409794514 phi) ->
+phi conj (802248125 - 582544327 phi) ->
+phi conj (-21045640 - 509755025 phi) ->
+phi conj (-656504248 - 171146942 phi) ->
+phi conj (-851961858 - 655157166 phi) ->
+phi conj (-387554546 + 793085108 phi) ->
+phi conj (830002729 + 446378858 phi) ->
+phi conj (647869689 + 612488523 phi) ->
+phi conj (-309419762 + 461676256 phi) ->
+phi conj (262714094 + 1937128 phi) ->
+phi conj (740191406 + 594400554 phi) ->
+phi conj (172206293 + 272060368 phi) ->
+phi conj (-686604857 - 407269704 phi) ->
+phi conj (-821134968 + 322428646 phi) ->
+phi conj (-508882524 + 579077840 phi) ->
+phi conj (413939095 - 921425138 phi) ->
+phi conj (-698155267 - 464902205 phi) ->
+phi norm (110935229 - 207573984 phi) ->
+phi norm (826313113 + 343972632 phi) ->
+phi norm (-587560258 + 565266770 phi) ->
+phi norm (466934863 - 57758421 phi) ->
+phi norm (297787681 + 777308431 phi) ->
+phi norm (182943252 - 683709144 phi) ->
+phi norm (-551853756 + 158190823 phi) ->
+phi norm (-739728587 + 676047702 phi) ->
+phi norm (593067603 - 503924717 phi) ->
+phi norm (246126704 - 931996991 phi) ->
+phi norm (245660492 - 968504716 phi) ->
+phi norm (-242988390 + 128462854 phi) ->
+phi norm (-157874353 - 333677165 phi) ->
+phi norm (640574126 - 881097527 phi) ->
+phi norm (136937705 + 29747496 phi) ->
+phi norm (-92487640 + 525607096 phi) ->
+phi norm (-47647361 + 506453692 phi) ->
+phi norm (955433154 - 128684009 phi) ->
+phi norm (297799754 - 882836712 phi) ->
+phi norm (146099552 - 68092815 phi) ->
+phi norm (447905491 + 684956439 phi) ->
+phi norm (-129271732 + 452392241 phi) ->
+phi norm (-983952764 - 632710984 phi) ->
+phi norm (215290330 - 126490714 phi) ->
+phi norm (-76236912 - 649550812 phi) ->
+phi norm (942727813 - 856137998 phi) ->
+phi norm (811415105 - 148107716 phi) ->
+phi norm (-253445872 + 660947802 phi) ->
+phi norm (-841457499 - 441249729 phi) ->
+phi norm (-996938342 + 826711315 phi) ->
+phi norm (-781698588 + 170613959 phi) ->
+phi norm (779151837 - 58025386 phi) ->
+phi norm (208515404 + 971851125 phi) ->
+phi norm (-964366780 - 260864506 phi) ->
+phi norm (-464826640 + 458110434 phi) ->
+phi norm (-675229799 - 934880719 phi) ->
+phi norm (-211774937 + 969470550 phi) ->
+phi norm (957749850 + 523049146 phi) ->
+phi norm (198274641 + 903271906 phi) ->
+phi norm (-949078123 - 818473892 phi) ->
+phi norm (-140591849 + 675492229 phi) ->
+phi norm (-670574660 - 457586119 phi) ->
+phi norm (-735141720 - 510145856 phi) ->
+phi norm (-788390132 + 731163823 phi) ->
+phi norm (-790490368 - 911899753 phi) ->
+phi norm (980303132 - 927272677 phi) ->
+phi norm (616262735 + 40910075 phi) ->
+phi norm (-601874724 - 787057709 phi) ->
+phi norm (-104101922 + 771809557 phi) ->
+phi norm (641561306 - 695629330 phi) ->
+phi norm (-28792801 - 414550727 phi) ->
+phi norm (-580305869 + 441061799 phi) ->
+phi norm (711019232 + 8757392 phi) ->
+phi norm (-832471455 + 696114593 phi) ->
+phi norm (678593307 + 544299007 phi) ->
+phi norm (-950406528 + 48201207 phi) ->
+phi norm (126289524 - 931584808 phi) ->
+phi norm (-632718635 + 374416018 phi) ->
+phi norm (724923131 + 542059954 phi) ->
+phi norm (-250627400 + 838067515 phi) ->
+phi norm (-651279499 + 247723439 phi) ->
+phi norm (698511365 + 998463969 phi) ->
+phi norm (583817858 - 273882606 phi) ->
+phi norm (-442916455 + 489187215 phi) ->
+phi norm (-757072474 - 221041980 phi) ->
+phi norm (-528856146 + 982129881 phi) ->
+phi norm (-338800798 - 455467826 phi) ->
+phi norm (323580658 - 33690007 phi) ->
+phi norm (-599579422 - 727762230 phi) ->
+phi norm (467878753 + 60453697 phi) ->
+phi norm (-43187175 + 849208099 phi) ->
+phi norm (128588193 + 648880998 phi) ->
+phi norm (627951910 - 404373996 phi) ->
+phi norm (899049865 - 455807263 phi) ->
+phi norm (722335771 - 207494205 phi) ->
+phi norm (-65896727 + 880544382 phi) ->
+phi norm (815494926 - 780233739 phi) ->
+phi norm (-949070004 + 262411473 phi) ->
+phi norm (949370393 + 153809404 phi) ->
+phi norm (294862117 - 435595859 phi) ->
+phi norm (54622857 + 267271247 phi) ->
+phi norm (-610401017 + 731225245 phi) ->
+phi norm (-379195361 - 722718031 phi) ->
+phi norm (-384957507 + 944198344 phi) ->
+phi norm (649446021 - 376204741 phi) ->
+phi norm (999781962 + 841776995 phi) ->
+phi norm (-270558282 + 213585290 phi) ->
+phi norm (-987727031 - 579924772 phi) ->
+phi norm (-959295631 + 321602541 phi) ->
+phi norm (422392611 - 452245713 phi) ->
+phi norm (-303983445 + 331758124 phi) ->
+phi norm (270374692 + 503923730 phi) ->
+phi norm (-142128511 - 799392630 phi) ->
+phi norm (266187736 + 935468686 phi) ->
+phi norm (544404030 + 171439879 phi) ->
+phi norm (855697310 + 167685632 phi) ->
+phi norm (-396112468 + 714900720 phi) ->
+phi norm (961727045 - 716068453 phi) ->
+phi norm (877824717 - 608183685 phi) ->
+phi norm (-948238684 - 515376622 phi) ->

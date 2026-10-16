@@ -278,3 +278,53 @@ def main():
 Output is syntactically plausible Python and Markdown, but it does not answer
 the prompts. On question prompts, greedy decoding still repeats itself (see
 `eval.py` samples).
+
+# v3: v2 code/RE data + TinyStories prose (small, CPU)
+
+## Data (`scripts/build_corpus_v3.py`, output in `pytorch-4b/data/v3/`)
+
+- Train stream `v3/tokens.bin` = 11,006,606 tokens:
+  - v2 `tokens.bin`, copied byte-for-byte: 5,506,456 tokens (re-corpus 1,665,029 + devflow 3,841,427);
+  - TinyStories (`roneneldan/TinyStories`, `data/train-00000-of-00004` parquet, file order, exact-dedup): 19,692 stories, 5,500,150 tokens.
+- `v3/val-stories.bin`: 1,000 stories from the official TinyStories validation split (seed-2 shuffle, none duplicated in train), 268,246 tokens.
+- `val.bin` and `val-new.bin` were not changed. The tokenizer is the same (vocab 32000, EOS 2).
+
+## Training
+
+The config and hyperparameters match v2 (`small`, seq 256, batch 16, peak LR 1e-3, min LR 1e-4, warmup 200, total-steps 4718, 8 threads, seed 0).
+The run validated on `val.bin` every 250 steps. The 2.85 h cap stopped it at **step 4,648** (epoch index 1, about 1.7 passes) after a wall time of 10,760 s.
+
+## Full-split evaluation (`eval.py`)
+
+| Checkpoint | val.bin loss / ppl | val-new.bin loss / ppl | val-stories.bin loss / ppl |
+|---|---|---|---|
+| v2 `final.pt` (step 4718) | 2.5248 / 12.5 | 2.7637 / 15.86 | 8.5912 / 5383.82 |
+| v3 `best.pt` (step 4500) | 3.2248 / 25.15 | 3.1297 / 22.87 | 2.0385 / 7.68 |
+| v3 `final.pt` (step 4648) | 3.2196 / 25.02 | 3.1125 / 22.48 | **2.0333 / 7.64** |
+
+- On code/RE, v3 is worse than v2: about +0.69 nats on val.bin and +0.35 on val-new.bin. It saw about half as many code tokens per pass and made about 1.7 passes over the code data, against about 3.5 for v2.
+- On stories, v3 is strong, and v2 is near unigram level.
+
+## GGUF export
+
+`runs/small-cpu-v3/small-v3-final.gguf` (from `final.pt`): 137,155,936 bytes, F32.
+
+## Samples (`scripts/sample_small.py`, final.pt, 60 tokens)
+
+Greedy, prompt "Once upon a time, there was a little girl named Lily.":
+
+```
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big tree with a big, red apple. She wanted to eat it, but she was too scared to climb it.
+```
+
+Greedy, prompt `def read_config(path):`:
+
+```
+def read_config(path):
+    return {
+        "path": "src/a68/main_stack.a68",
+        "src/a68/main.a68",
+        "src/a68/a68/a68/a68/a68/a68/a68/a68/
+```
+
+Story prompts give grammatical, mostly coherent short prose, with occasional logic slips. Code prompts are still incoherent and fall into repetition loops.

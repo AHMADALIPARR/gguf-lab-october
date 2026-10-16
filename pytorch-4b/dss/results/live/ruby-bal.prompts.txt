@@ -1,0 +1,1224 @@
+DSS greedy next after 10 16 21 28 ->
+DSS greedy next after 15 29 ->
+DSS greedy next after 2 6 9 26 ->
+DSS greedy next after 4 14 25 ->
+DSS greedy next after 5 12 18 27 ->
+DSS greedy next after 2 5 11 ->
+DSS greedy next after 3 5 25 26 ->
+DSS greedy next after 19 22 28 ->
+DSS greedy next after 7 12 20 21 ->
+DSS greedy next after 3 5 30 ->
+DSS greedy next after 9 10 25 28 ->
+DSS greedy next after 13 17 23 25 ->
+DSS greedy next after 2 14 20 29 ->
+DSS greedy next after 3 21 ->
+DSS greedy next after 10 13 14 ->
+DSS greedy next after 4 9 19 ->
+DSS greedy next after 10 11 12 27 ->
+DSS greedy next after 6 12 19 24 ->
+DSS greedy next after 20 29 ->
+DSS greedy next after 16 19 22 ->
+DSS greedy next after 3 8 21 27 ->
+DSS greedy next after 3 10 22 26 ->
+DSS greedy next after 16 19 24 25 ->
+DSS greedy next after 6 11 14 21 ->
+DSS greedy next after 11 21 ->
+DSS greedy next after 11 19 21 28 ->
+DSS greedy next after 4 8 25 30 ->
+DSS greedy next after 5 15 ->
+DSS greedy next after 16 17 22 23 ->
+DSS greedy next after 5 9 12 23 ->
+DSS greedy next after 2 17 21 ->
+DSS greedy next after 15 19 21 30 ->
+DSS greedy next after 2 21 ->
+DSS greedy next after 7 13 25 ->
+DSS greedy next after 3 19 ->
+DSS greedy next after 12 16 23 29 ->
+DSS greedy next after 22 27 ->
+DSS greedy next after 11 24 28 29 ->
+DSS greedy next after 9 26 ->
+DSS greedy next after 1 9 14 ->
+DSS greedy next after 7 21 ->
+DSS greedy next after 3 18 19 ->
+DSS greedy next after 2 16 24 27 ->
+DSS greedy next after 2 18 ->
+DSS greedy next after 9 12 29 ->
+DSS greedy next after 2 17 ->
+DSS greedy next after 8 10 13 29 ->
+DSS greedy next after 3 12 13 ->
+DSS greedy next after 7 8 13 27 ->
+DSS greedy next after 5 15 19 ->
+DSS greedy next after 12 17 ->
+DSS greedy next after 15 20 30 ->
+DSS greedy next after 27 29 30 ->
+DSS greedy next after 2 12 13 23 ->
+DSS greedy next after 6 8 11 ->
+DSS greedy next after 5 14 ->
+DSS greedy next after 12 16 18 ->
+DSS greedy next after 2 9 10 15 ->
+DSS greedy next after 2 3 4 24 ->
+DSS greedy next after 2 18 27 ->
+DSS greedy next after 3 18 ->
+DSS greedy next after 3 5 17 ->
+DSS greedy next after 5 18 22 26 ->
+DSS greedy next after 2 27 ->
+DSS greedy next after 11 13 28 ->
+DSS greedy next after 20 25 ->
+DSS greedy next after 1 5 17 28 ->
+DSS greedy next after 6 7 23 ->
+DSS greedy next after 3 19 25 ->
+DSS greedy next after 7 8 12 23 ->
+DSS greedy next after 4 14 ->
+DSS greedy next after 1 13 19 29 ->
+DSS greedy next after 5 7 25 ->
+DSS greedy next after 7 15 23 ->
+DSS greedy next after 20 21 28 ->
+DSS greedy next after 4 5 11 ->
+DSS greedy next after 12 18 21 ->
+DSS greedy next after 5 7 9 26 ->
+DSS greedy next after 13 23 ->
+DSS greedy next after 13 22 25 ->
+DSS greedy next after 4 9 12 ->
+DSS greedy next after 2 8 22 ->
+DSS greedy next after 2 8 19 30 ->
+DSS greedy next after 12 13 ->
+DSS greedy next after 12 22 ->
+DSS greedy next after 2 6 11 ->
+DSS greedy next after 6 12 22 ->
+DSS greedy next after 3 12 ->
+DSS greedy next after 3 7 20 ->
+DSS greedy next after 7 20 23 26 ->
+DSS greedy next after 12 23 27 29 ->
+DSS greedy next after 16 20 ->
+DSS greedy next after 4 20 ->
+DSS greedy next after 10 20 22 26 ->
+DSS greedy next after 1 4 8 ->
+DSS greedy next after 25 28 ->
+DSS greedy next after 11 28 29 ->
+DSS greedy next after 3 15 ->
+DSS greedy next after 2 24 ->
+DSS greedy next after 10 14 26 ->
+DSS W 15 29 sum 44 -> size
+DSS W 14 18 24 27 36 sum 83 -> size
+DSS W 15 17 21 39 40 sum 76 -> size
+DSS W 4 7 sum 4 -> size
+DSS W 4 13 21 sum 13 -> size
+DSS W 12 32 sum 32 -> size
+DSS W 8 22 29 35 39 sum 35 -> size
+DSS W 20 24 25 29 36 sum 89 -> size
+DSS W 1 22 24 32 37 sum 61 -> size
+DSS W 6 24 26 36 38 sum 56 -> size
+DSS W 19 32 38 sum 32 -> size
+DSS W 1 25 34 sum 26 -> size
+DSS W 8 22 39 sum 30 -> size
+DSS W 6 11 24 25 39 sum 63 -> size
+DSS W 4 19 35 40 sum 4 -> size
+DSS W 18 21 23 34 35 sum 87 -> size
+DSS W 17 24 30 36 40 sum 130 -> size
+DSS W 3 8 22 sum 22 -> size
+DSS W 6 22 37 39 sum 104 -> size
+DSS W 6 20 35 sum 26 -> size
+DSS W 10 11 14 40 sum 35 -> size
+DSS W 22 28 39 sum 39 -> size
+DSS W 3 7 39 40 sum 40 -> size
+DSS W 3 7 13 28 40 sum 40 -> size
+DSS W 6 7 21 39 40 sum 67 -> size
+DSS W 6 18 sum 18 -> size
+DSS W 11 20 26 32 33 sum 90 -> size
+DSS W 2 7 30 sum 32 -> size
+DSS W 2 37 40 sum 2 -> size
+DSS W 13 19 28 30 35 sum 43 -> size
+DSS W 4 11 27 sum 11 -> size
+DSS W 29 38 sum 38 -> size
+DSS W 10 40 sum 50 -> size
+DSS W 29 30 sum 29 -> size
+DSS W 11 31 sum 31 -> size
+DSS W 7 8 18 sum 8 -> size
+DSS W 30 31 33 35 38 sum 65 -> size
+DSS W 20 23 27 29 34 sum 133 -> size
+DSS W 9 36 38 sum 36 -> size
+DSS W 1 6 18 22 36 sum 36 -> size
+DSS W 17 21 33 35 39 sum 124 -> size
+DSS W 3 6 31 38 39 sum 72 -> size
+DSS W 1 15 17 24 35 sum 41 -> size
+DSS W 8 15 22 27 32 sum 22 -> size
+DSS W 15 30 31 sum 45 -> size
+DSS W 14 20 24 33 40 sum 58 -> size
+DSS W 17 19 21 32 sum 36 -> size
+DSS W 1 2 10 34 sum 47 -> size
+DSS W 11 13 19 21 33 sum 65 -> size
+DSS W 10 25 40 sum 65 -> size
+DSS W 6 12 26 28 sum 40 -> size
+DSS W 36 37 sum 37 -> size
+DSS W 25 26 36 sum 62 -> size
+DSS W 1 31 sum 1 -> size
+DSS W 24 32 39 sum 56 -> size
+DSS W 8 24 28 sum 28 -> size
+DSS W 19 30 39 sum 49 -> size
+DSS W 26 29 sum 26 -> size
+DSS W 16 27 33 36 sum 96 -> size
+DSS W 33 39 sum 33 -> size
+DSS W 29 30 sum 59 -> size
+DSS W 6 30 sum 30 -> size
+DSS W 1 37 sum 38 -> size
+DSS W 6 14 16 38 sum 36 -> size
+DSS W 14 26 36 sum 36 -> size
+DSS W 11 24 sum 11 -> size
+DSS W 4 15 29 35 36 sum 29 -> size
+DSS W 4 24 37 sum 24 -> size
+DSS W 9 19 31 sum 31 -> size
+DSS W 24 27 30 sum 57 -> size
+DSS W 29 32 sum 61 -> size
+DSS W 22 31 38 sum 69 -> size
+DSS W 2 22 sum 22 -> size
+DSS W 6 27 31 sum 64 -> size
+DSS W 13 15 23 30 sum 45 -> size
+DSS W 18 22 26 33 34 sum 99 -> size
+DSS W 12 19 30 38 sum 61 -> size
+DSS W 8 14 33 35 sum 22 -> size
+DSS W 1 19 23 27 33 sum 102 -> size
+DSS W 9 16 18 30 sum 55 -> size
+DSS W 7 26 29 31 37 sum 97 -> size
+DSS W 29 30 sum 30 -> size
+DSS W 9 13 37 sum 46 -> size
+DSS W 25 26 30 40 sum 66 -> size
+DSS W 29 37 sum 66 -> size
+DSS W 19 20 38 sum 19 -> size
+DSS W 1 4 9 32 39 sum 5 -> size
+DSS W 8 17 21 sum 29 -> size
+DSS W 31 40 sum 31 -> size
+DSS W 15 27 32 sum 59 -> size
+DSS W 13 20 22 36 sum 36 -> size
+DSS W 11 20 sum 20 -> size
+DSS W 14 26 36 sum 62 -> size
+DSS W 2 10 24 31 sum 2 -> size
+DSS W 12 15 36 37 sum 27 -> size
+DSS W 3 10 11 15 35 sum 21 -> size
+DSS W 3 31 sum 31 -> size
+DSS W 9 11 16 17 sum 42 -> size
+DSS W 1 11 15 34 36 sum 81 -> size
+DSS W 26 29 sum 29 -> size
+is DSS 2 14 ->
+is DSS 3 5 19 34 36 ->
+is DSS 7 9 22 ->
+is DSS 2 21 ->
+is DSS 16 23 24 28 ->
+is DSS 8 10 ->
+is DSS 4 11 12 30 37 ->
+is DSS 14 22 ->
+is DSS 15 23 ->
+is DSS 10 17 ->
+is DSS 2 4 20 35 ->
+is DSS 13 16 31 ->
+is DSS 2 4 9 34 39 ->
+is DSS 10 16 17 ->
+is DSS 1 13 20 24 ->
+is DSS 21 24 25 32 ->
+is DSS 7 10 20 ->
+is DSS 2 4 11 23 26 ->
+is DSS 13 27 33 39 ->
+is DSS 4 37 ->
+is DSS 2 12 21 27 40 ->
+is DSS 26 27 35 40 ->
+is DSS 23 28 30 31 39 ->
+is DSS 1 3 15 29 37 ->
+is DSS 5 7 16 ->
+is DSS 8 21 25 ->
+is DSS 10 11 ->
+is DSS 7 10 25 33 36 ->
+is DSS 26 34 39 ->
+is DSS 3 10 25 36 ->
+is DSS 12 17 21 22 ->
+is DSS 5 22 25 ->
+is DSS 16 21 23 ->
+is DSS 6 15 22 26 30 ->
+is DSS 4 8 11 27 ->
+is DSS 21 22 32 33 34 ->
+is DSS 4 28 30 ->
+is DSS 2 22 25 ->
+is DSS 21 36 38 ->
+is DSS 3 6 31 39 ->
+is DSS 8 16 30 33 ->
+is DSS 1 9 22 24 ->
+is DSS 1 6 19 31 35 ->
+is DSS 6 9 12 13 ->
+is DSS 5 6 9 17 ->
+is DSS 8 9 10 33 36 ->
+is DSS 1 12 14 ->
+is DSS 23 31 37 40 ->
+is DSS 5 6 12 19 33 ->
+is DSS 19 22 24 25 35 ->
+is DSS 9 14 15 25 ->
+is DSS 2 19 23 39 ->
+is DSS 6 8 25 ->
+is DSS 2 3 ->
+is DSS 3 13 ->
+is DSS 5 8 21 39 ->
+is DSS 1 6 13 15 ->
+is DSS 2 17 34 ->
+is DSS 2 8 25 37 ->
+is DSS 17 20 23 25 ->
+is DSS 3 10 28 ->
+is DSS 16 26 36 ->
+is DSS 14 18 23 36 ->
+is DSS 6 15 16 18 ->
+is DSS 2 14 20 ->
+is DSS 19 23 ->
+is DSS 8 14 19 21 23 ->
+is DSS 13 15 26 33 40 ->
+is DSS 4 13 25 ->
+is DSS 23 33 ->
+is DSS 22 23 ->
+is DSS 4 8 9 25 ->
+is DSS 1 19 38 ->
+is DSS 13 14 15 20 21 ->
+is DSS 3 18 22 24 ->
+is DSS 14 18 22 25 ->
+is DSS 10 15 28 ->
+is DSS 4 8 13 15 18 ->
+is DSS 14 21 23 ->
+is DSS 16 22 32 ->
+is DSS 10 12 14 32 38 ->
+is DSS 7 9 28 ->
+is DSS 4 14 23 24 ->
+is DSS 3 22 ->
+is DSS 6 15 ->
+is DSS 3 5 18 ->
+is DSS 8 19 24 ->
+is DSS 4 20 26 33 36 ->
+is DSS 1 7 9 12 26 ->
+is DSS 6 9 14 33 ->
+is DSS 3 13 20 29 ->
+is DSS 5 9 15 28 40 ->
+is DSS 7 23 ->
+is DSS 7 14 17 19 20 ->
+is DSS 20 23 32 ->
+is DSS 6 11 18 19 22 ->
+is DSS 4 10 11 17 23 ->
+is DSS 3 4 8 ->
+is DSS 10 12 16 17 ->
+is DSS 1 13 16 25 ->
+is DSS 5 7 16 17 22 ->
+is DSS 4 5 7 14 23 ->
+is DSS 1 9 10 16 24 ->
+is DSS 2 13 15 20 ->
+is DSS 2 11 13 ->
+is DSS 3 13 15 18 21 ->
+is DSS 3 6 9 10 21 ->
+is DSS 4 5 9 25 ->
+is DSS 11 13 24 ->
+is DSS 2 5 8 9 10 ->
+is DSS 3 6 14 20 ->
+is DSS 3 17 19 20 ->
+is DSS 3 14 18 22 23 ->
+is DSS 4 11 14 18 19 ->
+is DSS 6 17 21 23 ->
+is DSS 3 10 12 25 ->
+is DSS 11 13 21 22 24 ->
+is DSS 1 4 12 20 24 ->
+is DSS 5 6 11 19 ->
+is DSS 5 12 14 22 25 ->
+is DSS 1 14 15 18 25 ->
+is DSS 2 4 22 24 ->
+is DSS 5 16 18 19 20 ->
+is DSS 3 6 19 22 23 ->
+is DSS 10 15 20 21 25 ->
+is DSS 4 10 14 ->
+is DSS 1 8 17 20 25 ->
+is DSS 3 5 12 13 21 ->
+is DSS 2 5 12 13 17 ->
+is DSS 7 10 14 24 25 ->
+is DSS 8 10 17 18 24 ->
+is DSS 1 4 9 10 ->
+is DSS 1 3 24 25 ->
+is DSS 2 13 21 23 ->
+is DSS 2 3 8 14 23 ->
+is DSS 1 3 8 10 14 ->
+is DSS 2 16 18 20 21 ->
+is DSS 2 7 16 20 23 ->
+is DSS 6 12 14 20 ->
+is DSS 3 6 16 19 24 ->
+is DSS 1 4 6 18 22 ->
+is DSS 3 19 22 ->
+is DSS 2 6 21 23 24 ->
+is DSS 1 3 18 19 ->
+is DSS 2 6 17 19 21 ->
+is DSS 2 9 11 25 ->
+is DSS 4 15 19 ->
+is DSS 2 11 18 22 24 ->
+is DSS 2 3 4 17 23 ->
+is DSS 4 9 10 13 ->
+is DSS 11 12 18 20 25 ->
+is DSS 3 17 19 22 ->
+is DSS 1 2 3 7 8 ->
+is DSS 1 7 10 11 22 ->
+is DSS 5 7 12 24 ->
+is DSS 3 5 15 16 21 ->
+is DSS 9 14 17 23 24 ->
+is DSS 1 4 9 12 25 ->
+is DSS 10 15 16 20 25 ->
+is DSS 1 7 11 17 22 ->
+is DSS 5 14 18 19 22 ->
+is DSS 4 5 11 16 25 ->
+is DSS 1 8 16 17 24 ->
+is DSS 1 7 18 19 ->
+is DSS 2 16 17 22 24 ->
+is DSS 5 11 12 17 20 ->
+is DSS 1 5 20 21 ->
+is DSS 5 10 14 20 24 ->
+is DSS 4 5 6 16 22 ->
+is DSS 1 4 6 18 21 ->
+is DSS 1 2 4 20 21 ->
+is DSS 4 5 9 13 16 ->
+is DSS 3 6 9 13 19 ->
+is DSS 7 10 17 ->
+is DSS 1 6 7 19 ->
+is DSS 1 13 14 18 24 ->
+is DSS 1 10 13 18 20 ->
+is DSS 4 7 10 16 23 ->
+is DSS 2 6 11 21 23 ->
+is DSS 2 4 5 9 23 ->
+is DSS 1 8 11 13 17 ->
+is DSS 3 8 11 18 21 ->
+is DSS 6 17 18 19 25 ->
+is DSS 4 10 14 20 25 ->
+is DSS 3 5 8 10 16 ->
+is DSS 1 7 13 15 21 ->
+is DSS 5 10 11 19 23 ->
+is DSS 3 7 18 20 21 ->
+is DSS 3 5 10 12 18 ->
+is DSS 1 6 7 11 18 ->
+is DSS 1 12 13 20 23 ->
+is DSS 1 6 13 17 20 ->
+is DSS 5 8 15 17 23 ->
+is DSS 3 4 5 17 21 ->
+is DSS 2 3 6 23 24 ->
+is DSS 2 6 8 16 20 ->
+is DSS 8 14 15 17 20 ->
+is DSS 2 4 6 18 21 ->
+is DSS 1 7 8 12 15 ->
+is DSS 1 3 14 15 19 ->
+bound k 36 a 726 ->
+bound k 18 a 205 ->
+bound k 12 a 113 ->
+bound k 14 a 108 ->
+bound k 27 a 502 ->
+bound k 17 a 173 ->
+bound k 32 a 516 ->
+bound k 21 a 260 ->
+bound k 17 a 214 ->
+bound k 19 a 232 ->
+bound k 29 a 579 ->
+bound k 26 a 573 ->
+bound k 25 a 621 ->
+bound k 26 a 345 ->
+bound k 30 a 492 ->
+bound k 33 a 656 ->
+bound k 28 a 506 ->
+bound k 20 a 329 ->
+bound k 29 a 449 ->
+bound k 32 a 639 ->
+bound k 38 a 1391 ->
+bound k 36 a 743 ->
+bound k 39 a 1002 ->
+bound k 31 a 962 ->
+bound k 21 a 241 ->
+bound k 16 a 131 ->
+bound k 11 a 61 ->
+bound k 22 a 297 ->
+bound k 18 a 180 ->
+bound k 8 a 63 ->
+bound k 36 a 947 ->
+bound k 39 a 803 ->
+bound k 40 a 976 ->
+bound k 24 a 302 ->
+bound k 26 a 393 ->
+bound k 18 a 242 ->
+bound k 16 a 129 ->
+bound k 31 a 717 ->
+bound k 24 a 288 ->
+bound k 34 a 630 ->
+bound k 20 a 327 ->
+bound k 20 a 299 ->
+bound k 36 a 846 ->
+bound k 34 a 643 ->
+bound k 23 a 269 ->
+bound k 26 a 502 ->
+bound k 40 a 1033 ->
+bound k 18 a 233 ->
+bound k 26 a 403 ->
+bound k 33 a 567 ->
+bound k 40 a 723 ->
+bound k 38 a 694 ->
+bound k 13 a 62 ->
+bound k 15 a 108 ->
+bound k 30 a 276 ->
+bound k 38 a 543 ->
+bound k 11 a 56 ->
+bound k 20 a 188 ->
+bound k 28 a 381 ->
+bound k 27 a 335 ->
+bound k 11 a 14 ->
+bound k 28 a 170 ->
+bound k 26 a 207 ->
+bound k 31 a 250 ->
+bound k 39 a 697 ->
+bound k 27 a 99 ->
+bound k 31 a 133 ->
+bound k 36 a 451 ->
+bound k 22 a 130 ->
+bound k 30 a 356 ->
+bound k 19 a 171 ->
+bound k 39 a 508 ->
+bound k 23 a 261 ->
+bound k 19 a 119 ->
+bound k 33 a 531 ->
+bound k 26 a 272 ->
+bound k 11 a 21 ->
+bound k 40 a 785 ->
+bound k 24 a 254 ->
+bound k 36 a 599 ->
+bound k 13 a 84 ->
+bound k 26 a 276 ->
+bound k 39 a 600 ->
+bound k 25 a 249 ->
+bound k 17 a 119 ->
+bound k 23 a 221 ->
+bound k 39 a 728 ->
+bound k 29 a 77 ->
+bound k 38 a 678 ->
+bound k 7 a 7 ->
+bound k 27 a 238 ->
+bound k 32 a 507 ->
+bound k 15 a 61 ->
+bound k 29 a 162 ->
+bound k 25 a 283 ->
+bound k 15 a 104 ->
+bound k 36 a 621 ->
+bound k 39 a 232 ->
+bound k 36 a 312 ->
+bound k 38 a 669 ->
+phi normalize -35 phi^20 + 39 phi^14 ->
+phi normalize 5 phi^3 - 13 phi^4 - 49 - 31 phi^10 ->
+phi normalize -908 phi^10 + 115 ->
+phi normalize 22 phi^4 + 22 phi^4 ->
+phi normalize -1 phi^4 - 5 + 44 phi^11 ->
+phi normalize -11 + 44 phi^9 + 34 phi^12 ->
+phi normalize 48 phi^12 + 18 phi^2 + 42 phi^8 ->
+phi normalize 11 phi^5 - 49 + 46 phi^3 + 31 phi^1 ->
+phi normalize 21 phi^11 ->
+phi normalize -963 phi^1 + 533 phi^2 + 541 phi^19 ->
+phi normalize 19 phi^5 ->
+phi normalize -97 phi^10 ->
+phi normalize 21 phi^6 + 14 phi^10 ->
+phi normalize -18 phi^7 + 44 phi^9 + 2 phi^7 ->
+phi normalize -21 phi^12 ->
+phi normalize -761 phi^6 ->
+phi normalize 31 phi^8 + 30 phi^1 + 3 phi^3 ->
+phi normalize -694 phi^8 + 309 phi^17 - 663 phi^19 ->
+phi normalize -26 phi^10 - 18 phi^2 ->
+phi normalize -29 phi^2 - 26 phi^8 ->
+phi normalize 25 phi^20 + 10 phi^11 - 26 phi^6 ->
+phi normalize -37 phi^4 ->
+phi normalize -50 phi^2 ->
+phi normalize -899 phi^4 ->
+phi normalize 44 phi^6 ->
+phi normalize -45 phi^6 - 43 phi^10 - 35 phi^8 ->
+phi normalize 32 phi^7 + 17 phi^12 ->
+phi normalize 42 phi^11 ->
+phi normalize 3 phi^12 + 36 ->
+phi normalize -166 - 940 phi^5 + 550 phi^16 + 663 phi^4 ->
+phi normalize -36 phi^4 + 19 phi^1 - 50 phi^1 ->
+phi normalize 27 phi^5 ->
+phi normalize 29 phi^10 + 31 phi^2 ->
+phi normalize -3 phi^7 - 4 ->
+phi normalize 4 phi^9 ->
+phi normalize 1 phi^4 - 41 phi^2 - 32 - 27 phi^8 ->
+phi normalize -352 phi^7 - 306 phi^6 - 122 ->
+phi normalize 32 phi^8 - 26 phi^11 + 35 phi^11 ->
+phi normalize 17 + 10 phi^7 + 9 phi^8 ->
+phi normalize -336 phi^9 ->
+phi normalize -14 phi^12 - 13 phi^1 + 50 phi^12 - 9 phi^8 ->
+phi normalize 36 phi^10 ->
+phi normalize 1 phi^9 - 7 phi^8 ->
+phi normalize -568 phi^1 - 25 phi^8 ->
+phi normalize 26 phi^9 + 50 phi^5 ->
+phi normalize -48 phi^4 ->
+phi normalize -17 phi^7 ->
+phi normalize 17 ->
+phi normalize 1 - 2 phi^6 ->
+phi normalize 39 phi^5 + 12 phi^5 ->
+phi normalize -924 phi^3 - 407 phi^5 ->
+phi normalize -13 phi^6 - 31 phi^10 + 2 phi^8 ->
+phi normalize 48 phi^10 ->
+phi normalize 4 phi^8 ->
+phi normalize -14 phi^10 + 17 phi^6 - 48 phi^7 ->
+phi normalize -39 phi^10 + 4 phi^8 - 3 phi^9 ->
+phi normalize 31 phi^20 + 17 phi^13 + 10 phi^1 - 20 phi^20 ->
+phi normalize 200 phi^2 - 129 phi^2 - 12 - 811 phi^1 ->
+phi normalize -18 phi^6 + 49 phi^5 - 37 phi^2 ->
+phi normalize -9 phi^4 + 15 phi^11 + 41 phi^6 ->
+phi normalize -22 phi^8 - 11 phi^4 - 9 phi^7 ->
+phi normalize 50 phi^1 + 11 phi^8 - 17 - 16 phi^1 ->
+phi normalize 25 phi^11 + 15 phi^4 ->
+phi normalize 16 phi^7 + 33 phi^4 - 1 phi^20 + 43 phi^7 ->
+phi normalize 27 phi^4 - 40 phi^5 - 6 phi^12 + 47 phi^12 ->
+phi normalize -36 phi^1 + 9 phi^2 + 29 phi^11 + 34 phi^4 ->
+phi normalize 34 phi^1 ->
+phi normalize 13 phi^4 + 42 phi^8 ->
+phi normalize -24 phi^7 - 17 + 35 - 33 phi^4 ->
+phi normalize 24 phi^15 - 14 phi^2 ->
+phi normalize 197 phi^12 + 978 phi^6 ->
+phi normalize -14 + 10 phi^4 - 48 phi^7 + 20 phi^11 ->
+phi normalize -1 phi^12 ->
+phi normalize 562 phi^7 - 926 phi^7 + 326 phi^4 + 752 phi^4 ->
+phi normalize 19 phi^5 + 25 phi^7 - 48 phi^2 + 39 phi^9 ->
+phi normalize -44 phi^5 ->
+phi normalize 46 phi^8 - 39 phi^12 + 49 phi^4 ->
+phi normalize 8 phi^7 - 2 phi^9 - 3 phi^9 - 23 phi^12 ->
+phi normalize -20 phi^1 - 22 + 18 phi^9 ->
+phi normalize -40 phi^2 - 39 phi^1 - 24 phi^10 + 31 phi^1 ->
+phi normalize -30 phi^3 - 43 phi^8 ->
+phi normalize 7 - 50 phi^3 + 50 phi^4 ->
+phi normalize -471 phi^11 - 516 phi^2 + 254 phi^8 + 792 phi^12 ->
+phi normalize 163 phi^3 - 902 phi^11 - 840 - 621 phi^5 ->
+phi normalize 45 phi^10 + 28 phi^5 ->
+phi normalize 693 phi^5 + 193 phi^11 ->
+phi normalize -19 phi^8 - 6 phi^2 - 32 phi^10 ->
+phi normalize 11 phi^2 - 32 phi^4 + 20 ->
+phi normalize 43 phi^9 - 21 phi^3 + 5 phi^5 + 43 ->
+phi normalize -8 phi^8 ->
+phi normalize 34 phi^9 ->
+phi normalize 17 phi^4 + 50 phi^9 - 8 phi^4 ->
+phi normalize 578 phi^3 + 514 phi^2 - 242 ->
+phi normalize -16 phi^2 - 9 phi^5 ->
+phi normalize -50 phi^12 ->
+phi normalize 250 phi^14 - 711 phi^4 + 853 phi^10 + 731 phi^2 ->
+phi normalize -6 phi^12 - 12 phi^5 + 10 phi^10 ->
+phi normalize 19 phi^18 ->
+phi normalize -677 phi^16 - 302 phi^6 + 821 phi^12 + 672 phi^14 ->
+phi normalize -39 phi^12 - 29 phi^7 ->
+phi mul (-44 + 47 phi) (7 + 32 phi) ->
+phi mul (-28 - 940 phi) (-277 + 260 phi) ->
+phi mul (-35 + 23 phi) (-45 - 15 phi) ->
+phi mul (659 + 629 phi) (-797 - 150 phi) ->
+phi mul (-30 + 7 phi) (-34 - 18 phi) ->
+phi mul (7 + 43 phi) (-25 - 5 phi) ->
+phi mul (30 + 37 phi) (37 - 36 phi) ->
+phi mul (45 - 39 phi) (49 - 30 phi) ->
+phi mul (28 + 41 phi) (-43 - 25 phi) ->
+phi mul (-690 - 517 phi) (-943 + 714 phi) ->
+phi mul (-436 + 531 phi) (-852 + 528 phi) ->
+phi mul (27 - 26 phi) (-45 - 10 phi) ->
+phi mul (-20 + 49 phi) (-32 + 15 phi) ->
+phi mul (-41 + 14 phi) (7 + 39 phi) ->
+phi mul (-46 + 36 phi) (-18 + 22 phi) ->
+phi mul (884 + 171 phi) (-87 + 886 phi) ->
+phi mul (1 + 28 phi) (44 + 18 phi) ->
+phi mul (-2 + 33 phi) (-40 - 24 phi) ->
+phi mul (-742 + 975 phi) (-747 - 517 phi) ->
+phi mul (809 + 129 phi) (-278 - 864 phi) ->
+phi mul (-60 - 165 phi) (167 + 812 phi) ->
+phi mul (49 + 46 phi) (-47 - 30 phi) ->
+phi mul (-382 - 953 phi) (876 - 66 phi) ->
+phi mul (5 + 22 phi) (44 - 44 phi) ->
+phi mul (-37 + 19 phi) (2 + 42 phi) ->
+phi mul (-9 + 45 phi) (23 + 11 phi) ->
+phi mul (-19 - 28 phi) (-48 - 5 phi) ->
+phi mul (-41 - 32 phi) (46 - 20 phi) ->
+phi mul (-15 - 7 phi) (42 + 4 phi) ->
+phi mul (-38 + 48 phi) (10 + 21 phi) ->
+phi mul (-40 - 4 phi) (45 - 26 phi) ->
+phi mul (-34 + 778 phi) (-394 + 972 phi) ->
+phi mul (28 + 42 phi) (32 + 38 phi) ->
+phi mul (-12 + 0 phi) (-1 - 8 phi) ->
+phi mul (-8 - 36 phi) (21 - 27 phi) ->
+phi mul (36 + 2 phi) (36 + 1 phi) ->
+phi mul (-260 + 187 phi) (31 + 59 phi) ->
+phi mul (-17 - 55 phi) (399 + 36 phi) ->
+phi mul (9 + 21 phi) (-45 + 41 phi) ->
+phi mul (-40 - 27 phi) (48 + 35 phi) ->
+phi mul (47 + 44 phi) (49 + 27 phi) ->
+phi mul (2 - 23 phi) (3 - 10 phi) ->
+phi mul (43 - 35 phi) (-2 - 28 phi) ->
+phi mul (-34 - 43 phi) (-45 - 39 phi) ->
+phi mul (1 - 11 phi) (7 + 35 phi) ->
+phi mul (-4 - 876 phi) (-591 + 832 phi) ->
+phi mul (4 + 20 phi) (4 + 7 phi) ->
+phi mul (-4 - 61 phi) (-463 - 914 phi) ->
+phi mul (40 + 27 phi) (-44 - 27 phi) ->
+phi mul (-36 + 42 phi) (-43 - 31 phi) ->
+phi mul (-840 + 534 phi) (31 - 106 phi) ->
+phi mul (-5 - 2 phi) (-49 + 13 phi) ->
+phi mul (-5 + 20 phi) (-26 + 8 phi) ->
+phi mul (1000 - 340 phi) (-29 + 181 phi) ->
+phi mul (8 - 48 phi) (-2 + 17 phi) ->
+phi mul (-15 - 6 phi) (22 - 7 phi) ->
+phi mul (-32 - 47 phi) (41 + 1 phi) ->
+phi mul (-158 - 419 phi) (383 + 712 phi) ->
+phi mul (-23 + 9 phi) (-13 - 16 phi) ->
+phi mul (-443 + 885 phi) (420 + 578 phi) ->
+phi mul (-32 - 27 phi) (40 - 42 phi) ->
+phi mul (-46 + 23 phi) (-37 + 14 phi) ->
+phi mul (49 - 32 phi) (-18 - 45 phi) ->
+phi mul (50 - 12 phi) (-37 + 46 phi) ->
+phi mul (-186 - 337 phi) (-528 - 288 phi) ->
+phi mul (-270 + 844 phi) (-300 + 947 phi) ->
+phi mul (-580 - 207 phi) (-390 + 263 phi) ->
+phi mul (-41 - 22 phi) (0 + 23 phi) ->
+phi mul (2 - 26 phi) (25 + 48 phi) ->
+phi mul (-14 - 20 phi) (16 + 0 phi) ->
+phi mul (-17 + 44 phi) (-37 - 28 phi) ->
+phi mul (-197 + 283 phi) (660 + 490 phi) ->
+phi mul (24 + 6 phi) (-7 - 41 phi) ->
+phi mul (-891 - 382 phi) (309 - 81 phi) ->
+phi mul (-33 + 19 phi) (-9 - 20 phi) ->
+phi mul (437 + 519 phi) (896 - 891 phi) ->
+phi mul (-32 + 44 phi) (-45 - 38 phi) ->
+phi mul (-46 + 46 phi) (7 - 40 phi) ->
+phi mul (-27 - 50 phi) (15 - 42 phi) ->
+phi mul (-2 + 46 phi) (-41 + 14 phi) ->
+phi mul (-44 - 10 phi) (-24 - 16 phi) ->
+phi mul (-31 - 25 phi) (29 - 31 phi) ->
+phi mul (21 - 6 phi) (7 + 26 phi) ->
+phi mul (-475 - 688 phi) (126 - 15 phi) ->
+phi mul (34 - 14 phi) (21 + 43 phi) ->
+phi mul (12 + 48 phi) (-40 - 45 phi) ->
+phi mul (-21 - 41 phi) (12 - 49 phi) ->
+phi mul (24 + 39 phi) (25 - 37 phi) ->
+phi mul (2 + 6 phi) (31 + 46 phi) ->
+phi mul (32 + 26 phi) (-21 + 29 phi) ->
+phi mul (33 - 27 phi) (-47 + 36 phi) ->
+phi mul (45 + 44 phi) (-31 + 39 phi) ->
+phi mul (-514 - 691 phi) (-98 - 276 phi) ->
+phi mul (-872 - 79 phi) (-234 + 495 phi) ->
+phi mul (-557 - 360 phi) (346 - 301 phi) ->
+phi mul (167 - 811 phi) (426 - 1000 phi) ->
+phi mul (38 - 31 phi) (17 - 41 phi) ->
+phi mul (23 - 31 phi) (47 + 16 phi) ->
+phi mul (-19 - 30 phi) (49 - 21 phi) ->
+phi mul (7 + 32 phi) (-16 - 2 phi) ->
+phi conj (683 + 583 phi) ->
+phi conj (616 + 269 phi) ->
+phi conj (22 - 9 phi) ->
+phi conj (-32 + 43 phi) ->
+phi conj (-40 - 39 phi) ->
+phi conj (170 + 835 phi) ->
+phi conj (-17 + 40 phi) ->
+phi conj (241 + 369 phi) ->
+phi conj (-32 - 2 phi) ->
+phi conj (-205 + 762 phi) ->
+phi conj (702 - 987 phi) ->
+phi conj (40 - 45 phi) ->
+phi conj (26 + 9 phi) ->
+phi conj (-545 + 672 phi) ->
+phi conj (-39 - 2 phi) ->
+phi conj (25 + 12 phi) ->
+phi conj (-375 - 530 phi) ->
+phi conj (38 - 13 phi) ->
+phi conj (1 + 31 phi) ->
+phi conj (0 + 40 phi) ->
+phi conj (37 - 27 phi) ->
+phi conj (28 - 22 phi) ->
+phi conj (42 - 48 phi) ->
+phi conj (-43 + 40 phi) ->
+phi conj (15 + 34 phi) ->
+phi conj (593 + 216 phi) ->
+phi conj (18 - 27 phi) ->
+phi conj (-34 - 22 phi) ->
+phi conj (15 + 15 phi) ->
+phi conj (-9 + 245 phi) ->
+phi conj (-408 + 646 phi) ->
+phi conj (11 + 41 phi) ->
+phi conj (-47 - 19 phi) ->
+phi conj (-40 + 8 phi) ->
+phi conj (-495 + 177 phi) ->
+phi conj (-35 - 33 phi) ->
+phi conj (-32 - 24 phi) ->
+phi conj (0 + 45 phi) ->
+phi conj (-48 + 19 phi) ->
+phi conj (-32 - 8 phi) ->
+phi conj (-30 - 1 phi) ->
+phi conj (-49 - 15 phi) ->
+phi conj (48 - 29 phi) ->
+phi conj (9 - 29 phi) ->
+phi conj (-553 - 237 phi) ->
+phi conj (-9 - 7 phi) ->
+phi conj (2 + 31 phi) ->
+phi conj (-30 - 36 phi) ->
+phi conj (541 + 162 phi) ->
+phi conj (-25 - 13 phi) ->
+phi conj (26 - 5 phi) ->
+phi conj (32 - 6 phi) ->
+phi conj (18 + 18 phi) ->
+phi conj (218 + 879 phi) ->
+phi conj (49 + 16 phi) ->
+phi conj (-3 + 4 phi) ->
+phi conj (-672 + 770 phi) ->
+phi conj (-875 + 276 phi) ->
+phi conj (29 + 43 phi) ->
+phi conj (-18 + 10 phi) ->
+phi conj (-37 - 5 phi) ->
+phi conj (-19 - 8 phi) ->
+phi conj (44 + 32 phi) ->
+phi conj (4 - 2 phi) ->
+phi conj (-5 - 21 phi) ->
+phi conj (-12 - 43 phi) ->
+phi conj (-6 + 36 phi) ->
+phi conj (-205 - 480 phi) ->
+phi conj (-134 - 782 phi) ->
+phi conj (-25 + 31 phi) ->
+phi conj (-9 + 48 phi) ->
+phi conj (14 - 44 phi) ->
+phi conj (200 + 184 phi) ->
+phi conj (-32 - 29 phi) ->
+phi conj (48 - 3 phi) ->
+phi conj (-42 + 26 phi) ->
+phi conj (44 - 847 phi) ->
+phi conj (648 + 894 phi) ->
+phi conj (-31 - 37 phi) ->
+phi conj (730 - 967 phi) ->
+phi conj (19 + 30 phi) ->
+phi conj (-9 + 26 phi) ->
+phi conj (-47 - 42 phi) ->
+phi conj (-25 + 29 phi) ->
+phi conj (-10 + 28 phi) ->
+phi conj (19 - 34 phi) ->
+phi conj (-41 + 3 phi) ->
+phi conj (-42 - 11 phi) ->
+phi conj (27 - 30 phi) ->
+phi conj (-25 - 10 phi) ->
+phi conj (-524 + 921 phi) ->
+phi conj (-33 - 2 phi) ->
+phi conj (8 - 420 phi) ->
+phi conj (-31 - 44 phi) ->
+phi conj (-16 + 38 phi) ->
+phi conj (-15 + 34 phi) ->
+phi conj (-22 + 2 phi) ->
+phi conj (95 + 553 phi) ->
+phi conj (-18 - 6 phi) ->
+phi conj (-744 - 534 phi) ->
+phi norm (39 + 44 phi) ->
+phi norm (2 + 1 phi) ->
+phi norm (36 + 33 phi) ->
+phi norm (-33 + 31 phi) ->
+phi norm (-5 - 10 phi) ->
+phi norm (46 - 13 phi) ->
+phi norm (4 + 35 phi) ->
+phi norm (-392 + 196 phi) ->
+phi norm (-629 + 771 phi) ->
+phi norm (-32 + 32 phi) ->
+phi norm (-6 - 21 phi) ->
+phi norm (46 + 4 phi) ->
+phi norm (30 - 27 phi) ->
+phi norm (-21 - 124 phi) ->
+phi norm (-21 + 34 phi) ->
+phi norm (-36 + 11 phi) ->
+phi norm (-23 + 2 phi) ->
+phi norm (44 + 31 phi) ->
+phi norm (48 + 50 phi) ->
+phi norm (-17 - 17 phi) ->
+phi norm (-15 - 19 phi) ->
+phi norm (18 - 13 phi) ->
+phi norm (-17 - 12 phi) ->
+phi norm (-42 + 45 phi) ->
+phi norm (41 + 46 phi) ->
+phi norm (11 - 40 phi) ->
+phi norm (-28 + 31 phi) ->
+phi norm (-39 + 49 phi) ->
+phi norm (24 - 41 phi) ->
+phi norm (-15 + 50 phi) ->
+phi norm (-47 - 31 phi) ->
+phi norm (29 - 8 phi) ->
+phi norm (605 + 2 phi) ->
+phi norm (-38 + 17 phi) ->
+phi norm (34 - 20 phi) ->
+phi norm (-920 + 969 phi) ->
+phi norm (-40 + 17 phi) ->
+phi norm (-29 - 44 phi) ->
+phi norm (35 + 471 phi) ->
+phi norm (306 - 224 phi) ->
+phi norm (-31 - 31 phi) ->
+phi norm (-49 - 20 phi) ->
+phi norm (10 - 38 phi) ->
+phi norm (-306 + 125 phi) ->
+phi norm (21 - 10 phi) ->
+phi norm (13 - 10 phi) ->
+phi norm (905 + 567 phi) ->
+phi norm (0 + 48 phi) ->
+phi norm (20 + 11 phi) ->
+phi norm (-24 - 36 phi) ->
+phi norm (50 - 49 phi) ->
+phi norm (928 + 494 phi) ->
+phi norm (-1 + 39 phi) ->
+phi norm (17 - 45 phi) ->
+phi norm (-181 - 257 phi) ->
+phi norm (-38 - 45 phi) ->
+phi norm (-42 - 8 phi) ->
+phi norm (-305 - 470 phi) ->
+phi norm (-734 + 343 phi) ->
+phi norm (49 + 18 phi) ->
+phi norm (-50 - 35 phi) ->
+phi norm (-16 - 50 phi) ->
+phi norm (351 + 701 phi) ->
+phi norm (41 + 15 phi) ->
+phi norm (-20 + 32 phi) ->
+phi norm (336 - 210 phi) ->
+phi norm (35 + 2 phi) ->
+phi norm (-500 + 512 phi) ->
+phi norm (3 + 972 phi) ->
+phi norm (43 - 14 phi) ->
+phi norm (-25 + 30 phi) ->
+phi norm (21 + 24 phi) ->
+phi norm (-40 - 41 phi) ->
+phi norm (-71 - 144 phi) ->
+phi norm (-46 + 5 phi) ->
+phi norm (-230 - 872 phi) ->
+phi norm (39 - 9 phi) ->
+phi norm (110 - 999 phi) ->
+phi norm (915 - 421 phi) ->
+phi norm (886 + 703 phi) ->
+phi norm (-19 + 29 phi) ->
+phi norm (-33 - 19 phi) ->
+phi norm (820 + 851 phi) ->
+phi norm (142 + 310 phi) ->
+phi norm (860 - 301 phi) ->
+phi norm (15 + 25 phi) ->
+phi norm (-626 - 328 phi) ->
+phi norm (87 - 752 phi) ->
+phi norm (29 - 16 phi) ->
+phi norm (-1 + 44 phi) ->
+phi norm (-32 - 3 phi) ->
+phi norm (430 + 264 phi) ->
+phi norm (-705 - 521 phi) ->
+phi norm (3 + 35 phi) ->
+phi norm (-20 + 37 phi) ->
+phi norm (-5 + 21 phi) ->
+phi norm (16 - 19 phi) ->
+phi norm (5 - 10 phi) ->
+phi norm (-23 + 34 phi) ->
+phi norm (12 - 3 phi) ->
+viterbi pos_tagger walked the ->
+viterbi cpg_island G G C C C A A ->
+viterbi pos_tagger ate . park ate ran car walked ate ->
+viterbi pos_tagger ate on ->
+viterbi toy_weather shop shop clean walk clean shop shop ->
+viterbi toy_weather clean clean ->
+viterbi pos_tagger ? ran ate is ->
+viterbi toy_weather walk shop shop shop ->
+viterbi pos_tagger woman an the a house the ran park ->
+viterbi cpg_island G A C G T G C T ->
+viterbi pos_tagger man cat by ate woman ->
+viterbi cpg_island C T C A A A ->
+viterbi toy_weather walk shop walk walk walk walk shop ->
+viterbi pos_tagger with a an park woman saw ->
+viterbi cpg_island C C G A T T C C T T C ->
+viterbi toy_weather clean shop walk ->
+viterbi toy_weather shop clean shop walk shop shop ->
+viterbi cpg_island C G A C C C G A A G A ->
+viterbi toy_weather shop walk shop walk clean shop ->
+viterbi cpg_island A T ->
+viterbi cpg_island A G G G C A A A G ->
+viterbi cpg_island G G A T C G T ->
+viterbi toy_weather shop walk walk shop clean shop clean ->
+viterbi toy_weather shop shop shop clean shop walk shop ->
+viterbi pos_tagger ! cat with an an with ->
+viterbi cpg_island T C ->
+viterbi pos_tagger with man dog with with dog park ->
+viterbi pos_tagger walked a ->
+viterbi toy_weather shop walk shop clean ->
+viterbi toy_weather walk shop shop clean walk walk shop ->
+viterbi pos_tagger cat car an with house ->
+viterbi toy_weather walk walk walk clean walk clean clean shop ->
+viterbi cpg_island A C T T T T ->
+viterbi pos_tagger ! dog ! cat dog dog a . ->
+viterbi pos_tagger man on ? dog ->
+viterbi toy_weather clean walk clean shop clean shop walk shop ->
+viterbi cpg_island T G C C G ->
+viterbi cpg_island T A T T G ->
+viterbi cpg_island G G A C T T G T A A A C A C C ->
+viterbi cpg_island A A C T C G T A G ->
+viterbi pos_tagger on dog by house the with cat ->
+viterbi pos_tagger ! in woman ! saw ! dog ->
+viterbi cpg_island C G C G A C T G T G A T T A A A ->
+viterbi toy_weather walk shop walk ->
+viterbi toy_weather walk clean walk walk clean clean ->
+viterbi cpg_island T T C G G T A G C T ->
+viterbi toy_weather shop clean clean walk shop shop shop ->
+viterbi cpg_island G C C T C T A A T C G T ->
+viterbi cpg_island C T A T T G ->
+viterbi cpg_island T A G A A T G A C T T ->
+viterbi pos_tagger park ate ! ? dog woman an ->
+viterbi cpg_island G A C G G C T C C C T T A G ->
+viterbi toy_weather clean walk clean shop ->
+viterbi pos_tagger . cat ! the with ->
+viterbi toy_weather clean walk walk shop walk walk clean clean ->
+viterbi cpg_island G C G A A C A G T ->
+viterbi pos_tagger woman . ! ->
+viterbi cpg_island G A T T G G A ->
+viterbi cpg_island A C C T C ->
+viterbi toy_weather clean walk clean shop clean walk ->
+viterbi toy_weather clean walk clean clean walk shop ->
+viterbi toy_weather walk clean clean walk clean shop ->
+viterbi pos_tagger an ! ->
+viterbi pos_tagger with with ! is cat is man ->
+viterbi cpg_island G T G T C ->
+viterbi toy_weather walk clean shop walk walk clean ->
+viterbi pos_tagger in with man park . man park a ->
+viterbi cpg_island C C C C C T T A C T ->
+viterbi cpg_island T C G A T G A T G G ->
+viterbi cpg_island T G T C A A T A G C ->
+viterbi pos_tagger saw dog ? dog cat an ->
+viterbi pos_tagger a man car park ->
+viterbi pos_tagger by cat an in dog is ->
+viterbi cpg_island G G G G C G A G A A G G T G G A ->
+viterbi cpg_island A A A T A ->
+viterbi cpg_island C A T G C G C T C C G ->
+viterbi pos_tagger saw a is saw ->
+viterbi toy_weather walk walk shop shop walk walk walk ->
+viterbi cpg_island A C G T A A ->
+viterbi cpg_island T C A T C ->
+viterbi pos_tagger woman walked . a ->
+viterbi pos_tagger cat ate an the by ? is ->
+viterbi cpg_island C C G G ->
+viterbi cpg_island T G A G ->
+viterbi cpg_island G T A C G G C C C T T C C A C G ->
+viterbi cpg_island A T T T A C T C A A G ->
+viterbi pos_tagger the by park dog in ran ->
+viterbi cpg_island C A A C ->
+viterbi cpg_island T T A A T G ->
+viterbi cpg_island G C T C ->
+viterbi pos_tagger ! walked ->
+viterbi cpg_island T C A C A T C C T C T G T ->
+viterbi toy_weather shop clean clean shop walk ->
+viterbi toy_weather clean shop clean walk shop ->
+viterbi toy_weather shop shop shop walk clean shop walk ->
+viterbi pos_tagger car dog ->
+viterbi cpg_island T T C G ->
+viterbi toy_weather shop shop shop walk ->
+viterbi cpg_island T G A T T A G G T A C ->
+viterbi cpg_island C T T ->
+permission configure_aws_infrastructure org_designer ->
+permission draft_architecture_decision_record org_designer ->
+permission prescribe_treatment devops_specialist ->
+permission interpret_statute system_architect ->
+permission design_ci_cd_pipeline devops_specialist ->
+permission interpret_statute devops_specialist ->
+permission design_ci_cd_pipeline a ->
+permission configure_aws_infrastructure devops ->
+permission x9 edaulc ->
+permission recommend_stock_allocation wizard ->
+permission design_ci_cd_pipeline wizard ->
+permission safety a ->
+permission devops devops ->
+permission draft_architecture_decision_record edaulc ->
+permission colonize_mars safety ->
+permission configure_aws_infrastructure edaulc ->
+permission wizard a ->
+permission x9 safety ->
+permission design_team_topology edaulc ->
+permission wizard safety ->
+permission draft_contract colonize_mars ->
+permission prepare_tax_strategy devops ->
+permission devops system_architect ->
+permission draft_stakeholder_memo devops ->
+governance steps verified ->
+governance steps sealed ->
+governance steps init ->
+governance steps rejected verified verified rejected ->
+governance steps rejected sealed sealed ->
+governance steps rejected sealed ->
+governance steps init verified init rejected verified ->
+governance steps init init verified ->
+governance steps verified rejected sealed rejected ->
+governance steps sealed sealed rejected sealed rejected ->
+governance steps sealed sealed verified ->
+governance steps rejected init init sealed ->
+governance steps sealed rejected init verified init ->
+governance steps init init verified sealed verified ->
+governance steps init rejected init init rejected ->
+governance steps verified sealed sealed sealed sealed ->
+governance steps init verified init init ->
+governance steps sealed verified rejected rejected ->
+governance steps rejected rejected sealed sealed ->
+governance steps init sealed verified sealed sealed ->
+governance steps verified rejected sealed sealed verified ->
+governance steps init verified sealed sealed rejected ->
+governance steps verified verified verified sealed ->
+governance steps verified init verified verified sealed ->
+governance steps verified rejected init ->
+governance steps init verified rejected init verified ->
+governance steps rejected sealed verified sealed rejected ->
+governance steps rejected rejected rejected rejected sealed ->
+governance steps sealed init sealed verified ->
+governance steps sealed rejected verified rejected rejected ->
+governance steps verified sealed rejected init init ->
+governance steps init rejected sealed init rejected ->
+governance steps init sealed verified verified init ->
+governance steps sealed sealed verified sealed init ->
+governance steps verified sealed init rejected sealed ->
+governance steps rejected rejected sealed rejected ->
+governance steps sealed sealed rejected rejected ->
+governance steps sealed rejected sealed sealed ->
+governance steps rejected init sealed sealed rejected ->
+governance steps rejected verified rejected sealed ->
+governance steps verified verified verified verified rejected ->
+governance steps rejected rejected rejected verified ->
+governance steps sealed rejected verified sealed sealed ->
+governance steps verified verified sealed sealed verified ->
+governance steps verified verified verified rejected sealed ->
+governance steps init init verified init rejected ->
+governance steps rejected rejected verified init rejected ->
+governance steps rejected rejected rejected rejected ->
+governance steps verified rejected sealed sealed init ->
+governance steps init rejected sealed init ->
+governance steps sealed rejected verified init init ->
+governance steps init init init init rejected ->
+governance steps sealed sealed sealed sealed init ->
+governance steps verified verified rejected rejected init ->
+governance steps sealed sealed sealed sealed rejected ->
+governance steps init init verified sealed init ->
+governance steps sealed verified verified sealed ->
+governance steps sealed sealed verified init ->
+governance steps init init sealed verified verified ->
+governance steps rejected verified verified verified ->
+governance steps rejected init verified verified ->
+governance steps rejected sealed verified verified verified ->
+governance steps rejected rejected init sealed init ->
+governance steps sealed rejected init init ->
+governance steps init verified init verified sealed ->
+governance steps rejected rejected verified rejected rejected ->
+governance steps sealed rejected rejected init init ->
+governance steps rejected init verified sealed verified ->
+governance steps rejected rejected sealed verified sealed ->
+governance steps verified sealed verified rejected init ->
+governance steps verified sealed verified rejected ->
+governance steps sealed init init init ->
+governance steps verified rejected init verified sealed ->
+governance steps sealed init init verified rejected ->
+governance steps rejected rejected rejected rejected rejected ->
+governance steps init sealed init rejected verified ->
+governance steps init verified init verified verified ->
+governance steps sealed sealed sealed init verified ->
+governance steps init verified init init sealed ->
+governance steps rejected rejected init verified rejected ->
+governance steps sealed init verified verified sealed ->
+governance steps sealed sealed verified init rejected ->
+governance steps verified init sealed sealed verified ->
+governance steps verified verified verified rejected verified ->
+governance steps sealed init sealed init verified ->
+governance steps init verified rejected verified verified ->
+governance steps sealed verified rejected init sealed ->
+governance steps init rejected sealed sealed rejected ->
+governance steps sealed init rejected rejected init ->
+governance steps sealed rejected sealed init sealed ->
+governance steps verified verified init init sealed ->
+governance steps init init init sealed verified ->
+governance steps init sealed init rejected sealed ->
+governance steps sealed sealed sealed init sealed ->
+governance steps rejected sealed verified verified init ->
+governance steps verified sealed rejected verified init ->
+governance steps sealed init init verified verified ->
+governance steps init rejected verified init sealed ->
+governance steps rejected verified init rejected verified ->
+governance steps rejected rejected rejected init rejected ->
+worm seal label=stage:clojure ts=2029-11-28T02:30:03Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=governance:rejected ts=2013-01-13T23:59:19Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=SOVEREIGN-FINAL ts=2017-12-06T10:31:46Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=governance:rejected ts=2011-12-25T18:44:28Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=kernel:init ts=2013-12-11T19:50:37Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=governance:verified ts=2029-08-14T22:06:48Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=kernel:init ts=2024-04-25T21:57:31Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=stage:apl ts=2007-06-20T01:26:23Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=governance:verified ts=2020-04-11T19:14:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=x ts=2028-09-28T13:51:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"verified","evidence":{}} ->
+worm seal label=swarm:seal_0 ts=2024-12-25T14:36:39Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=SOVEREIGN-FINAL ts=2021-02-04T04:08:00Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=a:b ts=2014-01-27T19:39:37Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=governance:sealed ts=2025-05-07T09:16:21Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"verified","evidence":{}} ->
+worm seal label=stage:apl ts=2010-04-10T05:09:30Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=governance:sealed ts=2022-11-02T19:15:03Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=stage:apl ts=2021-10-16T05:35:00Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=governance:rejected ts=2024-12-05T01:52:33Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=x ts=2026-04-19T04:22:30Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"verified","evidence":{}} ->
+worm seal label=swarm:seal_0 ts=2023-04-25T10:44:08Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=swarm:seal_0 ts=2007-11-17T00:36:19Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=x ts=2013-11-20T14:00:04Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=stage:clojure ts=2009-04-27T12:58:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=stage:axiom ts=2005-11-10T09:31:03Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=x ts=2002-12-08T22:43:02Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=governance:verified ts=2020-05-03T19:24:58Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=swarm:seal_0 ts=2017-04-21T04:49:23Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=stage:axiom ts=2018-12-08T22:08:26Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=SOVEREIGN-FINAL ts=2010-02-06T16:19:36Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=swarm:seal_0 ts=2009-01-19T09:14:18Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=x ts=2027-07-23T18:16:13Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":false,"n":0} ->
+worm seal label=stage:axiom ts=2000-04-08T15:37:08Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=swarm:seal_0 ts=2002-07-09T14:05:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=x ts=2007-10-12T02:12:16Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=governance:rejected ts=2020-04-22T10:13:18Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=governance:verified ts=2003-06-17T09:17:38Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=kernel:init ts=2023-10-06T01:19:02Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=stage:axiom ts=2019-10-19T02:39:56Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=x ts=2001-06-20T08:02:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=a:b ts=2028-05-20T13:14:25Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=governance:verified ts=2017-04-09T09:47:48Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=kernel:init ts=2021-09-22T13:45:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=governance:verified ts=2022-07-23T10:30:41Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":false,"n":0} ->
+worm seal label=governance:verified ts=2012-06-12T03:50:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=governance:sealed ts=2010-01-25T15:24:41Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"verified","evidence":{}} ->
+worm seal label=a:b ts=2028-02-10T02:21:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=stage:apl ts=2028-12-06T09:43:13Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=swarm:seal_0 ts=2005-05-28T20:55:59Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=SOVEREIGN-FINAL ts=2021-08-02T15:48:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=x ts=2030-11-18T17:24:24Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":false,"n":0} ->
+worm seal label=stage:axiom ts=2003-06-02T22:59:56Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=stage:apl ts=2024-10-20T12:29:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=governance:rejected ts=2006-04-01T04:59:28Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=stage:axiom ts=2015-08-10T20:06:34Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=stage:apl ts=2007-05-25T09:45:32Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=stage:clojure ts=2020-09-27T03:52:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=stage:axiom ts=2015-07-22T13:06:47Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=stage:clojure ts=2027-06-24T16:19:17Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=governance:verified ts=2022-04-16T05:33:44Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=governance:verified ts=2022-07-01T11:54:41Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=governance:verified ts=2003-04-14T05:39:42Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=SOVEREIGN-FINAL ts=2008-09-08T00:52:31Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=governance:verified ts=2023-05-28T18:18:42Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=governance:verified ts=2008-08-24T17:45:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=governance:verified ts=2020-05-02T21:22:55Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=governance:rejected ts=2012-05-28T12:59:34Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"verified","evidence":{}} ->
+worm seal label=SOVEREIGN-FINAL ts=2000-11-22T06:36:37Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=stage:apl ts=2012-01-06T02:37:43Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=governance:verified ts=2019-06-01T21:41:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=stage:clojure ts=2014-12-07T20:05:05Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=stage:clojure ts=2017-08-17T10:47:12Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=a:b ts=2027-08-19T19:00:40Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=stage:axiom ts=2015-05-05T12:30:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=governance:rejected ts=2019-02-23T06:00:25Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1,"b":2} ->
+worm seal label=kernel:init ts=2001-07-01T02:52:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->
+worm seal label=kernel:init ts=2017-02-16T12:54:51Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=governance:verified ts=2025-08-04T10:47:42Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=kernel:init ts=2012-03-03T20:02:12Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=stage:apl ts=2022-06-01T13:49:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=governance:sealed ts=2004-12-12T03:37:58Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->
+worm seal label=governance:verified ts=2020-12-17T09:40:32Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=stage:clojure ts=2017-12-01T03:25:31Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=swarm:seal_0 ts=2001-10-23T07:14:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=stage:clojure ts=2025-12-24T12:18:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=x ts=2027-04-02T15:44:05Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"a":1} ->
+worm seal label=stage:axiom ts=2005-04-09T02:43:36Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=kernel:init ts=2020-08-05T18:21:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"rejected","evidence":{}} ->
+worm seal label=stage:apl ts=2018-07-01T14:52:34Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=governance:rejected ts=2030-05-22T04:39:40Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"verified","to":"sealed","evidence":{}} ->
+worm seal label=swarm:seal_0 ts=2013-12-07T19:45:15Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=SOVEREIGN-FINAL ts=2014-09-28T08:21:45Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"x":[1,null,true]} ->
+worm seal label=SOVEREIGN-FINAL ts=2025-04-06T11:30:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":false,"n":0} ->
+worm seal label=stage:axiom ts=2021-05-18T15:21:51Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=stage:apl ts=2019-08-05T16:35:45Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"label":"stage:apl","n":3} ->
+worm seal label=a:b ts=2009-10-13T01:46:01Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=swarm:seal_0 ts=2023-05-22T09:05:54Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=kernel:init ts=2029-08-24T22:47:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"from":"init","to":"verified","evidence":{}} ->
+worm seal label=a:b ts=2025-01-01T02:31:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->
+worm seal label=stage:apl ts=2021-11-22T19:20:59Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"ok":true} ->
+worm seal label=stage:axiom ts=2019-08-05T20:22:14Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->

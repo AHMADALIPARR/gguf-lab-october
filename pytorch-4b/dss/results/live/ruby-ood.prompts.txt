@@ -1,0 +1,1202 @@
+is DSS 1866 8955 10821 ->
+is DSS 831 4138 4969 ->
+is DSS 559 3000 87684 90684 ->
+is DSS 764 9063 30499 ->
+is DSS 976 7838 82994 ->
+is DSS 13917 38450 ->
+is DSS 3505 30817 34322 ->
+is DSS 264 771 6410 82087 ->
+is DSS 9286 60208 69494 ->
+is DSS 2997 5617 8063 11060 ->
+is DSS 2260 87952 ->
+is DSS 625 729 768 31607 ->
+is DSS 1761 2428 6770 ->
+is DSS 406 44408 52801 62816 ->
+is DSS 3718 8368 51965 ->
+is DSS 61306 66477 84893 98783 ->
+is DSS 492 9223 ->
+is DSS 720 19862 ->
+is DSS 758 4472 7089 28667 ->
+is DSS 931 2113 ->
+is DSS 27047 35006 ->
+is DSS 568 33929 34497 36560 ->
+is DSS 513 785 ->
+is DSS 932 938 1870 9686 ->
+is DSS 440 747 ->
+is DSS 265 5045 5310 ->
+is DSS 5658 70255 86334 91992 ->
+is DSS 496 534 588 1122 ->
+is DSS 5399 55628 66909 94937 ->
+is DSS 189 910 8718 8907 ->
+is DSS 4360 58563 ->
+is DSS 2622 6310 31734 34356 ->
+is DSS 173 75326 75499 ->
+is DSS 828 75837 ->
+is DSS 3291 48613 51904 ->
+is DSS 1988 43463 ->
+is DSS 3573 4356 5946 47535 ->
+is DSS 479 5094 5573 ->
+is DSS 2443 4740 71959 74963 ->
+is DSS 735 58875 ->
+is DSS 1477 5649 ->
+is DSS 941 34340 35281 60197 ->
+is DSS 693 976 1802 7461 ->
+is DSS 615 5796 9090 ->
+is DSS 812 98517 99329 ->
+is DSS 5180 45075 50255 ->
+is DSS 329 672 1001 ->
+is DSS 9948 40778 50986 68520 ->
+is DSS 722 17985 ->
+is DSS 212 26309 26521 ->
+is DSS 5010 29213 34223 ->
+is DSS 651 64728 70892 95649 ->
+is DSS 5881 7963 13844 ->
+is DSS 602 2426 3028 ->
+is DSS 1708 8710 ->
+is DSS 3838 6159 9997 ->
+is DSS 7769 63392 71161 ->
+is DSS 2392 4203 7760 9288 ->
+is DSS 146 511 657 ->
+is DSS 635 779 799 ->
+is DSS 831 13742 ->
+is DSS 22411 75419 97830 ->
+is DSS 6542 87254 88054 ->
+is DSS 226 242 7802 8147 ->
+is DSS 350 40430 40780 ->
+is DSS 496 39023 39519 ->
+is DSS 687 10180 10867 ->
+is DSS 2912 8698 11262 ->
+is DSS 170 469 566 1035 ->
+is DSS 6029 48086 49127 ->
+is DSS 104 8269 8373 ->
+is DSS 7642 11883 19525 ->
+is DSS 104 77320 ->
+is DSS 208 7177 84393 ->
+is DSS 260 1313 5343 34497 ->
+is DSS 2428 2512 9812 73141 ->
+is DSS 793 24760 25553 ->
+is DSS 8375 8393 16768 ->
+is DSS 7563 19787 ->
+is DSS 958 8423 ->
+is DSS 4405 5852 10257 ->
+is DSS 695 3003 3534 65442 ->
+is DSS 5521 8563 23190 ->
+is DSS 826 39312 40138 ->
+is DSS 904 8596 ->
+is DSS 9480 25655 37144 62799 ->
+is DSS 382 524 8755 9137 ->
+is DSS 465 792 63221 75172 ->
+is DSS 1820 1885 3705 ->
+is DSS 806 7260 8066 ->
+is DSS 708 939 1647 ->
+is DSS 1619 28202 29821 ->
+is DSS 6762 7632 ->
+is DSS 2129 32287 34416 ->
+is DSS 41688 75671 78439 117359 ->
+is DSS 316 446 2441 ->
+is DSS 514 26670 27184 ->
+is DSS 6591 73036 79627 ->
+is DSS 5565 8070 13635 ->
+is DSS 3392 5319 8711 70215 ->
+DSS W 440 9636 87550 sum 97626 -> size
+DSS W 8815 37161 56266 sum 56266 -> size
+DSS W 4260 8912 sum 13172 -> size
+DSS W 556 7055 43472 sum 51083 -> size
+DSS W 875 6108 54736 71743 sum 875 -> size
+DSS W 433 534 994 sum 534 -> size
+DSS W 870 5854 sum 870 -> size
+DSS W 499 604 sum 1103 -> size
+DSS W 1993 2945 52166 sum 52166 -> size
+DSS W 82057 99707 sum 99707 -> size
+DSS W 659 748 995 sum 995 -> size
+DSS W 314 452 94011 sum 452 -> size
+DSS W 2814 9694 27076 36305 sum 66195 -> size
+DSS W 5695 6145 sum 5695 -> size
+DSS W 429 969 sum 1398 -> size
+DSS W 829 44382 56119 sum 45211 -> size
+DSS W 7304 8070 25742 40845 sum 8070 -> size
+DSS W 569 886 893 65625 sum 2348 -> size
+DSS W 990 4954 sum 4954 -> size
+DSS W 202 237 428 656 sum 1286 -> size
+DSS W 445 9657 sum 10102 -> size
+DSS W 367 54554 90612 sum 90979 -> size
+DSS W 1049 28403 sum 28403 -> size
+DSS W 505 2518 sum 2518 -> size
+DSS W 480 690 720 sum 1170 -> size
+DSS W 668 97183 sum 97851 -> size
+DSS W 612 6898 67009 sum 74519 -> size
+DSS W 2916 6574 sum 9490 -> size
+DSS W 690 8202 25391 sum 8892 -> size
+DSS W 222 569 14272 sum 15063 -> size
+DSS W 871 7292 12301 sum 8163 -> size
+DSS W 806 8804 71806 82312 sum 91922 -> size
+DSS W 162 2592 49564 sum 52318 -> size
+DSS W 482 849 73257 sum 849 -> size
+DSS W 6610 6824 7730 14160 sum 21164 -> size
+DSS W 639 70663 sum 639 -> size
+DSS W 244 508 2567 11034 sum 11542 -> size
+DSS W 656 674 67359 93539 sum 93539 -> size
+DSS W 522 829 sum 1351 -> size
+DSS W 906 944 sum 1850 -> size
+DSS W 738 26079 56574 77961 sum 104040 -> size
+DSS W 189 570 5678 6189 sum 11867 -> size
+DSS W 34056 49764 sum 34056 -> size
+DSS W 6084 10251 sum 6084 -> size
+DSS W 413 598 sum 1011 -> size
+DSS W 878 2477 9740 sum 13095 -> size
+DSS W 1469 9017 91440 sum 101926 -> size
+DSS W 266 483 54381 sum 55130 -> size
+DSS W 16860 86419 sum 103279 -> size
+DSS W 446 821 sum 1267 -> size
+DSS W 964 2603 7214 19011 sum 19011 -> size
+DSS W 390 961 7998 33022 sum 33983 -> size
+DSS W 1096 72057 sum 1096 -> size
+DSS W 593 831 sum 831 -> size
+DSS W 165 7476 14987 sum 165 -> size
+DSS W 227 97651 sum 97651 -> size
+DSS W 987 93592 sum 987 -> size
+DSS W 1871 6994 sum 6994 -> size
+DSS W 787 896 sum 787 -> size
+DSS W 900 4039 48140 sum 4939 -> size
+DSS W 145 545 5269 40375 sum 45644 -> size
+DSS W 24997 37357 63462 89670 sum 89670 -> size
+DSS W 192 53626 sum 53818 -> size
+DSS W 911 1317 sum 2228 -> size
+DSS W 462 983 71695 sum 73140 -> size
+DSS W 621 3068 7054 68304 sum 79047 -> size
+DSS W 765 838 sum 765 -> size
+DSS W 182 6932 16340 84004 sum 23272 -> size
+DSS W 9160 58430 75804 sum 67590 -> size
+DSS W 677 7950 9711 sum 17661 -> size
+DSS W 738 797 5846 80633 sum 88014 -> size
+DSS W 1690 52698 sum 1690 -> size
+DSS W 605 2934 33594 sum 34199 -> size
+DSS W 9442 66704 sum 66704 -> size
+DSS W 4251 7318 8695 sum 8695 -> size
+DSS W 217 258 6813 sum 7030 -> size
+DSS W 7697 86193 sum 7697 -> size
+DSS W 405 460 sum 460 -> size
+DSS W 7065 29447 sum 36512 -> size
+DSS W 796 57160 sum 57160 -> size
+DSS W 298 689 sum 689 -> size
+DSS W 299 8901 sum 9200 -> size
+DSS W 610 8073 sum 8683 -> size
+DSS W 305 408 36472 sum 36472 -> size
+DSS W 167 503 45297 sum 503 -> size
+DSS W 861 4272 sum 4272 -> size
+DSS W 967 4133 50555 99663 sum 99663 -> size
+DSS W 787 5464 9399 sum 10186 -> size
+DSS W 2469 3598 63476 sum 3598 -> size
+DSS W 1413 6356 38534 90840 sum 97196 -> size
+DSS W 4519 8605 52940 sum 57459 -> size
+DSS W 619 6180 30836 83146 sum 120781 -> size
+DSS W 460 5680 8522 48267 sum 8522 -> size
+DSS W 485 589 sum 589 -> size
+DSS W 690 4412 sum 5102 -> size
+DSS W 6301 12726 44047 sum 63074 -> size
+DSS W 829 8076 37978 59546 sum 46883 -> size
+DSS W 5286 31459 51500 86963 sum 88245 -> size
+DSS W 766 2622 5258 5876 sum 5876 -> size
+DSS W 198 207 96152 sum 96152 -> size
+DSS greedy next after 160 329 8271 86485 ->
+DSS greedy next after 109 862 80877 ->
+DSS greedy next after 783 71940 ->
+DSS greedy next after 186 750 4843 51210 ->
+DSS greedy next after 8609 8941 68176 ->
+DSS greedy next after 195 558 636 9229 ->
+DSS greedy next after 9132 37874 38160 86986 ->
+DSS greedy next after 183 899 2348 6186 ->
+DSS greedy next after 317 3397 5500 5956 ->
+DSS greedy next after 4898 38213 97524 ->
+DSS greedy next after 107 390 5764 6957 ->
+DSS greedy next after 415 5122 ->
+DSS greedy next after 113 218 4545 61130 ->
+DSS greedy next after 2503 3496 64867 ->
+DSS greedy next after 531 76901 88498 ->
+DSS greedy next after 3499 71653 ->
+DSS greedy next after 634 3160 ->
+DSS greedy next after 625 22468 28219 71792 ->
+DSS greedy next after 736 7656 ->
+DSS greedy next after 2338 13853 ->
+DSS greedy next after 309 714 13641 21266 ->
+DSS greedy next after 203 216 78333 89434 ->
+DSS greedy next after 4729 40715 ->
+DSS greedy next after 144 8099 9241 ->
+DSS greedy next after 1427 37808 ->
+DSS greedy next after 766 8892 31841 ->
+DSS greedy next after 570 6653 38070 85512 ->
+DSS greedy next after 38627 44497 62852 80592 ->
+DSS greedy next after 537 7884 62742 ->
+DSS greedy next after 507 511 31027 ->
+DSS greedy next after 9172 36104 ->
+DSS greedy next after 2019 8989 25009 ->
+DSS greedy next after 480 8541 ->
+DSS greedy next after 388 6541 ->
+DSS greedy next after 695 829 6100 38868 ->
+DSS greedy next after 5515 32380 35930 ->
+DSS greedy next after 543 2439 ->
+DSS greedy next after 807 48888 74075 ->
+DSS greedy next after 3849 42544 83329 92994 ->
+DSS greedy next after 754 797 ->
+DSS greedy next after 289 955 3746 29716 ->
+DSS greedy next after 878 959 74866 ->
+DSS greedy next after 816 4732 8561 98986 ->
+DSS greedy next after 512 37415 75299 ->
+DSS greedy next after 396 909 1441 88152 ->
+DSS greedy next after 413 420 ->
+DSS greedy next after 687 1838 83673 ->
+DSS greedy next after 283 346 568 ->
+DSS greedy next after 204 4260 5460 8585 ->
+DSS greedy next after 6348 7823 46642 ->
+DSS greedy next after 143 700 828 3582 ->
+DSS greedy next after 800 6976 9684 ->
+DSS greedy next after 118 5251 36333 ->
+DSS greedy next after 193 616 4142 9327 ->
+DSS greedy next after 1730 9260 13125 ->
+DSS greedy next after 307 443 23038 ->
+DSS greedy next after 197 4414 ->
+DSS greedy next after 7761 8220 9492 65250 ->
+DSS greedy next after 3260 3774 19512 ->
+DSS greedy next after 706 7906 38486 53051 ->
+DSS greedy next after 467 540 708 32784 ->
+DSS greedy next after 627 4348 28811 ->
+DSS greedy next after 936 2674 ->
+DSS greedy next after 613 2471 4713 ->
+DSS greedy next after 1149 7849 8190 ->
+DSS greedy next after 1130 6302 9745 92489 ->
+DSS greedy next after 211 532 45569 ->
+DSS greedy next after 583 61040 ->
+DSS greedy next after 808 1876 5363 57240 ->
+DSS greedy next after 113 236 825 3012 ->
+DSS greedy next after 1635 4847 54998 ->
+DSS greedy next after 801 848 1203 39663 ->
+DSS greedy next after 173 233 7979 46394 ->
+DSS greedy next after 169 7173 73931 ->
+DSS greedy next after 613 8889 ->
+DSS greedy next after 33703 57078 ->
+DSS greedy next after 547 21851 88731 ->
+DSS greedy next after 113 934 90094 ->
+DSS greedy next after 582 24978 ->
+DSS greedy next after 1080 5326 21309 ->
+DSS greedy next after 770 952 ->
+DSS greedy next after 4366 6200 ->
+DSS greedy next after 125 5420 5761 46861 ->
+DSS greedy next after 676 839 2111 5313 ->
+DSS greedy next after 264 994 ->
+DSS greedy next after 732 5931 25468 98807 ->
+DSS greedy next after 332 9893 24358 26274 ->
+DSS greedy next after 508 80805 ->
+DSS greedy next after 4464 9775 47266 76238 ->
+DSS greedy next after 617 37091 ->
+DSS greedy next after 371 5460 5699 6906 ->
+DSS greedy next after 267 516 32295 39176 ->
+DSS greedy next after 11399 15357 54943 ->
+DSS greedy next after 292 947 14826 ->
+DSS greedy next after 185 926 ->
+DSS greedy next after 2116 63023 74405 ->
+DSS greedy next after 505 75543 ->
+DSS greedy next after 5750 59013 ->
+DSS greedy next after 190 428 1329 ->
+DSS greedy next after 1228 5234 7181 9034 ->
+bound k 182 a 25235 ->
+bound k 178 a 19578 ->
+bound k 293 a 43960 ->
+bound k 222 a 19024 ->
+bound k 107 a 4071 ->
+bound k 297 a 41680 ->
+bound k 48 a 1060 ->
+bound k 241 a 37124 ->
+bound k 72 a 3556 ->
+bound k 232 a 29003 ->
+bound k 124 a 7745 ->
+bound k 272 a 70463 ->
+bound k 135 a 14322 ->
+bound k 214 a 22130 ->
+bound k 181 a 16233 ->
+bound k 66 a 1648 ->
+bound k 242 a 17886 ->
+bound k 192 a 14878 ->
+bound k 247 a 32027 ->
+bound k 89 a 4057 ->
+bound k 70 a 1953 ->
+bound k 84 a 1824 ->
+bound k 250 a 31838 ->
+bound k 155 a 12165 ->
+bound k 92 a 584 ->
+bound k 298 a 47172 ->
+bound k 163 a 12545 ->
+bound k 132 a 10802 ->
+bound k 156 a 12847 ->
+bound k 114 a 3364 ->
+bound k 121 a 10051 ->
+bound k 273 a 36991 ->
+bound k 290 a 50629 ->
+bound k 71 a 2498 ->
+bound k 156 a 16502 ->
+bound k 67 a 2642 ->
+bound k 101 a 5579 ->
+bound k 86 a 3656 ->
+bound k 285 a 10902 ->
+bound k 221 a 20091 ->
+bound k 209 a 27933 ->
+bound k 103 a 5326 ->
+bound k 162 a 13901 ->
+bound k 203 a 20447 ->
+bound k 88 a 4214 ->
+bound k 110 a 6633 ->
+bound k 114 a 6130 ->
+bound k 234 a 31181 ->
+bound k 153 a 560 ->
+bound k 237 a 27839 ->
+bound k 223 a 25013 ->
+bound k 137 a 11574 ->
+bound k 216 a 29155 ->
+bound k 82 a 3330 ->
+bound k 235 a 27786 ->
+bound k 155 a 12971 ->
+bound k 220 a 24132 ->
+bound k 157 a 11264 ->
+bound k 102 a 5145 ->
+bound k 133 a 1635 ->
+bound k 90 a 1795 ->
+bound k 56 a 1729 ->
+bound k 262 a 34387 ->
+bound k 152 a 7419 ->
+bound k 179 a 16060 ->
+bound k 106 a 5652 ->
+bound k 222 a 24674 ->
+bound k 266 a 38910 ->
+bound k 246 a 33134 ->
+bound k 230 a 18456 ->
+bound k 255 a 35814 ->
+bound k 185 a 17198 ->
+bound k 49 a 1189 ->
+bound k 165 a 13597 ->
+bound k 127 a 7731 ->
+bound k 204 a 20547 ->
+bound k 200 a 19196 ->
+bound k 297 a 44231 ->
+bound k 147 a 9805 ->
+bound k 242 a 28037 ->
+bound k 78 a 3861 ->
+bound k 217 a 23659 ->
+bound k 74 a 1869 ->
+bound k 119 a 2456 ->
+bound k 51 a 1307 ->
+bound k 83 a 3608 ->
+bound k 87 a 4099 ->
+bound k 183 a 10125 ->
+bound k 131 a 6662 ->
+bound k 159 a 12570 ->
+bound k 182 a 15823 ->
+bound k 262 a 32172 ->
+bound k 129 a 10136 ->
+bound k 46 a 1135 ->
+bound k 271 a 36759 ->
+bound k 270 a 28790 ->
+bound k 247 a 30415 ->
+bound k 135 a 7038 ->
+bound k 105 a 5499 ->
+bound k 71 a 2505 ->
+bound k 25 a 313 ->
+is DSS 101 202 303 ->
+phi normalize -977712621 phi^29 + 450360407 phi^24 + 88200522 phi^22 ->
+phi normalize -809563518 phi^4 - 745641743 phi^28 ->
+phi normalize 45906595 phi^51 + 129406246 phi^14 ->
+phi normalize 827626193 phi^2 + 574577881 phi^23 + 138729900 phi^46 ->
+phi normalize -173852985 phi^43 + 410171120 + 43080129 phi^38 ->
+phi normalize 256076331 phi^47 + 198456098 phi^46 - 298155090 phi^48 + 82276470 phi^21 ->
+phi normalize 213049778 phi^48 + 558680684 phi^53 ->
+phi normalize 806377744 phi^3 + 459704320 phi^43 + 547336126 phi^33 - 437460275 phi^36 ->
+phi normalize -439947832 phi^52 ->
+phi normalize 254984282 phi^56 ->
+phi normalize 611663489 phi^53 + 505098896 phi^21 + 142876299 - 907410181 phi^5 ->
+phi normalize 63085613 phi^6 - 81795041 phi^19 + 292675354 phi^25 ->
+phi normalize 659951732 phi^56 + 863722659 phi^13 - 982988350 phi^17 - 639798538 phi^52 ->
+phi normalize -452735086 phi^56 + 668276885 phi^13 - 244125842 phi^32 - 92455549 phi^12 ->
+phi normalize -19180855 phi^43 - 341659954 phi^37 ->
+phi normalize 536472706 phi^52 ->
+phi normalize 556344677 phi^10 + 871036767 + 124175435 phi^23 + 358187183 phi^17 ->
+phi normalize 678701901 phi^30 + 653748112 phi^29 ->
+phi normalize 14443196 phi^13 + 160394919 phi^33 + 252253246 phi^29 + 39848402 phi^23 ->
+phi normalize 953438014 phi^29 + 332279886 phi^2 - 950857017 phi^16 - 756912055 phi^32 ->
+phi normalize 546593652 phi^28 ->
+phi normalize 325399258 phi^17 ->
+phi normalize 169240950 phi^10 - 920772925 phi^33 - 988631470 phi^39 + 59049614 phi^17 ->
+phi normalize 995948840 phi^58 - 95808946 phi^32 ->
+phi normalize 603711770 phi^55 + 890273020 phi^38 - 591756663 ->
+phi normalize -191983206 phi^50 + 979600181 phi^10 - 868290650 ->
+phi normalize -268190907 phi^8 + 471258751 phi^43 ->
+phi normalize 584375089 phi^45 - 603503040 phi^29 + 982046572 phi^45 ->
+phi normalize -274867616 phi^28 - 696483459 phi^23 - 461082155 phi^58 ->
+phi normalize -105850935 phi^45 + 116819774 phi^46 ->
+phi normalize -948482246 phi^54 + 273378482 phi^10 ->
+phi normalize 44166189 phi^42 - 228855823 phi^26 - 348192329 phi^34 + 524672607 phi^10 ->
+phi normalize -512520989 phi^4 ->
+phi normalize 101879695 phi^28 ->
+phi normalize 172341969 phi^19 - 164306308 phi^18 ->
+phi normalize 458877157 phi^27 + 382095401 phi^28 + 588703809 phi^37 ->
+phi normalize 578938986 phi^8 + 443006154 phi^16 - 39327900 phi^16 ->
+phi normalize -77592937 phi^18 ->
+phi normalize 935897704 phi^35 - 632463526 phi^1 ->
+phi normalize -744432273 phi^55 - 92531418 phi^32 + 757781377 phi^13 ->
+phi normalize -483347005 phi^20 + 979742652 phi^27 + 566767028 phi^15 - 158499686 phi^23 ->
+phi normalize 15166777 phi^29 + 260706959 phi^13 - 451317940 phi^1 ->
+phi normalize 855803168 phi^53 - 643940687 phi^7 ->
+phi normalize 252665851 phi^16 - 762083703 - 348489801 phi^36 ->
+phi normalize 504120214 phi^13 + 693080426 phi^38 - 429796694 phi^26 - 365847972 phi^35 ->
+phi normalize 218845667 phi^45 - 874096271 phi^56 + 589296865 - 324319286 phi^60 ->
+phi normalize 467824657 phi^14 - 995615193 phi^34 + 750176871 phi^42 + 130758852 phi^10 ->
+phi normalize 410459204 phi^59 ->
+phi normalize -412878924 phi^16 ->
+phi normalize 68286415 phi^12 + 224822706 phi^20 ->
+phi normalize 456230245 phi^1 + 496907291 phi^52 + 5483071 phi^8 ->
+phi normalize 406538480 phi^7 + 55072623 phi^22 + 558923951 phi^27 ->
+phi normalize 527147663 phi^50 ->
+phi normalize -436108800 phi^33 + 466459794 phi^17 + 359533144 phi^60 + 938259849 phi^22 ->
+phi normalize -938085152 phi^52 ->
+phi normalize 818961801 phi^18 - 508506109 phi^42 + 218367814 phi^11 - 538005110 phi^16 ->
+phi normalize -323577732 phi^36 ->
+phi normalize 290892777 phi^20 - 2264995 phi^54 - 551264544 phi^2 + 212294151 phi^49 ->
+phi normalize -493007598 phi^24 - 700628935 phi^59 ->
+phi normalize -898943259 phi^43 - 845777887 phi^4 ->
+phi normalize 359391532 phi^10 ->
+phi normalize 757710738 phi^17 + 950693911 phi^20 - 312582481 phi^54 ->
+phi normalize 438875852 phi^40 + 46344693 phi^55 + 547658418 phi^57 ->
+phi normalize -207320303 phi^59 ->
+phi normalize -141489649 phi^23 + 306368415 phi^6 ->
+phi normalize -754838821 phi^49 ->
+phi normalize -650773765 phi^29 - 759171081 phi^49 - 432768122 phi^20 ->
+phi normalize -693471414 phi^46 + 501717416 phi^14 - 500276255 phi^46 ->
+phi normalize -50502328 phi^39 + 467574055 phi^20 ->
+phi normalize -558076876 phi^48 + 684161294 phi^54 + 744255608 phi^32 ->
+phi normalize 207691640 phi^38 + 832649380 phi^27 - 795070601 phi^43 + 916617015 phi^18 ->
+phi normalize -630257549 phi^2 - 704042084 phi^26 + 396963254 phi^60 ->
+phi normalize 459898106 phi^36 ->
+phi normalize 271706038 phi^1 + 177052700 phi^55 ->
+phi normalize 348772334 phi^26 ->
+phi normalize 868297200 phi^5 - 370133701 phi^56 - 270105157 phi^21 ->
+phi normalize 962571895 phi^48 - 854925385 phi^24 + 687442161 phi^41 ->
+phi normalize -840369088 phi^40 ->
+phi normalize 219119389 phi^6 - 307477232 phi^16 - 623175932 phi^8 + 64434969 phi^7 ->
+phi normalize 274304205 phi^44 ->
+phi normalize -403226376 phi^5 + 782627042 phi^38 - 842071324 phi^36 ->
+phi normalize -946099982 phi^29 + 104627109 phi^30 + 161498277 phi^15 ->
+phi normalize -883171609 phi^34 ->
+phi normalize -553538730 phi^4 - 205745079 phi^9 + 934357966 phi^13 ->
+phi normalize -111125734 phi^30 - 410821114 phi^33 ->
+phi normalize 475287121 phi^7 + 785535981 phi^32 + 225221159 phi^46 ->
+phi normalize -621983444 phi^59 + 929709972 phi^16 - 381147644 phi^18 ->
+phi normalize -94099462 phi^6 + 622509295 phi^38 + 93987104 phi^5 ->
+phi normalize 741919843 phi^56 - 243394497 phi^45 ->
+phi normalize -426040393 ->
+phi normalize -809990196 phi^10 - 945936132 phi^17 - 72000498 phi^50 + 398497497 phi^57 ->
+phi normalize 417835234 phi^53 - 590698310 phi^20 + 145950660 phi^47 ->
+phi normalize 814480408 phi^8 ->
+phi normalize 533584017 phi^58 + 429624795 phi^34 + 760198488 phi^56 + 901263320 phi^12 ->
+phi normalize 879452057 phi^27 - 794622095 phi^50 ->
+phi normalize 805441571 phi^7 - 846468101 phi^58 - 123065661 phi^27 ->
+phi normalize 297438765 phi^15 ->
+phi normalize 177297773 phi^15 + 822324495 phi^55 - 382311398 phi^31 + 146513178 phi^32 ->
+phi normalize -53065755 phi^26 ->
+phi normalize 28851158 phi^18 ->
+phi mul (-750454509 + 730983549 phi) (-609708957 + 779824496 phi) ->
+phi mul (408095006 + 986261515 phi) (662170762 - 472640645 phi) ->
+phi mul (913997451 - 481521846 phi) (-486252850 + 583985539 phi) ->
+phi mul (178936789 + 240295073 phi) (222940600 + 648495124 phi) ->
+phi mul (-838973970 - 445745264 phi) (832686941 + 298932123 phi) ->
+phi mul (-139055931 + 286525893 phi) (-862649605 - 96393626 phi) ->
+phi mul (-636361367 + 911837241 phi) (692267694 - 427816866 phi) ->
+phi mul (174798791 - 208209053 phi) (-105612348 + 183837898 phi) ->
+phi mul (166829148 - 327995935 phi) (-14151203 + 897105059 phi) ->
+phi mul (525513407 - 440085856 phi) (-55979084 - 274031739 phi) ->
+phi mul (-791411574 - 371457796 phi) (-35161501 + 587241413 phi) ->
+phi mul (-517535124 - 118847682 phi) (136215897 + 937953233 phi) ->
+phi mul (368912591 + 619697793 phi) (-584987437 - 4038398 phi) ->
+phi mul (-51415463 - 152125565 phi) (-825729480 - 698710889 phi) ->
+phi mul (874599986 + 552857174 phi) (858304725 + 889685314 phi) ->
+phi mul (-176525988 + 121568803 phi) (589035635 - 690961919 phi) ->
+phi mul (-644676830 - 631476956 phi) (-341440338 - 743112635 phi) ->
+phi mul (200530819 + 37472034 phi) (-725648448 - 349083081 phi) ->
+phi mul (-806781836 + 185601533 phi) (-821231535 - 253530229 phi) ->
+phi mul (-19942260 - 261070197 phi) (734812784 + 8983688 phi) ->
+phi mul (-431136034 + 278122761 phi) (-119807729 + 868670894 phi) ->
+phi mul (-898518786 - 314654919 phi) (4274700 - 732408637 phi) ->
+phi mul (481711180 + 549297789 phi) (176459768 - 24978335 phi) ->
+phi mul (-217819729 - 556806900 phi) (-220689669 - 453788393 phi) ->
+phi mul (424630417 - 863680408 phi) (183941753 + 36259372 phi) ->
+phi mul (894544495 + 924450518 phi) (-56031044 - 788280102 phi) ->
+phi mul (173297783 - 658424060 phi) (841092981 - 37845477 phi) ->
+phi mul (-177387841 - 998617199 phi) (204585215 + 850122389 phi) ->
+phi mul (-696750868 - 679431039 phi) (-800867436 + 407678917 phi) ->
+phi mul (918549580 + 117208738 phi) (-540584622 - 60682783 phi) ->
+phi mul (-67152896 + 552493172 phi) (-256556041 - 219910296 phi) ->
+phi mul (-229799331 + 255660262 phi) (126745052 - 132611758 phi) ->
+phi mul (-260419331 - 663928363 phi) (793098598 + 78420118 phi) ->
+phi mul (63267146 + 478996925 phi) (-717238001 - 578615518 phi) ->
+phi mul (-390803884 - 405183919 phi) (724739428 - 167881520 phi) ->
+phi mul (526206551 + 696135493 phi) (-293982620 - 301808222 phi) ->
+phi mul (352229558 - 732668102 phi) (131668240 + 11222022 phi) ->
+phi mul (-551957323 - 825875857 phi) (-694218355 - 414346516 phi) ->
+phi mul (-917644219 + 257772051 phi) (25794401 + 546360583 phi) ->
+phi mul (749814064 - 532582626 phi) (861280978 - 654480345 phi) ->
+phi mul (291537905 + 433341445 phi) (424800208 + 674092806 phi) ->
+phi mul (-294353702 + 951105064 phi) (-218500467 + 683241318 phi) ->
+phi mul (-503442700 - 635788724 phi) (266516812 + 15359717 phi) ->
+phi mul (197744010 - 20578596 phi) (-779292805 - 960039143 phi) ->
+phi mul (784926022 + 500051842 phi) (979280654 + 285856771 phi) ->
+phi mul (730012691 + 423660709 phi) (-653484270 + 609701051 phi) ->
+phi mul (907112992 - 315314193 phi) (523794935 + 793994086 phi) ->
+phi mul (-454954237 + 968360268 phi) (-351255645 - 367717591 phi) ->
+phi mul (158210441 - 382289178 phi) (-110120190 + 584681903 phi) ->
+phi mul (689822451 - 677673775 phi) (-81453858 + 166220007 phi) ->
+phi mul (298777743 - 693013791 phi) (697769590 + 369816378 phi) ->
+phi mul (-73821892 - 874236096 phi) (-415107671 - 137860427 phi) ->
+phi mul (506849833 + 754370512 phi) (44674333 - 10771716 phi) ->
+phi mul (331648854 - 160792989 phi) (532391339 + 283516242 phi) ->
+phi mul (868888124 + 242084079 phi) (964009697 + 219707319 phi) ->
+phi mul (-800025729 - 574356243 phi) (457829895 + 709648817 phi) ->
+phi mul (742936856 + 472997859 phi) (742044818 - 264731006 phi) ->
+phi mul (-345092725 + 591358787 phi) (-578680559 - 964117095 phi) ->
+phi mul (-339121643 - 529366426 phi) (-527827972 + 188368410 phi) ->
+phi mul (-959288771 + 35713568 phi) (540406916 - 331695834 phi) ->
+phi mul (-728580798 + 430616588 phi) (124789495 - 962018886 phi) ->
+phi mul (-157114841 + 335248724 phi) (-493213288 - 748557852 phi) ->
+phi mul (-76926326 + 766722410 phi) (-930575094 + 886201749 phi) ->
+phi mul (944383342 + 702552708 phi) (-308034141 + 633840147 phi) ->
+phi mul (-848832693 - 447818870 phi) (-621795085 - 970161468 phi) ->
+phi mul (251053703 + 382367584 phi) (-630609090 + 185620397 phi) ->
+phi mul (-864515202 - 737822886 phi) (-638003372 - 671743642 phi) ->
+phi mul (232452049 + 545724625 phi) (80503818 + 700442814 phi) ->
+phi mul (-38438144 - 770000150 phi) (-463076016 - 466425054 phi) ->
+phi mul (886424833 - 939887263 phi) (508679216 - 173876821 phi) ->
+phi mul (891596177 + 959626995 phi) (-641121972 + 719080241 phi) ->
+phi mul (372963579 - 949127503 phi) (-674671304 - 423931936 phi) ->
+phi mul (-835505018 - 682246650 phi) (-918306905 - 899948267 phi) ->
+phi mul (726724035 - 808166951 phi) (-89553775 + 701012867 phi) ->
+phi mul (208922264 + 492969601 phi) (-788768793 - 415398146 phi) ->
+phi mul (884171624 + 509452153 phi) (-180116337 - 381713070 phi) ->
+phi mul (-196004958 + 199020552 phi) (189220412 - 631254684 phi) ->
+phi mul (-378179162 - 853650904 phi) (207055003 + 494302003 phi) ->
+phi mul (340059738 + 192556145 phi) (-360652391 + 909521320 phi) ->
+phi mul (694816162 - 142833327 phi) (898454727 + 69173181 phi) ->
+phi mul (-328348045 - 428959658 phi) (148202382 - 280850056 phi) ->
+phi mul (348891832 - 806380991 phi) (-642804301 - 101208311 phi) ->
+phi mul (608670913 - 371526038 phi) (838069751 - 668420215 phi) ->
+phi mul (-489538989 + 570222641 phi) (799673709 - 375911567 phi) ->
+phi mul (350776327 - 243498367 phi) (469884300 + 836165697 phi) ->
+phi mul (714265439 - 345437595 phi) (249686627 - 756109160 phi) ->
+phi mul (945553945 - 713096645 phi) (-85123700 - 211314082 phi) ->
+phi mul (-510951650 - 580877421 phi) (-15154213 + 593372170 phi) ->
+phi mul (-270124910 - 164916748 phi) (689486486 + 586746316 phi) ->
+phi mul (207430639 - 16218426 phi) (-87345033 + 27515465 phi) ->
+phi mul (492958361 - 253302147 phi) (437842934 + 359703040 phi) ->
+phi mul (462776110 - 425503728 phi) (-268866435 - 366045625 phi) ->
+phi mul (555229319 - 674047595 phi) (-919343560 + 555653406 phi) ->
+phi mul (690998159 + 1344540 phi) (-989118159 + 799206995 phi) ->
+phi mul (-568590309 + 196255599 phi) (440035170 - 764336889 phi) ->
+phi mul (797249399 - 796743209 phi) (-986858111 + 508765890 phi) ->
+phi mul (812097186 + 500080013 phi) (75457594 + 389728594 phi) ->
+phi mul (954577566 - 161889574 phi) (-86614476 + 121658454 phi) ->
+phi mul (-418015349 - 719106162 phi) (-35590162 - 972242660 phi) ->
+phi mul (799931684 + 928985190 phi) (155547918 + 112895474 phi) ->
+phi conj (-351360744 + 890354284 phi) ->
+phi conj (-84202079 + 641741063 phi) ->
+phi conj (-766517718 - 796993808 phi) ->
+phi conj (-897841276 - 365853773 phi) ->
+phi conj (-908570763 - 351834508 phi) ->
+phi conj (700442432 - 279042890 phi) ->
+phi conj (-578460365 - 97138464 phi) ->
+phi conj (-807960681 - 739740010 phi) ->
+phi conj (-857757890 + 931139487 phi) ->
+phi conj (-239545061 - 962492173 phi) ->
+phi conj (-173934506 + 483412255 phi) ->
+phi conj (-686835655 + 763200951 phi) ->
+phi conj (367989177 - 419912819 phi) ->
+phi conj (-967993323 + 362422205 phi) ->
+phi conj (302209629 + 955685994 phi) ->
+phi conj (-938120911 + 5679448 phi) ->
+phi conj (967354351 + 685672755 phi) ->
+phi conj (646402256 - 164042690 phi) ->
+phi conj (20403837 + 234924440 phi) ->
+phi conj (800613523 - 295757018 phi) ->
+phi conj (-725505249 + 22179614 phi) ->
+phi conj (-28147046 + 423898670 phi) ->
+phi conj (-144855863 - 862953490 phi) ->
+phi conj (-36312326 + 873503761 phi) ->
+phi conj (902752035 + 77576377 phi) ->
+phi conj (198086123 - 873177348 phi) ->
+phi conj (877568729 - 346977788 phi) ->
+phi conj (-84628423 - 301006657 phi) ->
+phi conj (-618535943 + 195309937 phi) ->
+phi conj (-899686241 + 591333305 phi) ->
+phi conj (283572703 + 606900059 phi) ->
+phi conj (676168652 - 651915432 phi) ->
+phi conj (-771856083 - 654555473 phi) ->
+phi conj (350214921 - 610882997 phi) ->
+phi conj (785577629 + 70828029 phi) ->
+phi conj (-934912989 + 351844510 phi) ->
+phi conj (-377625728 + 874555288 phi) ->
+phi conj (-65418542 + 168150477 phi) ->
+phi conj (-321839542 - 781757808 phi) ->
+phi conj (489634896 - 472319292 phi) ->
+phi conj (-123714277 + 214213214 phi) ->
+phi conj (949371394 + 937345594 phi) ->
+phi conj (125978119 - 398210813 phi) ->
+phi conj (144725130 - 379786586 phi) ->
+phi conj (-832537806 - 60686538 phi) ->
+phi conj (-686068923 + 226753516 phi) ->
+phi conj (426768552 + 386873479 phi) ->
+phi conj (445475990 + 363770541 phi) ->
+phi conj (-323731819 + 592315773 phi) ->
+phi conj (61129754 + 164976537 phi) ->
+phi conj (19498879 + 326887160 phi) ->
+phi conj (342114874 + 371013319 phi) ->
+phi conj (32849471 + 915292997 phi) ->
+phi conj (-987125431 + 329619476 phi) ->
+phi conj (395487122 - 140853059 phi) ->
+phi conj (346634933 - 29103172 phi) ->
+phi conj (541119968 + 578007557 phi) ->
+phi conj (-638529535 - 566621377 phi) ->
+phi conj (-302147804 + 913040123 phi) ->
+phi conj (-641520548 - 349568472 phi) ->
+phi conj (71724668 - 612569693 phi) ->
+phi conj (618353066 - 667582257 phi) ->
+phi conj (369131161 - 757625753 phi) ->
+phi conj (-503131044 - 499153260 phi) ->
+phi conj (286673808 - 486062313 phi) ->
+phi conj (-243116810 + 323227991 phi) ->
+phi conj (-795307703 - 487979611 phi) ->
+phi conj (-21420713 - 848739622 phi) ->
+phi conj (809399077 - 201491549 phi) ->
+phi conj (888976761 - 155174656 phi) ->
+phi conj (283777844 + 51072437 phi) ->
+phi conj (400962965 - 742883587 phi) ->
+phi conj (160033418 - 499792855 phi) ->
+phi conj (543240990 - 704611621 phi) ->
+phi conj (-454694684 + 373862243 phi) ->
+phi conj (168343550 - 169697031 phi) ->
+phi conj (781227699 - 848851872 phi) ->
+phi conj (468808365 + 200542405 phi) ->
+phi conj (-278140804 + 32176033 phi) ->
+phi conj (899453092 + 229472835 phi) ->
+phi conj (-772637222 + 111442107 phi) ->
+phi conj (134892882 - 531936311 phi) ->
+phi conj (-644728234 + 72598671 phi) ->
+phi conj (923979797 + 409794514 phi) ->
+phi conj (802248125 - 582544327 phi) ->
+phi conj (-21045640 - 509755025 phi) ->
+phi conj (-656504248 - 171146942 phi) ->
+phi conj (-851961858 - 655157166 phi) ->
+phi conj (-387554546 + 793085108 phi) ->
+phi conj (830002729 + 446378858 phi) ->
+phi conj (647869689 + 612488523 phi) ->
+phi conj (-309419762 + 461676256 phi) ->
+phi conj (262714094 + 1937128 phi) ->
+phi conj (740191406 + 594400554 phi) ->
+phi conj (172206293 + 272060368 phi) ->
+phi conj (-686604857 - 407269704 phi) ->
+phi conj (-821134968 + 322428646 phi) ->
+phi conj (-508882524 + 579077840 phi) ->
+phi conj (413939095 - 921425138 phi) ->
+phi conj (-698155267 - 464902205 phi) ->
+phi norm (110935229 - 207573984 phi) ->
+phi norm (826313113 + 343972632 phi) ->
+phi norm (-587560258 + 565266770 phi) ->
+phi norm (466934863 - 57758421 phi) ->
+phi norm (297787681 + 777308431 phi) ->
+phi norm (182943252 - 683709144 phi) ->
+phi norm (-551853756 + 158190823 phi) ->
+phi norm (-739728587 + 676047702 phi) ->
+phi norm (593067603 - 503924717 phi) ->
+phi norm (246126704 - 931996991 phi) ->
+phi norm (245660492 - 968504716 phi) ->
+phi norm (-242988390 + 128462854 phi) ->
+phi norm (-157874353 - 333677165 phi) ->
+phi norm (640574126 - 881097527 phi) ->
+phi norm (136937705 + 29747496 phi) ->
+phi norm (-92487640 + 525607096 phi) ->
+phi norm (-47647361 + 506453692 phi) ->
+phi norm (955433154 - 128684009 phi) ->
+phi norm (297799754 - 882836712 phi) ->
+phi norm (146099552 - 68092815 phi) ->
+phi norm (447905491 + 684956439 phi) ->
+phi norm (-129271732 + 452392241 phi) ->
+phi norm (-983952764 - 632710984 phi) ->
+phi norm (215290330 - 126490714 phi) ->
+phi norm (-76236912 - 649550812 phi) ->
+phi norm (942727813 - 856137998 phi) ->
+phi norm (811415105 - 148107716 phi) ->
+phi norm (-253445872 + 660947802 phi) ->
+phi norm (-841457499 - 441249729 phi) ->
+phi norm (-996938342 + 826711315 phi) ->
+phi norm (-781698588 + 170613959 phi) ->
+phi norm (779151837 - 58025386 phi) ->
+phi norm (208515404 + 971851125 phi) ->
+phi norm (-964366780 - 260864506 phi) ->
+phi norm (-464826640 + 458110434 phi) ->
+phi norm (-675229799 - 934880719 phi) ->
+phi norm (-211774937 + 969470550 phi) ->
+phi norm (957749850 + 523049146 phi) ->
+phi norm (198274641 + 903271906 phi) ->
+phi norm (-949078123 - 818473892 phi) ->
+phi norm (-140591849 + 675492229 phi) ->
+phi norm (-670574660 - 457586119 phi) ->
+phi norm (-735141720 - 510145856 phi) ->
+phi norm (-788390132 + 731163823 phi) ->
+phi norm (-790490368 - 911899753 phi) ->
+phi norm (980303132 - 927272677 phi) ->
+phi norm (616262735 + 40910075 phi) ->
+phi norm (-601874724 - 787057709 phi) ->
+phi norm (-104101922 + 771809557 phi) ->
+phi norm (641561306 - 695629330 phi) ->
+phi norm (-28792801 - 414550727 phi) ->
+phi norm (-580305869 + 441061799 phi) ->
+phi norm (711019232 + 8757392 phi) ->
+phi norm (-832471455 + 696114593 phi) ->
+phi norm (678593307 + 544299007 phi) ->
+phi norm (-950406528 + 48201207 phi) ->
+phi norm (126289524 - 931584808 phi) ->
+phi norm (-632718635 + 374416018 phi) ->
+phi norm (724923131 + 542059954 phi) ->
+phi norm (-250627400 + 838067515 phi) ->
+phi norm (-651279499 + 247723439 phi) ->
+phi norm (698511365 + 998463969 phi) ->
+phi norm (583817858 - 273882606 phi) ->
+phi norm (-442916455 + 489187215 phi) ->
+phi norm (-757072474 - 221041980 phi) ->
+phi norm (-528856146 + 982129881 phi) ->
+phi norm (-338800798 - 455467826 phi) ->
+phi norm (323580658 - 33690007 phi) ->
+phi norm (-599579422 - 727762230 phi) ->
+phi norm (467878753 + 60453697 phi) ->
+phi norm (-43187175 + 849208099 phi) ->
+phi norm (128588193 + 648880998 phi) ->
+phi norm (627951910 - 404373996 phi) ->
+phi norm (899049865 - 455807263 phi) ->
+phi norm (722335771 - 207494205 phi) ->
+phi norm (-65896727 + 880544382 phi) ->
+phi norm (815494926 - 780233739 phi) ->
+phi norm (-949070004 + 262411473 phi) ->
+phi norm (949370393 + 153809404 phi) ->
+phi norm (294862117 - 435595859 phi) ->
+phi norm (54622857 + 267271247 phi) ->
+phi norm (-610401017 + 731225245 phi) ->
+phi norm (-379195361 - 722718031 phi) ->
+phi norm (-384957507 + 944198344 phi) ->
+phi norm (649446021 - 376204741 phi) ->
+phi norm (999781962 + 841776995 phi) ->
+phi norm (-270558282 + 213585290 phi) ->
+phi norm (-987727031 - 579924772 phi) ->
+phi norm (-959295631 + 321602541 phi) ->
+phi norm (422392611 - 452245713 phi) ->
+phi norm (-303983445 + 331758124 phi) ->
+phi norm (270374692 + 503923730 phi) ->
+phi norm (-142128511 - 799392630 phi) ->
+phi norm (266187736 + 935468686 phi) ->
+phi norm (544404030 + 171439879 phi) ->
+phi norm (855697310 + 167685632 phi) ->
+phi norm (-396112468 + 714900720 phi) ->
+phi norm (961727045 - 716068453 phi) ->
+phi norm (877824717 - 608183685 phi) ->
+phi norm (-948238684 - 515376622 phi) ->
+viterbi pos_tagger park . ! dog by ran . ran man cat dog a with an with dog park dog walked house ->
+viterbi pos_tagger the ! ran cat is ate an saw a ! ran . ate ? man ! in walked man man car man ? cat ->
+viterbi cpg_island G T T T A T T C C T G A T C C G G A A G G A G A C T A ->
+viterbi pos_tagger in ate car park an car house walked saw in man woman with on car with park in . an in ->
+viterbi toy_weather shop shop shop shop shop walk shop walk clean shop walk clean clean walk shop ->
+viterbi cpg_island C C T G T G T C C A A A T T A G G C A T C C C ->
+viterbi cpg_island A A G G A G A T G G T A A G A A C A G A T T C T G T A G C C C T ->
+viterbi pos_tagger cat . house in a park in in car an dog saw a by . is in . man cat a walked ->
+viterbi cpg_island T A G A C A C G C C G G T C G C C A A G A T T T T G C ->
+viterbi pos_tagger in ran ! walked woman park cat a with on saw house on house ran park ! park with cat . ->
+viterbi toy_weather walk clean shop shop shop walk clean shop walk shop walk clean walk clean clean clean walk clean ->
+viterbi pos_tagger the ate dog an ate walked in . ? is with is ate cat man ate park in walked saw ->
+viterbi cpg_island A T T T T T G T A G G A C T C A A T A A C A C A ->
+viterbi cpg_island C A C G G C A C T G C C C C A G G G G A G T A G ->
+viterbi pos_tagger saw in in with ? ate cat ran a park a by walked by house on in ran ate man by a park ->
+viterbi toy_weather walk clean walk clean clean walk clean shop clean shop shop shop walk walk walk shop ->
+viterbi toy_weather shop clean walk shop shop clean walk clean clean walk shop walk clean shop shop shop ->
+viterbi pos_tagger ? with the dog the with car ran car ? house dog with is ran dog ran walked ->
+viterbi pos_tagger car park by park ate house park by ! ate on ran in park ate cat woman in man on car an saw ->
+viterbi cpg_island G T T C A T T G C C T T T A G T T C T C G T C T C T G C ->
+viterbi toy_weather walk walk clean walk shop walk walk shop walk clean walk shop walk walk shop ->
+viterbi pos_tagger with dog in ate cat car is . house with ran dog in ! man is in walked dog . by ate ->
+viterbi cpg_island G C C G G C A C G C C T C T C G A A G T A ->
+viterbi toy_weather clean shop clean walk shop walk shop shop shop clean clean clean walk shop clean shop clean walk shop ->
+viterbi pos_tagger is ! walked man car is park ate on saw park dog saw cat woman ->
+viterbi toy_weather shop walk walk shop shop clean walk clean clean walk shop clean shop shop ->
+viterbi cpg_island A G G A G G G G A T T A C G G G A T G G A G C T A G C T ->
+viterbi toy_weather shop walk shop walk walk shop walk shop walk walk walk walk shop clean walk walk shop walk clean shop walk clean shop ->
+viterbi cpg_island A C C A C A T T G T G C T C G T C A C A C T G ->
+viterbi cpg_island A A G G T G A A T G T A C A A G C G C T A A T A C G ->
+viterbi toy_weather clean clean shop walk shop walk walk walk shop shop clean shop clean shop shop shop shop walk walk ->
+viterbi pos_tagger an woman with woman saw is ! woman park a park an house with ran walked ? the man park ran ate dog ->
+viterbi cpg_island T T G T C G C C C C G G C A A C T A G C ->
+viterbi toy_weather clean clean walk clean shop walk shop shop clean clean walk walk clean clean walk ->
+viterbi pos_tagger park ran by the a with is ! park is by ? by ->
+viterbi pos_tagger . house saw the ? ? car saw house on man ate ! is with by with in ->
+viterbi pos_tagger ate woman by saw saw by in . ? walked in dog is ->
+viterbi toy_weather shop clean clean shop shop clean shop shop clean clean shop clean walk shop walk shop ->
+viterbi cpg_island G C T C G C G G C C A T A C T T G A T G C C T T T T C C ->
+viterbi toy_weather walk walk walk shop walk walk walk shop clean clean walk clean clean clean clean ->
+viterbi toy_weather clean walk shop walk clean clean clean shop shop walk walk shop shop ->
+viterbi cpg_island A A G A A C G G C T A C A A C A C G C G G T G G ->
+viterbi pos_tagger saw ran walked woman in with ran an house ? dog cat cat ! ? ->
+viterbi cpg_island T G G C A C A G C A A G G T A T T A T C C A A A G ->
+viterbi toy_weather shop walk walk clean walk shop clean clean walk shop clean clean walk walk clean walk shop walk clean clean shop clean clean ->
+viterbi pos_tagger walked walked man ! house in cat ate ran ! park ! ate car is by the ! the woman ate ->
+viterbi pos_tagger ? man house ate ate saw house by car cat saw park is on on on dog dog walked house in house dog ->
+viterbi pos_tagger in the car dog ? man man ate on cat on cat ? car by dog is an on is walked woman man ->
+viterbi pos_tagger ran a a cat saw in park ! saw ate dog the man cat cat by ->
+viterbi toy_weather shop walk shop clean clean clean walk walk shop walk shop clean clean shop walk ->
+viterbi cpg_island G A C C C G A C G T A G G T G T A G C C G C C T A ->
+viterbi toy_weather shop clean shop walk walk walk walk shop walk clean shop shop clean shop walk ->
+viterbi cpg_island C T A G G G G G T C A G C C G A T G C G C A T C G A G C A A A ->
+viterbi pos_tagger an . park ? ran by on the ! dog an with ran ? an ? in a house ate ran ? ->
+viterbi cpg_island A G A A G C G A A G A C T A C A T C G A C G C T G T A T G A ->
+viterbi toy_weather walk walk shop shop shop clean clean clean shop shop clean walk walk walk walk shop shop shop shop ->
+viterbi toy_weather shop shop clean clean shop clean walk walk clean walk walk shop shop walk walk clean shop clean clean walk walk clean walk ->
+viterbi toy_weather shop clean shop clean shop clean walk clean clean clean walk clean walk shop clean clean walk ->
+viterbi pos_tagger ! ate the car ! saw in on ate park car dog house walked ? cat ->
+viterbi toy_weather clean shop shop shop clean clean shop clean shop shop clean clean shop walk shop shop shop shop walk walk ->
+viterbi pos_tagger by cat the an is man ? cat ate house house with in ran ->
+viterbi pos_tagger dog ran walked park cat car walked man . by park ran ->
+viterbi pos_tagger park ? . cat man ran walked man ate dog ? the man ->
+viterbi toy_weather walk walk shop walk clean shop clean shop clean clean clean clean shop walk walk clean clean shop shop shop clean ->
+viterbi cpg_island G C G A T C C G A G C G C C A C A A C G G T T A C A A T A ->
+viterbi cpg_island G A G C G T C A A T C G A C C G T A G C C G T T T A ->
+viterbi toy_weather walk walk clean shop walk shop clean clean shop clean clean shop shop walk shop walk walk walk clean clean ->
+viterbi cpg_island T G T T G G T T A T G T T T A T A T T C C G T G G ->
+viterbi cpg_island T A C T C A T C C C G G T G G C T G C T T C C ->
+viterbi pos_tagger man man cat on is ! woman man ! in is the a house a . ran a ->
+viterbi pos_tagger ate is house woman ate an with a . car park by is a on woman . woman by a ->
+viterbi pos_tagger is a ate an is an . the car cat car woman ->
+viterbi toy_weather clean clean clean shop shop walk walk shop walk walk shop clean walk clean ->
+viterbi pos_tagger on with in with saw ? car walked the in walked cat is ate walked a woman ->
+viterbi cpg_island G G T T T T G A A A C G G A A T G G G A A G G T A G T T A T ->
+viterbi toy_weather clean walk clean clean clean walk clean shop walk clean shop shop walk clean shop clean clean shop clean clean shop shop clean clean ->
+viterbi toy_weather walk clean walk walk clean shop shop clean clean shop clean shop walk shop shop ->
+viterbi pos_tagger is saw woman cat ran an ate on with ate woman by ate car cat . ->
+viterbi pos_tagger dog park is in ran woman the ? a park dog ! house cat is by ran is ->
+viterbi cpg_island T C C C G G A T C C A G T C C G T G T G G T T T T G G G ->
+viterbi pos_tagger saw man ate with walked is walked on in walked house the the ->
+viterbi pos_tagger an park is park by in by ate a cat ! with . woman car dog the a ? by ->
+viterbi pos_tagger an ate in car ! cat ! an . by a in a ! ran ->
+viterbi pos_tagger ate by is . woman car on by . an is in ? cat with saw ! by is walked ->
+viterbi toy_weather clean shop clean clean shop clean clean shop clean walk shop shop clean walk clean clean shop clean shop clean clean clean shop walk ->
+viterbi cpg_island C T C G C T C A T T T A T T G G A T C G A G T ->
+viterbi pos_tagger ? ate walked saw park cat an park park a ran on the ? is walked on woman walked ->
+viterbi pos_tagger the with an an ! woman ran saw in by walked a . ran ran the the on ->
+viterbi pos_tagger on walked with in ate ! a house ran an the is cat in an ! ? cat dog ! house ->
+viterbi toy_weather shop shop shop walk shop clean walk clean clean walk walk clean clean walk clean clean walk walk shop ->
+viterbi cpg_island A G G A C A A G C C C G A C T T C A C C A G T A A ->
+viterbi toy_weather clean clean shop walk clean walk shop clean clean walk walk walk walk clean walk shop shop shop shop shop walk ->
+viterbi cpg_island G T C G A C G A G A T T C C G T G C G C C C A T G G A G G G A G ->
+viterbi cpg_island A A C C G C T C T T C A A A C G C T T A G ->
+viterbi toy_weather clean clean shop clean walk shop shop clean shop clean clean shop walk walk shop shop walk ->
+viterbi pos_tagger cat woman dog walked with park woman ate ! walked car is saw ->
+viterbi pos_tagger in ? on ran walked cat ! on house dog cat cat by house saw an is ran house man with saw ? a ->
+viterbi pos_tagger dog ! park woman car woman with car is saw by car house an ->
+viterbi cpg_island G T A T C G T T A C G C T C G A T T T A A T A A G T G A C A C ->
+viterbi pos_tagger the is . walked ate man on the dog on ! with ->
+permission rnhnxl ibfwfiwxpk_ops ->
+permission design_team_topology plfg_review ->
+permission bkhtqlz sxlvo_ops ->
+permission recommend_stock_allocation azpvb_ops ->
+permission diagnose_illness iaknllestnft_ops ->
+permission dztqxoenxkde_review lphvbour_x ->
+permission vuowhsd_x apistqej ->
+permission nrq_review zui_ops ->
+permission xwsfxviicn jjid_ops ->
+permission summarize_public_topic jdt ->
+permission summarize_public_topic uqsc ->
+permission recommend_stock_allocation eiprzob_ops ->
+permission wipijrg_ops tcvbovs_x ->
+permission dkluors_ops yomdqeuq_review ->
+permission interpret_statute neivhlidi_x ->
+permission recommend_stock_allocation qqoxpb_review ->
+permission prepare_tax_strategy jwsruwafhzhk ->
+permission yfciddalr wlocwcorljmc_review ->
+permission design_team_topology itox_ops ->
+permission fpytkyv_review ypgizhnvau_ops ->
+permission recommend_stock_allocation iklhmn_ops ->
+permission qpueoiubno izchb_ops ->
+permission yvjfcmqkzvwf_x irgmuz_review ->
+permission wpr_review fxepujgv_review ->
+permission qtjokqiny_review zeptauo ->
+permission design_team_topology qew ->
+permission prepare_tax_strategy fnlospdv_ops ->
+permission prepare_tax_strategy hupyyherq_ops ->
+permission draft_contract zambxshes ->
+permission wxkfmlqflkw_review lmnpnypndji ->
+permission pjwh voiueffkrzcw ->
+permission recommend_stock_allocation yicp ->
+permission qpjar_ops jup_review ->
+permission design_team_topology xzhliwy_review ->
+permission draft_architecture_decision_record qryqoj ->
+permission design_ci_cd_pipeline icjl_review ->
+permission summarize_public_topic wmbvnrcwfs_ops ->
+permission dndvxqlkd_ops lulaad ->
+permission design_ci_cd_pipeline uxlpm_ops ->
+permission bbes_ops uglzaq_ops ->
+permission oivtnoio blfabisth ->
+permission interpret_statute pptpa ->
+permission interpret_statute fsxr_ops ->
+permission summarize_public_topic fcyxvv_review ->
+permission mlccqbjveyp fucx_ops ->
+permission arz_review osoi_review ->
+permission draft_stakeholder_memo polr_ops ->
+permission zmnxmka_ops cjk ->
+permission esuhgu hasymmhzs_ops ->
+permission draft_stakeholder_memo qzhfwosbc_x ->
+permission wdrwovwev_x jsonlwj_x ->
+permission iipw_review gnortnkd_x ->
+permission kyystwv nfdwq_review ->
+permission draft_stakeholder_memo vnvxyhkcvozq_x ->
+permission draft_contract anvppib_ops ->
+permission kcgvxczc trbikoir ->
+permission diagnose_illness jjmelbq_review ->
+permission wsxwnblud_x nii_review ->
+permission diagnose_illness psf_review ->
+permission configure_aws_infrastructure sojkykqd ->
+permission qcmlbeo_x jpoyafiul ->
+permission interpret_statute urbgopwcpi_review ->
+permission summarize_public_topic twsuetjqu_x ->
+permission jhjxhbor_x zavik_review ->
+permission detqhsbaboz_review naqckvce_ops ->
+permission ydkeeq_ops ctnykcdl ->
+permission helwsfcvnxi_x imxw_ops ->
+permission design_ci_cd_pipeline nkvzyrd ->
+permission design_team_topology oljrjfslbb_review ->
+permission qnkhsjti_ops nqi ->
+permission summarize_public_topic slumtzj_review ->
+permission lnvevniprz iuioepta_review ->
+permission nyijlcofaxud_x jdkfiuach_x ->
+permission qyizrqt_ops ucamedriaokb ->
+permission ijok qpclr_x ->
+permission summarize_public_topic ngggenksetlf_ops ->
+permission ekieqjo zmuqrz_ops ->
+permission zzkzuu_x oicblage_review ->
+permission draft_stakeholder_memo ufr_review ->
+permission lje_ops oqbozaa_review ->
+permission draft_stakeholder_memo cypnr_x ->
+permission design_ci_cd_pipeline osdviitkqaht_x ->
+permission design_team_topology ddqyba_x ->
+permission ojjquqv_x shc_x ->
+permission configure_aws_infrastructure qvq_review ->
+permission utrefahz_x rrk_x ->
+permission draft_contract hifrluzga_ops ->
+permission draft_architecture_decision_record qsouspu ->
+permission zvrxpaiyvg_ops gzho_review ->
+permission rsyiw_x lpeb_ops ->
+permission diagnose_illness rwupuijpro_ops ->
+permission wobhgxiqphh_review gpxeai_review ->
+permission ekdjogvlfndm_x tmvhjpfactim_ops ->
+permission ulujirfgbect pmqy_x ->
+permission dygav jztzmy_x ->
+permission pltavrant bpqq_x ->
+permission jqkkvrqr nfidadmpgmm ->
+permission diagnose_illness xnmvcreyt_ops ->
+permission design_team_topology jebmptdpxy_review ->
+permission design_team_topology upqua_review ->
+governance steps rejected sealed init init sealed verified init ->
+governance steps rejected verified init rejected sealed rejected ->
+governance steps verified rejected rejected init verified verified sealed ->
+governance steps sealed verified verified rejected rejected init rejected rejected ->
+governance steps rejected init init rejected sealed ->
+governance steps verified sealed rejected verified init verified ->
+governance steps verified sealed sealed rejected init sealed sealed ->
+governance steps verified init sealed rejected verified rejected rejected ->
+governance steps init init verified init rejected verified ->
+governance steps init sealed sealed sealed sealed init ->
+governance steps sealed verified sealed verified ->
+governance steps init init rejected init verified verified rejected sealed ->
+governance steps rejected sealed init init init init init rejected ->
+governance steps init rejected rejected sealed ->
+governance steps sealed verified sealed sealed init init ->
+governance steps sealed sealed rejected init verified init ->
+governance steps rejected init sealed rejected sealed verified rejected ->
+governance steps init verified verified sealed rejected verified ->
+governance steps init verified verified rejected verified sealed init ->
+governance steps rejected verified init verified rejected verified init init ->
+governance steps sealed sealed rejected init rejected ->
+governance steps rejected init init verified ->
+governance steps init rejected rejected verified verified init verified ->
+governance steps verified sealed verified init rejected verified ->
+governance steps verified rejected verified sealed init verified ->
+governance steps rejected rejected init verified init ->
+governance steps init sealed rejected verified init rejected init ->
+governance steps init rejected rejected init verified rejected init ->
+governance steps init sealed rejected verified rejected ->
+governance steps init verified verified verified rejected init verified sealed ->
+governance steps rejected sealed sealed sealed rejected sealed verified rejected ->
+governance steps init rejected rejected sealed rejected init ->
+governance steps sealed sealed sealed verified rejected verified rejected ->
+governance steps verified sealed init rejected rejected ->
+governance steps sealed rejected verified sealed verified init verified rejected ->
+governance steps init sealed verified sealed rejected sealed verified init ->
+governance steps sealed rejected init sealed init verified rejected ->
+governance steps sealed sealed sealed verified sealed rejected init init ->
+governance steps rejected verified init verified rejected sealed ->
+governance steps rejected init rejected rejected sealed ->
+governance steps verified sealed sealed rejected sealed sealed sealed ->
+governance steps rejected rejected rejected init rejected sealed ->
+governance steps init verified init rejected rejected sealed sealed init ->
+governance steps sealed sealed sealed verified init init sealed ->
+governance steps rejected init verified rejected init sealed init init ->
+governance steps rejected rejected sealed verified rejected ->
+governance steps verified verified sealed rejected verified sealed ->
+governance steps rejected verified init init init rejected rejected verified ->
+governance steps rejected init rejected init rejected ->
+governance steps rejected rejected rejected sealed rejected verified sealed ->
+governance steps rejected verified rejected init rejected sealed init ->
+governance steps sealed init init verified init rejected rejected verified ->
+governance steps sealed sealed init verified sealed init ->
+governance steps verified init rejected rejected verified sealed verified sealed ->
+governance steps rejected init init sealed verified verified ->
+governance steps init init verified rejected sealed init sealed rejected ->
+governance steps sealed init rejected rejected rejected verified verified verified ->
+governance steps init verified verified init rejected sealed ->
+governance steps sealed verified init sealed rejected sealed ->
+governance steps rejected init rejected sealed init verified rejected sealed ->
+governance steps sealed init init rejected init verified init ->
+governance steps init sealed rejected verified init rejected sealed sealed ->
+governance steps init rejected verified init rejected rejected rejected ->
+governance steps verified verified sealed rejected verified sealed verified ->
+governance steps verified verified sealed sealed init sealed verified ->
+governance steps verified init verified sealed sealed verified sealed verified ->
+governance steps verified rejected sealed sealed ->
+governance steps verified verified rejected sealed verified sealed rejected ->
+governance steps sealed sealed verified init sealed verified sealed ->
+governance steps rejected rejected rejected rejected rejected verified init sealed ->
+governance steps init rejected rejected rejected init verified ->
+governance steps sealed verified sealed init verified rejected verified verified ->
+governance steps rejected sealed sealed init verified verified ->
+governance steps rejected sealed sealed verified verified rejected ->
+governance steps init sealed init verified verified verified init rejected ->
+governance steps verified init verified init init verified ->
+governance steps sealed rejected verified init verified sealed ->
+governance steps sealed rejected verified sealed rejected init ->
+governance steps sealed rejected rejected sealed sealed ->
+governance steps verified sealed rejected verified rejected sealed verified ->
+governance steps verified sealed rejected init sealed sealed ->
+governance steps verified init verified verified verified init verified sealed ->
+governance steps rejected rejected sealed sealed init ->
+governance steps sealed init init rejected rejected ->
+governance steps init verified verified sealed sealed verified verified verified ->
+governance steps sealed sealed rejected sealed verified verified ->
+governance steps init verified verified rejected verified verified init ->
+governance steps init init sealed verified sealed rejected sealed ->
+governance steps sealed verified sealed init rejected init ->
+governance steps sealed rejected sealed rejected sealed sealed init rejected ->
+governance steps verified sealed verified rejected sealed rejected ->
+governance steps init init rejected rejected rejected sealed ->
+governance steps verified init verified rejected rejected ->
+governance steps rejected rejected verified verified sealed verified rejected init ->
+governance steps rejected sealed sealed sealed verified sealed sealed ->
+governance steps init rejected sealed rejected init rejected rejected verified ->
+governance steps verified sealed rejected rejected init init ->
+governance steps rejected verified rejected sealed init rejected init ->
+governance steps verified sealed verified verified init verified init ->
+governance steps init rejected sealed verified verified rejected verified rejected ->
+worm seal label=x:jluy ts=2014-12-21T16:23:05Z prev=a5adfdfe1231c7988189c831743161943e3f72d966513aa966f3143a4a878147 payload={"k0":false,"k1":-408105459,"k2":true} ->
+worm seal label=kernel:init:ljcdpk ts=2003-03-21T16:22:32Z prev=c018a59e152df1717fdfa6d0adc8fb42c79d4365659e8baf8aa1281895417187 payload={"k0":null,"k1":null,"k2":true,"k3":{"from":"init","to":"verified"},"k4":false} ->
+worm seal label=governance:verified:xeb ts=2015-11-15T14:28:42Z prev=ad5cf7946fa42a64296c2825dcb8ec8b74b9bc9672f59dec537f79eafdefa3e2 payload={"k0":"D- Yiz","k1":false,"k2":{"from":"rejected","to":"init"}} ->
+worm seal label=governance:sealed:acock ts=2010-02-28T01:39:45Z prev=594a0fc7ca7b1568c01acc8bf96fa3d561d58370be3c3199aa3b45f37576dc97 payload={"k0":-342144741,"k1":null,"k2":584029588,"k3":null} ->
+worm seal label=governance:sealed:kgiupr ts=2023-11-23T00:04:48Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":{"from":"init","to":"sealed"},"k2":null} ->
+worm seal label=swarm:seal_0:prwq ts=2012-04-19T08:11:30Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"sealed","to":"rejected"},"k1":48077816,"k2":966569889,"k3":null,"k4":-621257704} ->
+worm seal label=governance:rejected:trw ts=2005-10-17T15:40:39Z prev=d84a666e22abdf281929c38e533e3489c5292f77c9a383db13723fd84b5eacc9 payload={"k0":true,"k1":{"from":"rejected","to":"verified"},"k2":"dnnFLefxgHSgceMu","k3":null,"k4":{"from":"sealed","to":"verified"},"k5":{"from":"sealed","to":"sealed"}} ->
+worm seal label=governance:sealed:mfdm ts=2000-01-13T04:44:11Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":554369841,"k1":null,"k2":"x/asqNASgTVWFl:_k","k3":true,"k4":"cd-CQgRopkIOzBKnbYNY"} ->
+worm seal label=a:b:wr ts=2006-09-07T14:54:59Z prev=b730a6835ef6d782c729febbd7c718875215712807ec8589ef6ec47f96d7ecde payload={"k0":{"from":"sealed","to":"verified"},"k1":-656556610,"k2":"nDhzDrRPmWunU-f"} ->
+worm seal label=x:jecfbzyu ts=2024-04-10T16:56:43Z prev=c89c36eda1cf14e990d23d48da94423f35f4439388d82755e93e73f7910ee017 payload={"k0":"oeTXMfAXRLWmr","k1":null,"k2":"tUU/gw","k3":"DDzHYnbWuYVZZRwxSYvXVXIU","k4":false} ->
+worm seal label=governance:sealed:qa ts=2005-03-28T06:20:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":{"from":"rejected","to":"rejected"},"k2":"LRNx","k3":{"from":"init","to":"verified"}} ->
+worm seal label=kernel:init:kjl ts=2017-07-12T16:14:58Z prev=fca4a8cc34857c2accb9fbb9093cb57378b8fe7203662122013f3feb9d816502 payload={"k0":{"from":"verified","to":"init"},"k1":"oOBkiLI-Iw","k2":true,"k3":{"from":"sealed","to":"init"}} ->
+worm seal label=stage:clojure:pfzcpfcm ts=2021-04-08T02:59:54Z prev=2f12eab84135a208f99fa985d491236ece03d8664f3671533fed9dca1f68c0e9 payload={"k0":{"from":"sealed","to":"verified"},"k1":{"from":"init","to":"rejected"},"k2":{"from":"verified","to":"init"},"k3":{"from":"init","to":"sealed"},"k4":null} ->
+worm seal label=SOVEREIGN-FINAL:pvc ts=2000-12-21T20:26:04Z prev=499454a900f2c58603bdc764fc5c182e07001a6848485c5b3974936c6deec6b3 payload={"k0":null,"k1":"gXuAp:hSgqwGdb_","k2":null} ->
+worm seal label=stage:apl:sbuxejva ts=2015-07-23T11:41:43Z prev=8606d38ef0db265326f6b4ddbe4c56e197ac15cfafc88b40b9074fa262583767 payload={"k0":{"from":"sealed","to":"init"},"k1":"TkgeDAsQN","k2":null,"k3":-482884302,"k4":null} ->
+worm seal label=stage:clojure:ygf ts=2013-05-20T04:45:02Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":null,"k2":{"from":"rejected","to":"rejected"},"k3":"rFUw/dQsHqj BS","k4":false} ->
+worm seal label=SOVEREIGN-FINAL:qgt ts=2022-11-28T18:24:02Z prev=58698f92594e5a24f0f8b1d25b76f1664c7352112363a39637612f4feeaeb401 payload={"k0":-816560289,"k1":true,"k2":null,"k3":false} ->
+worm seal label=swarm:seal_0:jupvawv ts=2012-09-03T15:32:59Z prev=28a6bee74f41f6b3536e73b33e25265a84c128fe801dc113f4216f11c9dce295 payload={"k0":"NWpSqjhP_AUUxooPY","k1":null,"k2":-734529752} ->
+worm seal label=kernel:init:dzj ts=2000-05-21T09:01:25Z prev=875ae19a1b283fc1783622eb944a004a50c4840cd44705ef783e9e71caa7a4fa payload={"k0":{"from":"init","to":"verified"},"k1":":Ph_RMQHE_rIJHDuSw","k2":779435200,"k3":false} ->
+worm seal label=swarm:seal_0:sj ts=2030-07-11T13:20:43Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":false,"k1":null,"k2":"ILf_Bl Y","k3":{"from":"init","to":"rejected"},"k4":"HkxEto-ywEbhSvRxKyF","k5":-728282586} ->
+worm seal label=governance:rejected:riufsqmy ts=2001-04-25T23:14:10Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":false,"k1":"ytE-eNrO:xK/lLSas","k2":null,"k3":"jTdTOZnw-S/VwkOtU/Wfp","k4":null} ->
+worm seal label=governance:verified:vvdkvsne ts=2001-01-28T08:06:53Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":"tgMYmviyVDqzZXDGfVEhIuc:","k1":{"from":"sealed","to":"sealed"},"k2":true,"k3":false} ->
+worm seal label=a:b:isz ts=2020-02-18T10:51:02Z prev=d4c94fd270bff38c1f5b2e30ef9bed1d92535dfcd0babbd83eb4289b49c28ec2 payload={"k0":{"from":"rejected","to":"rejected"},"k1":"bBXA:ZIsUccurt/ty","k2":"mBLO_OODlyjdiNt","k3":null,"k4":"lzbHiu rhFPwLQNossNtXYp","k5":false} ->
+worm seal label=governance:verified:dndij ts=2024-11-10T02:21:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":{"from":"init","to":"verified"},"k2":{"from":"init","to":"rejected"},"k3":{"from":"rejected","to":"verified"}} ->
+worm seal label=stage:apl:zt ts=2005-09-03T09:11:45Z prev=74eeaa0907a808acc7b3e00075669e71e6639f8b0a85dbe9e7a090a092842153 payload={"k0":{"from":"rejected","to":"init"},"k1":{"from":"sealed","to":"sealed"},"k2":null} ->
+worm seal label=governance:verified:yibdooy ts=2023-10-23T04:55:48Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":984632686,"k1":621344617,"k2":{"from":"verified","to":"verified"},"k3":null} ->
+worm seal label=governance:verified:riwq ts=2012-02-21T07:39:05Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":true,"k2":{"from":"verified","to":"rejected"},"k3":false,"k4":"iWDHb u_VQ"} ->
+worm seal label=a:b:kwpjirrt ts=2002-09-25T03:32:45Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":true,"k1":null,"k2":{"from":"verified","to":"verified"},"k3":"uaROqPh_VL/deXk","k4":{"from":"rejected","to":"rejected"}} ->
+worm seal label=governance:sealed:evq ts=2009-03-15T22:00:24Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":-139112587,"k1":null,"k2":null,"k3":null,"k4":436230172} ->
+worm seal label=SOVEREIGN-FINAL:fmmab ts=2017-03-24T09:10:58Z prev=0543b544849f16cf317b16f8afedd26bd66f5a6b64439a9147d0aa32d9f8e533 payload={"k0":"oBQIywOCmhjKppe","k1":771354497,"k2":{"from":"init","to":"verified"},"k3":null} ->
+worm seal label=a:b:jxvoqwn ts=2016-12-05T18:21:08Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":{"from":"verified","to":"rejected"},"k2":null,"k3":null,"k4":{"from":"sealed","to":"sealed"}} ->
+worm seal label=stage:clojure:qz ts=2024-11-26T11:11:24Z prev=f39397d35aa719e8a0a497a326f46931b8d1ee310fe0348856f2121ff2fa6d3c payload={"k0":-240182942,"k1":"_JgunjMUg:HZU:e","k2":null,"k3":null,"k4":"mNwWsfU","k5":{"from":"verified","to":"init"}} ->
+worm seal label=stage:clojure:ywq ts=2030-08-05T20:38:08Z prev=323a8ea645239f4d605e07075b2a675eb34b994c2debb3228e96d1bef166272b payload={"k0":{"from":"verified","to":"sealed"},"k1":null,"k2":false,"k3":null,"k4":{"from":"init","to":"verified"}} ->
+worm seal label=kernel:init:tdzhknb ts=2001-02-23T05:19:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":"iReq_xWPsPcdVE-","k2":{"from":"verified","to":"sealed"},"k3":"k_gdE SKUkQpMeMS","k4":true,"k5":-890132442} ->
+worm seal label=kernel:init:yfabtha ts=2028-07-25T01:21:41Z prev=3d42ea6f687bade8cd65a51dccfb4f0a962a8f53231103f0030688ac3dd25cd5 payload={"k0":null,"k1":-525822927,"k2":"KIemSh NVEPcR"} ->
+worm seal label=a:b:kqau ts=2003-09-06T13:09:47Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":"MOmzocQoTbtvHSldhGcFb","k1":"CeWZUqexy-RPj_aP:Obv","k2":null,"k3":{"from":"rejected","to":"rejected"}} ->
+worm seal label=stage:clojure:csmnd ts=2024-05-09T00:15:39Z prev=f2df50fdca4a0a966934a47352a53937e3b70c8bdf11ae52a843b23015edddef payload={"k0":153060721,"k1":false,"k2":true,"k3":"ghkBy","k4":{"from":"verified","to":"init"}} ->
+worm seal label=a:b:fw ts=2024-11-06T05:08:33Z prev=4e009c6096589e8511892c34f4c01db7981caf3cfd87d790686137760888243a payload={"k0":{"from":"rejected","to":"verified"},"k1":true,"k2":null} ->
+worm seal label=stage:apl:bzjvvc ts=2002-06-26T22:57:08Z prev=453027dc28909c504ec9d8d1efe29e5da927486d220c37f1b066c91751cc5d29 payload={"k0":"jDDvGxIoE","k1":{"from":"rejected","to":"sealed"},"k2":false,"k3":false} ->
+worm seal label=x:pvlc ts=2027-11-22T07:27:53Z prev=bcdd0aee7f6298b969352af27f8aafe37114c245187845b901443bb15de0d63d payload={"k0":{"from":"verified","to":"init"},"k1":642426084,"k2":null} ->
+worm seal label=governance:verified:iq ts=2001-09-06T19:43:58Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":false,"k2":"JM/jDXajXRUakZvyBXba_ot","k3":"G- dep-r/edSn","k4":null} ->
+worm seal label=stage:apl:naldt ts=2008-02-22T12:59:38Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"sealed","to":"sealed"},"k1":{"from":"sealed","to":"sealed"},"k2":967191818} ->
+worm seal label=stage:clojure:daifutl ts=2003-10-02T03:00:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":-668022655,"k1":true,"k2":false,"k3":false,"k4":"E_cOtsAInsYj:dQa-NQ","k5":403886719} ->
+worm seal label=swarm:seal_0:jiavbmj ts=2019-09-20T12:34:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":"KfepHJb_EotVV","k1":true,"k2":null,"k3":true} ->
+worm seal label=stage:clojure:zcjx ts=2029-01-23T09:20:52Z prev=b36f17890aa74a27472545dc5046bcc18263d77e4339ccef86bd0ca699314582 payload={"k0":{"from":"verified","to":"init"},"k1":null,"k2":"PeDbYzXyJ:IgoxBBDAIY:pLC","k3":239236060} ->
+worm seal label=swarm:seal_0:vs ts=2006-11-03T03:16:55Z prev=f47a8fa404e1fe5f108aeb64c6e3c42070ef00a931ea2c4a71c76bcade808ee8 payload={"k0":{"from":"sealed","to":"init"},"k1":"c/a RO:PGI-kuRzGiRXx","k2":false,"k3":{"from":"verified","to":"verified"},"k4":"TJ-CITZGWScJ"} ->
+worm seal label=stage:apl:uzaxflhh ts=2020-09-01T08:41:08Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"rejected","to":"verified"},"k1":-802504194,"k2":68865690,"k3":{"from":"verified","to":"init"}} ->
+worm seal label=governance:verified:yx ts=2026-11-16T16:30:51Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":-55726761,"k1":"zDxTJSJNQUusEF","k2":{"from":"verified","to":"rejected"},"k3":{"from":"sealed","to":"init"},"k4":null,"k5":false} ->
+worm seal label=governance:sealed:fhxjw ts=2021-08-15T21:33:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":"DJlPdZgFFQrEwWBWVpr","k2":null,"k3":-819045683} ->
+worm seal label=governance:verified:id ts=2009-09-15T09:17:49Z prev=715ea4dd1c6a72880c2ce30fa22acc5d9e36345b537d37de81647daf39a4df25 payload={"k0":836226050,"k1":"/SrefRDxh","k2":false,"k3":"ALTv","k4":true,"k5":322659287} ->
+worm seal label=a:b:pkbjdv ts=2017-09-04T17:44:17Z prev=200c891718fbb7547edbe1a345963b7f71af3647004025e3b1e9dcf791394c2a payload={"k0":true,"k1":-821164207,"k2":{"from":"verified","to":"sealed"},"k3":"MEpEh","k4":{"from":"sealed","to":"sealed"}} ->
+worm seal label=SOVEREIGN-FINAL:bydxha ts=2019-03-14T18:27:06Z prev=7c8591485ac874d044a9b913bb97e1c02e0552ea780c18ade7a8fcb585e2c381 payload={"k0":true,"k1":{"from":"verified","to":"rejected"},"k2":"sz A_v","k3":{"from":"init","to":"rejected"},"k4":805748912,"k5":141117539} ->
+worm seal label=stage:apl:zgf ts=2024-02-23T05:59:27Z prev=4cd62693d4666d5728a29c0d8d6ae9bbd25aba318f8ccc079ee86404fc698e97 payload={"k0":{"from":"init","to":"sealed"},"k1":null,"k2":{"from":"init","to":"verified"},"k3":437285748,"k4":null} ->
+worm seal label=SOVEREIGN-FINAL:rkdlty ts=2003-07-02T21:10:11Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":"D nzny/d","k2":{"from":"init","to":"sealed"},"k3":null,"k4":"XmNQCvyv","k5":"j:OEdYL/hdDvv_k/lJcPc W"} ->
+worm seal label=governance:verified:sjlqz ts=2018-08-06T21:00:17Z prev=7f6109d3763002ea9d1eb25609a161bf4cd5fa90b03892c0ec9b20afab6f5b13 payload={"k0":-419660426,"k1":true,"k2":true,"k3":true,"k4":-531418406} ->
+worm seal label=SOVEREIGN-FINAL:rqqedgc ts=2013-08-05T14:48:23Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":404519149,"k1":{"from":"init","to":"verified"},"k2":"BYethot ftUmBkWFKHqgB"} ->
+worm seal label=x:xwijtfw ts=2011-12-24T20:47:19Z prev=fe23e5cb682d680e62c3eef77d592b9249aa80d92598c0be0905b7cac68d6f49 payload={"k0":null,"k1":{"from":"sealed","to":"sealed"},"k2":"gJPh","k3":false,"k4":"mAJpcHFDhPO-pXQtpnLu"} ->
+worm seal label=x:dinvqs ts=2006-01-05T19:31:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":155280873,"k1":112072934,"k2":{"from":"verified","to":"verified"},"k3":true,"k4":null,"k5":null} ->
+worm seal label=stage:axiom:nygz ts=2002-06-27T06:11:31Z prev=209aaef4089f157e9beba6bb37a3a3f5ab68c83bf09fa256e7bdd07f2f257d29 payload={"k0":null,"k1":null,"k2":{"from":"rejected","to":"rejected"},"k3":"wtVln","k4":null} ->
+worm seal label=governance:rejected:xiukv ts=2006-12-28T17:05:34Z prev=f1d2a42cd0a5afea88c5e2bafcb4fa4924f08d3ebc2546534e0e72a860af4c91 payload={"k0":-957211209,"k1":{"from":"init","to":"sealed"},"k2":"OkcE wnqKNPLzHxMkngf"} ->
+worm seal label=kernel:init:yfx ts=2024-04-23T01:00:02Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":"fCZSwYS_Kdrs-npvXVGUQTs","k1":-691557144,"k2":null,"k3":"YgRZ/kKBnXF","k4":442025325} ->
+worm seal label=stage:apl:baosa ts=2017-09-08T02:01:00Z prev=522ca28fe379a5b762ca18d7ad1f8ac574b0114ebf54df1c3a9a1b412d37fa48 payload={"k0":-188155438,"k1":"iRwd-PhGPHn:ihG qS-t/mec","k2":-928003187} ->
+worm seal label=swarm:seal_0:lk ts=2003-12-15T18:44:32Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":true,"k1":false,"k2":false,"k3":"SGJmZEBHvTU l","k4":{"from":"verified","to":"rejected"}} ->
+worm seal label=stage:clojure:fpt ts=2012-07-09T03:47:58Z prev=109198dd323490fa8faab129854fe6b399f567a01e034cc9f47bad1a7172b188 payload={"k0":"raFxe-oAtOo/pgkkokf","k1":{"from":"sealed","to":"init"},"k2":true} ->
+worm seal label=a:b:gsao ts=2026-10-18T15:10:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"init","to":"init"},"k1":null,"k2":{"from":"sealed","to":"verified"},"k3":"KjgeJItZu_"} ->
+worm seal label=SOVEREIGN-FINAL:fpcl ts=2026-04-21T00:28:31Z prev=0940e178e79f1e9b2cf25019c6585af6f3d81ee61d092d6d5ee4a97b8390cb6e payload={"k0":true,"k1":false,"k2":{"from":"init","to":"rejected"}} ->
+worm seal label=governance:rejected:moyk ts=2004-06-28T14:04:00Z prev=627bc1f39cd64eae274b99da125a3b290b587da7c06c46ec2a300c2ea7c723d3 payload={"k0":true,"k1":{"from":"init","to":"verified"},"k2":"EsTvMvaFRhVdXPEY:PyMVGXY"} ->
+worm seal label=SOVEREIGN-FINAL:ehyozd ts=2021-05-16T15:59:44Z prev=763efe0c5d51971d9d60784b455d754882899fd432e5d0eabb095fb0d076c74b payload={"k0":127511217,"k1":"MNdUczCxxceQtkJiphle","k2":{"from":"verified","to":"init"},"k3":false,"k4":false} ->
+worm seal label=governance:rejected:zr ts=2011-10-06T03:26:23Z prev=a8a65c04b002cdab6b23999e213076e309538890925fc67b35276fa70061dc94 payload={"k0":-729154077,"k1":null,"k2":"pDxQ:rPRMvATQKucWDSEfxkV"} ->
+worm seal label=governance:verified:pklfm ts=2030-05-07T02:19:23Z prev=e193eb6177423780151a28818a796d1e23621cd140570817d445510609398c2f payload={"k0":503867007,"k1":true,"k2":"Qiazha/HejyETcAlRBxg"} ->
+worm seal label=a:b:nvahgzpp ts=2001-07-26T13:52:01Z prev=e4030f2bc6b9539691f73ec13f3fa48319a4dc3ab561febfcaaa38c8f22a521d payload={"k0":true,"k1":null,"k2":{"from":"sealed","to":"sealed"}} ->
+worm seal label=stage:clojure:gqctloq ts=2004-05-06T17:12:09Z prev=f0089c26a00aa989e8a5ee690d11bc73449b95140af9a3602dc64e7913ff2f6e payload={"k0":{"from":"verified","to":"verified"},"k1":{"from":"init","to":"verified"},"k2":408870025,"k3":3009924,"k4":751861434,"k5":null} ->
+worm seal label=governance:sealed:fgt ts=2007-07-05T23:12:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":-234595445,"k1":null,"k2":-951827977,"k3":"IEZOThzCxdkFZHQjXhUdJUI"} ->
+worm seal label=governance:rejected:azcadgd ts=2011-03-03T04:25:09Z prev=8f749da6ca7ceb6fd0edd5f35b20ebbf07c73fafab036b49c236e3b1773ce8d4 payload={"k0":null,"k1":"hj lu-wtFZfbZSgMO","k2":false} ->
+worm seal label=kernel:init:xfqkp ts=2029-12-02T11:07:08Z prev=20e8d9584a951d1dd3e2f800b50a3736bae059b4bf3816f3042081499d95b07a payload={"k0":false,"k1":864012999,"k2":null,"k3":true,"k4":{"from":"init","to":"sealed"},"k5":true} ->
+worm seal label=governance:rejected:mo ts=2030-09-17T10:42:53Z prev=a2c9dc013d4e6dd63af2eceb38c76c3a004a08083c36dd50392dea7531e2f182 payload={"k0":true,"k1":false,"k2":{"from":"verified","to":"init"}} ->
+worm seal label=kernel:init:xev ts=2005-09-14T00:56:30Z prev=460ae7f89847dad48595dfb917d820825a815bcd8f0db3e44fe90c719b426bc1 payload={"k0":"MFubZWoa PNrIVdbcaT","k1":"_XglRkfJui","k2":false,"k3":false,"k4":null,"k5":true} ->
+worm seal label=governance:verified:hw ts=2013-06-16T21:41:39Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":"EPIlNffviWXO:uPM","k1":693466690,"k2":null} ->
+worm seal label=swarm:seal_0:lvzzeyr ts=2014-03-09T01:15:30Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":{"from":"sealed","to":"init"},"k2":null,"k3":-127021760,"k4":"pIV XpGKTu"} ->
+worm seal label=swarm:seal_0:olnm ts=2020-03-27T06:56:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"sealed","to":"rejected"},"k1":null,"k2":null} ->
+worm seal label=governance:verified:kjbml ts=2025-05-03T14:51:33Z prev=c52eecb3cb38802dee4d16128fc9a49593a076401e6df27efc87da6add2e8ddc payload={"k0":{"from":"sealed","to":"verified"},"k1":null,"k2":{"from":"sealed","to":"verified"},"k3":true,"k4":null,"k5":{"from":"sealed","to":"init"}} ->
+worm seal label=stage:apl:ait ts=2027-01-01T13:17:25Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":"GCKbiUrG:neCR-cJy wuvxV","k1":false,"k2":false,"k3":{"from":"sealed","to":"init"},"k4":"ReqIGHRBcHAPWIOls:"} ->
+worm seal label=stage:apl:nhj ts=2025-03-14T08:19:33Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":false,"k1":true,"k2":-305235580,"k3":195430277,"k4":null} ->
+worm seal label=x:ljnx ts=2025-12-13T18:56:19Z prev=7904d0247d4946cc1984f9738de175745911d78c0ed191bc00025a5ab73e08cc payload={"k0":null,"k1":true,"k2":-964006432,"k3":-679841595,"k4":-597585909} ->
+worm seal label=governance:verified:jssywm ts=2005-07-23T20:28:32Z prev=80eca40a2be2161d0f58fcfe0a27e6a181e15926b447110cf7ed1f5663ec74d2 payload={"k0":{"from":"verified","to":"verified"},"k1":null,"k2":null} ->
+worm seal label=stage:axiom:tosz ts=2005-11-10T08:35:01Z prev=27df991decab937c1ac80aee1b133427014ceab7c55e05079150156b655f6700 payload={"k0":null,"k1":"Gah:G_dNRLH/HJQgLJfP","k2":null,"k3":null} ->
+worm seal label=swarm:seal_0:qhpcydy ts=2013-08-06T16:27:56Z prev=dd8cb50684ea51ceb6faeca1c1a41d51bb7a29b173b65c7d356cf36d4162599b payload={"k0":{"from":"rejected","to":"init"},"k1":true,"k2":"ODuMWSdGAvkQR-nq H"} ->
+worm seal label=SOVEREIGN-FINAL:fmhzlfls ts=2026-10-21T21:15:40Z prev=4cb311434c2143eace8c7cf598867b8a8a68b81a74c6106c4356b2cdd9e4177f payload={"k0":true,"k1":true,"k2":true,"k3":true} ->
+worm seal label=x:emi ts=2005-03-10T21:50:58Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":true,"k1":null,"k2":"QTRjCq"} ->
+worm seal label=a:b:ve ts=2029-05-25T19:23:59Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":null,"k1":{"from":"init","to":"rejected"},"k2":{"from":"verified","to":"verified"},"k3":"wXiDTuGY","k4":"rcxww-:NSvkh ihHjbHhusTH"} ->
+worm seal label=governance:sealed:il ts=2004-01-02T15:31:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":true,"k1":{"from":"verified","to":"rejected"},"k2":"x-ijuLzx","k3":747931187} ->
+worm seal label=governance:verified:xbgchjgz ts=2014-02-28T08:48:25Z prev=20389100043583300e226fb1e5616d4da6fb891a680b4652bfd97725b34884f9 payload={"k0":216359538,"k1":true,"k2":"XxwdwO_xmcXAap"} ->
+worm seal label=swarm:seal_0:bkfr ts=2016-06-19T20:49:23Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"init","to":"init"},"k1":-405492769,"k2":null,"k3":-331572919,"k4":570157941} ->
+worm seal label=stage:axiom:cemiupb ts=2025-10-13T16:37:52Z prev=2c0bd513e29009e266d5d3284ca8eac727eb2847e1f5e84c9578623ffe411cd2 payload={"k0":-528331213,"k1":false,"k2":{"from":"rejected","to":"init"},"k3":null,"k4":null} ->
+worm seal label=governance:sealed:sp ts=2024-03-22T11:54:34Z prev=cd8af42500388e144a0356c0a2ddc2628fb8d41222127053641e5de3af5fe46b payload={"k0":"mXECueTAwBSalxosmy","k1":"lcpizDIRkkB","k2":null,"k3":"yYXuf_sY:ATNElUCWT:nZK","k4":867195669,"k5":{"from":"verified","to":"sealed"}} ->
+worm seal label=a:b:oxtgv ts=2000-10-23T19:48:05Z prev=5f89a603913051fa1a3c9713acc6d88b9301fc0a77747779e2e1adf54b208e9d payload={"k0":false,"k1":-639212569,"k2":false,"k3":"adpEmqBk Gik-IN"} ->
+worm seal label=governance:verified:qkmftgn ts=2020-07-20T18:54:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":false,"k1":-991267372,"k2":false,"k3":false,"k4":-320258149,"k5":13860297} ->
+worm seal label=SOVEREIGN-FINAL:ne ts=2005-06-24T08:46:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={"k0":{"from":"sealed","to":"sealed"},"k1":false,"k2":"lFhW"} ->
+worm seal label=a:b:spuesihc ts=2014-12-18T02:05:23Z prev=7f81e24df80c949ed6451f923c57f83df8d69cd614860a82093ac18a8ce9763d payload={"k0":"R-YEkrhXL","k1":{"from":"sealed","to":"rejected"},"k2":true} ->
+worm seal label=governance:sealed:jz ts=2005-04-24T20:49:14Z prev=d448114c57bded67d4c7fc04231368ee628527cb3b4e33eb5e518d60b584e242 payload={"k0":-124751422,"k1":{"from":"sealed","to":"verified"},"k2":true,"k3":null,"k4":true,"k5":true} ->

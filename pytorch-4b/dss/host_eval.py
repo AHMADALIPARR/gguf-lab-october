@@ -17,7 +17,7 @@ mode, gguf, test, prefix = sys.argv[1:5]
 rows = [json.loads(l) for l in open(HERE / test)]
 import grade as _G
 for _r in rows:
-    if _r["task"].startswith("phi_"): _G.PHI_ANS[_r["prompt"]] = _r["answer"].strip()
+    if _r["task"].startswith("phi_") or _r["task"] in ("viterbi", "permission", "governance", "worm_seal"): _G.PHI_ANS[_r["prompt"]] = _r["answer"].strip()
 pfile = pathlib.Path(prefix + ".prompts.txt"); tsv = pathlib.Path(prefix + ".tsv")
 pfile.write_text("".join(r["prompt"] + "\n" for r in rows))
 subprocess.run([str(HERE / "host/target/release/dss-host"), "eval", "--mode", mode, "--gguf", gguf,

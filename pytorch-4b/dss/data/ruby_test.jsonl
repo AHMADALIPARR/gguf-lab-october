@@ -1,0 +1,324 @@
+{"task": "viterbi", "prompt": "viterbi pos_tagger walked the ->", "answer": " path=vb,det weight=9/1000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G G C C C A A ->", "answer": " path=island,island,island,island,island,island,island weight=7116301097703/409600000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ate . park ate ran car walked ate ->", "answer": " path=vb,punct,nn,vb,vb,nn,vb,vb weight=189/125000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ate on ->", "answer": " path=vb,in weight=9/2500"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop shop clean walk clean shop shop ->", "answer": " path=sunny,sunny,sunny,rainy,sunny,sunny,sunny weight=64827/976562500"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean clean ->", "answer": " path=sunny,sunny weight=21/200"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ? ran ate is ->", "answer": " path=punct,vb,vb,vb weight=9/200000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk shop shop shop ->", "answer": " path=rainy,sunny,sunny,sunny weight=1176/390625"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger woman an the a house the ran park ->", "answer": " path=nn,det,det,det,nn,det,vb,nn weight=243/10000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G A C G T G C T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=24134536953/5000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger man cat by ate woman ->", "answer": " path=nn,nn,in,vb,nn weight=81/50000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C T C A A A ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean weight=200564019/1000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk shop walk walk walk walk shop ->", "answer": " path=rainy,rainy,rainy,rainy,rainy,rainy,rainy weight=1594323/12207031250"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger with a an park woman saw ->", "answer": " path=in,det,det,nn,nn,vb weight=27/12500000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C C G A T T C C T T C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=1489849100645643/20000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean shop walk ->", "answer": " path=sunny,sunny,rainy weight=189/12500"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop clean shop walk shop shop ->", "answer": " path=sunny,sunny,sunny,rainy,sunny,sunny weight=9261/48828125"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C G A C C C G A A G A ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=496616366881881/10000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop walk shop walk clean shop ->", "answer": " path=sunny,rainy,rainy,rainy,sunny,sunny weight=15309/97656250"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A T ->", "answer": " path=ocean,ocean weight=171/2500"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A G G G C A A A G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=1375668606321/1000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G G A T C G T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=1270238787/50000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop walk walk shop clean shop clean ->", "answer": " path=sunny,rainy,rainy,sunny,sunny,sunny,sunny weight=83349/976562500"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop shop shop clean shop walk shop ->", "answer": " path=sunny,sunny,sunny,sunny,sunny,rainy,rainy weight=583443/9765625000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ! cat with an an with ->", "answer": " path=punct,nn,in,det,det,in weight=27/62500000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T C ->", "answer": " path=ocean,ocean weight=57/1250"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger with man dog with with dog park ->", "answer": " path=in,nn,nn,in,in,nn,nn weight=81/62500000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger walked a ->", "answer": " path=vb,det weight=9/2000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop walk shop clean ->", "answer": " path=sunny,rainy,sunny,sunny weight=189/78125"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk shop shop clean walk walk shop ->", "answer": " path=rainy,sunny,sunny,sunny,rainy,rainy,rainy weight=107163/2441406250"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger cat car an with house ->", "answer": " path=nn,nn,det,in,nn weight=3/10000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk walk walk clean walk clean clean shop ->", "answer": " path=rainy,rainy,rainy,sunny,rainy,sunny,sunny,sunny weight=107163/4882812500"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A C T T T T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean weight=601692057/2000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ! dog ! cat dog dog a . ->", "answer": " path=punct,nn,punct,nn,nn,nn,det,punct weight=189/625000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger man on ? dog ->", "answer": " path=nn,in,punct,nn weight=81/100000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean walk clean shop clean shop walk shop ->", "answer": " path=sunny,rainy,sunny,sunny,sunny,sunny,rainy,rainy weight=750141/78125000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T G C C G ->", "answer": " path=island,island,island,island,island weight=938702163/2560000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T A T T G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean weight=10556001/10000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G G A C T T G T A A A C A C C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=5242282865421502717881/16000000000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A A C T C G T A G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=4127005818963/2000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger on dog by house the with cat ->", "answer": " path=in,nn,in,nn,det,in,nn weight=729/12500000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ! in woman ! saw ! dog ->", "answer": " path=punct,in,nn,punct,vb,punct,nn weight=81/625000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C G C G A C T G T G A T T A A A ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=298810123329025654919217/3200000000000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk shop walk ->", "answer": " path=rainy,rainy,rainy weight=243/15625"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk clean walk walk clean clean ->", "answer": " path=rainy,sunny,rainy,rainy,sunny,sunny weight=1701/7812500"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T T C G G T A G C T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=78413110560297/200000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop clean clean walk shop shop shop ->", "answer": " path=sunny,sunny,sunny,rainy,sunny,sunny,sunny weight=64827/976562500"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G C C T C T A A T C G T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=84921398736801651/4000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C T A T T G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean weight=200564019/1000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T A G A A T G A C T T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=40225925717432361/160000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger park ate ! ? dog woman an ->", "answer": " path=nn,vb,punct,punct,nn,nn,det weight=27/50000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G A C G G C T C C C T T A G ->", "answer": " path=island,island,island,island,island,island,island,island,island,island,island,island,island,island weight=412368464978661228122420559/671088640000000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean walk clean shop ->", "answer": " path=sunny,rainy,sunny,sunny weight=189/62500"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger . cat ! the with ->", "answer": " path=punct,nn,punct,det,in weight=63/78125000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean walk walk shop walk walk clean clean ->", "answer": " path=sunny,rainy,rainy,rainy,rainy,rainy,sunny,sunny weight=1240029/39062500000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G C G A A C A G T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=1375668606321/1000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger woman . ! ->", "answer": " path=nn,punct,punct weight=21/500000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G A T T G G A ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=3810716361/100000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A C C T C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean weight=1172889/2500000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean walk clean shop clean walk ->", "answer": " path=sunny,rainy,sunny,sunny,sunny,rainy weight=11907/62500000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean walk clean clean walk shop ->", "answer": " path=sunny,rainy,sunny,sunny,rainy,rainy weight=15309/125000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk clean clean walk clean shop ->", "answer": " path=rainy,sunny,sunny,rainy,sunny,sunny weight=1323/7812500"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger an ! ->", "answer": " path=det,punct weight=1/5000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger with with ! is cat is man ->", "answer": " path=in,in,punct,vb,nn,vb,nn weight=27/7812500000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G T G T C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean weight=1172889/2500000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk clean shop walk walk clean ->", "answer": " path=rainy,sunny,sunny,rainy,rainy,sunny weight=1701/9765625"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger in with man park . man park a ->", "answer": " path=in,in,nn,nn,punct,nn,nn,det weight=1701/50000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C C C C C T T A C T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=26137703520099/100000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T C G A T G A T G G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=78413110560297/200000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T G T C A A T A G C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=235239331680891/400000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger saw dog ? dog cat an ->", "answer": " path=vb,nn,punct,nn,nn,det weight=3/25000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger a man car park ->", "answer": " path=det,nn,nn,nn weight=9/50000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger by cat an in dog is ->", "answer": " path=in,nn,det,in,nn,vb weight=27/62500000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G G G G C G A G A A G G T G G A ->", "answer": " path=island,island,island,island,island,island,island,island,island,island,island,island,island,island,island,island weight=7294385777007538464257497268151/107374182400000000000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A A A T A ->", "answer": " path=ocean,ocean,ocean,ocean,ocean weight=31668003/20000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C A T G C G C T C C G ->", "answer": " path=island,island,island,island,island,island,island,island,island,island,island weight=954298176139011490227/10485760000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger saw a is saw ->", "answer": " path=vb,det,vb,vb weight=27/64000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather walk walk shop shop walk walk walk ->", "answer": " path=rainy,rainy,rainy,rainy,rainy,rainy,rainy weight=1594323/12207031250"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A C G T A A ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean weight=200564019/1000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T C A T C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean weight=3518667/5000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger woman walked . a ->", "answer": " path=nn,vb,punct,det weight=189/5000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger cat ate an the by ? is ->", "answer": " path=nn,vb,det,det,in,punct,vb weight=27/12500000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C C G G ->", "answer": " path=island,island,island,island weight=16468459/6400000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T G A G ->", "answer": " path=ocean,ocean,ocean,ocean weight=61731/25000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G T A C G G C C C T T C C A C G ->", "answer": " path=island,island,island,island,island,island,island,island,island,island,island,island,island,island,island,island weight=7294385777007538464257497268151/107374182400000000000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island A T T T A C T C A A G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=40225925717432361/160000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger the by park dog in ran ->", "answer": " path=det,in,nn,nn,in,vb weight=243/2500000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C A A C ->", "answer": " path=ocean,ocean,ocean,ocean weight=61731/25000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T T A A T G ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean weight=601692057/2000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island G C T C ->", "answer": " path=ocean,ocean,ocean,ocean weight=20577/12500000"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger ! walked ->", "answer": " path=punct,vb weight=1/500"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T C A C A T C C T C T G T ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=4840519727997694107/800000000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop clean clean shop walk ->", "answer": " path=sunny,sunny,sunny,sunny,rainy weight=9261/6250000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather clean shop clean walk shop ->", "answer": " path=sunny,sunny,sunny,rainy,rainy weight=11907/12500000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop shop shop walk clean shop walk ->", "answer": " path=sunny,sunny,sunny,rainy,sunny,sunny,rainy weight=83349/2441406250"}
+{"task": "viterbi", "prompt": "viterbi pos_tagger car dog ->", "answer": " path=nn,nn weight=1/5000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T T C G ->", "answer": " path=ocean,ocean,ocean,ocean weight=61731/25000000"}
+{"task": "viterbi", "prompt": "viterbi toy_weather shop shop shop walk ->", "answer": " path=sunny,sunny,sunny,rainy weight=1323/390625"}
+{"task": "viterbi", "prompt": "viterbi cpg_island T G A T T A G G T A C ->", "answer": " path=ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean,ocean weight=13408641905810787/80000000000000000000000"}
+{"task": "viterbi", "prompt": "viterbi cpg_island C T T ->", "answer": " path=ocean,ocean,ocean weight=3249/250000"}
+{"task": "permission", "prompt": "permission configure_aws_infrastructure org_designer ->", "answer": " deny(out_of_domain)"}
+{"task": "permission", "prompt": "permission draft_architecture_decision_record org_designer ->", "answer": " deny(out_of_domain)"}
+{"task": "permission", "prompt": "permission prescribe_treatment devops_specialist ->", "answer": " deny(prohibited_class(advisory_medical))"}
+{"task": "permission", "prompt": "permission interpret_statute system_architect ->", "answer": " deny(prohibited_class(advisory_legal))"}
+{"task": "permission", "prompt": "permission design_ci_cd_pipeline devops_specialist ->", "answer": " permit"}
+{"task": "permission", "prompt": "permission interpret_statute devops_specialist ->", "answer": " deny(prohibited_class(advisory_legal))"}
+{"task": "permission", "prompt": "permission design_ci_cd_pipeline a ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission configure_aws_infrastructure devops ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission x9 edaulc ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission recommend_stock_allocation wizard ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission design_ci_cd_pipeline wizard ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission safety a ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission devops devops ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission draft_architecture_decision_record edaulc ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission colonize_mars safety ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission configure_aws_infrastructure edaulc ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission wizard a ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission x9 safety ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission design_team_topology edaulc ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission wizard safety ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission draft_contract colonize_mars ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission prepare_tax_strategy devops ->", "answer": " deny(unknown_role)"}
+{"task": "permission", "prompt": "permission devops system_architect ->", "answer": " deny(unknown_task)"}
+{"task": "permission", "prompt": "permission draft_stakeholder_memo devops ->", "answer": " deny(unknown_role)"}
+{"task": "governance", "prompt": "governance steps verified ->", "answer": " verified"}
+{"task": "governance", "prompt": "governance steps sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected verified verified rejected ->", "answer": " StateError: rejected → verified forbidden"}
+{"task": "governance", "prompt": "governance steps rejected sealed sealed ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected sealed ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init verified init rejected verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps init init verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps verified rejected sealed rejected ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed rejected sealed rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed verified ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected init init sealed ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected init verified init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init init verified sealed verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps init rejected init init rejected ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps verified sealed sealed sealed sealed ->", "answer": " StateError: sealed → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init verified init init ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed verified rejected rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected sealed sealed ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps init sealed verified sealed sealed ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps verified rejected sealed sealed verified ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init verified sealed sealed rejected ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified verified sealed ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps verified init verified verified sealed ->", "answer": " StateError: verified → init forbidden"}
+{"task": "governance", "prompt": "governance steps verified rejected init ->", "answer": " init"}
+{"task": "governance", "prompt": "governance steps init verified rejected init verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected sealed verified sealed rejected ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected rejected rejected sealed ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed init sealed verified ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected verified rejected rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified sealed rejected init init ->", "answer": " StateError: sealed → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps init rejected sealed init rejected ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps init sealed verified verified init ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed verified sealed init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified sealed init rejected sealed ->", "answer": " StateError: sealed → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected sealed rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed rejected rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected sealed sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected init sealed sealed rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected verified rejected sealed ->", "answer": " StateError: rejected → verified forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified verified verified rejected ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected rejected verified ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected verified sealed sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified sealed sealed verified ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified verified rejected sealed ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps init init verified init rejected ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected verified init rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected rejected rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps verified rejected sealed sealed init ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init rejected sealed init ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected verified init init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init init init init rejected ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed sealed sealed init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified rejected rejected init ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed sealed sealed rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init init verified sealed init ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed verified verified sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed verified init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init init sealed verified verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected verified verified verified ->", "answer": " StateError: rejected → verified forbidden"}
+{"task": "governance", "prompt": "governance steps rejected init verified verified ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps rejected sealed verified verified verified ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected init sealed init ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected init init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init verified init verified sealed ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected verified rejected rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected rejected init init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected init verified sealed verified ->", "answer": " StateError: sealed → verified forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected sealed verified sealed ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps verified sealed verified rejected init ->", "answer": " StateError: sealed → verified forbidden"}
+{"task": "governance", "prompt": "governance steps verified sealed verified rejected ->", "answer": " StateError: sealed → verified forbidden"}
+{"task": "governance", "prompt": "governance steps sealed init init init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified rejected init verified sealed ->", "answer": " sealed"}
+{"task": "governance", "prompt": "governance steps sealed init init verified rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected rejected rejected rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps init sealed init rejected verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps init verified init verified verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed sealed init verified ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init verified init init sealed ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected init verified rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed init verified verified sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed verified init rejected ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified init sealed sealed verified ->", "answer": " StateError: verified → init forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified verified rejected verified ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps sealed init sealed init verified ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init verified rejected verified verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed verified rejected init sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init rejected sealed sealed rejected ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed init rejected rejected init ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps sealed rejected sealed init sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified verified init init sealed ->", "answer": " StateError: verified → verified forbidden"}
+{"task": "governance", "prompt": "governance steps init init init sealed verified ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps init sealed init rejected sealed ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps sealed sealed sealed init sealed ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps rejected sealed verified verified init ->", "answer": " StateError: rejected → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps verified sealed rejected verified init ->", "answer": " StateError: sealed → rejected forbidden"}
+{"task": "governance", "prompt": "governance steps sealed init init verified verified ->", "answer": " StateError: init → sealed forbidden"}
+{"task": "governance", "prompt": "governance steps init rejected verified init sealed ->", "answer": " StateError: init → init forbidden"}
+{"task": "governance", "prompt": "governance steps rejected verified init rejected verified ->", "answer": " StateError: rejected → verified forbidden"}
+{"task": "governance", "prompt": "governance steps rejected rejected rejected init rejected ->", "answer": " StateError: rejected → rejected forbidden"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2029-11-28T02:30:03Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 795fb87788dcebf6b86de4dd7c6c55b3b4af7858f48b021a1af9c7e1a91d75ea"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2013-01-13T23:59:19Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " d8d8581100acc1179ef33a253b3163370c6abb428b3b879da3fe7e9e6cce9ce5"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2017-12-06T10:31:46Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " 0cfef3672aa1f17ed0b08f7bb0ef7e6b406775c6adcf96452e2851bb9312cc58"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2011-12-25T18:44:28Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " eea6241ed80041bc8a30feba1ddfdcc755b7d9131b2ba3e6b41b82dd86411f5b"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2013-12-11T19:50:37Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 51ee15082e5adeed596a7b5ff30fdc31a885ac51176dd947ff27aa58ae528b23"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2029-08-14T22:06:48Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " d7c9e1da151064f2f0421538906f4ca984d21d3d8d7f2a1f9d7b88d49e3ebc51"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2024-04-25T21:57:31Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " 7fcb9c96e3f5071a461f79f40740900f8306e7b770cbda844e1d8512fa9a4979"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2007-06-20T01:26:23Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 01fee1608f18894cf516fefba9717829121f067d6af44d866894896909366eb1"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2020-04-11T19:14:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " 42bb73c4b53ebb905003862f0060dfc5b1b75a3fb8349124ae9b05823e6f4f2d"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2028-09-28T13:51:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"verified\",\"evidence\":{}} ->", "answer": " c00e9606764bb165cec80377b22d4a657ba6f46446211b33df1a20e80eec95b0"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2024-12-25T14:36:39Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " b044bdcf385998cd534f6eaeae2231066251d653c2115221ccd0d9e5fb4e7e2a"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2021-02-04T04:08:00Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " a46c38116423f206b8b02ade61d49f1b2ba749566f48d1a1430334a5b5a3bb4a"}
+{"task": "worm_seal", "prompt": "worm seal label=a:b ts=2014-01-27T19:39:37Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " 715ab5fe90c66433818a9c687ca114a7e6884a5812baf06d28603d4c5d3adc20"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:sealed ts=2025-05-07T09:16:21Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"verified\",\"evidence\":{}} ->", "answer": " 1d24d247d300f6ef06e2cb958618fa997ef6921b2b2c60dfdfb840a74e36cb50"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2010-04-10T05:09:30Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " c4acac0c14f5cab1458df8d54644d958203bba06127e534517daec1c51e47c26"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:sealed ts=2022-11-02T19:15:03Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " 8afe441b536274aafa86136dc67b2ced99997deb4c8930a756773815a982eab6"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2021-10-16T05:35:00Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " f1b6e9c4e09241e4521eca4479459c4145a7992541044401a5eb5608a238a95e"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2024-12-05T01:52:33Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " 365a4996765aea289c4d7b10bd218279e464b0fa9c260e41011e09d1f071881e"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2026-04-19T04:22:30Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"verified\",\"evidence\":{}} ->", "answer": " 169a46e35ffd0bd3ba5a7392335e513d7acdd5a177f7182be3dafb032832e615"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2023-04-25T10:44:08Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " 251a06b5146e0be979be8652b6db5a8e86826a0b5fb5f9a87a87571f9e67241c"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2007-11-17T00:36:19Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " db0d3a3f281309d9e517fcbc8a08549831923ff776cd71d00f2e5e1d13f899a2"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2013-11-20T14:00:04Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 320f3cbb674cbce9828e508af68884ef9a8acc845b1f624cf2b2e2b79e59959e"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2009-04-27T12:58:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 63397a9cf59027333ce1fdf40bf1f60fdf2355e688005bb113f114f88d0fb3e2"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2005-11-10T09:31:03Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " 7e11f272a1e9f9b6fe2b70fc2be81ffc42634a053fb4dd75ce3a6ecb57f88a16"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2002-12-08T22:43:02Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " 7a8cd5832cf815a5a4f65f3faa6dd55560b970a0fdf13a24ff9a45f1a83c7488"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2020-05-03T19:24:58Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 5cd3bd0660f686522b2a6137229b6286253e386156bc2e707033ae5e131b9f44"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2017-04-21T04:49:23Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " ce36514e99280a80ca20fc497b4c864970e893a0113bdf436042414108c1e370"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2018-12-08T22:08:26Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " 9d665cd186d2ebcddb81f1cb33546834737ba74565803d6b563bc3b14aa10cff"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2010-02-06T16:19:36Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " 803ab214cf45bcd8358549968c4e09567278da7436cb3782162f0f9f7fe5c02c"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2009-01-19T09:14:18Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " df4e4f92a270c05d703d0b9f1e6a3c093b1ccdb858c35053a950604728c2db72"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2027-07-23T18:16:13Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":false,\"n\":0} ->", "answer": " 4929dcc6e03e8679a95de7559f853d39e3e4a76302ce1aca3940d00e54c14b94"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2000-04-08T15:37:08Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " a508de8fd77fd34f239f4c7351d6fdb4ffe98570e6ff90d8e16c2d5eb88a0702"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2002-07-09T14:05:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " 2ae26cfa1f72f7121140b4de8f68804eefb607189ff460cd3e44dd65c543a830"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2007-10-12T02:12:16Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " eadcf6a119c9e31185f40f73c0a47374da3d2a7d68b73a89b6641e601508928c"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2020-04-22T10:13:18Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " ba71bce72900b132f8c1c3bdb3b19677a002ee9fd4a72a78acdfd5e202ce1657"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2003-06-17T09:17:38Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " c06ba30386ee3c2aea7ba965bab05b7ce03ced3c02d3948f4da5492691e8c7e2"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2023-10-06T01:19:02Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " 51640439eb4a81dba106d3b782239cef46423aea8b4e7970f1cfa98f91cb4d27"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2019-10-19T02:39:56Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " 0f08afad037c9f35a3d38d36c382a7d1ccb41de3006d2d8bd5b0a5c77f0023a7"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2001-06-20T08:02:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 044afc53dc2bf5eab3d6b4aa586fd4534bbd4263bb7b2b7ab132607a8871d8e9"}
+{"task": "worm_seal", "prompt": "worm seal label=a:b ts=2028-05-20T13:14:25Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 1b92e02b589596f408a97d1c7e66e3cc867746e3ad8c8b78e07bdd52e20019a2"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2017-04-09T09:47:48Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " 4be888d2977aa94186999038555a191d5f11edf54b841def5fae88212ea93943"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2021-09-22T13:45:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " a54b384936c4301a589d26fba24f3c081307108bb5817c27375db38865818481"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2022-07-23T10:30:41Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":false,\"n\":0} ->", "answer": " 57314d003a13a9917200c6f9538a6ed68a79874c2f18fd8a309cf795d3632187"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2012-06-12T03:50:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " df925c1d47c888de7151065964049d6816cefb15e7be714cf397c8b5c18ac2ba"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:sealed ts=2010-01-25T15:24:41Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"verified\",\"evidence\":{}} ->", "answer": " d66e3f0cd212553afde8db034933030b2b6cde5f6cebf3a90656d35884ff4ded"}
+{"task": "worm_seal", "prompt": "worm seal label=a:b ts=2028-02-10T02:21:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " 10cac28f53bb0bcbe3f3ca4b4b322b6d3389ad1e3534f9bb6d97d7988791b331"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2028-12-06T09:43:13Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " d4f03e244abe2b5f09f37eefc119a444000970457ed1d4b1852e382958340126"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2005-05-28T20:55:59Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " a0b317cb732045072864fc3b8172a5106f0c7b395ae5b7d8546048cdc4275b24"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2021-08-02T15:48:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " d82d9361705a4159fe296fb1fa346a9a2adf91722c61324869959862ca7d88e5"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2030-11-18T17:24:24Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":false,\"n\":0} ->", "answer": " 2ee61edaf29c59a348286c7baec5406c83cefe6c0e3915dd01482310012da9cb"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2003-06-02T22:59:56Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 93ecbeb4e360cd9ee58871dbaa1d532fc8e8edc91e7740a30f7665d0a4ad1fdb"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2024-10-20T12:29:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " 93ff178a3c5641a941af306605844a40545b004605c9bea21f7dc8e586d31292"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2006-04-01T04:59:28Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " f09c6bc70985a27fd499a66ad7eb09715c43b7ed5be6005dbdf1d44f8dfb5c31"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2015-08-10T20:06:34Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " 56a41a9cd438ff06b9a1f8433fb0ae8b55bcd2fb3a0c8c3237b86e93b430c6d3"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2007-05-25T09:45:32Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " 194beee4e167fcc7387a094d68d6d6e35223dc3b3d395eb9f357060ce1c46536"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2020-09-27T03:52:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 6985db42e7f9b07d0f9c0a12ade759b5bb8b20f9303d77e0bb164884cf15f1d2"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2015-07-22T13:06:47Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " 2209b3b25c9d49c2f06d04d47feedf43fd9062b9144027f2259bf325a839be8b"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2027-06-24T16:19:17Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " fa594cf211f54db2e9dcaa3c603d8577dd75473b81b2d2a8d45ac2a0c2bc1f28"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2022-04-16T05:33:44Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 5cb401a20c6f25b5293742f639816ccc62607c0d4e0333a3590b9ffe964a0624"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2022-07-01T11:54:41Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " c019d4f8c6137fb9571ed58c84768f493aa09c216370e7ee69a909fd11ed5c31"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2003-04-14T05:39:42Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " 7a05d5e7474128b1e05d92551d3b6c0c175ba73888fec79d187be1022726ab39"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2008-09-08T00:52:31Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " 629604cea6405c4d30754a710b130e10fd289618588dc93f1942ee4e2793c68a"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2023-05-28T18:18:42Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " 0ae7ba6f9ae3aa9bd88ddafc341d77f8568843bbf77c5556dd96bbba6a252358"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2008-08-24T17:45:29Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " 1cf2af867495cd77db6ef1e6972b1f9944532d32885b58d0df795bd3f9ffb8c1"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2020-05-02T21:22:55Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " 28b4a5c9dc756ec789c8bf3ea3bec6833790505afcc2841bb682d06c64902add"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2012-05-28T12:59:34Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"verified\",\"evidence\":{}} ->", "answer": " a0bf6eaec63adb6cc43a7ac32bb9b591222b276aa90d7b059d356f4f3f34dce0"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2000-11-22T06:36:37Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " e7a9b387d5eb958751041ade67b67d9d3d694b67532681e6220b6dbd9907ca51"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2012-01-06T02:37:43Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " c0b12634afe4c23f73d8af7b6fbac77a99f7d55de08d14da26d0eb59569a1ac8"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2019-06-01T21:41:06Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " fb53f035ce16c3f71ef119674c1f9a5fccc4e0bea8743d3fcabec4ec8652fa04"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2014-12-07T20:05:05Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " 4fca336fa221af35e76ecb85b1a64626aff8abf63c1bf201ad23454d9f4d5697"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2017-08-17T10:47:12Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " 73d1298d6a55829e4986c1b215a447e550102e51e3419ce3acec4af3ef5ce1ef"}
+{"task": "worm_seal", "prompt": "worm seal label=a:b ts=2027-08-19T19:00:40Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 51f2c1271ca55ea459a121075cdf0320f440c96ccd27dd14202417dddc55725a"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2015-05-05T12:30:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " b7fbb656df535531087c51a7da8fabfe9fd080f5cb4d876779f961584ef43d42"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2019-02-23T06:00:25Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1,\"b\":2} ->", "answer": " aa6dd795957b943f16c4efabf2b5551b82e09dc22166f6e86aadd21aa025e3f8"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2001-07-01T02:52:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " c34f87c189445cec6e0e3eab0c6439c2346d0e77c6f7ce27101e5b3e11581c46"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2017-02-16T12:54:51Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " b86f0be0d2d6a2b852824d2b9d4820246cd65047a1c6cc6a3f27d011ac3fc901"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2025-08-04T10:47:42Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " 156b9ede9632eecbf4584d964543e255d78179a88cd09ca13264466c7c0c2125"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2012-03-03T20:02:12Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " 7a5e3b1eef97add984df425a4dab621680fcf37d39791cada1559c2a3e82adad"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2022-06-01T13:49:07Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " 98146ffc7ea8811d752155c998d0220c0f5f8c8c3bd9a49a6badebfc1d5867f7"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:sealed ts=2004-12-12T03:37:58Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[1,2,3] ->", "answer": " add778d0382ea412598dd6aba702f5b6fc317bdb1dc66848944d9c2d8309b23a"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:verified ts=2020-12-17T09:40:32Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 6e84c17f336312781901dc7478652bb74b866b54bc24fc0cb9facf09c56c6bd4"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2017-12-01T03:25:31Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " aca8fab864d637a97d2f77a7d0b8326e6634c674c299614b5df924df5ea6fa40"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2001-10-23T07:14:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 14e157a274d7ecf223fd8411f95b2413654760a0853d1c321c18baf7b63e5369"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:clojure ts=2025-12-24T12:18:57Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " 1b141325f4cfd3cdf0ebe24e095ac8e3c812ff9e6206cac9f23609d3eb1f9e8a"}
+{"task": "worm_seal", "prompt": "worm seal label=x ts=2027-04-02T15:44:05Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"a\":1} ->", "answer": " f9bb60abd33993cbbc52c209c606ea9c272ef56e26cadb2942de30efc3630871"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2005-04-09T02:43:36Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " 585e600430ba9146f652dc196a9008e4c5fe5d427e6cd39fd303888e1612e4ab"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2020-08-05T18:21:52Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"rejected\",\"evidence\":{}} ->", "answer": " 26a95f8bba1508ea303be0437c4dbcb9f0c7731aec7f22a947f875263fac9a3f"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2018-07-01T14:52:34Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " ec695441e0b5d68a175052749fbad76abbaa658ab7f6777560a7ed40760dee66"}
+{"task": "worm_seal", "prompt": "worm seal label=governance:rejected ts=2030-05-22T04:39:40Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"verified\",\"to\":\"sealed\",\"evidence\":{}} ->", "answer": " dbc5ecc3cff41ab9a50a4dc387f92ad1758c02424fb247e5c5c0ffa7f53cc90d"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2013-12-07T19:45:15Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " 900ecaab69871e3c4ceb0c7abb2a8dde3cb987c61e746dae4d7addb7e7b51ae7"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2014-09-28T08:21:45Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"x\":[1,null,true]} ->", "answer": " af7d0078d13ab136bb6b35d702ca041b74f5b0f5792a8b67d176a6c43542569e"}
+{"task": "worm_seal", "prompt": "worm seal label=SOVEREIGN-FINAL ts=2025-04-06T11:30:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":false,\"n\":0} ->", "answer": " f88ad0749b3e1d81fe8e806f87a90e1faf177f51b444b7b9b5b585e99861bb00"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2021-05-18T15:21:51Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " b69ed62894124b72374939b597040834014e7bd84f1715ce0d61ebe31028883e"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2019-08-05T16:35:45Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"label\":\"stage:apl\",\"n\":3} ->", "answer": " 7b6df41ff5ff0244c8f6d32e98c250bf71ec14420e965300ca52d3a3d310ff22"}
+{"task": "worm_seal", "prompt": "worm seal label=a:b ts=2009-10-13T01:46:01Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " 738abb2288a0ed37aae6a4d8dda134ad6bf1da09f4a51468d3ca4e17a5a1e35e"}
+{"task": "worm_seal", "prompt": "worm seal label=swarm:seal_0 ts=2023-05-22T09:05:54Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " 2d39742f19b630c4691b1c0a74dc35615faa7e4a2c8911a706c61caaab714c35"}
+{"task": "worm_seal", "prompt": "worm seal label=kernel:init ts=2029-08-24T22:47:35Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"from\":\"init\",\"to\":\"verified\",\"evidence\":{}} ->", "answer": " 2b4acee02cf0b86bb992b3bc4b44191eb2206c048742b3e6dc56a8cb791e1500"}
+{"task": "worm_seal", "prompt": "worm seal label=a:b ts=2025-01-01T02:31:09Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={} ->", "answer": " b449948b4da56fec8c942e9032e1a72489e3276dee98eb4b4eb6c595e561a2bf"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:apl ts=2021-11-22T19:20:59Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload={\"ok\":true} ->", "answer": " 9d5932d0f283a58f2dcf69dcd00beb6bf3f30a1e3342c43c964bcf85bd89fab7"}
+{"task": "worm_seal", "prompt": "worm seal label=stage:axiom ts=2019-08-05T20:22:14Z prev=0000000000000000000000000000000000000000000000000000000000000000 payload=[] ->", "answer": " 34b5086a64d0ffbea4afad6b649941bb0753ff296f554859c76b53dc4155d802"}

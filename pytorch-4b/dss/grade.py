@@ -29,7 +29,9 @@ PHI_ANS = {}
 
 def grade(prompt, completion):
     ans = completion.split("\n")[0].strip()
-    if prompt.startswith("phi "):
+    if (prompt.startswith("phi ") or prompt.startswith("viterbi ")
+            or prompt.startswith("permission ") or prompt.startswith("governance ")
+            or prompt.startswith("worm seal ")):
         if prompt not in PHI_ANS:
             raise ValueError(f"no kernel answer registered for {prompt}")
         return float(ans == PHI_ANS[prompt])

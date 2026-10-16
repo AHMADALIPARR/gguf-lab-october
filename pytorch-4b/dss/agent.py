@@ -39,24 +39,31 @@ CALL_RE = re.compile(r"\s*<call>(isdss|card|next|bound) ([^<]*)</call>")
 # Intent mode: the model names the check only; the host binds the integers
 # from the prompt (expected_call is a strict per-task fullmatch parser).
 INTENTS = {"isdss": "CHECK_IS_DSS", "card": "CARD_FROM_SUM", "next": "NEXT_GREEDY", "bound": "CHECK_BOUND",
-           "phi_normalize": "PHI_NORMALIZE", "phi_mul": "PHI_MUL", "phi_conj": "PHI_CONJ", "phi_norm": "PHI_NORM"}
+           "phi_normalize": "PHI_NORMALIZE", "phi_mul": "PHI_MUL", "phi_conj": "PHI_CONJ", "phi_norm": "PHI_NORM",
+           "viterbi": "VITERBI_DECODE", "permission": "CHECK_PERMISSION",
+           "governance": "GOVERNANCE_STEP", "worm_seal": "WORM_SEAL"}
 INTENT_TOOL = {v: k for k, v in INTENTS.items()}
-INTENT_RE = re.compile(r"\s*\[INTENT: (CHECK_IS_DSS|CARD_FROM_SUM|NEXT_GREEDY|CHECK_BOUND|PHI_NORMALIZE|PHI_MUL|PHI_CONJ|PHI_NORM)\]")
+INTENT_RE = re.compile(r"\s*\[INTENT: (" + "|".join(INTENTS.values()) + r")\]")
+
+
+def register_kernel_answers(rows):
+    """Answers for host-bound kernels come from the dataset rows (dss-host)."""
+    import grade as G
+    for r in rows:
+        if r["task"].startswith("phi_") or r["task"] in ("viterbi", "permission", "governance", "worm_seal"):
+            G.PHI_ANS[r["prompt"]] = r["answer"].strip()
 
 
 def register_phi(rows):
-    """Phi answers come from the Rust exact kernel via the dataset rows."""
-    import grade as G
-    for r in rows:
-        if r["task"].startswith("phi_"):
-            G.PHI_ANS[r["prompt"]] = r["answer"].strip()
+    register_kernel_answers(rows)
 MODE = ["args"]
 
 
 # ---------------------------------------------------------------- tools
 def run_tool(name, args):
     """Return the result string, or None if the arguments are malformed."""
-    if name.startswith("phi_"):  # args is the prompt itself (host-bound)
+    if name.startswith("phi_") or name in ("viterbi", "permission", "governance", "worm_seal"):
+        # args is the prompt itself (host-bound); answer from the dataset/kernel
         import grade as G
         return G.PHI_ANS.get(args)
     try:
@@ -92,6 +99,14 @@ def run_tool(name, args):
 def expected_call(prompt):
     if prompt.startswith("phi "):
         return "phi_" + prompt.split()[1], prompt
+    if prompt.startswith("viterbi "):
+        return "viterbi", prompt
+    if prompt.startswith("permission "):
+        return "permission", prompt
+    if prompt.startswith("governance "):
+        return "governance", prompt
+    if prompt.startswith("worm seal "):
+        return "worm_seal", prompt
     m = re.fullmatch(r"is DSS ([\d ]+) ->", prompt)
     if m: return "isdss", m.group(1)
     m = re.fullmatch(r"DSS W ([\d ]+) sum (\d+) -> size", prompt)
