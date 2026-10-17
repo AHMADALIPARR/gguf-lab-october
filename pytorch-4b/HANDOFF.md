@@ -10,7 +10,7 @@ Status: pretrain `runs/box-200m-b/final.pt` is done. Intent SFT→EI→DPO on th
 - Still zero: `worm_seal`, `viterbi`. Weak: `phi_mul` 0.08, `phi_normalize` 0.18, `bound` 0.30, `phi_norm` 0.27. Strong: `next`/`card`/`permission`/`governance` 1.0, `isdss` 0.99.
 
 - Live host eval of `runs/box-200m-intent/box-200m-intent-ei.gguf` (804,398,048 B), `dss/host_eval.py intent`. Intent balanced 1.0000 (n=1224). Intent OOD 0.9958 ± 0.0019 (n=1202; permission 0.98, worm_seal 0.97). DSS/phi balanced 1.0000 (n=900). DSS/phi OOD 1.0000 (n=802). In live mode the host executes the tool the model chose, so these numbers are not comparable to the heldout generation accuracy above. Details: `runs/box-200m-intent/LIVE.md` (pushed copy: `pytorch-4b/LIVE-box-200m-intent.md`), status `runs/box-200m-intent/STATUS.md` (pushed copy: `pytorch-4b/STATUS-box-200m-intent.md`).
-- Primary deliverable: the EI GGUF, because DPO left heldout flat. `box-200m-intent-dpo.gguf` (same size) is exported for completeness but has not been live-evaluated.
+- Primary deliverable: the EI GGUF, because DPO left heldout flat. `box-200m-intent-dpo.gguf` (same size) is exported for completeness; a focused OOD smoke (n=220) on 2026-10-16 matched EI on permission 0.98 and worm_seal 0.97 (see LIVE.md). Full four-suite live eval still not run.
 
 ## Base pretrain eval (`runs/box-200m-b.log`, measured)
 
@@ -21,8 +21,12 @@ Status: pretrain `runs/box-200m-b/final.pt` is done. Intent SFT→EI→DPO on th
 | 1000 | 3.4618 | 4.1134 | 3.9176 |
 | 1500 | 3.3140 | 3.9687 | 3.7234 |
 
-## Next corpus
-TWIN / ai-free / `legacy-logic-archive`. Not started.
+## v4 stage (measured 2026-10-16) — see `runs/box-200m-v4-intent/STATUS.md` (copy `pytorch-4b/STATUS-box-200m-v4-intent.md`)
+- Corpus v4 (TWIN 3.52M, ai-free 0.97M ×2, legacy-logic-archive 4.00M capped; 9.29M train tokens). Continue-trained `box-200m-intent/ei.pt` 1200 steps: new_val 5.6236→3.5769, old_val 3.9008→3.8698.
+- Held-out zeros: the cause was the 24-token final-answer cap in `agent.py rollout` plus weak copying. The cap is fixed (`DSS_FIXED_FINAL=1` restores the old one). Targeted viterbi/worm_seal SFT data was added. Old ei.pt under the fixed harness is unchanged at 0.5441 (viterbi 0, worm_seal 0).
+- v4 SFT→EI1 held-out all 0.7663 (viterbi 0.97, worm_seal 0.27; under the old 24-token cap: 0.6993, viterbi 0.42, worm_seal 0.0).
+- Live: `runs/box-200m-v4-intent/box-200m-v4-intent-ei.gguf` (sha256 d64bbf6f…7b96), intent balanced 1.0000, OOD 0.9476 (old ei 0.9958). This is an OOD regression (phi_mul 0.67, worm_seal 0.82). Pick v4 for held-out generation and old ei for live OOD routing.
+- legacy-logic-archive: normalize exited 1 (757 missing git blobs). report/verify need the native-recheck toolchains and were not run.
 
 ## What was trained on the box
 - Architecture: `model.py` `Transformer4B` (GQA, SwiGLU, RMSNorm, RoPE, untied embeddings), 32k tokenizer `tokenizer/tokenizer.json`.

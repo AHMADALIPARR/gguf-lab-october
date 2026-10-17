@@ -22,7 +22,7 @@ Subcommands:
              with PyTorch greedy rollouts (parity)
   nodecheck  compare oracle tool results with greedy.mjs (node) on test sets
 """
-import argparse, copy, json, pathlib, re, subprocess, sys, time
+import argparse, copy, json, os, pathlib, re, subprocess, sys, time
 import numpy as np
 import torch
 import torch.nn.functional as F
@@ -166,6 +166,11 @@ def rollout(model, tok, prompt, temp=0.0, max_call=40, max_final=24):
             info["copy_error"] = name == exp[0] and " ".join(args.split()) != exp[1]
             info["result"] = res
             r = tok.encode(f" <result>{res}</result>").ids
+            # The final answer copies the tool result; a fixed 24-token budget made
+            # long results (worm_seal 64-hex ~40 tok, long viterbi paths) ungradeable.
+            # DSS_FIXED_FINAL=1 restores the legacy fixed cap for comparison.
+            if os.environ.get("DSS_FIXED_FINAL") != "1":
+                max_final = max(max_final, len(tok.encode(f" {res}").ids) + 4)
             f = gen(model, p + c + r, temp, max_final, lambda t: False, tok)
             segs += [(r, 0), (f, 1)]
             info["final"] = tok.decode(f).split("\n")[0]
